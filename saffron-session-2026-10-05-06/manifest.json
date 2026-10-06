@@ -1,0 +1,181 @@
+{
+  "messages": 113,
+  "references": 9,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2725,
+      "sha256": "6178e04b88b02152b8bc906b8604cb271a0d4b1dbf8367292c875186ccd98d4d"
+    },
+    {
+      "path": "assets/alternative-01-flower-to-product.png",
+      "bytes": 2240671,
+      "sha256": "d97f864b7b12b327557aefd571cc62020935aa3fe51ec711a27f40a5de0e83a3"
+    },
+    {
+      "path": "assets/alternative-02-golden-infusion.png",
+      "bytes": 2405341,
+      "sha256": "1c51ee0924dea7d324b68fa9b5497bb2f57732eb13f46893480c37212575d1e8"
+    },
+    {
+      "path": "assets/alternative-03-gift-reveal.png",
+      "bytes": 2173071,
+      "sha256": "2f6272fb74ead3cb70d69ba08da7a08cd78f5eea0b3fba243c51956afffa3692"
+    },
+    {
+      "path": "assets/frame-01.png",
+      "bytes": 340421,
+      "sha256": "faca3f96e53fc57a719520d163a65923ca5e9e2b21e2868a74bad432f6bbe928"
+    },
+    {
+      "path": "assets/frame-02.png",
+      "bytes": 968174,
+      "sha256": "2c87ec22f491866c12459856bbafee406556a5a0419ea73d6721faf0691f9ec9"
+    },
+    {
+      "path": "assets/motion-v2-01-continuous-flow.png",
+      "bytes": 1896036,
+      "sha256": "9990e2f924ee8fad3ab788759fd3e78d9edb064037216c8ca741bf4fe87eaf81"
+    },
+    {
+      "path": "assets/motion-v2-02-field-to-product.png",
+      "bytes": 2426766,
+      "sha256": "c3be187e06f7b7fbe2a8710b7ecb04d3d819e04e69fd475e1050c15b4b4272df"
+    },
+    {
+      "path": "assets/rofran-combined-25-frames.png",
+      "bytes": 2516386,
+      "sha256": "5d82579b63686a59ea0f335530c701ca307c787d300ab48f0168638bfc69a69f"
+    },
+    {
+      "path": "assets/rofran-first-frame-1k.png",
+      "bytes": 1325236,
+      "sha256": "2c9c6d9ec92813b4a126594a037082a8a1be4962750b5b098ac66a6bfe8c8ef1"
+    },
+    {
+      "path": "assets/rofran-first-frame-sunburst-full-hd.png",
+      "bytes": 4823831,
+      "sha256": "903dda58c4e23c56de5e70024cb6f711b8a2b7a5d29b2c0d5ebc4efd4d3c9394"
+    },
+    {
+      "path": "assets/rofran-first-frame-sunburst-native.png",
+      "bytes": 3495812,
+      "sha256": "dff8a96f52f637cd1437aa9a0f1e3b8e5b6bedb4ffefe2daf582e6b1d3f5f15f"
+    },
+    {
+      "path": "assets/rofran-first-frame-sunburst-prompt.txt",
+      "bytes": 1665,
+      "sha256": "024f0ccf5e0aaab55f394bcd79952ed8afea085b0113397c8728944c18dcc434"
+    },
+    {
+      "path": "assets/rofran-first-frame-sunburst-v2-full-hd.png",
+      "bytes": 4459969,
+      "sha256": "c10dc5665249be86bbcff264e73f4d7d3000a3881409f1245601ef273c6a43c8"
+    },
+    {
+      "path": "assets/rofran-first-frame-sunburst-v2-native.png",
+      "bytes": 2757432,
+      "sha256": "1c6801ffe30c09206751b7db0564cb4c8228115b549cd14aaeab782729e51d60"
+    },
+    {
+      "path": "assets/rofran-first-frame-sunburst-v2-prompt.txt",
+      "bytes": 1421,
+      "sha256": "ee897a316becd9a07f6033fa493d150ef26955fbcea2ef47515a304720cce073"
+    },
+    {
+      "path": "assets/rofran-full-hd-preview.html",
+      "bytes": 548,
+      "sha256": "7eda5c6db36bf9106fad5567e4ae58e5a4de982242d6a6ed8e764b4f286c2e1f"
+    },
+    {
+      "path": "assets/rofran-preview-source.png",
+      "bytes": 2267041,
+      "sha256": "b07dff53e368fc1a666c94542b4f6d1e4dc4b8dd0117eb431d26f13c5680fd50"
+    },
+    {
+      "path": "assets/rofran-preview.html",
+      "bytes": 3283,
+      "sha256": "e7bd3f43dd158b846209003da6b35ddad5d8a544e808eeda1c9c15bb2124a2ad"
+    },
+    {
+      "path": "assets/rofran-same-image-full-hd-prompt.txt",
+      "bytes": 375,
+      "sha256": "6da44576e166e83e8b6255667ee32bed1ac7ca450d2d6698a83bb485e2224dc6"
+    },
+    {
+      "path": "assets/rofran-same-image-sunburst-full-hd.png",
+      "bytes": 4511988,
+      "sha256": "03cefd0c3dc007c98ecdccd63eeebdebabc97773e88f26ac3da8c850f1ebae56"
+    },
+    {
+      "path": "assets/rofran-same-image-sunburst-native.png",
+      "bytes": 3020928,
+      "sha256": "885e62ade85b5cf58087be967e76c13ef83df1cac21356511835516273ca4d19"
+    },
+    {
+      "path": "assets/saffron-animation.mp4",
+      "bytes": 674409,
+      "sha256": "4b7ec9729b4696140b2c3ed68101802b21c80d656ad9a2e21b937156bf8cea0c"
+    },
+    {
+      "path": "conversation.md",
+      "bytes": 39832,
+      "sha256": "1bda32a6bbef227e720663d4928d9a9767c97ab1b0a221a60e08f37ad5a5ec7d"
+    },
+    {
+      "path": "originals/exec-1a7fda6b-6776-4324-8875-a5fd6200ac9a.png",
+      "bytes": 970465,
+      "sha256": "269607bec54eac640f9f96625f77b43ac86106c136d2ebff021b26c984d915b4"
+    },
+    {
+      "path": "originals/exec-887d16b5-1cea-45e1-847a-dcd808e0cb90.png",
+      "bytes": 2304368,
+      "sha256": "49d496991af794b6d815d7797bc3f3fdbe1b89dbcf0ef2df245f7f879a214a04"
+    },
+    {
+      "path": "references/user-reference-01.png",
+      "bytes": 1983203,
+      "sha256": "f4a901c1c6e6634c555fa2cc22b02883539b7fdc71bf85b88c193623725fedb2"
+    },
+    {
+      "path": "references/user-reference-02.png",
+      "bytes": 1983203,
+      "sha256": "f4a901c1c6e6634c555fa2cc22b02883539b7fdc71bf85b88c193623725fedb2"
+    },
+    {
+      "path": "references/user-reference-03.png",
+      "bytes": 2240671,
+      "sha256": "d97f864b7b12b327557aefd571cc62020935aa3fe51ec711a27f40a5de0e83a3"
+    },
+    {
+      "path": "references/user-reference-04.png",
+      "bytes": 1983203,
+      "sha256": "f4a901c1c6e6634c555fa2cc22b02883539b7fdc71bf85b88c193623725fedb2"
+    },
+    {
+      "path": "references/user-reference-05.png",
+      "bytes": 2426766,
+      "sha256": "c3be187e06f7b7fbe2a8710b7ecb04d3d819e04e69fd475e1050c15b4b4272df"
+    },
+    {
+      "path": "references/user-reference-06.png",
+      "bytes": 1983203,
+      "sha256": "f4a901c1c6e6634c555fa2cc22b02883539b7fdc71bf85b88c193623725fedb2"
+    },
+    {
+      "path": "references/user-reference-07.png",
+      "bytes": 2267041,
+      "sha256": "b07dff53e368fc1a666c94542b4f6d1e4dc4b8dd0117eb431d26f13c5680fd50"
+    },
+    {
+      "path": "references/user-reference-08.png",
+      "bytes": 2516386,
+      "sha256": "5d82579b63686a59ea0f335530c701ca307c787d300ab48f0168638bfc69a69f"
+    },
+    {
+      "path": "references/user-reference-09.png",
+      "bytes": 2267041,
+      "sha256": "b07dff53e368fc1a666c94542b4f6d1e4dc4b8dd0117eb431d26f13c5680fd50"
+    }
+  ]
+}

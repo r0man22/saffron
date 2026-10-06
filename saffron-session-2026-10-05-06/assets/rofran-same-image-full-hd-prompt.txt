@@ -1,0 +1,1 @@
+Return this exact same image in Full HD. Change nothing in the image: preserve the exact composition, all objects and their positions, mountain silhouettes, flowers, sun, clouds, colors, contrast, lighting, textures and depth of field. Only increase the resolution. Do not redraw, reinterpret, add, remove or improve anything. Output one image only, with no text or borders.

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="az">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ROFRAN — Şəkil önizləməsi</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 100%; height: 100%; background: #120b0d; }
+    body { color: #f7d49b; font-family: Arial, sans-serif; }
+    .hero { position: relative; width: 100%; height: 100svh; overflow: hidden; }
+    .hero img { width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; }
+    header { position: absolute; inset: 0 0 auto; padding: 28px 36px; display: flex; align-items: center; justify-content: space-between; background: linear-gradient(#10090b70, transparent); }
+    .brand { font-family: Georgia, serif; font-size: 26px; letter-spacing: .12em; text-shadow: 0 1px 8px #000; }
+    .locale { font-size: 12px; letter-spacing: .04em; }
+    .controls { position: absolute; bottom: 24px; right: 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 5px; padding: 6px; border: 1px solid #e7c79255; border-radius: 12px; background: #130c10d9; backdrop-filter: blur(12px); }
+    button { border: 0; background: transparent; color: #ead4b8; padding: 11px 14px; border-radius: 7px; cursor: pointer; font-size: 12px; }
+    button[aria-pressed="true"] { color: #21160c; background: #e7bf7c; }
+    button:focus-visible { outline: 2px solid white; outline-offset: 2px; }
+    .size { font-size: 11px; padding: 0 9px; color: #d9c8b7; }
+    .clean header { display: none; }
+    @media (max-width: 600px) { header { padding: 22px; } .brand { font-size: 22px; } .controls { left: 12px; right: 12px; bottom: 12px; justify-content: center; } button { padding: 10px; } }
+  </style>
+</head>
+<body>
+  <main class="hero">
+    <img id="scene" src="rofran-preview-source.png" alt="Gün batımında dağlarla əhatələnmiş bənövşəyi zəfəran tarlası">
+    <header><span class="brand">ROFRAN</span><span class="locale">Azərbaycan ✦</span></header>
+    <div class="controls" aria-label="Önizləmə seçimləri">
+      <button id="original" aria-pressed="true">Göndərilən şəkil</button>
+      <button id="small" aria-pressed="false">1K versiya</button>
+      <span class="size" id="size">1672 × 941</span>
+      <button id="clean" aria-pressed="false">Loqonu gizlət</button>
+    </div>
+  </main>
+  <script>
+    const scene = document.getElementById('scene');
+    const original = document.getElementById('original');
+    const small = document.getElementById('small');
+    const size = document.getElementById('size');
+    function select(isSmall) {
+      scene.src = isSmall ? 'rofran-first-frame-1k.png' : 'rofran-preview-source.png';
+      original.setAttribute('aria-pressed', String(!isSmall));
+      small.setAttribute('aria-pressed', String(isSmall));
+      size.textContent = isSmall ? '1024 × 576' : '1672 × 941';
+    }
+    original.onclick = () => select(false);
+    small.onclick = () => select(true);
+    document.getElementById('clean').onclick = function() {
+      const hidden = document.body.classList.toggle('clean');
+      this.setAttribute('aria-pressed', String(hidden));
+      this.textContent = hidden ? 'Loqonu göstər' : 'Loqonu gizlət';
+    };
+  </script>
+</body>
+</html>
