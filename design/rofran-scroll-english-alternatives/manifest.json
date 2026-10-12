@@ -1,0 +1,34 @@
+{
+  "language": "en",
+  "tool": "built-in imagegen",
+  "status": "concepts awaiting user selection",
+  "variants": [
+    {
+      "option": "a-cinematic",
+      "image": "a-cinematic/storyboard.png",
+      "prompt": "a-cinematic/prompt.txt",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "option": "b-burgundy",
+      "image": "b-burgundy/storyboard.png",
+      "prompt": "b-burgundy/prompt.txt",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "option": "c-gallery",
+      "image": "c-gallery/storyboard.png",
+      "prompt": "c-gallery/prompt.txt",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ]
+}

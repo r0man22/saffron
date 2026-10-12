@@ -1,41 +1,19 @@
-import type { Metadata } from "next";
-import { headers } from "next/headers";
+import type { Metadata, Viewport } from "next";
+import { SiteShell } from "./components/site-shell";
+import { siteUrl } from "../lib/site-url";
 import "./globals.css";
 
+export const viewport: Viewport = { themeColor: "#160e10", width: "device-width", initialScale: 1 };
 export async function generateMetadata(): Promise<Metadata> {
-  const requestHeaders = await headers();
-  const host = requestHeaders.get("x-forwarded-host") ?? requestHeaders.get("host") ?? "localhost:3000";
-  const protocol = requestHeaders.get("x-forwarded-proto") ?? (host.includes("localhost") ? "http" : "https");
-  const socialImage = `${protocol}://${host}/og.png`;
-  const title = "ROFRAN — Pure Azerbaijani Saffron";
-  const description = "Rare Azerbaijani saffron, gathered by hand and presented with reverence.";
-
+  const base = await siteUrl();
   return {
-    title,
-    description,
-    icons: {
-      icon: "/favicon.svg",
-      shortcut: "/favicon.svg",
-    },
-    openGraph: {
-      title,
-      description,
-      type: "website",
-      images: [{ url: socialImage, width: 1200, height: 630, alt: title }],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: [socialImage],
-    },
+    metadataBase: new URL(base), title: { default: "ROFRAN — Precious by nature. Saffron, beautifully told.", template: "%s | ROFRAN" },
+    description: "Discover ROFRAN saffron. Follow a cinematic journey from crocus flower to crimson thread, and explore our guide to cooking with and caring for saffron.",
+    alternates: { canonical: "/" }, icons: { icon: "/favicon.svg" },
+    openGraph: { title: "ROFRAN — Precious by nature", description: "A small thread. An extraordinary story. Discover ROFRAN saffron.", type: "website", locale: "en_US", siteName: "ROFRAN", images: [{ url: "/media/social.jpg", width: 1200, height: 630, alt: "ROFRAN saffron in a sunset crocus field" }] },
+    twitter: { card: "summary_large_image", title: "ROFRAN — Precious by nature", images: ["/media/social.jpg"] },
   };
 }
-
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
+  return <html lang="en"><head><link rel="stylesheet" href="/fonts/fonts.css" /></head><body><SiteShell>{children}</SiteShell></body></html>;
 }

@@ -1,91 +1,51 @@
-import assert from "node:assert/strict";
-import { access, readFile, readdir } from "node:fs/promises";
-import test from "node:test";
+import assert from 'node:assert/strict';
+import test from 'node:test';
 
-const developmentPreviewMeta =
-  /<meta(?=[^>]*\bname=["']codex-preview["'])(?=[^>]*\bcontent=["']development["'])[^>]*>/i;
-const templateRoot = new URL("../", import.meta.url);
-const previewRoot = new URL("../app/_sites-preview/", import.meta.url);
+const base = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
+const routes = ['/', '/saffron', '/journal', '/journal/what-is-saffron', '/journal/how-to-use-saffron', '/journal/how-to-store-saffron'];
 
-async function render() {
-  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
-  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
-  const { default: worker } = await import(workerUrl.href);
-
-  return worker.fetch(
-    new Request("http://localhost/", {
-      headers: { accept: "text/html" },
-    }),
-    {
-      ASSETS: {
-        fetch: async () => new Response("Not found", { status: 404 }),
-      },
-    },
-    {
-      waitUntil() {},
-      passThroughOnException() {},
-    },
-  );
-}
-
-test("server-renders the starter loading skeleton", async () => {
-  const response = await render();
-  assert.equal(response.status, 200);
-  assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
-
-  const html = await response.text();
-  assert.match(html, developmentPreviewMeta);
-  assert.match(html, /<title>Your site is taking shape<\/title>/i);
-  assert.match(html, /Building your site/);
-  assert.match(html, /Your site is taking shape/);
-  assert.match(
-    html,
-    /Your first version will appear here automatically when it’s ready\./,
-  );
-  assert.doesNotMatch(html, /Codex/);
-  assert.match(html, /react-loading-skeleton/);
-  assert.match(html, /role="status"/);
+test('all public pages render crawlable English content and self-referencing canonicals', async () => {
+  for (const path of routes) {
+    const response = await fetch(base + path);
+    assert.equal(response.status, 200, path);
+    const html = await response.text();
+    assert.match(html, /<html[^>]+lang="en"/);
+    assert.equal((html.match(/<h1(?:\s|>)/g) || []).length, 1, `${path}: one main heading`);
+    assert.match(html, /<meta name="description" content="[^"]{30,}"/);
+    const canonical = html.match(/<link rel="canonical" href="([^"]+)"/);
+    assert.ok(canonical, `${path}: canonical exists`);
+    assert.equal(new URL(canonical[1]).pathname, path);
+    assert.doesNotMatch(html, /Your site is taking shape|Lab tested|Worldwide shipping|Pure Azerbaijani/);
+    if (path.startsWith('/journal/')) {
+      assert.match(html, /application\/ld\+json/);
+      assert.match(html, /FURTHER READING/);
+      assert.match(html, /IN THIS STORY/);
+    }
+  }
 });
 
-test("keeps the loading skeleton scoped and disposable", async () => {
-  const [preview, css, page, layout, packageJson, files] = await Promise.all([
-    readFile(new URL("SkeletonPreview.tsx", previewRoot), "utf8"),
-    readFile(new URL("preview.css", previewRoot), "utf8"),
-    readFile(new URL("../app/page.tsx", import.meta.url), "utf8"),
-    readFile(new URL("../app/layout.tsx", import.meta.url), "utf8"),
-    readFile(new URL("../package.json", import.meta.url), "utf8"),
-    readdir(previewRoot),
-  ]);
+test('movie files support byte ranges for seeking and local assets are served', async () => {
+  for (const file of ['rofran-story.mp4', 'rofran-story-mobile.mp4']) {
+    const response = await fetch(`${base}/media/${file}`, { headers: { Range: 'bytes=0-1023' } });
+    assert.equal(response.status, 206, file);
+    assert.match(response.headers.get('content-range'), /^bytes 0-1023\//);
+    assert.equal((await response.arrayBuffer()).byteLength, 1024);
+  }
+  for (const path of ['/media/valley.webp', '/media/product.webp', '/fonts/fonts.css', '/favicon.svg']) {
+    const response = await fetch(base + path);
+    assert.equal(response.status, 200, path);
+    await response.arrayBuffer();
+  }
+});
 
-  assert.deepEqual(files.sort(), ["SkeletonPreview.tsx", "preview.css"]);
-  assert.match(preview, /from "react-loading-skeleton"/);
-  assert.match(preview, /baseColor="#eceae7"/);
-  assert.match(preview, /highlightColor="#f9f8f6"/);
-  assert.match(preview, /duration=\{2\.8\}/);
-  assert.match(preview, /sites-skeleton-search-placeholder/);
-  assert.match(packageJson, /"react-loading-skeleton": "3\.5\.0"/);
-
-  const shellIndex = preview.indexOf('className="sites-skeleton-shell"');
-  const statusIndex = preview.indexOf('className="sites-skeleton-status"');
-  assert.ok(shellIndex >= 0 && statusIndex > shellIndex);
-  assert.match(css, /position:\s*fixed/);
-  assert.match(css, /inset:\s*0/);
-  assert.match(css, /opacity:\s*0\.52/);
-  assert.match(css, /prefers-reduced-motion:\s*reduce/);
-  assert.doesNotMatch(css, /#020617|canvas|pets|progress/i);
-  assert.doesNotMatch(
-    preview,
-    /loading-spinner|status-mark|status-progress|canvas|cookie|random/i,
-  );
-
-  assert.match(page, /export const metadata:\s*Metadata/);
-  assert.match(page, /"codex-preview": "development"/);
-  assert.match(page, /<SkeletonPreview \/>/);
-  assert.match(layout, /title:\s*"Starter Project"/);
-  assert.doesNotMatch(layout, /codex-preview|_sites-preview|themeColor|\bViewport\b/);
-  assert.doesNotMatch(css, /(^|\s)(html|body)\s*\{/m);
-
-  await assert.rejects(
-    access(new URL("public/_sites-preview", templateRoot)),
-  );
+test('discovery files list the real content routes and unknown articles return 404', async () => {
+  const response = await fetch(base + '/sitemap.xml');
+  assert.equal(response.status, 200);
+  const xml = await response.text();
+  for (const path of routes) assert.ok(xml.includes(base + path), path);
+  const robots = await fetch(base + '/robots.txt');
+  assert.equal(robots.status, 200);
+  assert.match(await robots.text(), /Sitemap:/);
+  const missing = await fetch(base + '/journal/does-not-exist');
+  assert.equal(missing.status, 404);
 });

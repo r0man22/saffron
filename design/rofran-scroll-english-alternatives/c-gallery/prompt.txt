@@ -1,0 +1,37 @@
+Use case: ui-mockup. Generate one exceptional high-fidelity WEBSITE DESIGN STORYBOARD for ROFRAN, an English-language premium saffron-only ecommerce site. This is a real UI concept, not a raw film contact sheet. ONE image, eight distinct desktop 16:9 viewport screens in a strict 2-column x 4-row grid, thin near-black gutters and tiny English 01–08 gutter labels. Make the image large and all text crisp. No monitors, perspective mockups or browser chrome.
+
+Reference 1 is the approved first ROFRAN website concept. Preserve its brand sophistication and fine high-contrast serif / pale champagne text character, but create the DIFFERENT layout system described below. ALL text must be English, replacing every Turkish phrase.
+Reference 2 is a contact sheet of the actual approved 25.7-second film. This is the visual source of truth. Keep its orange sunset mountain valley, purple crocus field, dew-covered flower, central red stigmas extending left as the flower turns right, small clear cylindrical jar with a SIMPLE RIBBED gold screw cap, natural gray rock and purple flower beside it. Do not invent a different movie, different landscape, ornate engraved jar cap, packaging box or new product label. Keep the existing clear unlabelled glass. Backgrounds should closely match these actual film moments. No additional dramatic effects, sparks or unrelated luxury products.
+
+EIGHT SEQUENTIAL SCREENS, READ LEFT TO RIGHT:
+01 opening wide mountain valley and crocus field, invitation to explore.
+02 isolated crocus bud opening, flower now center or right; one concise editorial text.
+03 actual extreme macro purple petals with central red threads, tiny quiet type away from main filaments.
+04 flower on right, existing stigmas extending left over sunset bokeh; use the real flowing-thread composition.
+05 jar filling with saffron, lid above and purple crocus beside it on stone; UI copy should not overlap glass or floating threads.
+06 closed gold-cap jar full of saffron on stone, clear product moment with a discreet link to the product.
+07 final wide sunset valley after threads leave the frame, brand name and strong shop CTA.
+08 normal-scroll commerce and saffron guide area that follows the movie. Product crop on one side, short headline and one product CTA on the other, plus a small three-link editorial guide row with tiny botanical thumbnails.
+
+Required English copy, exact spelling:
+brand "ROFRAN".
+Navigation "Our story", "Saffron", "Journal"; bag icon and "0". No sign-up or sign-in.
+Screen 01 primary phrase "Precious by nature." and small "SAFFRON BY ROFRAN"; scroll cue "Scroll to discover".
+Screen 02 "It begins with a flower."
+Screen 03 "A closer kind of wonder."
+Screen 04 "A story in every thread."
+Screen 05 "From bloom to your table."
+Screen 06 "A little. Remarkable." and link "Explore saffron".
+Screen 07 "ROFRAN", small "Precious by nature." and button "Discover our saffron".
+Screen 08 "Bring the story to your table.", subline "Discover ROFRAN saffron.", CTA "Explore the product"; guide heading "The saffron journal"; links "What is saffron?", "How to use saffron", "How to store saffron".
+Short auxiliary chapter labels allowed: "THE FLOWER", "THE THREAD", "THE CRAFT", "THE SAFFRON".
+Do not add any other long body copy, lorem ipsum, prices, weight variants, statistics, medical claims, certifications, ratings, shipping claims or brand claims. No video controls or play buttons. Navigation scale and positions must remain consistent within the eight screens. Readable real webpage text, generous whitespace, subtle scrims as needed. UI should let saffron stay the visual focal point. Tiny frame numbers are outside the page, not site UI. No code or annotation panels.
+
+DISTINCT DESIGN C — QUIET GALLERY / REFINED MINIMALISM.
+The quietest and most modern editorial option while retaining the reference's elegant high-contrast serif identity. The film fills screens01–07 edge-to-edge. Header: centered small ROFRAN wordmark, "Our story" and "Journal" discreet at top-left; "Saffron" and bag icon at top-right. NO left sidebar, NO vertical dotted timeline, NO bottom progress line. Only tiny lower-left chapter fractions "01 / 07", "02 / 07" etc, and a tiny scroll cue bottom-right.
+Pale vanilla/champagne #F0E5CA type, extremely subtle dark readability scrims. Use restrained medium-size thin serif headlines, ample breathing room and much smaller refined sans auxiliary text. Minimal means intentional and high-end, not empty or generic. No oversize permanent logo across imagery and no UI cards over the footage.
+Hero: a sophisticated OFF-CENTER small-to-medium two-line serif "Precious / by nature." in the dark LEFT valley area with one italic word, leaving sunset and most flowers completely visible. Small outlined "Discover our saffron" link beside a fine-arrow scroll hint at bottom.
+Screen02 spare small headline lower-left, flower fills right. Screen03 almost no text, one beautifully set very small title at upper left; macro texture fills the screen. Screen04 fine narrow serif title upper-left against dark sky, leave extending red filaments fully visible. Screen05 short two-line title bottom-left, unobstructed jar and threads. Screen06 a small editorial caption at left and discreet text CTA, with the existing clear jar and flower dominant.
+Screen07 small centered ROFRAN wordmark and clear filled champagne CTA low in the valley; let the scenery breathe.
+Screen08 makes a beautiful deliberate change to WARM IVORY PAPER #EEE7D9, espresso #2A1B1A text, charcoal thin rules: a generous asymmetric editorial product page. Large cinematic product PHOTO occupies about45% on LEFT, retaining the sunset and clear jar; title and product CTA in serif on right. Bottom a clean elegant saffron journal row with three links, small numbered labels and small rectangular macro photographs. Footer centered ROFRAN in thin serif. No price, no fabricated claims, no huge rounded corners.
+Overall: premium quiet film gallery combined with clear warm-paper editorial commerce; image and legible typography balanced with restraint. Distinct centered navigation and ivory post-film section visibly differentiate it from A and B.

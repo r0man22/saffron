@@ -1,0 +1,36 @@
+Use case: ui-mockup. Generate one exceptional high-fidelity WEBSITE DESIGN STORYBOARD for ROFRAN, an English-language premium saffron-only ecommerce site. This is a real UI concept, not a raw film contact sheet. ONE image, eight distinct desktop 16:9 viewport screens in a strict 2-column x 4-row grid, thin near-black gutters and tiny English 01–08 gutter labels. Make the image large and all text crisp. No monitors, perspective mockups or browser chrome.
+
+Reference 1 is the approved first ROFRAN website concept. Preserve its brand sophistication and fine high-contrast serif / pale champagne text character, but create the DIFFERENT layout system described below. ALL text must be English, replacing every Turkish phrase.
+Reference 2 is a contact sheet of the actual approved 25.7-second film. This is the visual source of truth. Keep its orange sunset mountain valley, purple crocus field, dew-covered flower, central red stigmas extending left as the flower turns right, small clear cylindrical jar with a SIMPLE RIBBED gold screw cap, natural gray rock and purple flower beside it. Do not invent a different movie, different landscape, ornate engraved jar cap, packaging box or new product label. Keep the existing clear unlabelled glass. Backgrounds should closely match these actual film moments. No additional dramatic effects, sparks or unrelated luxury products.
+
+EIGHT SEQUENTIAL SCREENS, READ LEFT TO RIGHT:
+01 opening wide mountain valley and crocus field, invitation to explore.
+02 isolated crocus bud opening, flower now center or right; one concise editorial text.
+03 actual extreme macro purple petals with central red threads, tiny quiet type away from main filaments.
+04 flower on right, existing stigmas extending left over sunset bokeh; use the real flowing-thread composition.
+05 jar filling with saffron, lid above and purple crocus beside it on stone; UI copy should not overlap glass or floating threads.
+06 closed gold-cap jar full of saffron on stone, clear product moment with a discreet link to the product.
+07 final wide sunset valley after threads leave the frame, brand name and strong shop CTA.
+08 normal-scroll commerce and saffron guide area that follows the movie. Product crop on one side, short headline and one product CTA on the other, plus a small three-link editorial guide row with tiny botanical thumbnails.
+
+Required English copy, exact spelling:
+brand "ROFRAN".
+Navigation "Our story", "Saffron", "Journal"; bag icon and "0". No sign-up or sign-in.
+Screen 01 primary phrase "Precious by nature." and small "SAFFRON BY ROFRAN"; scroll cue "Scroll to discover".
+Screen 02 "It begins with a flower."
+Screen 03 "A closer kind of wonder."
+Screen 04 "A story in every thread."
+Screen 05 "From bloom to your table."
+Screen 06 "A little. Remarkable." and link "Explore saffron".
+Screen 07 "ROFRAN", small "Precious by nature." and button "Discover our saffron".
+Screen 08 "Bring the story to your table.", subline "Discover ROFRAN saffron.", CTA "Explore the product"; guide heading "The saffron journal"; links "What is saffron?", "How to use saffron", "How to store saffron".
+Short auxiliary chapter labels allowed: "THE FLOWER", "THE THREAD", "THE CRAFT", "THE SAFFRON".
+Do not add any other long body copy, lorem ipsum, prices, weight variants, statistics, medical claims, certifications, ratings, shipping claims or brand claims. No video controls or play buttons. Navigation scale and positions must remain consistent within the eight screens. Readable real webpage text, generous whitespace, subtle scrims as needed. UI should let saffron stay the visual focal point. Tiny frame numbers are outside the page, not site UI. No code or annotation panels.
+
+DISTINCT DESIGN A — CINEMATIC / IMMERSIVE TYPE.
+The most expressive cinematic approach. Full-bleed video all the way across every viewport 01–07. An editorial fashion-house scale, monumental elegant thin Roman serif headlines, warm champagne text #E6D6A5, translucent espresso shadows only under text. The navigation is ultra-small: fine crocus emblem + ROFRAN left, links and bag upper-right. NO vertical chapter rail. Instead, a tiny hairline progress indicator runs along the bottom with four small text chapter names and one active marker; visually discreet.
+Hero: put an enormous very thin, widely tracked ROFRAN wordmark across the lower third of the field, with "Precious by nature." above it in much smaller elegant serif and a tiny scroll prompt. Cinematic horizon remains unobscured.
+Screens 02–06: alternate placement to respond to the video subject: flower right / spare title left; macro is almost entirely visual with one small caption bottom-left; threads scene has big two-line title in the DARK lower-left zone below the strands; filling jar has short left-edge title; product has split two-line serif left and jar right. At least one word of a title can be italic for elegance, but no over-decoration. Subject should never be obscured by the large type. No cards.
+Final: giant centered ROFRAN spaced across the valley, small tagline and fine outlined champagne CTA below.
+Screen08: warm almost-black espresso background with full photographic product crop left, refined purchase invitation right, generous padding, thin gold border lines; bottom guide row laid out like a luxury publication index, no bulky cards.
+Overall: cinematic scale, confident typography, clean film-led website design. Must visibly differ from the first reference's repeated left rail layout.
