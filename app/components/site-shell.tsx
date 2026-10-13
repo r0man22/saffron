@@ -82,7 +82,7 @@ export function SiteShell({ children, footer }: { children: React.ReactNode; foo
   return <BagContext.Provider value={{ count, open, add: () => { update(count + 1); open(); } }}>
     <a href="#main-content" className="skip-link">Skip to content</a>
     <header className={`site-header ${scrolled || path !== "/" ? "header-solid" : ""} ${hidden && !menuOpen ? "header-hidden" : ""}`}>
-      <Link className="brand" href="/" aria-label="ROFRAN home" onClick={() => setMenuOpen(false)}><FlowerMark /><span>ROFRAN</span></Link>
+      <Link className="brand" href="/" aria-label="ROFRAN home" onClick={() => setMenuOpen(false)}><FlowerMark /><span className="gold-glint" data-glint="ROFRAN">ROFRAN</span></Link>
       <nav className={menuOpen ? "navigation is-open" : "navigation"} aria-label="Main navigation">
         <Link href="/#story" onClick={() => setMenuOpen(false)}><RollText>Our story</RollText></Link>
         <Link href="/saffron" aria-current={path === "/saffron" ? "page" : undefined} onClick={() => setMenuOpen(false)}><RollText>Saffron</RollText></Link>

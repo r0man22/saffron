@@ -12,6 +12,6 @@ export const plainTitle = (lines: string[]) => lines.join(" ").replaceAll("*", "
 export function SplitTitle({ lines, letters = false }: { lines: string[]; letters?: boolean }) {
   const rows = tokenize(lines, letters);
   return <span aria-hidden="true">{rows.map((tokens, l) => <span className="title-line" key={l}>{tokens.map((token, k) => <Fragment key={k}>
-    <span className="word" style={{ "--w": token.index } as CSSProperties}>{token.italic ? <em>{token.text}</em> : token.text}</span>{!letters && k < tokens.length - 1 && " "}
+    <span className="word" style={{ "--w": token.index } as CSSProperties}>{token.italic ? <em>{token.text}</em> : letters ? <span className="gold-glint" data-glint={token.text}>{token.text}</span> : token.text}</span>{!letters && k < tokens.length - 1 && " "}
   </Fragment>)}{l < rows.length - 1 && " "}</span>)}</span>;
 }

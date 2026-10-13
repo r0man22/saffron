@@ -25,7 +25,7 @@ test('all public pages render crawlable English content and self-referencing can
 });
 
 test('movie files support byte ranges for seeking and local assets are served', async () => {
-  for (const file of ['rofran-story.mp4', 'rofran-story-mobile.mp4']) {
+  for (const file of ['rofran-story.mp4', 'rofran-story-mobile.mp4', 'rofran-hero-idle.mp4', 'rofran-hero-idle-mobile.mp4', 'rofran-finale-idle.mp4', 'rofran-finale-idle-mobile.mp4']) {
     const response = await fetch(`${base}/media/${file}`, { headers: { Range: 'bytes=0-1023' } });
     assert.equal(response.status, 206, file);
     assert.match(response.headers.get('content-range'), /^bytes 0-1023\//);

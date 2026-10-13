@@ -1,0 +1,29 @@
+{
+  "model": "Topaz Starlight Precise 2.6",
+  "provider": "Monid / Topaz",
+  "source": "rofran-hero-idle-v2/rofran-hero-idle-480p.mp4",
+  "source_size": [
+    854,
+    480
+  ],
+  "requested_size": [
+    1920,
+    1080
+  ],
+  "topaz_native_size": [
+    1918,
+    1078
+  ],
+  "delivered_size": [
+    1920,
+    1080
+  ],
+  "duration_seconds": 5.041666666666667,
+  "fps": 24,
+  "frames": 121,
+  "sharpness": 3,
+  "billed_credits": 5,
+  "cost_usd": 0.5,
+  "run_id": "01M4T6D2JGSW2J99GTDCJXDA1X",
+  "normalization": "Lanczos scaling of the final two-pixel difference; H.264 CRF 16, faststart, silent"
+}
