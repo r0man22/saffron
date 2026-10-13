@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { SiteShell } from "./components/site-shell";
+import { SiteFooter } from "./components/site-footer";
 import { siteUrl } from "../lib/site-url";
 import "./globals.css";
 
@@ -15,5 +16,9 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><head><link rel="stylesheet" href="/fonts/fonts.css" /></head><body><SiteShell>{children}</SiteShell></body></html>;
+  return <html lang="en"><head>
+    <link rel="preload" href="/fonts/cormorant-garamond-400-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+    <link rel="preload" href="/fonts/manrope-500-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+    <link rel="stylesheet" href="/fonts/fonts.css" />
+  </head><body><SiteShell footer={<SiteFooter />}>{children}</SiteShell></body></html>;
 }

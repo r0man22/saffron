@@ -1,17 +1,19 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { Arrow, FlowerMark } from "./icons";
+import { FlowerMark } from "./icons";
+import { ButtonInner } from "./button";
+import { SplitTitle, plainTitle } from "./motion";
 
 const DURATION = 25.708333;
 const chapters = [
-  { start: 0, name: "The beginning", label: "SAFFRON BY ROFRAN", title: <>NATURE’S<br />FINEST TREASURE</>, body: "A story that begins with a flower.", className: "scene-intro" },
-  { start: 2.4, name: "The flower", label: "01 / THE FLOWER", title: <>It begins with<br />a <em>flower.</em></>, body: "Come a little closer to something extraordinary.", className: "scene-flower" },
-  { start: 5.4, name: "The essence", label: "02 / THE ESSENCE", title: <>A closer kind<br />of <em>wonder.</em></>, body: "", className: "scene-detail" },
-  { start: 7.8, name: "The threads", label: "03 / THE CRIMSON THREAD", title: <>A story in<br />every <em>thread.</em></>, body: "", className: "scene-threads" },
-  { start: 12.7, name: "The journey", label: "04 / THE JOURNEY", title: <>From bloom<br />to your <em>table.</em></>, body: "", className: "scene-jar" },
-  { start: 18.3, name: "The saffron", label: "05 / ROFRAN SAFFRON", title: <>A little.<br /><em>Remarkable.</em></>, body: "Colour. Aroma. A moment to savour.", className: "scene-product" },
-  { start: 23.3, name: "Precious by nature", label: "", title: <>ROFRAN</>, body: "Precious by nature.", className: "scene-finale" },
+  { start: 0, name: "The beginning", label: "SAFFRON BY ROFRAN", title: ["NATURE’S", "FINEST TREASURE"], body: "A story that begins with a flower.", className: "scene-intro" },
+  { start: 2.4, name: "The flower", label: "01 / THE FLOWER", title: ["It begins with", "a *flower.*"], body: "Come a little closer to something extraordinary.", className: "scene-flower" },
+  { start: 5.4, name: "The essence", label: "02 / THE ESSENCE", title: ["A closer kind", "of *wonder.*"], body: "", className: "scene-detail" },
+  { start: 7.8, name: "The threads", label: "03 / THE CRIMSON THREAD", title: ["A story in", "every *thread.*"], body: "", className: "scene-threads" },
+  { start: 12.7, name: "The journey", label: "04 / THE JOURNEY", title: ["From bloom", "to your *table.*"], body: "", className: "scene-jar" },
+  { start: 18.3, name: "The saffron", label: "05 / ROFRAN SAFFRON", title: ["A little.", "*Remarkable.*"], body: "Colour. Aroma. A moment to savour.", className: "scene-product" },
+  { start: 23.3, name: "Precious by nature", label: "", title: ["ROFRAN"], letters: true, body: "Precious by nature.", className: "scene-finale" },
 ];
 const clamp = (n: number) => Math.min(1, Math.max(0, n));
 
@@ -65,11 +67,11 @@ export function ScrollStory() {
       <div className="story-shade" /><div className="story-grain" />
       {chapters.map((chapter, index) => <div key={chapter.name} className={`scene-copy ${chapter.className} ${active === index ? "is-active" : ""}`} aria-hidden={active !== index} inert={active !== index}>
         {index === 6 && <FlowerMark className="finale-mark" />}{chapter.label && <p className="eyebrow">{chapter.label}</p>}
-        {index === 0 ? <h1>{chapter.title}</h1> : <h2>{chapter.title}</h2>}
+        {index === 0 ? <h1 aria-label={plainTitle(chapter.title)}><SplitTitle lines={chapter.title} /></h1> : <h2 aria-label={plainTitle(chapter.title)}><SplitTitle lines={chapter.title} letters={chapter.letters} /></h2>}
         {chapter.body && <p className="scene-description">{chapter.body}</p>}
-        {index === 0 && <>{reducedMotion || failed ? <Link className="button button-outline" href="/saffron">Discover our saffron <Arrow /></Link> : <button className="button button-outline" onClick={() => goTo(1)}>Discover the story <Arrow /></button>}</>}
-        {index === 5 && <Link className="button button-outline" href="/saffron">Explore saffron <Arrow /></Link>}
-        {index === 6 && <Link className="button button-gold" href="/saffron">Discover our saffron <Arrow /></Link>}
+        {index === 0 && <>{reducedMotion || failed ? <Link className="button button-outline" href="/saffron"><ButtonInner>Discover our saffron</ButtonInner></Link> : <button className="button button-outline" onClick={() => goTo(1)}><ButtonInner>Discover the story</ButtonInner></button>}</>}
+        {index === 5 && <Link className="button button-outline" href="/saffron"><ButtonInner>Explore saffron</ButtonInner></Link>}
+        {index === 6 && <Link className="button button-gold" href="/saffron"><ButtonInner>Discover our saffron</ButtonInner></Link>}
       </div>)}
       {!reducedMotion && !failed && <nav className="chapter-rail" aria-label="Story chapters"><div className="rail-track"><span style={{ transform: `scaleY(${time / DURATION})` }} /></div>{chapters.map((chapter, index) => <button key={chapter.name} className={index === active ? "is-active" : ""} onClick={() => goTo(index)} aria-label={`Chapter ${index + 1}: ${chapter.name}`} aria-current={index === active ? "step" : undefined}><span className="rail-dot" /><span className="rail-number">0{index + 1}</span><span className="rail-tooltip">{chapter.name}</span></button>)}</nav>}
       <div className="story-bottom"><span className="bottom-caption">A SMALL THREAD. AN EXTRAORDINARY STORY.</span><a className="scroll-cue" href="#saffron" onClick={e => { if (!reducedMotion && !failed && active === 0) { e.preventDefault(); goTo(1); } }}><span>{active === 6 ? "CONTINUE EXPLORING" : "SCROLL TO DISCOVER"}</span><svg viewBox="0 0 14 28" aria-hidden="true"><path d="M7 0v26m-5-6 5 6 5-6" fill="none" stroke="currentColor" /></svg></a><span className="bottom-index">0{active + 1}<i />07</span></div>
