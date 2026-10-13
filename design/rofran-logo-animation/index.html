@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ROFRAN logo animation</title>
+<style>
+@font-face{font-family:'Cormorant Garamond';font-weight:500;src:url(../../public/fonts/cormorant-garamond-500-latin.woff2) format('woff2')}
+@font-face{font-family:'Manrope';font-weight:500;src:url(../../public/fonts/manrope-500-latin.woff2) format('woff2')}
+:root{--ink:#241416;--gold:#e5d4a4;--line:rgba(229,212,164,.22)}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:radial-gradient(120% 90% at 50% 35%,#2e1a1c,#1c1012 70%);color:var(--gold);font-family:Manrope,system-ui,sans-serif;display:grid;place-items:center}
+main{display:grid;justify-items:center;gap:26px;padding:36px 16px;width:100%}
+.stage{position:relative;width:min(300px,68vw)}
+.stage canvas,.stage svg{display:block;width:100%;height:auto}
+.stage svg{position:absolute;inset:0}
+.status{font-size:12px;letter-spacing:.08em;opacity:.7;min-height:1em}
+.controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;justify-content:center}
+button{font:inherit;font-size:13px;color:var(--gold);background:transparent;border:1px solid var(--line);border-radius:999px;padding:10px 18px;cursor:pointer}
+button:hover{border-color:var(--gold)}
+label{font-size:13px;display:flex;gap:8px;align-items:center}
+input[type=range]{width:min(420px,86vw);accent-color:var(--gold)}
+.small{display:flex;gap:12px;align-items:center;padding:12px 22px;border:1px solid var(--line);border-radius:999px}
+.small svg{height:30px;width:auto}
+.small span{font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;letter-spacing:.14em}
+</style>
+</head>
+<body>
+<main>
+  <div class="stage"><canvas id="logo" role="img" aria-label="ROFRAN"></canvas><svg id="fallback" hidden aria-hidden="true"></svg></div>
+  <p class="status" id="status">Preparing…</p>
+  <input id="scrub" type="range" min="0" max="1000" value="0" aria-label="Animation progress">
+  <div class="controls">
+    <button id="play">Oynat</button>
+    <button id="reverse">Geri oynat</button>
+    <label><input id="loop" type="checkbox" checked> Döngü</label>
+  </div>
+  <div class="small" aria-hidden="true"><svg id="mini"></svg><span>ROFRAN</span></div>
+</main>
+<script type="module">
+// The storyboard frames are traced to vectors (frames.json, see trace.cjs). Four ribbons (stem, bowl, leg and
+// inner thread) are fitted to storyboard frames 01-07 and 12, and every animation frame draws them at the current
+// point of a smooth path through those fits, so strokes never tear or thin out. The drawn shape is the mask over
+// the gold; a blurred copy of it shapes the bevel. The exact traced frames 01 and 12 open and close the motion.
+import { FIT_FRAMES, END_FRAME, fitAll, distanceField, sampler } from "./ribbons.mjs";
+const FRAMES = await (await fetch("frames.json")).json();
+const WORD_W = 228, WORD_H = FRAMES[11].wordmarkHeight, PAD = 16, GRID_MAX = 620;
+const status = document.getElementById("status");
+
+// Shared coordinate box: wordmark spans x -114..114 and y 0..WORD_H; the emblem sits above it.
+const numbers = d => d.match(/-?\d*\.?\d+/g).map(Number);
+let minX = -WORD_W / 2, maxX = WORD_W / 2, minY = 0, maxY = WORD_H;
+for (const k of [...FIT_FRAMES, END_FRAME]) {
+  const n = numbers(FRAMES[k].d);
+  for (let i = 0; i < n.length; i += 2) { minX = Math.min(minX, n[i]); maxX = Math.max(maxX, n[i]); minY = Math.min(minY, n[i + 1]); maxY = Math.max(maxY, n[i + 1]); }
+}
+minX -= PAD; minY -= PAD; maxX += PAD; maxY += PAD;
+const BW = maxX - minX, BH = maxY - minY, GRID = GRID_MAX / Math.max(BW, BH);
+const W = Math.round(BW * GRID), H = Math.round(BH * GRID);
+const ys = [...FIT_FRAMES, END_FRAME].flatMap(k => numbers(FRAMES[k].d).filter((_, i) => i % 2));
+const emblemBottom = Math.max(...ys), emblemTop = Math.min(...ys);
+
+// Static SVG of a frame: used for the small preview and when WebGL2 is unavailable.
+const svgOf = (svg, k, withWord) => {
+  svg.setAttribute("viewBox", `${minX} ${minY} ${BW} ${withWord ? BH : WORD_H - minY - PAD}`);
+  svg.innerHTML = `<defs><linearGradient id="g${k}" x1="0" y1="0" x2=".4" y2="1"><stop offset="0" stop-color="#f6e9c8"/><stop offset=".55" stop-color="#e5d4a4"/><stop offset="1" stop-color="#c4a46a"/></linearGradient></defs>
+    <path d="${FRAMES[k].d}" fill="url(#g${k})"/>${withWord ? `<text x="0" y="${WORD_H * 0.98}" text-anchor="middle" textLength="${WORD_W}" lengthAdjust="spacing" font-family="Cormorant Garamond, Georgia, serif" font-weight="500" font-size="${WORD_H / 0.66}" fill="url(#g${k})">ROFRAN</text>` : ""}`;
+};
+const mini = document.getElementById("mini");
+svgOf(mini, 11, false);
+mini.setAttribute("viewBox", `${minX + PAD} ${emblemTop - 2} ${BW - PAD * 2} ${emblemBottom - emblemTop + 4}`);
+
+// ---------- distance fields: rasterise a path on a canvas, then the shared transform ----------
+const raster = document.createElement("canvas"); raster.width = W; raster.height = H;
+const rctx = raster.getContext("2d", { willReadFrequently: true });
+function field(path) {
+  rctx.setTransform(1, 0, 0, 1, 0, 0); rctx.clearRect(0, 0, W, H);
+  rctx.setTransform(GRID, 0, 0, GRID, -minX * GRID, -minY * GRID);
+  rctx.fillStyle = "#fff"; rctx.fill(path);
+  const px = rctx.getImageData(0, 0, W, H).data, mask = new Uint8Array(W * H);
+  for (let i = 0; i < W * H; i++) mask[i] = px[i * 4 + 3] > 127 ? 1 : 0;
+  return distanceField(mask, W, H);
+}
+
+function ribbonPath(pts) {
+  const fmt = p => `${p[0].toFixed(2)} ${p[1].toFixed(2)}`, L = [], R = [];
+  const spline = Q => { let d = ""; for (let i = 0; i < Q.length - 1; i++) { const q0 = Q[i - 1] || Q[i], q1 = Q[i], q2 = Q[i + 1], q3 = Q[i + 2] || q2; d += `C${fmt([q1[0] + (q2[0] - q0[0]) / 6, q1[1] + (q2[1] - q0[1]) / 6])} ${fmt([q2[0] - (q3[0] - q1[0]) / 6, q2[1] - (q3[1] - q1[1]) / 6])} ${fmt(q2)}`; } return d; };
+  const n = pts.length;
+  pts.forEach((p, i) => {
+    // Ends take their direction over two segments, so the caps (serifs, thread tips) do not tilt.
+    const a = pts[Math.max(0, Math.min(i - 1, n - 3))], b = pts[Math.min(n - 1, Math.max(i + 1, 2))], len = Math.hypot(b[0] - a[0], b[1] - a[1]) || 1;
+    const nx = -(b[1] - a[1]) / len, ny = (b[0] - a[0]) / len, h = Math.max(0, p[2]) / 2;
+    L.push([p[0] + nx * h, p[1] + ny * h]); R.push([p[0] - nx * h, p[1] - ny * h]);
+  });
+  R.reverse();
+  return `M${fmt(L[0])}${spline(L)}L${fmt(R[0])}${spline(R)}Z`;
+}
+
+const fallback = document.getElementById("fallback"), canvas = document.getElementById("logo");
+const gl = canvas.getContext("webgl2", { premultipliedAlpha: true, antialias: false });
+const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+if (!gl || reduced) {
+  fallback.hidden = false; svgOf(fallback, 11, true); canvas.style.visibility = "hidden";
+  status.textContent = gl ? "Reduced motion: final logo" : "WebGL2 unavailable: final logo";
+} else {
+  await document.fonts.load(`500 40px "Cormorant Garamond"`);
+
+  const fitted = fitAll(FIT_FRAMES.map(k => sampler(field(new Path2D(FRAMES[k].d)), W, H, minX, minY, GRID)));
+
+  // A smooth (Catmull-Rom) path through the fitted frames, travelled at an even pace of stroke movement.
+  const parts = Object.keys(fitted[0]), K = fitted.length, travel = [0];
+  for (let j = 0; j < K - 1; j++) {
+    let sum = 0, n = 0;
+    for (const part of parts) fitted[j][part].forEach((p, i) => { const q = fitted[j + 1][part][i]; sum += Math.hypot(q[0] - p[0], q[1] - p[1]) + Math.abs(q[2] - p[2]); n++; });
+    travel.push(travel[j] + sum / n + 0.5);
+  }
+  const keyAt = p => { const target = p * travel.at(-1); let j = 0; while (j < K - 2 && travel[j + 1] < target) j++; return j + (target - travel[j]) / (travel[j + 1] - travel[j]); };
+  // Monotone cubic (PCHIP) through the fitted frames: smooth, but never overshoots a frame, so strokes that
+  // rest together (the threads' common base) stay together instead of fanning out into roots.
+  const slopes = fitted.map(() => ({}));
+  for (const part of parts) fitted[0][part].forEach((_, i) => [0, 1, 2].forEach(v => {
+    const y = fitted.map(f => f[part][i][v]), d = y.slice(1).map((value, k) => value - y[k]);
+    y.forEach((_, k) => {
+      const m = k === 0 ? d[0] : k === K - 1 ? d[K - 2] : d[k - 1] * d[k] <= 0 ? 0 : 2 / (1 / d[k - 1] + 1 / d[k]);
+      ((slopes[k][part] ||= [])[i] ||= [])[v] = m;
+    });
+  }));
+  const hermite = (a, b, ma, mb, t) => { const t2 = t * t, t3 = t2 * t; return (2 * t3 - 3 * t2 + 1) * a + (t3 - 2 * t2 + t) * ma + (3 * t2 - 2 * t3) * b + (t3 - t2) * mb; };
+  const ribbonsAt = u => {
+    const s = Math.min(Math.floor(u), K - 2), t = u - s, path = new Path2D();
+    for (const part of parts) path.addPath(new Path2D(ribbonPath(fitted[s][part].map((p, i) => [0, 1, 2].map(v => hermite(p[v], fitted[s + 1][part][i][v], slopes[s][part][i][v], slopes[s + 1][part][i][v], t))))));
+    return path;
+  };
+  const startPath = new Path2D(FRAMES[0].d), endPath = new Path2D(FRAMES[END_FRAME].d);
+  const smooth01 = x => x * x * (3 - 2 * x);
+  // Hand-overs between the exact traced frames and the ribbons blend distance fields, so the outline itself
+  // moves (no see-through double image). Ribbon and traced shape almost coincide, so nothing tears.
+  const open = [field(startPath), field(ribbonsAt(0))], close = [field(ribbonsAt(K - 1)), field(endPath)];
+  const blendCanvas = document.createElement("canvas"); blendCanvas.width = W; blendCanvas.height = H;
+  const blendCtx = blendCanvas.getContext("2d"), blendImage = blendCtx.createImageData(W, H);
+  const blend = ([a, b], f) => {
+    const px = blendImage.data;
+    for (let p = 0; p < W * H; p++) { px[p * 4] = px[p * 4 + 1] = px[p * 4 + 2] = 255; px[p * 4 + 3] = 255 * Math.min(1, Math.max(0, 0.5 - (a[p] + (b[p] - a[p]) * f))); }
+    blendCtx.putImageData(blendImage, 0, 0);
+    return blendCanvas;
+  };
+  // Morph progress: exact traced frame 01 -> ribbons through frames 01-07 and 12 -> exact traced frame 12.
+  const OPEN = 0.06, CLOSE = 0.72;
+  const shapeAt = m => {
+    if (m <= 0) return startPath;
+    if (m < OPEN) return blend(open, smooth01(m / OPEN));
+    if (m < CLOSE) return ribbonsAt(keyAt((m - OPEN) / (CLOSE - OPEN)));
+    if (m < 1) return blend(close, smooth01((m - CLOSE) / (1 - CLOSE)));
+    return endPath;
+  };
+
+  // The drawn shape is the mask; a blurred copy gives a height map for the bevel.
+  const mask = document.createElement("canvas"), soft = document.createElement("canvas");
+  const mctx = mask.getContext("2d"), sctx = soft.getContext("2d");
+  const wordmark = ctx => {
+    ctx.font = `500 ${WORD_H / 0.66}px "Cormorant Garamond"`; ctx.textBaseline = "alphabetic";
+    const letters = [..."ROFRAN"], widths = letters.map(l => ctx.measureText(l).width);
+    const gap = (WORD_W - widths.reduce((a, b) => a + b, 0)) / (letters.length - 1);
+    let x = -WORD_W / 2; letters.forEach((l, i) => { ctx.fillText(l, x, WORD_H * 0.98); x += widths[i] + gap; });
+  };
+  function paint(shape) {
+    const s = mask.width / BW;
+    mctx.setTransform(1, 0, 0, 1, 0, 0); mctx.clearRect(0, 0, mask.width, mask.height);
+    if (shape instanceof HTMLCanvasElement) mctx.drawImage(shape, 0, 0, mask.width, mask.height);
+    mctx.setTransform(s, 0, 0, s, -minX * s, -minY * s); mctx.fillStyle = "#fff";
+    wordmark(mctx);
+    if (shape instanceof Path2D) mctx.fill(shape);
+    sctx.setTransform(1, 0, 0, 1, 0, 0); sctx.clearRect(0, 0, soft.width, soft.height);
+    sctx.filter = `blur(${(1.4 * s).toFixed(2)}px)`; sctx.drawImage(mask, 0, 0); sctx.filter = "none";
+  }
+
+  const vs = `#version 300 es
+  out vec2 uv;
+  void main() { vec2 p = vec2(gl_VertexID == 1 ? 3. : -1., gl_VertexID == 2 ? 3. : -1.); gl_Position = vec4(p, 0., 1.); uv = vec2(p.x + 1., 1. - p.y) * .5; }`;
+  const fs = `#version 300 es
+  precision highp float;
+  uniform sampler2D shapeMask, heightMap;
+  uniform float grow, front, sheen;
+  uniform vec2 px;
+  in vec2 uv; out vec4 color;
+  float hash(vec2 p) { return fract(sin(dot(p, vec2(12.9898, 78.233))) * 43758.5453); }
+  void main() {
+    float alpha = texture(shapeMask, uv).a;
+    alpha *= smoothstep(front - px.y * 1.5, front + px.y * 1.5, uv.y);   // write-on: threads grow up from their base
+    if (alpha <= 0.) { color = vec4(0.); return; }
+    vec2 g = vec2(texture(heightMap, uv + vec2(px.x, 0.)).a - texture(heightMap, uv - vec2(px.x, 0.)).a,
+                  texture(heightMap, uv + vec2(0., px.y)).a - texture(heightMap, uv - vec2(0., px.y)).a);
+    vec3 n = normalize(vec3(-g * 3.5, 1.));
+    vec3 light = normalize(vec3(-.55, -.6, .7));
+    float diffuse = dot(n, light);
+    float spec = pow(max(dot(reflect(-light, n), vec3(0., 0., 1.)), 0.), 26.);
+    float k = clamp(uv.y * .85 + uv.x * .3 - .1, 0., 1.);
+    vec3 base = mix(vec3(.97, .92, .78), vec3(.90, .83, .64), smoothstep(.0, .55, k));
+    base = mix(base, vec3(.76, .62, .40), smoothstep(.55, 1.15, k));
+    vec3 c = base * (.8 + .3 * diffuse) + spec * .4 * vec3(1., .96, .86);
+    float q = (uv.x + uv.y * .6) / 1.6;
+    c += exp(-pow((q - sheen) / .05, 2.)) * .38 * vec3(1., .97, .9);   // light sweep, masked by the shape
+    c += exp(-pow((uv.y - front) / .012, 2.)) * .5 * grow;             // glow at the growing tips
+    c += (hash(gl_FragCoord.xy) - .5) * .025;                           // satin grain
+    color = vec4(c * alpha, alpha);
+  }`;
+  const compile = (type, src) => { const s = gl.createShader(type); gl.shaderSource(s, src); gl.compileShader(s); if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(s)); return s; };
+  const prog = gl.createProgram();
+  gl.attachShader(prog, compile(gl.VERTEX_SHADER, vs)); gl.attachShader(prog, compile(gl.FRAGMENT_SHADER, fs)); gl.linkProgram(prog);
+  if (!gl.getProgramParameter(prog, gl.LINK_STATUS)) throw new Error(gl.getProgramInfoLog(prog));
+  gl.useProgram(prog); gl.bindVertexArray(gl.createVertexArray());
+  const u = Object.fromEntries(["shapeMask", "heightMap", "grow", "front", "sheen", "px"].map(n => [n, gl.getUniformLocation(prog, n)]));
+  const textures = [mask, soft].map((source, unit) => {
+    const tex = gl.createTexture();
+    gl.activeTexture(gl.TEXTURE0 + unit); gl.bindTexture(gl.TEXTURE_2D, tex);
+    for (const [p, v] of [[gl.TEXTURE_MIN_FILTER, gl.LINEAR], [gl.TEXTURE_MAG_FILTER, gl.LINEAR], [gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE], [gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE]]) gl.texParameteri(gl.TEXTURE_2D, p, v);
+    return { tex, source, unit };
+  });
+  gl.uniform1i(u.shapeMask, 0); gl.uniform1i(u.heightMap, 1);
+
+  const resize = () => {
+    const r = canvas.getBoundingClientRect(), dpr = Math.min(devicePixelRatio || 1, 2.5);
+    canvas.width = mask.width = soft.width = Math.round(r.width * dpr);
+    canvas.height = mask.height = soft.height = Math.round(r.width * dpr * BH / BW);
+    gl.viewport(0, 0, canvas.width, canvas.height); gl.uniform2f(u.px, 1 / canvas.width, 1 / canvas.height);
+  };
+  resize(); addEventListener("resize", () => { resize(); draw(now); });
+
+  // Timeline: threads write on, short hold, the transformation, light sweep.
+  const T = { grow: 1100, hold: 350, morph: 3400, sheen: 1200 }, TOTAL = T.grow + T.hold + T.morph + T.sheen;
+  const clamp01 = x => Math.min(1, Math.max(0, x));
+  const easeInOut = x => -(Math.cos(Math.PI * x) - 1) / 2, easeOut = x => 1 - Math.pow(1 - x, 3);
+  const baseUv = (emblemBottom + 2 - minY) / BH, topUv = (emblemTop - 4 - minY) / BH;
+  let now = 0;
+  function draw(t) {
+    now = t;
+    const grow = easeOut(clamp01(t / T.grow));
+    const morph = easeInOut(clamp01((t - T.grow - T.hold) / T.morph));
+    const sweep = (t - T.grow - T.hold - T.morph) / T.sheen;
+    paint(shapeAt(morph));
+    for (const { tex, source, unit } of textures) { gl.activeTexture(gl.TEXTURE0 + unit); gl.bindTexture(gl.TEXTURE_2D, tex); gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, source); }
+    gl.uniform1f(u.front, grow >= 1 ? -1 : baseUv + (topUv - baseUv) * grow);
+    gl.uniform1f(u.grow, grow >= 1 ? 0 : 1);
+    gl.uniform1f(u.sheen, sweep > 0 && sweep < 1 ? -0.15 + 1.3 * sweep : -9);
+    gl.clearColor(0, 0, 0, 0); gl.clear(gl.COLOR_BUFFER_BIT); gl.drawArrays(gl.TRIANGLES, 0, 3);
+    scrub.value = Math.round(t / TOTAL * 1000);
+  }
+  window.draw = draw; window.TOTAL = TOTAL; window.T = T;
+
+  const scrub = document.getElementById("scrub"), loop = document.getElementById("loop");
+  let raf = 0, timer = 0;
+  function play(from, to) {
+    cancelAnimationFrame(raf); clearTimeout(timer);
+    const start = performance.now(), span = Math.abs(to - from);
+    const step = time => {
+      const p = span ? Math.min(1, (time - start) / span) : 1;
+      draw(from + (to - from) * p);
+      if (p < 1) raf = requestAnimationFrame(step);
+      else if (loop.checked) timer = setTimeout(() => play(0, TOTAL), 1800);
+    };
+    raf = requestAnimationFrame(step);
+  }
+  document.getElementById("play").onclick = () => play(0, TOTAL);
+  document.getElementById("reverse").onclick = () => play(T.grow + T.hold + T.morph, T.grow + T.hold);
+  scrub.oninput = () => { cancelAnimationFrame(raf); clearTimeout(timer); draw(scrub.value / 1000 * TOTAL); };
+  status.textContent = "";
+
+  const fixed = new URLSearchParams(location.search).get("t");
+  if (fixed !== null) draw(Number(fixed) * TOTAL); else { draw(0); setTimeout(() => play(0, TOTAL), 300); }
+}
+</script>
+</body>
+</html>

@@ -1,7 +1,8 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { FlowerMark } from "./icons";
+import { AnimatedMark } from "./animated-mark";
+import { SoundToggle } from "./sound-toggle";
 import { ButtonInner } from "./button";
 import { SplitTitle, plainTitle } from "./motion";
 
@@ -191,7 +192,7 @@ export function ScrollStory() {
       <video ref={finaleVideo} className={`story-idle-video story-finale-video ${finaleVisible && !reducedMotion && !failed ? "is-active" : ""}`} muted loop playsInline preload="none" aria-hidden="true" disablePictureInPicture />
       <div className="story-shade" /><div className="story-grain" />
       {chapters.map((chapter, index) => <div key={chapter.name} className={`scene-copy ${chapter.className} ${active === index ? "is-active" : ""}`} aria-hidden={active !== index} inert={active !== index}>
-        {index === 6 && <FlowerMark className="finale-mark" />}{chapter.label && <p className="eyebrow">{chapter.label}</p>}
+        {index === 6 && <AnimatedMark className="finale-mark" play={active === 6} />}{chapter.label && <p className="eyebrow">{chapter.label}</p>}
         {index === 0 ? <h1 aria-label={plainTitle(chapter.title)}><SplitTitle lines={chapter.title} /></h1> : <h2 aria-label={plainTitle(chapter.title)}><SplitTitle lines={chapter.title} letters={chapter.letters} /></h2>}
         {chapter.body && <p className="scene-description">{chapter.body}</p>}
         {index === 0 && <>{reducedMotion || failed ? <Link className="button button-outline" href="/saffron"><ButtonInner>Discover our saffron</ButtonInner></Link> : <button className="button button-outline" onClick={() => playback.current.start()}><ButtonInner>Discover the story</ButtonInner></button>}</>}
@@ -199,7 +200,7 @@ export function ScrollStory() {
         {index === 6 && <Link className="button button-gold" href="/saffron"><ButtonInner>Discover our saffron</ButtonInner></Link>}
       </div>)}
       {!reducedMotion && !failed && <nav className="chapter-rail" aria-label="Story chapters"><div className="rail-track"><span style={{ transform: `scaleY(${time / DURATION})` }} /></div>{chapters.map((chapter, index) => <button key={chapter.name} className={index === active ? "is-active" : ""} onClick={() => goTo(index)} aria-label={`Chapter ${index + 1}: ${chapter.name}`} aria-current={index === active ? "step" : undefined}><span className="rail-dot" /><span className="rail-number">0{index + 1}</span><span className="rail-tooltip">{chapter.name}</span></button>)}</nav>}
-      <div className="story-bottom"><span className="bottom-caption">A SMALL THREAD. AN EXTRAORDINARY STORY.</span><a className="scroll-cue" href="#saffron" onClick={e => { if (!reducedMotion && !failed && active === 0) { e.preventDefault(); goTo(1); } }}><span>{active === 6 ? "CONTINUE EXPLORING" : "SCROLL TO DISCOVER"}</span><svg viewBox="0 0 14 28" aria-hidden="true"><path d="M7 0v26m-5-6 5 6 5-6" fill="none" stroke="currentColor" /></svg></a><span className="bottom-index">0{active + 1}<i />07</span></div>
+      <div className="story-bottom"><span className="bottom-caption">A SMALL THREAD. AN EXTRAORDINARY STORY.</span><a className="scroll-cue" href="#saffron" onClick={e => { if (!reducedMotion && !failed && active === 0) { e.preventDefault(); goTo(1); } }}><span>{active === 6 ? "CONTINUE EXPLORING" : "SCROLL TO DISCOVER"}</span><svg viewBox="0 0 14 28" aria-hidden="true"><path d="M7 0v26m-5-6 5 6 5-6" fill="none" stroke="currentColor" /></svg></a><div className="bottom-right"><SoundToggle story={stage} /><span className="bottom-index">0{active + 1}<i />07</span></div></div>
       {playing && <button className="story-pause" onClick={() => playback.current.stop()} aria-label="Pause the story">Pause story</button>}
       {!ready && !idleVisible && !failed && !reducedMotion && <div className="film-loader" role="status"><span />Preparing your journey</div>}
       {failed && <p className="video-fallback">The film is unavailable. Explore our saffron below.</p>}

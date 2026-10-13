@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { articles } from "../../lib/journal";
-import { FlowerMark } from "./icons";
+import { RofranMark } from "./icons";
 
 export function SiteFooter() {
   return <footer className="site-footer">
     <div className="footer-top" data-reveal="stagger">
-      <div className="footer-intro"><Link href="/" className="brand" aria-label="ROFRAN home"><FlowerMark /><span className="gold-glint" data-glint="ROFRAN">ROFRAN</span></Link><p className="footer-tagline">Precious by <em>nature.</em></p></div>
+      <div className="footer-intro"><Link href="/" className="brand" aria-label="ROFRAN home"><RofranMark /><span className="gold-glint" data-glint="ROFRAN">ROFRAN</span></Link><p className="footer-tagline">Precious by <em>nature.</em></p></div>
       <nav className="footer-nav" aria-label="Footer">
         <div><p className="eyebrow">EXPLORE</p><Link href="/#story">Our story</Link><Link href="/saffron">Saffron</Link><Link href="/journal">Journal</Link></div>
         <div><p className="eyebrow">THE JOURNAL</p>{articles.map(article => <Link key={article.slug} href={`/journal/${article.slug}`}>{article.title}</Link>)}</div>

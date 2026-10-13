@@ -130,3 +130,39 @@ Fontlar `fonttools` ile WOFF2'ye çevrildi ve sadece gereken karakterler bırak�
   - `public/frames` (71 kare, 2,7 MB) `scripts/build_frames.py` çıktısı ve sitede kullanılmıyor.
   - `public/media` içindeki `detail.webp`, `threads.webp` ve `finale.webp` de kullanılmıyor.
 - **Satın alma:** Ürün sayfası hâlâ "Checkout unavailable" ile bitiyor. Haber ver formu, WhatsApp/Instagram ya da online ödeme arasından karar bekliyor.
+
+---
+
+# Güncelleme: animasyonlu logo ve ortam sesi
+
+## Logo
+
+- **Yeni işaret:** Header'da, footer'da ve favicon'da eski çiçek işaretinin yerine R monogramı kullanılıyor. Bu, tasarım tahtasının (`design/rofran-logo-motion-v1/05-threads-to-monogram.png`) 12. karesinin birebir vektörü.
+- **Final sahnesi:** "Precious by nature." bölümünde, ROFRAN yazısının üstünde üç safran teli tabandan yazılarak beliriyor, R'ye dönüşüyor ve üzerinden ışık geçiyor. Animasyon sahne her açıldığında baştan oynuyor.
+- **Nasıl çalışıyor:** Tahtadaki kareler vektöre çevrildi. Her kareye dört şerit oturtuldu: gövde, bacak, içteki tel ve göbek. Animasyon bu şeritleri her karede yeniden çiziyor; çizgiler hiçbir an kopmuyor. Çizilen şekil, WebGL'de metalik altının maskesi olarak kullanılıyor.
+- **Yükleme:** Animasyon motoru ve verisi (yaklaşık 21 KB) yalnızca final sahnesine gelindiğinde yükleniyor.
+- **Sabit gösterim:** "Azaltılmış hareket" ayarında ve WebGL2 olmayan tarayıcılarda son R hareketsiz gösteriliyor.
+- **Araçlar** (`design/rofran-logo-animation/`):
+  - `trace.cjs`: tahtayı vektöre çevirir (`frames.json`).
+  - `ribbons.mjs`: şerit uyumlarını yapar.
+  - `index.html`: tarayıcıda deneme sayfası.
+  - `build-data.mjs`: sitenin logo dosyalarını üretir. Logo değişirse şu komut yeterli: `node design/rofran-logo-animation/build-data.mjs`. Ürettiği dosyalar: `app/components/rofran-mark.ts`, `app/components/rofran-logo-data.ts`, `public/favicon.svg`.
+- **Site dosyaları:** `animated-mark.tsx`, `animated-mark-engine.ts`, `rofran-mark.ts`, `rofran-logo-data.ts`. `icons.tsx` içine `RofranMark` eklendi.
+
+## Ortam sesi
+
+- **Düğme:** Hero'nun sağ alt köşesinde, bölüm sayacının yanında **SOUND** düğmesi var. Ses ilk ziyarette kapalı. Tercih hatırlanıyor: bir kez açan kişi tekrar geldiğinde sayfaya ilk dokunuşunda ses başlıyor.
+- **Sesler:** Hikâye boyunca hafif rüzgâr. Kaydırınca kısa bir esinti ve ot hışırtısı. Final sahnesine yaklaşırken kısık cırcır böcekleri.
+- **Seviye:** Hikâyeden aşağı inince ses kısılıyor; sekme arka plandayken duruyor. Sakin anda seviye ortalama yaklaşık -39 dBFS.
+- **Üretim:** Sesler Web Audio ile tarayıcıda üretiliyor; ses dosyası yok. Dosyalar: `app/components/ambient-sound.ts`, `app/components/sound-toggle.tsx`.
+
+## Denenip geri alınan
+
+- **Footer'daki tarla görseli:** Dev ROFRAN yazısı yerine alacakaranlıktaki safran tarlası denendi, şimdilik eski hâline dönüldü. Görselin orijinali `design/rofran-footer/footer-field-original.webp` dosyasında saklı.
+
+## Doğrulama
+
+- `npx tsc --noEmit`: hata yok.
+- `npx eslint app`: hata yok; 9 uyarı önceden de vardı.
+- `npm test`: 3 testin 3'ü de geçti.
+- `npm run build`: başarılı.
