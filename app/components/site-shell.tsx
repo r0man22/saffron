@@ -92,6 +92,7 @@ export function SiteShell({ children, footer }: { children: React.ReactNode; foo
         <Link href={localeHref(locale, "/#story")} onClick={() => setMenuOpen(false)}><RollText>{t.nav.story}</RollText></Link>
         <Link href={localeHref(locale, "/saffron")} aria-current={localPath === "/saffron" ? "page" : undefined} onClick={() => setMenuOpen(false)}><RollText>{t.nav.saffron}</RollText></Link>
         <Link href={localeHref(locale, "/journal")} aria-current={localPath.startsWith("/journal") ? "page" : undefined} onClick={() => setMenuOpen(false)}><RollText>{t.nav.journal}</RollText></Link>
+        <Link href={localeHref(locale, "/faq")} aria-current={localPath === "/faq" ? "page" : undefined} onClick={() => setMenuOpen(false)}><RollText>{locale === "az" ? "Suallar" : locale === "ru" ? "Вопросы" : "FAQ"}</RollText></Link>
       </nav>
       <div className="header-actions"><LanguageSwitcher /><button className="bag-button" aria-label={`${t.nav.openBag}: ${count}`} onClick={open}><BagIcon /><span aria-live="polite">{count}</span></button><button className={`menu-button ${menuOpen ? "is-open" : ""}`} aria-label={menuOpen ? t.nav.closeMenu : t.nav.openMenu} aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}><span /><span /></button></div>
     </header>

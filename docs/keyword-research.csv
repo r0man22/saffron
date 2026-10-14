@@ -1,0 +1,18 @@
+keyword,country,source,report,volume_bucket,difficulty_category,observed_at,target_path,decision
+saffron,United States,Ahrefs Free Keyword Generator,Phrase match,>100K,Medium,2026-10-14,/saffron,Core topic
+what is saffron,United States,Ahrefs Free Keyword Generator,Questions,>10000,Medium,2026-10-14,/journal/what-is-saffron,Existing guide
+what does saffron taste like,United States,Ahrefs Free Keyword Generator,Questions,>1000,Easy,2026-10-14,/journal/what-does-saffron-taste-like,New guide and FAQ
+what is saffron used for,United States,Ahrefs Free Keyword Generator,Questions,>1000,Medium,2026-10-14,/journal/how-to-use-saffron,Existing guide and FAQ
+why is saffron so expensive,United States,Ahrefs Free Keyword Generator,Questions,>1000,Easy,2026-10-14,/journal/why-is-saffron-expensive,New guide and FAQ
+where does saffron come from,United States,Ahrefs Free Keyword Generator,Questions,>1000,Medium,2026-10-14,/journal/what-is-saffron,Botanical origin only until product provenance confirmed
+where to buy saffron,United States,Ahrefs Free Keyword Generator,Questions,>1000,Easy,2026-10-14,/journal/how-to-buy-saffron,Selection guide without invented sales offer
+how much is saffron,United States,Ahrefs Free Keyword Generator,Questions,>1000,Easy,2026-10-14,/journal/why-is-saffron-expensive,Price comparison without invented prices
+how to use saffron,United States,Ahrefs Free Keyword Generator,Questions,>1000,,2026-10-14,/journal/how-to-use-saffron,Existing guide and FAQ
+what does saffron smell like,United States,Ahrefs Free Keyword Generator,Questions,>1000,,2026-10-14,/journal/what-does-saffron-taste-like,Part of flavour topic
+saffron price,United States,Ahrefs Free Keyword Generator,Phrase match,>1000,,2026-10-14,/journal/why-is-saffron-expensive,Explain price factors
+saffron rice recipe,United States,Ahrefs Free Keyword Generator,Phrase match,>1000,,2026-10-14,,Future recipe after kitchen testing
+how to make saffron rice,United States,Ahrefs Free Keyword Generator,Questions,>1000,,2026-10-14,,Future recipe after kitchen testing
+saffron burrows,United States,Ahrefs Free Keyword Generator,Phrase match,>10000,Easy,2026-10-14,,Exclude unrelated person
+saffron supplement,United States,Ahrefs Free Keyword Generator,Phrase match,>10000,Hard,2026-10-14,,Exclude supplement intent
+saffron benefits,United States,Ahrefs Free Keyword Generator,Phrase match,>10000,Medium,2026-10-14,,Exclude unsupported medical claims
+does saffron help with adhd,United States,Ahrefs Free Keyword Generator,Questions,>1000,,2026-10-14,,Exclude medical treatment intent

@@ -27,21 +27,21 @@
     ]
   },
   "how-to-use-saffron": {
-    "title": "Zəfəran necə istifadə olunur?",
+    "title": "Zəfəran necə dəmlənir və yeməklərdə necə istifadə olunur?",
     "category": "İSTİFADƏ",
     "imageAlt": "Daş səth üzərində incə qırmızı zəfəran telləri",
     "readTime": "3 DƏQİQƏLİK OXU",
-    "description": "Zəfəran telləri ilə yemək hazırlamağa sadə giriş: dəmləmə hazırlamaq, resept seçmək və zəfəranın dadını yeməyə qatmaq.",
+    "description": "Zəfəran tellərini ilıq mayedə dəmləməyi, reseptə uyğun ölçməyi və həm dəmi, həm telləri yeməyə əlavə etməyi öyrənin.",
     "deck": "Tələsməyin. Bir az rəng yeməklərinizə yol tapsın.",
-    "lead": "Başlamaq üçün bir resept, bir az ilıq maye və bir qədər səbir kifayətdir. Zəfəranı yeməyə düşünülmüş şəkildə qatmaq onun xüsusiyyətlərini daha yaxşı üzə çıxarır.",
+    "lead": "Zəfəran tellərini istifadə etmək üçün reseptdəki miqdarı ölçüb az miqdarda ilıq mayedə dəm hazırlayın. Dəmi və telləri reseptdə göstərilən mərhələdə əlavə edin. Maye, miqdar və dəmləmə müddəti hazırladığınız yeməyə uyğun olmalıdır.",
     "sections": [
       {
         "title": "Reseptlə başlayın",
         "text": "Zəfəran üçün nəzərdə tutulmuş bir resept seçin və göstərilən miqdara əməl edin. Sadə bir düyü yeməyi rahat başlanğıcdır; rizotto, balıq yeməyi və ya şirniyyat da başqa seçim ola bilər. Başlamazdan əvvəl digər ərzaqları hazırlayın ki, zəfəranı yeməyə nəzərdə tutulan anda əlavə edə biləsiniz."
       },
       {
-        "title": "Tellərə bir az vaxt verin",
-        "text": "Zəfəran tellərini yemək bişirməzdən əvvəl ilıq və ya isti mayedə saxlamaq rənginin və dadının yeməyə yayılmasına kömək edir. Bəzi reseptlərdə tellərin yüngülcə əzilməsi tövsiyə olunur. Reseptinizdə göstərilən mayedən və dəmləmə müddətindən istifadə edin, sonra dəmləməni qaydaya uyğun əlavə edin. Bu, hazırlıq mərhələsidir; reseptdə göstəriləndən artıq zəfəran əlavə etmək üçün səbəb deyil."
+        "title": "Zəfəran dəmi necə hazırlanır?",
+        "text": "Ölçülmüş telləri kiçik, təmiz qaba qoyun. Resept tələb edirsə, əvvəlcə yüngülcə əzin. Yeməyə uyğun az miqdarda ilıq su və ya süd əlavə edin, reseptdə göstərilən müddət ərzində dəmlənməyə qoyun. Sonra həm mayeni, həm telləri təlimata uyğun istifadə edin. Xüsusilə düyü bişirərkən bu mayeni reseptin ümumi maye miqdarına daxil edin. Bütün reseptlər üçün vahid dəmləmə müddəti və miqdar yoxdur."
       },
       {
         "title": "Öz ənənənizi yaradın",
@@ -49,7 +49,7 @@
       }
     ],
     "sourceTitles": [
-      "McCormick — Zəfəran telləri ilə yemək hazırlamaq"
+      "McCormick — Zəfəranın hazırlanması və istifadəsi"
     ]
   },
   "how-to-store-saffron": {

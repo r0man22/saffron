@@ -33,6 +33,48 @@
 @media(prefers-reduced-motion:reduce){.gold-glint::after,.site-footer .footer-tagline,.site-footer .footer-nav a{animation:none}.gold-glint::after{display:none}}
 
 /* Language selection remains available on both desktop and mobile. */
+/* Editorial pages: warm paper, generous typography and quiet gold details. */
+.knowledge-main{--paper:#f1e8d7;--paper-ink:#321c23}
+.knowledge-hero{display:grid;grid-template-columns:1.15fr 1fr;background:var(--paper);color:var(--paper-ink);min-height:520px;margin:0 5%;overflow:hidden}
+.knowledge-hero>div:first-child{padding:clamp(32px,5vw,82px);display:flex;flex-direction:column;justify-content:center}
+.knowledge-hero .eyebrow{color:#77503c;margin-bottom:25px;letter-spacing:.18em}
+.knowledge-hero h1{font-family:var(--serif);font-size:clamp(44px,5.7vw,84px);line-height:1.02;font-weight:400;letter-spacing:-.025em;text-wrap:balance}
+.knowledge-intro{font-size:15px;line-height:1.9;max-width:540px;margin-top:30px;color:#624c49}
+.knowledge-hero-image{position:relative;min-height:420px;background:#241319}
+.knowledge-hero-image img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.knowledge-image-caption{position:absolute;bottom:24px;inset-inline-start:28px;inset-inline-end:20px;font-size:10px;letter-spacing:.12em;color:#fff6e0;text-shadow:0 1px 6px #000;background:#211113a8;padding:10px 12px;width:fit-content}
+.knowledge-body{display:grid;grid-template-columns:230px minmax(0,740px);gap:clamp(35px,7vw,120px);max-width:1220px;margin:0 auto;padding:85px 40px 100px}
+.knowledge-aside{align-self:start;position:sticky;top:120px;border-top:1px solid var(--line);padding-top:24px}
+.knowledge-aside nav{display:grid;gap:15px;margin:25px 0 35px}.knowledge-aside nav a{font-size:13px;color:var(--muted);line-height:1.5}.knowledge-aside nav a:hover{color:var(--gold)}
+.knowledge-sections section{scroll-margin-top:115px;padding-bottom:45px;margin-bottom:38px;border-bottom:1px solid var(--line)}
+.resource-number{display:block;font:11px var(--sans);letter-spacing:.15em;color:var(--muted);margin-bottom:18px}
+.knowledge-sections h2{font-family:var(--serif);font-size:clamp(32px,3vw,46px);font-weight:400;line-height:1.15;margin-bottom:18px;text-wrap:balance}
+.knowledge-sections p{font-size:16px;line-height:1.95;color:var(--cream);max-width:65ch}
+.knowledge-next{display:flex;align-items:center;gap:30px;flex-wrap:wrap}.knowledge-next .button{min-height:56px}
+.resource-links{padding:65px 5% 85px;border-top:1px solid var(--line)}
+.resource-links .section-heading{align-items:center;margin-bottom:40px;gap:25px}.resource-links h2{font:clamp(32px,3.5vw,52px)/1.1 var(--serif);font-weight:400}
+.resource-link-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.resource-link-grid>a{position:relative;padding:35px clamp(20px,3vw,48px);transition:background .3s;display:flex;flex-direction:column;align-items:flex-start;gap:16px}
+.resource-link-grid>a:first-child{padding-inline-start:0}.resource-link-grid>a+a{border-inline-start:1px solid var(--line)}
+.resource-link-grid>a:hover{background:#e5d4a408}.resource-link-grid .resource-number{margin:0}.resource-link-grid h3{font:clamp(27px,2.5vw,38px)/1.15 var(--serif);font-weight:400;text-wrap:balance}
+.resource-link-grid p{font-size:13px;line-height:1.85;color:var(--muted);margin-bottom:12px}.resource-link-grid .link-arrow{margin-top:auto}
+.faq-section{padding:65px 5% 90px;max-width:1400px;margin:0 auto}
+.faq-controls{display:flex;justify-content:space-between;align-items:center;gap:28px;padding-bottom:35px;border-bottom:1px solid var(--line)}
+.faq-filters{display:flex;flex-wrap:wrap;gap:9px}.faq-filters button{border:1px solid var(--line);padding:12px 19px;border-radius:40px;font-size:12px;min-height:44px;color:var(--cream)}
+.faq-filters button[aria-pressed=true]{background:var(--gold);color:var(--ink);border-color:var(--gold)}.faq-filters button:hover{border-color:var(--gold)}
+.faq-search{min-width:230px;max-width:340px;flex:1}.faq-search>span{display:block;font-size:10px;letter-spacing:.08em;color:var(--muted);margin-bottom:9px}
+.faq-search input{width:100%;background:transparent;border:0;border-bottom:1px solid var(--line);padding:10px 0;color:var(--cream);font:14px var(--sans);min-height:44px;border-radius:0}
+.faq-search input::placeholder{color:var(--muted)}.faq-results{font-size:10px;letter-spacing:.15em;color:var(--muted);padding:20px 0}
+.faq-list details{border-bottom:1px solid var(--line)}.faq-list summary{display:flex;align-items:center;justify-content:space-between;gap:25px;list-style:none;cursor:pointer;padding:25px 0;font:clamp(24px,2.3vw,34px)/1.3 var(--serif);color:var(--cream)}
+.faq-list summary::-webkit-details-marker{display:none}.faq-plus{font:25px var(--sans);color:var(--gold);font-weight:300;transition:transform .25s}.faq-list details[open] .faq-plus{transform:rotate(45deg)}
+.faq-answer{padding:0 55px 30px 0;max-width:880px}.faq-answer p{font-size:15px;line-height:1.95;color:var(--muted)}.faq-answer .text-link{margin-top:20px;font-size:13px}.faq-empty{padding:35px 0;line-height:1.7;color:var(--muted)}
+.article-byline{display:flex;flex-wrap:wrap;gap:16px 30px;font-size:11px;color:var(--muted);padding-bottom:22px;margin-bottom:28px;border-bottom:1px solid var(--line)}
+.article-context-links{display:flex;flex-wrap:wrap;gap:20px;padding-top:30px;font-size:13px;color:var(--gold)}
+.product-owner-facts{display:grid;gap:12px;margin-top:24px}.product-owner-facts>div{display:flex;justify-content:space-between;gap:20px;font-size:13px}.product-owner-facts dt{color:var(--muted)}
+.contact-details{display:grid;gap:20px;font-size:20px;margin-bottom:40px}
+.journal-index .journal-cards{row-gap:50px}.journal-index .journal-card-copy h3{text-wrap:balance}.footer-nav a{max-width:27ch}
+@media(max-width:1000px){.knowledge-hero{grid-template-columns:1fr 1fr;min-height:440px}.knowledge-hero>div:first-child{padding:40px 30px}.knowledge-body{grid-template-columns:190px minmax(0,1fr);gap:40px}.faq-controls{align-items:flex-start;flex-direction:column}.faq-search{width:100%;max-width:100%}}
+@media(max-width:760px){.knowledge-hero{grid-template-columns:1fr;margin:0 24px}.knowledge-hero>div:first-child{padding:38px 25px}.knowledge-hero h1{font-size:clamp(40px,11vw,60px)}.knowledge-intro{font-size:14px;margin-top:22px}.knowledge-hero-image{min-height:260px}.knowledge-body{display:block;padding:45px 25px 55px}.knowledge-aside{position:static;margin-bottom:38px}.knowledge-aside nav{display:flex;flex-wrap:wrap;gap:15px 20px;margin:20px 0}.knowledge-sections section{padding-bottom:30px;margin-bottom:30px}.knowledge-sections p{font-size:15px}.knowledge-next{gap:25px}.knowledge-next .button{width:100%;justify-content:space-between}.resource-links{padding:40px 25px 50px}.resource-links .section-heading{margin-bottom:28px}.resource-link-grid{grid-template-columns:1fr}.resource-link-grid>a,.resource-link-grid>a:first-child{padding:28px 0}.resource-link-grid>a+a{border-inline-start:0;border-top:1px solid var(--line)}.resource-link-grid h3{font-size:32px}.faq-section{padding:35px 25px 55px}.faq-controls{gap:22px;padding-bottom:20px}.faq-filters{gap:7px}.faq-filters button{font-size:11px;padding:10px 13px}.faq-list summary{font-size:25px;padding:22px 0}.faq-answer{padding-right:12px}.faq-answer p{font-size:14px}.knowledge-image-caption{font-size:9px;bottom:18px;inset-inline-start:18px}.article-byline{font-size:10px}.journal-index .journal-cards{row-gap:36px}}
 .language-picker{position:relative;color:var(--gold);font-size:11px;letter-spacing:.09em;flex:none}
 .language-picker summary{list-style:none;display:flex;align-items:center;justify-content:center;gap:7px;cursor:pointer;padding:12px 8px;min-height:44px;border-radius:20px}
 .language-picker summary::-webkit-details-marker{display:none}

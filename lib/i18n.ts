@@ -1,4 +1,5 @@
-export const locales = ["en", "az", "ru"] as const;
+import { publishedLocales } from "./international";
+export const locales = publishedLocales;
 export type Locale = typeof locales[number];
 export const localeNames: Record<Locale, string> = { en: "English", az: "Azərbaycan", ru: "Русский" };
 export const isLocale = (value: string): value is Locale => locales.some(locale => locale === value);

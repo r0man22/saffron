@@ -3,6 +3,7 @@ import test from 'node:test';
 import { readFileSync } from 'node:fs';
 
 const base = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
+const canonicalBase = process.env.TEST_CANONICAL_URL || base;
 const originalRoutes = ['/', '/saffron', '/journal', '/journal/what-is-saffron', '/journal/how-to-use-saffron', '/journal/how-to-store-saffron'];
 const locales = ['en', 'az', 'ru'];
 const routeFor = (locale, path) => locale === 'en' ? path : `/${locale}${path === '/' ? '' : path}`;
@@ -64,7 +65,7 @@ test('discovery files list the real content routes and unknown articles return 4
   const response = await fetch(base + '/sitemap.xml');
   assert.equal(response.status, 200);
   const xml = await response.text();
-  for (const path of routes) assert.ok(xml.includes(base + path), path);
+  for (const path of routes) assert.ok(xml.includes(canonicalBase + path), path);
   const robots = await fetch(base + '/robots.txt');
   assert.equal(robots.status, 200);
   assert.match(await robots.text(), /Sitemap:/);

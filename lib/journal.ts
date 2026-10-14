@@ -13,15 +13,15 @@ export const articles = [
   },
   {
     slug: "how-to-use-saffron", title: "How to use saffron", category: "THE RITUAL", image: "saffron", imageAlt: "Fine red saffron threads resting on a stone surface", readTime: "3 MIN READ",
-    description: "A simple introduction to cooking with saffron threads: preparing an infusion, choosing a recipe and making room for its flavour.",
+    description: "Learn how to use saffron threads in food: prepare an infusion with warm liquid, measure for your recipe and add both the threads and liquid to the dish.",
     deck: "Slow down. Let a little colour find its way into your cooking.",
-    lead: "The best place to begin is with a recipe, a little warm liquid and a moment of patience. Saffron rewards a thoughtful introduction to the dish.",
+    lead: "To use saffron threads, measure the amount in your recipe and prepare an infusion in a little warm liquid. Add the infusion and threads at the recipe's stated stage. The liquid, quantity and resting time should suit the dish you are making.",
     sections: [
       { id: "begin-with-a-recipe", title: "Begin with a recipe", text: "Choose a recipe written for saffron and follow its amount. A simple rice dish is an approachable starting point; a risotto, fish dish or sweet bake offers another direction. Prepare the rest of the ingredients before you begin, so the saffron can enter the dish at the intended moment." },
-      { id: "make-an-infusion", title: "Give the threads a little time", text: "Soaking saffron threads in warm or hot liquid before cooking helps introduce their colour and flavour into the dish. Some recipes call for lightly crushed threads. Use the liquid and infusion time specified in your recipe, then add the infusion as directed. This is a preparation step, not a reason to add more saffron than the recipe asks for." },
+      { id: "make-an-infusion", title: "How to make a saffron infusion", text: "Put the measured threads in a small clean bowl. If your recipe calls for it, lightly crush them first. Add a little warm water or milk, according to the dish, and leave them to infuse for the time your recipe specifies. Add both the liquid and threads as directed. Count this liquid as part of the recipe's total, especially when cooking rice. There is no single infusion time or quantity for every recipe." },
       { id: "make-it-your-own", title: "Make the ritual your own", text: "For the first attempt, keep everything else familiar. Make a note of the dish, the amount you used and what you enjoyed. Next time, change one thing rather than the whole recipe. The aim is to learn what you like at your own table, from a quiet weeknight meal to something worth sharing." },
     ],
-    sources: [{ title: "McCormick — Cooking with saffron threads", url: "https://www.mccormick.com/products/mccormick-gourmet-mediterranean-saffron-0-04-oz" }],
+    sources: [{ title: "McCormick — Preparing and using saffron", url: "https://www.mccormickforchefs.co.uk/en-gb/recipe-ideas/flavour-ingredients/saffron" }],
   },
   {
     slug: "how-to-store-saffron", title: "How to store saffron", category: "THE CARE", image: "product", imageAlt: "A closed glass saffron jar with a gold lid", readTime: "2 MIN READ",
