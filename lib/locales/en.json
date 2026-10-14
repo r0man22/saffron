@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "story": "Our story",
+    "saffron": "Saffron",
+    "journal": "Journal",
+    "main": "Main navigation",
+    "home": "Home",
+    "homeLabel": "ROFRAN home",
+    "skip": "Skip to content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "openBag": "Open bag",
+    "items": "items"
+  },
+  "actions": {
+    "discoverStory": "Discover the story",
+    "discoverSaffron": "Discover our saffron",
+    "exploreSaffron": "Explore saffron",
+    "exploreJournal": "Explore the journal",
+    "continue": "Continue exploring",
+    "add": "Add to bag"
+  },
+  "bag": {
+    "selection": "YOUR SELECTION",
+    "title": "Your bag",
+    "close": "Close bag",
+    "product": "ROFRAN saffron",
+    "threads": "Saffron threads",
+    "decrease": "Decrease quantity",
+    "increase": "Increase quantity",
+    "quantity": "Quantity",
+    "remove": "Remove",
+    "saved": "Your selection is saved. Online checkout is not available yet.",
+    "unavailable": "Checkout unavailable",
+    "empty": [
+      "A little treasure",
+      "belongs here."
+    ]
+  },
+  "story": {
+    "aria": "The ROFRAN saffron story",
+    "bottom": "A SMALL THREAD. AN EXTRAORDINARY STORY.",
+    "scroll": "SCROLL TO DISCOVER",
+    "continue": "CONTINUE EXPLORING",
+    "pause": "Pause story",
+    "preparing": "Preparing your journey",
+    "unavailable": "The film is unavailable. Explore our saffron below.",
+    "chaptersLabel": "Story chapters",
+    "chapter": "Chapter",
+    "soundOn": "SOUND ON",
+    "soundOff": "SOUND OFF",
+    "soundEnable": "Turn the field sound on",
+    "soundDisable": "Turn the field sound off",
+    "chapters": [
+      {
+        "name": "The beginning",
+        "label": "SAFFRON BY ROFRAN",
+        "title": [
+          "NATURE’S",
+          "FINEST TREASURE"
+        ],
+        "body": "A story that begins with a flower."
+      },
+      {
+        "name": "The flower",
+        "label": "01 / THE FLOWER",
+        "title": [
+          "It begins with",
+          "a *flower.*"
+        ],
+        "body": "Come a little closer to something extraordinary."
+      },
+      {
+        "name": "The essence",
+        "label": "02 / THE ESSENCE",
+        "title": [
+          "A closer kind",
+          "of *wonder.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "The threads",
+        "label": "03 / THE CRIMSON THREAD",
+        "title": [
+          "A story in",
+          "every *thread.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "The journey",
+        "label": "04 / THE JOURNEY",
+        "title": [
+          "From bloom",
+          "to your *table.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "The saffron",
+        "label": "05 / ROFRAN SAFFRON",
+        "title": [
+          "A little.",
+          "*Remarkable.*"
+        ],
+        "body": "Colour. Aroma. A moment to savour."
+      },
+      {
+        "name": "Precious by nature",
+        "label": "",
+        "title": [
+          "ROFRAN"
+        ],
+        "body": "Precious by nature."
+      }
+    ]
+  },
+  "home": {
+    "collection": "THE SAFFRON COLLECTION",
+    "eyebrow": "ROFRAN SAFFRON",
+    "productTitle": [
+      "Bring the story",
+      "to your *table.*"
+    ],
+    "description": "A small thread. A golden colour. An unmistakable aroma. Discover a different kind of everyday ritual.",
+    "footnote": "A CLOSER LOOK AT SOMETHING EXTRAORDINARY",
+    "journalEyebrow": "A LITTLE KNOWLEDGE, A RICHER RITUAL",
+    "journalTitle": "The saffron journal"
+  },
+  "footer": {
+    "taglinePrefix": "Precious by ",
+    "taglineEm": "nature.",
+    "explore": "EXPLORE",
+    "journal": "THE JOURNAL",
+    "aria": "Footer",
+    "bottom": "A small thread. An extraordinary story.",
+    "top": "Back to top ↑"
+  },
+  "product": {
+    "collection": "THE ROFRAN COLLECTION",
+    "title": [
+      "A little.",
+      "*Remarkable.*"
+    ],
+    "subtitle": "ROFRAN saffron threads",
+    "description": "For the meals you linger over. For the small rituals that become your own. Discover the colour and aroma of saffron, one thread at a time.",
+    "note": "Explore the collection. Online checkout is not available yet.",
+    "facts": [
+      {
+        "title": "The saffron",
+        "text": "Saffron is made from the dried red stigmas of the Crocus sativus flower. Its place in the kitchen is both visual and aromatic: a small ingredient that invites a little attention.",
+        "linkText": ""
+      },
+      {
+        "title": "Your first ritual",
+        "text": "Start with a saffron recipe and follow its preparation instructions. Infusing the threads in warm liquid is a common first step.",
+        "linkText": "Read our guide to using saffron."
+      },
+      {
+        "title": "A little care",
+        "text": "Keep your saffron in an airtight container away from light, and follow the storage instructions on its packaging.",
+        "linkText": "Explore the storage guide."
+      }
+    ],
+    "editorialEyebrow": "BEFORE THE FIRST THREAD",
+    "editorialTitle": [
+      "It begins",
+      "with a *flower.*"
+    ],
+    "editorialText": "Take a closer look at Crocus sativus and the delicate beginning of an extraordinary ingredient.",
+    "editorialLink": "Get to know saffron",
+    "relatedTitle": "A richer ritual",
+    "gallery": "Product photographs",
+    "view": "View"
+  },
+  "journal": {
+    "eyebrow": "NOTES FROM ROFRAN",
+    "title": [
+      "The saffron",
+      "*journal.*"
+    ],
+    "description": "A little knowledge makes the ritual richer. Meet the flower, find your first recipe and give each thread the attention it deserves.",
+    "guides": "Saffron guides",
+    "toc": "IN THIS STORY",
+    "tocLabel": "In this article",
+    "sources": "FURTHER READING"
+  },
+  "images": {
+    "valley": "Purple saffron flowers in a mountain valley at sunset",
+    "product": "Saffron threads in a glass jar, beside a violet crocus at sunset",
+    "flower": "An opening saffron crocus",
+    "jar": "ROFRAN saffron jar",
+    "gallery": [
+      "Saffron in a clear glass jar with a gold lid",
+      "A closer look at red saffron threads",
+      "Violet saffron flower in a field at sunset"
+    ]
+  },
+  "notFound": {
+    "eyebrow": "404 / A DIFFERENT PATH",
+    "title": [
+      "Let’s find your",
+      "*way back.*"
+    ],
+    "description": "This page is not part of our story.",
+    "back": "Return to ROFRAN"
+  },
+  "meta": {
+    "homeTitle": "ROFRAN — Precious by nature. Saffron, beautifully told.",
+    "homeDescription": "Discover ROFRAN saffron. Follow a cinematic journey from crocus flower to crimson thread, and explore our guide to cooking with and caring for saffron.",
+    "brandTitle": "ROFRAN — Precious by nature",
+    "brandDescription": "A small thread. An extraordinary story. Discover ROFRAN saffron.",
+    "saffronTitle": "Saffron threads",
+    "saffronDescription": "Discover ROFRAN saffron threads. Explore the colour, aroma and everyday ritual of cooking with saffron.",
+    "journalTitle": "The saffron journal",
+    "journalDescription": "Get to know saffron: where it begins, how to cook with its threads and how to care for it in your kitchen.",
+    "socialAlt": "ROFRAN saffron in a sunset crocus field"
+  }
+}

@@ -15,3 +15,7 @@ export function SplitTitle({ lines, letters = false }: { lines: string[]; letter
     <span className="word" style={{ "--w": token.index } as CSSProperties}>{token.italic ? <em>{token.text}</em> : letters ? <span className="gold-glint" data-glint={token.text}>{token.text}</span> : token.text}</span>{!letters && k < tokens.length - 1 && " "}
   </Fragment>)}{l < rows.length - 1 && " "}</span>)}</span>;
 }
+
+export function TranslatedLines({ lines }: { lines: string[] }) {
+  return <Lines lines={lines.map((line, index) => <Fragment key={index}>{line.split(/(\*[^*]+\*)/g).map((part, i) => part.startsWith("*") ? <em key={i}>{part.slice(1, -1)}</em> : <Fragment key={i}>{part}</Fragment>)}</Fragment>)} />;
+}

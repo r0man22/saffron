@@ -1,0 +1,81 @@
+{
+  "what-is-saffron": {
+    "title": "Zəfəran nədir?",
+    "category": "MƏNŞƏ",
+    "imageAlt": "Gün batımında açılan bənövşəyi zəfəran çiçəyi",
+    "readTime": "3 DƏQİQƏLİK OXU",
+    "description": "Zəfəranın əldə edildiyi Crocus sativus çiçəyi ilə tanış olun və onun zərif qırmızı tellərinin mətbəxinizə nə qatdığını kəşf edin.",
+    "deck": "Bir çiçək, bir neçə qırmızı tel və saysız imkanlar.",
+    "lead": "Mətbəxə çatmazdan əvvəl zəfəran bir çiçəyin parçasıdır. Onun hekayəsi zəfəran çiçəyinin mərkəzindəki incə qırmızı tellərdə gizlidir.",
+    "sections": [
+      {
+        "title": "Zəfəran çiçəyi ilə tanış olun",
+        "text": "Crocus sativus payızda çiçəkləyən, bənövşəyi ləçəkləri və parlaq qırmızı dişicik ağızcıqları olan bir çiçəkdir. Zəfəran adlandırdığımız ədviyyatı əldə etmək üçün bu ağızcıqlar yığılır və qurudulur. Onlar çiçəyin daha qısa, tozcuq daşıyan erkəkciklərindən fərqlənir. Çiçəkdən qurudulmuş telə uzanan bu yol zəfəranı özünəməxsus bir ədviyyata çevirir."
+      },
+      {
+        "title": "Ədviyyata fərqli baxış",
+        "text": "Zəfəran həm rəng, həm də dad vermək üçün istifadə olunur. Ona düyü yeməklərində, rizottoda, balıq reseptlərində və şirniyyatlarda rast gələ bilərsiniz. Onu yalnız son bəzək kimi düşünməyin; reseptdə məqsədli yer verin. Sevdiyiniz bir yeməyi seçin, reseptdəki miqdara əməl edin və yaratdığı fərqə diqqət yetirin."
+      },
+      {
+        "title": "İlk zəfəran təcrübəniz",
+        "text": "Tanış bir yeməklə başlayın. Bankanı açmazdan əvvəl resepti oxuyun və ərzaqları hazırlayın. Təcrübəni sadə saxlamaq zəfəranın özünə diqqət ayırmağa imkan verir: tellərin formasına, dəmləmənin rənginə və hazır yeməyin dadına. Zəfərandan istifadə bələdçimiz növbəti addım üçün yaxşı başlanğıcdır."
+      }
+    ],
+    "sourceTitles": [
+      "Royal Horticultural Society — Zəfəran",
+      "Royal Horticultural Society — Crocus sativus"
+    ]
+  },
+  "how-to-use-saffron": {
+    "title": "Zəfəran necə istifadə olunur?",
+    "category": "İSTİFADƏ",
+    "imageAlt": "Daş səth üzərində incə qırmızı zəfəran telləri",
+    "readTime": "3 DƏQİQƏLİK OXU",
+    "description": "Zəfəran telləri ilə yemək hazırlamağa sadə giriş: dəmləmə hazırlamaq, resept seçmək və zəfəranın dadını yeməyə qatmaq.",
+    "deck": "Tələsməyin. Bir az rəng yeməklərinizə yol tapsın.",
+    "lead": "Başlamaq üçün bir resept, bir az ilıq maye və bir qədər səbir kifayətdir. Zəfəranı yeməyə düşünülmüş şəkildə qatmaq onun xüsusiyyətlərini daha yaxşı üzə çıxarır.",
+    "sections": [
+      {
+        "title": "Reseptlə başlayın",
+        "text": "Zəfəran üçün nəzərdə tutulmuş bir resept seçin və göstərilən miqdara əməl edin. Sadə bir düyü yeməyi rahat başlanğıcdır; rizotto, balıq yeməyi və ya şirniyyat da başqa seçim ola bilər. Başlamazdan əvvəl digər ərzaqları hazırlayın ki, zəfəranı yeməyə nəzərdə tutulan anda əlavə edə biləsiniz."
+      },
+      {
+        "title": "Tellərə bir az vaxt verin",
+        "text": "Zəfəran tellərini yemək bişirməzdən əvvəl ilıq və ya isti mayedə saxlamaq rənginin və dadının yeməyə yayılmasına kömək edir. Bəzi reseptlərdə tellərin yüngülcə əzilməsi tövsiyə olunur. Reseptinizdə göstərilən mayedən və dəmləmə müddətindən istifadə edin, sonra dəmləməni qaydaya uyğun əlavə edin. Bu, hazırlıq mərhələsidir; reseptdə göstəriləndən artıq zəfəran əlavə etmək üçün səbəb deyil."
+      },
+      {
+        "title": "Öz ənənənizi yaradın",
+        "text": "İlk cəhddə digər addımlar tanış və sadə qalsın. Hazırladığınız yeməyi, istifadə etdiyiniz miqdarı və bəyəndiyiniz cəhətləri qeyd edin. Növbəti dəfə bütün resepti deyil, bir detalı dəyişin. Məqsəd istər sakit bir axşam yeməyində, istərsə də paylaşmağa dəyər bir süfrədə öz zövqünüzü tanımaqdır."
+      }
+    ],
+    "sourceTitles": [
+      "McCormick — Zəfəran telləri ilə yemək hazırlamaq"
+    ]
+  },
+  "how-to-store-saffron": {
+    "title": "Zəfəran necə saxlanır?",
+    "category": "SAXLAMA",
+    "imageAlt": "Qızılı qapaqlı, bağlı şüşə zəfəran bankası",
+    "readTime": "2 DƏQİQƏLİK OXU",
+    "description": "Zəfəranı saxlamağın sadə qaydaları: hava keçirməyən qab, işıqdan uzaq yer və gündəlik istifadədə diqqətli davranış.",
+    "deck": "Bir gözəl yeməklə növbəti yemək arasında bir az qayğı.",
+    "lead": "Düzgün saxlama bu təcrübənin sakit tərəfidir. Zəfəranınıza mətbəxdə uyğun bir yer ayırın və hər istifadədən sonra onu həmin yerə qaytarmağı vərdişə çevirin.",
+    "sections": [
+      {
+        "title": "Bankanı bağlayın",
+        "text": "Qurudulmuş zəfəranı işıqdan uzaq, hava keçirməyən qabda saxlayın. Resept üçün lazım olan miqdarı götürdükdən sonra qapağı bağlayın. Bu addımı hazırlıq qaydanızın bir hissəsinə çevirmək, yeməyin digər mərhələləri diqqətinizi çəkərkən bankanın açıq qalmamasına kömək edir."
+      },
+      {
+        "title": "Ona yer ayırın",
+        "text": "Günəş düşən rəf əvəzinə şkaf seçin. Qablaşdırmanı və təchizatçının göstərişlərini birlikdə saxlayın. Aldığınız zəfəran üçün verilən saxlama qaydalarına və tarixlərə əməl edin. Gözəl bir banka pəncərə önündə dayanmasa da, bu təcrübənin bir hissəsi ola bilər."
+      },
+      {
+        "title": "Sadə saxlayın",
+        "text": "Bankanı açmazdan əvvəl təmiz, quru bir alət hazırlayın və yalnız lazım olan miqdarı götürün. Zəfəranı başqa qaba köçürürsünüzsə, orijinal etiketi və tarixi də onunla birlikdə saxlayın. Kiçik, təkrarlana bilən vərdişləri davam etdirmək mürəkkəb saxlama qaydalarından daha asandır."
+      }
+    ],
+    "sourceTitles": [
+      "Royal Horticultural Society — Zəfəranın qurudulması və saxlanması"
+    ]
+  }
+}

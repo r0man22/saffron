@@ -5,20 +5,24 @@ import { AnimatedMark } from "./animated-mark";
 import { SoundToggle } from "./sound-toggle";
 import { ButtonInner } from "./button";
 import { SplitTitle, plainTitle } from "./motion";
+import { useLocale } from "./locale-provider";
+import { localeHref } from "../../lib/i18n";
 
 const DURATION = 25.708333;
-const chapters = [
-  { start: 0, name: "The beginning", label: "SAFFRON BY ROFRAN", title: ["NATURE’S", "FINEST TREASURE"], body: "A story that begins with a flower.", className: "scene-intro" },
-  { start: 2.4, name: "The flower", label: "01 / THE FLOWER", title: ["It begins with", "a *flower.*"], body: "Come a little closer to something extraordinary.", className: "scene-flower" },
-  { start: 5.4, name: "The essence", label: "02 / THE ESSENCE", title: ["A closer kind", "of *wonder.*"], body: "", className: "scene-detail" },
-  { start: 7.8, name: "The threads", label: "03 / THE CRIMSON THREAD", title: ["A story in", "every *thread.*"], body: "", className: "scene-threads" },
-  { start: 12.7, name: "The journey", label: "04 / THE JOURNEY", title: ["From bloom", "to your *table.*"], body: "", className: "scene-jar" },
-  { start: 18.3, name: "The saffron", label: "05 / ROFRAN SAFFRON", title: ["A little.", "*Remarkable.*"], body: "Colour. Aroma. A moment to savour.", className: "scene-product" },
-  { start: 23.3, name: "Precious by nature", label: "", title: ["ROFRAN"], letters: true, body: "Precious by nature.", className: "scene-finale" },
+const chapterSpecs = [
+  { start: 0, className: "scene-intro" },
+  { start: 2.4, className: "scene-flower" },
+  { start: 5.4, className: "scene-detail" },
+  { start: 7.8, className: "scene-threads" },
+  { start: 12.7, className: "scene-jar" },
+  { start: 18.3, className: "scene-product" },
+  { start: 23.3, className: "scene-finale", letters: true },
 ];
 const clamp = (n: number) => Math.min(1, Math.max(0, n));
 
 export function ScrollStory() {
+  const { locale, t } = useLocale();
+  const chapters = chapterSpecs.map((spec, index) => ({ ...spec, ...t.story.chapters[index] }));
   const stage = useRef<HTMLElement>(null);
   const video = useRef<HTMLVideoElement>(null);
   const idleVideo = useRef<HTMLVideoElement>(null);
@@ -184,9 +188,9 @@ export function ScrollStory() {
     const destination = index === 0 ? top : top + Math.max(0, section.offsetHeight - window.innerHeight) * (index === chapters.length - 1 ? 1 : (chapters[index].start + 0.35) / DURATION);
     window.scrollTo({ top: destination, behavior: reducedMotion ? "instant" : "smooth" });
   }
-  return <section id="story" ref={stage} className={`scroll-story ${reducedMotion || failed ? "story-static" : ""}`} aria-label="The ROFRAN saffron story">
+  return <section id="story" ref={stage} className={`scroll-story ${reducedMotion || failed ? "story-static" : ""}`} aria-label={t.story.aria}>
     <div className={`story-viewport chapter-${active}`}>
-      <img className="story-poster" src="/media/valley.webp" alt="Purple saffron flowers in a mountain valley at sunset" fetchPriority="high" width="1920" height="1080" />
+      <img className="story-poster" src="/media/valley.webp" alt={t.images.valley} fetchPriority="high" width="1920" height="1080" />
       <video ref={video} className={`story-video ${ready && !reducedMotion && !failed ? "is-ready" : ""}`} muted playsInline preload="auto" aria-hidden="true" disablePictureInPicture />
       <video ref={idleVideo} className={`story-idle-video ${idleVisible && !reducedMotion && !failed ? "is-active" : ""}`} muted loop playsInline preload="none" aria-hidden="true" disablePictureInPicture />
       <video ref={finaleVideo} className={`story-idle-video story-finale-video ${finaleVisible && !reducedMotion && !failed ? "is-active" : ""}`} muted loop playsInline preload="none" aria-hidden="true" disablePictureInPicture />
@@ -195,15 +199,15 @@ export function ScrollStory() {
         {index === 6 && <AnimatedMark className="finale-mark" play={active === 6} />}{chapter.label && <p className="eyebrow">{chapter.label}</p>}
         {index === 0 ? <h1 aria-label={plainTitle(chapter.title)}><SplitTitle lines={chapter.title} /></h1> : <h2 aria-label={plainTitle(chapter.title)}><SplitTitle lines={chapter.title} letters={chapter.letters} /></h2>}
         {chapter.body && <p className="scene-description">{chapter.body}</p>}
-        {index === 0 && <>{reducedMotion || failed ? <Link className="button button-outline" href="/saffron"><ButtonInner>Discover our saffron</ButtonInner></Link> : <button className="button button-outline" onClick={() => playback.current.start()}><ButtonInner>Discover the story</ButtonInner></button>}</>}
-        {index === 5 && <Link className="button button-outline" href="/saffron"><ButtonInner>Explore saffron</ButtonInner></Link>}
-        {index === 6 && <Link className="button button-gold" href="/saffron"><ButtonInner>Discover our saffron</ButtonInner></Link>}
+        {index === 0 && <>{reducedMotion || failed ? <Link className="button button-outline" href={localeHref(locale, "/saffron")}><ButtonInner>{t.actions.discoverSaffron}</ButtonInner></Link> : <button className="button button-outline" onClick={() => playback.current.start()}><ButtonInner>{t.actions.discoverStory}</ButtonInner></button>}</>}
+        {index === 5 && <Link className="button button-outline" href={localeHref(locale, "/saffron")}><ButtonInner>{t.actions.exploreSaffron}</ButtonInner></Link>}
+        {index === 6 && <Link className="button button-gold" href={localeHref(locale, "/saffron")}><ButtonInner>{t.actions.discoverSaffron}</ButtonInner></Link>}
       </div>)}
-      {!reducedMotion && !failed && <nav className="chapter-rail" aria-label="Story chapters"><div className="rail-track"><span style={{ transform: `scaleY(${time / DURATION})` }} /></div>{chapters.map((chapter, index) => <button key={chapter.name} className={index === active ? "is-active" : ""} onClick={() => goTo(index)} aria-label={`Chapter ${index + 1}: ${chapter.name}`} aria-current={index === active ? "step" : undefined}><span className="rail-dot" /><span className="rail-number">0{index + 1}</span><span className="rail-tooltip">{chapter.name}</span></button>)}</nav>}
-      <div className="story-bottom"><span className="bottom-caption">A SMALL THREAD. AN EXTRAORDINARY STORY.</span><a className="scroll-cue" href="#saffron" onClick={e => { if (!reducedMotion && !failed && active === 0) { e.preventDefault(); goTo(1); } }}><span>{active === 6 ? "CONTINUE EXPLORING" : "SCROLL TO DISCOVER"}</span><svg viewBox="0 0 14 28" aria-hidden="true"><path d="M7 0v26m-5-6 5 6 5-6" fill="none" stroke="currentColor" /></svg></a><div className="bottom-right"><SoundToggle story={stage} /><span className="bottom-index">0{active + 1}<i />07</span></div></div>
-      {playing && <button className="story-pause" onClick={() => playback.current.stop()} aria-label="Pause the story">Pause story</button>}
-      {!ready && !idleVisible && !failed && !reducedMotion && <div className="film-loader" role="status"><span />Preparing your journey</div>}
-      {failed && <p className="video-fallback">The film is unavailable. Explore our saffron below.</p>}
+      {!reducedMotion && !failed && <nav className="chapter-rail" aria-label={t.story.chaptersLabel}><div className="rail-track"><span style={{ transform: `scaleY(${time / DURATION})` }} /></div>{chapters.map((chapter, index) => <button key={chapter.name} className={index === active ? "is-active" : ""} onClick={() => goTo(index)} aria-label={`${t.story.chapter} ${index + 1}: ${chapter.name}`} aria-current={index === active ? "step" : undefined}><span className="rail-dot" /><span className="rail-number">0{index + 1}</span><span className="rail-tooltip">{chapter.name}</span></button>)}</nav>}
+      <div className="story-bottom"><span className="bottom-caption">{t.story.bottom}</span><a className="scroll-cue" href="#saffron" onClick={e => { if (!reducedMotion && !failed && active === 0) { e.preventDefault(); goTo(1); } }}><span>{active === 6 ? t.story.continue : t.story.scroll}</span><svg viewBox="0 0 14 28" aria-hidden="true"><path d="M7 0v26m-5-6 5 6 5-6" fill="none" stroke="currentColor" /></svg></a><div className="bottom-right"><SoundToggle story={stage} /><span className="bottom-index">0{active + 1}<i />07</span></div></div>
+      {playing && <button className="story-pause" onClick={() => playback.current.stop()} aria-label={t.story.pause}>{t.story.pause}</button>}
+      {!ready && !idleVisible && !failed && !reducedMotion && <div className="film-loader" role="status"><span />{t.story.preparing}</div>}
+      {failed && <p className="video-fallback">{t.story.unavailable}</p>}
     </div>
   </section>;
 }

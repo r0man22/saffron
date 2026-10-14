@@ -4,6 +4,9 @@ import { usePathname } from "next/navigation";
 import { createContext, useContext, useEffect, useRef, useState, useSyncExternalStore } from "react";
 import { BagIcon, FlowerMark, RofranMark } from "./icons";
 import { ButtonInner, LinkArrow, RollText } from "./button";
+import { useLocale } from "./locale-provider";
+import { LanguageSwitcher } from "./language-switcher";
+import { localeHref, withoutLocale } from "../../lib/i18n";
 
 const BagContext = createContext({ count: 0, add: () => {}, open: () => {} });
 const BAG_KEY = "rofran-bag";
@@ -25,12 +28,14 @@ function subscribeBag(listener: () => void) {
 }
 export const useBag = () => useContext(BagContext);
 export function SiteShell({ children, footer }: { children: React.ReactNode; footer: React.ReactNode }) {
+  const { locale, t } = useLocale();
   const count = useSyncExternalStore(subscribeBag, readBag, () => 0);
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [hidden, setHidden] = useState(false);
   const dialog = useRef<HTMLDialogElement>(null);
   const path = usePathname();
+  const localPath = withoutLocale(path);
   useEffect(() => {
     let last = window.scrollY;
     const scroll = () => {
@@ -80,22 +85,22 @@ export function SiteShell({ children, footer }: { children: React.ReactNode; foo
   const open = () => { setMenuOpen(false); dialog.current?.showModal(); };
   const close = () => dialog.current?.close();
   return <BagContext.Provider value={{ count, open, add: () => { update(count + 1); open(); } }}>
-    <a href="#main-content" className="skip-link">Skip to content</a>
-    <header className={`site-header ${scrolled || path !== "/" ? "header-solid" : ""} ${hidden && !menuOpen ? "header-hidden" : ""}`}>
-      <Link className="brand" href="/" aria-label="ROFRAN home" onClick={() => setMenuOpen(false)}><RofranMark /><span className="gold-glint" data-glint="ROFRAN">ROFRAN</span></Link>
-      <nav className={menuOpen ? "navigation is-open" : "navigation"} aria-label="Main navigation">
-        <Link href="/#story" onClick={() => setMenuOpen(false)}><RollText>Our story</RollText></Link>
-        <Link href="/saffron" aria-current={path === "/saffron" ? "page" : undefined} onClick={() => setMenuOpen(false)}><RollText>Saffron</RollText></Link>
-        <Link href="/journal" aria-current={path.startsWith("/journal") ? "page" : undefined} onClick={() => setMenuOpen(false)}><RollText>Journal</RollText></Link>
+    <a href="#main-content" className="skip-link">{t.nav.skip}</a>
+    <header className={`site-header ${scrolled || localPath !== "/" ? "header-solid" : ""} ${hidden && !menuOpen ? "header-hidden" : ""}`}>
+      <Link className="brand" href={localeHref(locale, "/")} aria-label={t.nav.homeLabel} onClick={() => setMenuOpen(false)}><RofranMark /><span className="gold-glint" data-glint="ROFRAN">ROFRAN</span></Link>
+      <nav className={menuOpen ? "navigation is-open" : "navigation"} aria-label={t.nav.main}>
+        <Link href={localeHref(locale, "/#story")} onClick={() => setMenuOpen(false)}><RollText>{t.nav.story}</RollText></Link>
+        <Link href={localeHref(locale, "/saffron")} aria-current={localPath === "/saffron" ? "page" : undefined} onClick={() => setMenuOpen(false)}><RollText>{t.nav.saffron}</RollText></Link>
+        <Link href={localeHref(locale, "/journal")} aria-current={localPath.startsWith("/journal") ? "page" : undefined} onClick={() => setMenuOpen(false)}><RollText>{t.nav.journal}</RollText></Link>
       </nav>
-      <div className="header-actions"><button className="bag-button" aria-label={`Open bag, ${count} ${count === 1 ? "item" : "items"}`} onClick={open}><BagIcon /><span aria-live="polite">{count}</span></button><button className={`menu-button ${menuOpen ? "is-open" : ""}`} aria-label={menuOpen ? "Close menu" : "Open menu"} aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}><span /><span /></button></div>
+      <div className="header-actions"><LanguageSwitcher /><button className="bag-button" aria-label={`${t.nav.openBag}: ${count}`} onClick={open}><BagIcon /><span aria-live="polite">{count}</span></button><button className={`menu-button ${menuOpen ? "is-open" : ""}`} aria-label={menuOpen ? t.nav.closeMenu : t.nav.openMenu} aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}><span /><span /></button></div>
     </header>
     {children}
     {footer}
     <dialog className="bag-dialog" ref={dialog} onClick={e => { if (e.target === dialog.current) close(); }}>
-      <div className="bag-panel"><div className="bag-heading"><p className="eyebrow">YOUR SELECTION</p><button onClick={close} aria-label="Close bag" className="close-button">×</button></div><h2>Your bag<sup>{count}</sup></h2>
-        {count ? <><div className="bag-item"><img src="/media/product.webp" alt="ROFRAN saffron jar" width="120" height="150"/><div><h3>ROFRAN saffron</h3><p>Saffron threads</p><div className="quantity"><button aria-label="Decrease quantity" onClick={() => update(count - 1)}>−</button><output aria-label="Quantity">{count}</output><button aria-label="Increase quantity" onClick={() => update(count + 1)} disabled={count >= 20}>+</button></div><button className="remove-item" onClick={() => update(0)}>Remove</button></div></div><div className="bag-checkout"><p>Your selection is saved. Online checkout is not available yet.</p><button className="button button-gold" disabled><ButtonInner icon={false}>Checkout unavailable</ButtonInner></button></div></> : <div className="bag-empty"><FlowerMark /><p>A little treasure<br />belongs here.</p><Link className="button button-gold" href="/saffron" onClick={close}><ButtonInner>Discover our saffron</ButtonInner></Link></div>}
-        <button className="text-link bag-continue" onClick={close}>Continue exploring <LinkArrow /></button>
+      <div className="bag-panel"><div className="bag-heading"><p className="eyebrow">{t.bag.selection}</p><button onClick={close} aria-label={t.bag.close} className="close-button">×</button></div><h2>{t.bag.title}<sup>{count}</sup></h2>
+        {count ? <><div className="bag-item"><img src="/media/product.webp" alt={t.images.jar} width="120" height="150"/><div><h3>{t.bag.product}</h3><p>{t.bag.threads}</p><div className="quantity"><button aria-label={t.bag.decrease} onClick={() => update(count - 1)}>−</button><output aria-label={t.bag.quantity}>{count}</output><button aria-label={t.bag.increase} onClick={() => update(count + 1)} disabled={count >= 20}>+</button></div><button className="remove-item" onClick={() => update(0)}>{t.bag.remove}</button></div></div><div className="bag-checkout"><p>{t.bag.saved}</p><button className="button button-gold" disabled><ButtonInner icon={false}>{t.bag.unavailable}</ButtonInner></button></div></> : <div className="bag-empty"><FlowerMark /><p>{t.bag.empty[0]}<br />{t.bag.empty[1]}</p><Link className="button button-gold" href={localeHref(locale, "/saffron")} onClick={close}><ButtonInner>{t.actions.discoverSaffron}</ButtonInner></Link></div>}
+        <button className="text-link bag-continue" onClick={close}>{t.actions.continue} <LinkArrow /></button>
       </div>
     </dialog>
   </BagContext.Provider>;

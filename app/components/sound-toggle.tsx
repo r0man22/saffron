@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { createAmbience, type Ambience } from "./ambient-sound";
+import { useLocale } from "./locale-provider";
 
 const KEY = "rofran-sound";
 const clamp = (n: number) => Math.min(1, Math.max(0, n));
@@ -14,6 +15,7 @@ function switchSound(ambience: React.RefObject<Ambience | null>, setOn: (on: boo
 // Field ambience for the story. Off by default; a remembered "on" resumes with the visitor's first tap or key
 // press, because browsers only start audio after a gesture.
 export function SoundToggle({ story }: { story: React.RefObject<HTMLElement | null> }) {
+  const { t } = useLocale();
   const [on, setOn] = useState(false);
   const ambience = useRef<Ambience | null>(null);
 
@@ -57,8 +59,8 @@ export function SoundToggle({ story }: { story: React.RefObject<HTMLElement | nu
 
   useEffect(() => () => { ambience.current?.close(); ambience.current = null; }, []);
 
-  return <button type="button" className={`sound-toggle ${on ? "is-on" : ""}`} aria-pressed={on} aria-label={on ? "Turn the field sound off" : "Turn the field sound on"}
+  return <button type="button" className={`sound-toggle ${on ? "is-on" : ""}`} aria-pressed={on} aria-label={on ? t.story.soundDisable : t.story.soundEnable}
     onPointerDown={event => event.stopPropagation()} onClick={() => switchSound(ambience, setOn, !on)}>
-    <span className="sound-bars" aria-hidden="true"><i /><i /><i /><i /></span><span className="sound-label">{on ? "SOUND ON" : "SOUND OFF"}</span>
+    <span className="sound-bars" aria-hidden="true"><i /><i /><i /><i /></span><span className="sound-label">{on ? t.story.soundOn : t.story.soundOff}</span>
   </button>;
 }

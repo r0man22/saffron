@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "story": "Hekayəmiz",
+    "saffron": "Zəfəran",
+    "journal": "Bələdçi",
+    "main": "Əsas naviqasiya",
+    "home": "Ana səhifə",
+    "homeLabel": "ROFRAN ana səhifə",
+    "skip": "Məzmuna keç",
+    "openMenu": "Menyunu aç",
+    "closeMenu": "Menyunu bağla",
+    "language": "Dil",
+    "openBag": "Səbəti aç",
+    "items": "məhsul"
+  },
+  "actions": {
+    "discoverStory": "Hekayəni kəşf et",
+    "discoverSaffron": "Zəfəranımızı kəşf et",
+    "exploreSaffron": "Zəfəranla tanış ol",
+    "exploreJournal": "Bələdçiyə bax",
+    "continue": "Kəşfə davam et",
+    "add": "Səbətə əlavə et"
+  },
+  "bag": {
+    "selection": "SEÇİMİNİZ",
+    "title": "Səbətiniz",
+    "close": "Səbəti bağla",
+    "product": "ROFRAN zəfəranı",
+    "threads": "Zəfəran telləri",
+    "decrease": "Miqdarı azalt",
+    "increase": "Miqdarı artır",
+    "quantity": "Miqdar",
+    "remove": "Sil",
+    "saved": "Seçiminiz yadda saxlanılıb. Onlayn sifarişin rəsmiləşdirilməsi hələ aktiv deyil.",
+    "unavailable": "Sifariş hələ aktiv deyil",
+    "empty": [
+      "Kiçik bir xəzinə",
+      "burada sizi gözləyir."
+    ]
+  },
+  "story": {
+    "aria": "ROFRAN zəfəranının hekayəsi",
+    "bottom": "KİÇİK BİR TEL. QEYRİ-ADİ BİR HEKAYƏ.",
+    "scroll": "KƏŞF ETMƏK ÜÇÜN AŞAĞI SÜRÜŞDÜRÜN",
+    "continue": "KƏŞFƏ DAVAM EDİN",
+    "pause": "Hekayəni dayandır",
+    "preparing": "Hekayə hazırlanır",
+    "unavailable": "Video hazırda əlçatan deyil. Aşağıda zəfəranımızla tanış olun.",
+    "chaptersLabel": "Hekayənin bölmələri",
+    "chapter": "Bölmə",
+    "soundOn": "SƏS AÇIQDIR",
+    "soundOff": "SƏS BAĞLIDIR",
+    "soundEnable": "Təbiət səslərini aç",
+    "soundDisable": "Təbiət səslərini bağla",
+    "chapters": [
+      {
+        "name": "Başlanğıc",
+        "label": "ROFRAN ZƏFƏRANI",
+        "title": [
+          "TƏBİƏTİN",
+          "ƏN ZƏRİF XƏZİNƏSİ"
+        ],
+        "body": "Bir çiçəklə başlayan hekayə."
+      },
+      {
+        "name": "Çiçək",
+        "label": "01 / ÇİÇƏK",
+        "title": [
+          "Hər şey bir",
+          "*çiçəklə başlayır.*"
+        ],
+        "body": "Qeyri-adi bir gözəlliyə bir az da yaxınlaşın."
+      },
+      {
+        "name": "Mahiyyət",
+        "label": "02 / MAHİYYƏT",
+        "title": [
+          "Gözəllik",
+          "*incəlikdə gizlidir.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Tellər",
+        "label": "03 / QIRMIZI TELLƏR",
+        "title": [
+          "Hər teldə",
+          "bir *hekayə.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Yolçuluq",
+        "label": "04 / YOLÇULUQ",
+        "title": [
+          "Çiçəkdən",
+          "*süfrənizə.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Zəfəran",
+        "label": "05 / ROFRAN ZƏFƏRANI",
+        "title": [
+          "Az miqdarda.",
+          "*Böyük fərq.*"
+        ],
+        "body": "Rəng. Ətir. Dadını çıxaracağınız bir an."
+      },
+      {
+        "name": "Təbiətdən gələn dəyər",
+        "label": "",
+        "title": [
+          "ROFRAN"
+        ],
+        "body": "Təbiətdən gələn dəyər."
+      }
+    ]
+  },
+  "home": {
+    "collection": "ZƏFƏRAN KOLLEKSİYASI",
+    "eyebrow": "ROFRAN ZƏFƏRANI",
+    "productTitle": [
+      "Hekayəni",
+      "*süfrənizə gətirin.*"
+    ],
+    "description": "Kiçik bir tel. Qızılı bir rəng. Bənzərsiz bir ətir. Gündəlik anlarınıza yeni bir məna qatın.",
+    "footnote": "QEYRİ-ADİ BİR DÜNYAYA YAXINDAN BAXIŞ",
+    "journalEyebrow": "DAHA ÇOX BİLİK, DAHA ZƏNGİN TƏCRÜBƏ",
+    "journalTitle": "Zəfəran bələdçisi"
+  },
+  "footer": {
+    "taglinePrefix": "Təbiətdən gələn ",
+    "taglineEm": "dəyər.",
+    "explore": "KƏŞF EDİN",
+    "journal": "BƏLƏDÇİ",
+    "aria": "Səhifənin alt naviqasiyası",
+    "bottom": "Kiçik bir tel. Qeyri-adi bir hekayə.",
+    "top": "Yuxarı qayıt ↑"
+  },
+  "product": {
+    "collection": "ROFRAN KOLLEKSİYASI",
+    "title": [
+      "Az miqdarda.",
+      "*Böyük fərq.*"
+    ],
+    "subtitle": "ROFRAN zəfəran telləri",
+    "description": "Dadını tələsmədən çıxardığınız yeməklər üçün. Özünüzə məxsus kiçik ənənələr üçün. Zəfəranın rəngini və ətrini tel-tel kəşf edin.",
+    "note": "Kolleksiya ilə tanış olun. Onlayn sifarişin rəsmiləşdirilməsi hələ aktiv deyil.",
+    "facts": [
+      {
+        "title": "Zəfəran haqqında",
+        "text": "Zəfəran Crocus sativus çiçəyinin qurudulmuş qırmızı dişicik ağızcıqlarından əldə edilir. Mətbəxdə həm rəngi, həm də ətri ilə seçilir: az miqdarda istifadə edilən, bir qədər diqqət tələb edən bir ədviyyatdır.",
+        "linkText": ""
+      },
+      {
+        "title": "İlk təcrübəniz",
+        "text": "Zəfəranlı bir resept seçin və hazırlanma qaydasına əməl edin. Telləri ilıq mayedə dəmləmək adətən ilk addımlardan biridir.",
+        "linkText": "Zəfərandan istifadə bələdçisini oxuyun."
+      },
+      {
+        "title": "Bir az qayğı",
+        "text": "Zəfəranı işıqdan uzaq, hava keçirməyən qabda saxlayın və qablaşdırmadakı saxlama qaydalarına əməl edin.",
+        "linkText": "Saxlama bələdçisi ilə tanış olun."
+      }
+    ],
+    "editorialEyebrow": "İLK TELDƏN ƏVVƏL",
+    "editorialTitle": [
+      "Hər şey bir",
+      "*çiçəklə başlayır.*"
+    ],
+    "editorialText": "Crocus sativus çiçəyinə və qeyri-adi bir ədviyyatın zərif başlanğıcına yaxından baxın.",
+    "editorialLink": "Zəfəranı yaxından tanıyın",
+    "relatedTitle": "Daha zəngin bir təcrübə",
+    "gallery": "Məhsul şəkilləri",
+    "view": "Göstər"
+  },
+  "journal": {
+    "eyebrow": "ROFRAN-DAN QEYDLƏR",
+    "title": [
+      "Zəfəran",
+      "*bələdçisi.*"
+    ],
+    "description": "Bir az bilik təcrübəni zənginləşdirir. Çiçəklə tanış olun, ilk reseptinizi seçin və hər telə layiq olduğu diqqəti göstərin.",
+    "guides": "Zəfəran haqqında bələdçilər",
+    "toc": "BU MƏQALƏDƏ",
+    "tocLabel": "Məqalənin məzmunu",
+    "sources": "ƏLAVƏ OXU"
+  },
+  "images": {
+    "valley": "Gün batarkən dağ vadisində bənövşəyi zəfəran çiçəkləri",
+    "product": "Gün batımında bənövşəyi çiçəyin yanında şüşə bankada zəfəran telləri",
+    "flower": "Açılmaqda olan zəfəran çiçəyi",
+    "jar": "ROFRAN zəfəran bankası",
+    "gallery": [
+      "Qızılı qapaqlı şəffaf şüşə bankada zəfəran",
+      "Qırmızı zəfəran tellərinə yaxından baxış",
+      "Gün batımında tarlada bənövşəyi zəfəran çiçəyi"
+    ]
+  },
+  "notFound": {
+    "eyebrow": "404 / BAŞQA BİR YOL",
+    "title": [
+      "Gəlin, geri",
+      "*qayıdaq.*"
+    ],
+    "description": "Bu səhifə hekayəmizin bir hissəsi deyil.",
+    "back": "ROFRAN-a qayıt"
+  },
+  "meta": {
+    "homeTitle": "ROFRAN — Təbiətdən gələn dəyər. Zəfəranın hekayəsi.",
+    "homeDescription": "ROFRAN zəfəranını kəşf edin. Çiçəkdən qırmızı telə uzanan hekayəni izləyin, zəfəranın yeməklərdə istifadəsi və saxlanması haqqında bələdçimizi oxuyun.",
+    "brandTitle": "ROFRAN — Təbiətdən gələn dəyər",
+    "brandDescription": "Kiçik bir tel. Qeyri-adi bir hekayə. ROFRAN zəfəranını kəşf edin.",
+    "saffronTitle": "Zəfəran telləri",
+    "saffronDescription": "ROFRAN zəfəran telləri ilə tanış olun. Zəfəranın rəngini, ətrini və gündəlik yeməklərinizə qatdığı fərqi kəşf edin.",
+    "journalTitle": "Zəfəran bələdçisi",
+    "journalDescription": "Zəfəranı yaxından tanıyın: hansı çiçəkdən əldə edilir, yeməklərdə necə istifadə olunur və mətbəxdə necə saxlanır.",
+    "socialAlt": "Gün batımında zəfəran tarlasında ROFRAN zəfəranı"
+  }
+}
