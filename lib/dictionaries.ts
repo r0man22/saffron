@@ -1,7 +1,13 @@
 import en from "./locales/en.json";
 import az from "./locales/az.json";
 import ru from "./locales/ru.json";
+import tr from "./locales/tr.json";
+import kk from "./locales/kk.json";
+import uz from "./locales/uz.json";
+import ky from "./locales/ky.json";
+import tg from "./locales/tg.json";
+import { resolveProductText } from "./product-settings";
 import type { Locale } from "./i18n";
 export type Dictionary = typeof en;
-const dictionaries: Record<Locale, Dictionary> = { en, az, ru };
+const dictionaries: Record<Locale, Dictionary> = resolveProductText({ en, az, ru, tr, kk, uz, ky, tg });
 export const getDictionary = (locale: Locale) => dictionaries[locale];

@@ -1,4 +1,4 @@
-import type { Locale } from "./i18n";
+import type { OriginalLocale as Locale } from "./regional-content";
 export const editorialUpdated = "2026-10-14";
 /** Only change a date after a substantive revision to that article. */
 export const articleRevisions: Record<string, string> = { "how-to-use-saffron": "2026-10-15" };

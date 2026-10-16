@@ -1,3 +1,4 @@
+import { openGraphLocales } from "../../lib/seo";
 import type { Metadata, Viewport } from "next";
 import { SiteShell } from "./site-shell";
 import { SiteFooter } from "./site-footer";
@@ -14,7 +15,7 @@ export async function rootMetadata(locale: Locale): Promise<Metadata> {
   return { metadataBase: new URL(base), title: { default: t.meta.homeTitle, template: "%s | ROFRAN" }, description: t.meta.homeDescription,
     robots: { index: siteSettings().indexable, follow: true },
     alternates: { canonical: localeHref(locale, "/"), languages: languageAlternates("/") }, icons: { icon: "/favicon.svg" },
-    openGraph: { title: t.meta.brandTitle, description: t.meta.brandDescription, type: "website", locale: { en: "en_US", az: "az_AZ", ru: "ru_RU" }[locale], siteName: "ROFRAN", images: [{ url: "/media/social.jpg", width: 1200, height: 630, alt: t.meta.socialAlt }] },
+    openGraph: { title: t.meta.brandTitle, description: t.meta.brandDescription, type: "website", locale: openGraphLocales[locale], siteName: "ROFRAN", images: [{ url: "/media/social.jpg", width: 1200, height: 630, alt: t.meta.socialAlt }] },
     twitter: { card: "summary_large_image", title: t.meta.brandTitle, description: t.meta.brandDescription, images: ["/media/social.jpg"] } };
 }
 export function RootDocument({ locale, children }: { locale: Locale; children: React.ReactNode }) {

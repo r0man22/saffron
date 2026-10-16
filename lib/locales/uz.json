@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "story": "Hikoyamiz",
+    "saffron": "Za’faron",
+    "journal": "Qo‘llanma",
+    "main": "Asosiy menyu",
+    "home": "Bosh sahifa",
+    "homeLabel": "ROFRAN bosh sahifasi",
+    "skip": "Mazmunga o‘tish",
+    "openMenu": "Menyuni ochish",
+    "closeMenu": "Menyuni yopish",
+    "language": "Til",
+    "openBag": "Savatni ochish",
+    "items": "mahsulot"
+  },
+  "actions": {
+    "discoverStory": "Hikoya bilan tanishing",
+    "discoverSaffron": "Za’faronimizni kashf eting",
+    "exploreSaffron": "Za’faronni taning",
+    "exploreJournal": "Qo‘llanmani o‘qing",
+    "continue": "O‘rganishda davom eting",
+    "add": "Savatga qo‘shish"
+  },
+  "bag": {
+    "selection": "TANLOVINGIZ",
+    "title": "Savatingiz",
+    "close": "Savatni yopish",
+    "product": "ROFRAN za’faroni",
+    "threads": "Za’faron tolalari",
+    "decrease": "Miqdorni kamaytirish",
+    "increase": "Miqdorni oshirish",
+    "quantity": "Miqdor",
+    "remove": "Olib tashlash",
+    "saved": "Tanlovingiz saqlandi. Onlayn to‘lov hozircha mavjud emas.",
+    "unavailable": "Buyurtma hali ochilmagan",
+    "empty": [
+      "Kichik bir xazina",
+      "sizni shu yerda kutmoqda."
+    ]
+  },
+  "home": {
+    "collection": "ZA’FARON TO‘PLAMI",
+    "eyebrow": "ROFRAN ZA’FARONI",
+    "productTitle": [
+      "Hikoya",
+      "*dasturxoningizda davom etsin.*"
+    ],
+    "description": "Nozik tola, oltin tus va o‘ziga xos hid. Za’faronni kundalik taomlaringizda kashf eting.",
+    "footnote": "ZA’FARONGA YAQINROQ NAZAR",
+    "journalEyebrow": "BILIM BILAN BOYIGAN TA’M",
+    "journalTitle": "Za’faron qo‘llanmasi"
+  },
+  "footer": {
+    "taglinePrefix": "Tabiatning ",
+    "taglineEm": "qimmatli in’omi.",
+    "explore": "KASHF ETING",
+    "journal": "QO‘LLANMA",
+    "aria": "Quyi menyu",
+    "bottom": "Nozik tola. O‘zgacha hikoya.",
+    "top": "Yuqoriga ↑"
+  },
+  "journal": {
+    "eyebrow": "ROFRAN QAYDLARI",
+    "title": [
+      "Za’faron",
+      "*qo‘llanmasi.*"
+    ],
+    "description": "Za’faron nima, qanday damlanadi va qanday saqlanadi? Oshxonangiz uchun tushunarli tavsiyalar.",
+    "guides": "Za’faron bo‘yicha qo‘llanmalar",
+    "toc": "USHBU MAQOLADA",
+    "tocLabel": "Maqola mazmuni",
+    "sources": "MANBALAR"
+  },
+  "images": {
+    "valley": "Quyosh botayotganda tog‘ vodiysidagi binafsha za’faron gullari",
+    "product": "Binafsha gul yonida shisha idishdagi za’faron tolalari",
+    "flower": "Ochilib kelayotgan za’faron guli",
+    "jar": "ROFRAN za’faron idishi",
+    "gallery": [
+      "Oltin qopqoqli shaffof idishdagi za’faron",
+      "Qizil za’faron tolalarining yaqin tasviri",
+      "Quyosh botayotgandagi binafsha za’faron guli"
+    ]
+  },
+  "notFound": {
+    "eyebrow": "404 / BOSHQA YO‘L",
+    "title": [
+      "Keling,",
+      "*orqaga qaytamiz.*"
+    ],
+    "description": "Bu sahifa hikoyamizning bir qismi emas.",
+    "back": "ROFRAN’ga qaytish"
+  },
+  "meta": {
+    "homeTitle": "ROFRAN Za’faroni — Tolalar va Foydalanish Qo‘llanmasi",
+    "homeDescription": "ROFRAN za’faroni bilan tanishing. Eng kam buyurtma {minimum} gramm. Za’faronni tanlash, damlash va saqlash haqida qo‘llanmalar.",
+    "brandTitle": "ROFRAN — Tabiatning qimmatli in’omi",
+    "brandDescription": "Nozik tola. O‘zgacha hikoya. ROFRAN za’faronini kashf eting.",
+    "saffronTitle": "Za’faron Tolalari — Eng Kam Buyurtma {minimum} Gramm",
+    "saffronDescription": "ROFRAN za’faron tolalari: eng kam buyurtma {minimum} gramm. Foydalanish va saqlash haqida ma’lumot. Onlayn savdo hali ochilmagan.",
+    "journalTitle": "Za’faron qo‘llanmasi",
+    "journalDescription": "Za’faronni qanday tanlash, taomlarda ishlatish va saqlash kerak? ROFRAN qo‘llanmalarini o‘qing.",
+    "socialAlt": "Quyosh botayotgan za’faron dalasidagi ROFRAN"
+  },
+  "story": {
+    "aria": "ROFRAN za’faroni hikoyasi",
+    "bottom": "NOZIK TOLA. O‘ZGACHA HIKOYA.",
+    "scroll": "TANISHISH UCHUN PASTGA SURING",
+    "continue": "O‘RGANISHDA DAVOM ETING",
+    "pause": "Hikoyani to‘xtatib turish",
+    "preparing": "Sayohatingiz tayyorlanmoqda",
+    "unavailable": "Video ochilmadi. Quyida za’faron bilan tanishing.",
+    "chaptersLabel": "Hikoya bo‘limlari",
+    "chapter": "Bo‘lim",
+    "soundOn": "OVOZ YOQILGAN",
+    "soundOff": "OVOZ O‘CHIRILGAN",
+    "soundEnable": "Dala ovozini yoqish",
+    "soundDisable": "Dala ovozini o‘chirish",
+    "chapters": [
+      {
+        "name": "Boshlanish",
+        "label": "ROFRAN ZA’FARONI",
+        "title": [
+          "TABIATNING",
+          "NOZIK XAZINASI"
+        ],
+        "body": "Guldan boshlangan hikoya."
+      },
+      {
+        "name": "Gul",
+        "label": "01 / GUL",
+        "title": [
+          "Barchasi bir",
+          "*guldan boshlanadi.*"
+        ],
+        "body": "Bu nozik olamga yaqinroq nazar soling."
+      },
+      {
+        "name": "Mohiyat",
+        "label": "02 / MOHIYAT",
+        "title": [
+          "Nafosatda",
+          "*yashiringan.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Tolalar",
+        "label": "03 / QIZIL TOLALAR",
+        "title": [
+          "Har tolada",
+          "bir *hikoya.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Sayohat",
+        "label": "04 / SAYOHAT",
+        "title": [
+          "Guldan",
+          "*dasturxoningizga.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Za’faron",
+        "label": "05 / ROFRAN ZA’FARONI",
+        "title": [
+          "Ozgina.",
+          "*Ta’siri o‘zgacha.*"
+        ],
+        "body": "Rang. Xushbo‘y hid. Ta’midan bahra olish."
+      },
+      {
+        "name": "Tabiat in’omi",
+        "label": "",
+        "title": [
+          "ROFRAN"
+        ],
+        "body": "Tabiatning qimmatli in’omi."
+      }
+    ]
+  },
+  "product": {
+    "collection": "ROFRAN ZA’FARONI",
+    "title": [
+      "ROFRAN",
+      "*Za’faron tolalari.*"
+    ],
+    "subtitle": "ROFRAN za’faron tolalari",
+    "description": "Guruchli taomlardan shirinliklargacha za’faron rang va xushbo‘y hid beradi. Tolalarni retseptga muvofiq o‘lchab, tayyorlang.",
+    "note": "Mahsulot bilan tanishing. Onlayn to‘lov hali ochilmagan.",
+    "facts": [
+      {
+        "title": "Za’faron nima?",
+        "text": "Za’faron — Crocus sativus gulining quritilgan qizil tumshuqchalaridan olinadigan ziravor. Taomga ham rang, ham xushbo‘y hid beradi.",
+        "linkText": ""
+      },
+      {
+        "title": "Qanday ishlatiladi?",
+        "text": "Za’faronli retsept tanlang. Unda ko‘rsatilgan miqdorni o‘lchab, mos suyuqlikda damlang.",
+        "linkText": "Foydalanish qo‘llanmasini o‘qing."
+      },
+      {
+        "title": "Qanday saqlanadi?",
+        "text": "Yorug‘likdan uzoqda, havo o‘tkazmaydigan yopiq idishda saqlang. Quruq va toza qoshiq ishlating.",
+        "linkText": "Saqlash qo‘llanmasini o‘qing."
+      }
+    ],
+    "editorialEyebrow": "ILK TOLADAN AVVAL",
+    "editorialTitle": [
+      "Barchasi",
+      "*guldan boshlanadi.*"
+    ],
+    "editorialText": "Crocus sativus guli va o‘ziga xos ziravorning kelib chiqishi bilan tanishing.",
+    "editorialLink": "Za’faronni yaxshiroq taning",
+    "relatedTitle": "Oshxona uchun foydali bilim",
+    "gallery": "Mahsulot tasvirlari",
+    "view": "Ko‘rish"
+  }
+}

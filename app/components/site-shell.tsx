@@ -5,6 +5,7 @@ import { createContext, useContext, useEffect, useRef, useState, useSyncExternal
 import { BagIcon, FlowerMark, RofranMark } from "./icons";
 import { ButtonInner, LinkArrow, RollText } from "./button";
 import { useLocale } from "./locale-provider";
+import { productCopy } from "../../lib/product-copy";
 import { LanguageSwitcher } from "./language-switcher";
 import { localeHref, withoutLocale } from "../../lib/i18n";
 
@@ -92,7 +93,7 @@ export function SiteShell({ children, footer }: { children: React.ReactNode; foo
         <Link href={localeHref(locale, "/#story")} onClick={() => setMenuOpen(false)}><RollText>{t.nav.story}</RollText></Link>
         <Link href={localeHref(locale, "/saffron")} aria-current={localPath === "/saffron" ? "page" : undefined} onClick={() => setMenuOpen(false)}><RollText>{t.nav.saffron}</RollText></Link>
         <Link href={localeHref(locale, "/journal")} aria-current={localPath.startsWith("/journal") ? "page" : undefined} onClick={() => setMenuOpen(false)}><RollText>{t.nav.journal}</RollText></Link>
-        <Link href={localeHref(locale, "/faq")} aria-current={localPath === "/faq" ? "page" : undefined} onClick={() => setMenuOpen(false)}><RollText>{locale === "az" ? "Suallar" : locale === "ru" ? "Вопросы" : "FAQ"}</RollText></Link>
+        <Link href={localeHref(locale, "/faq")} aria-current={localPath === "/faq" ? "page" : undefined} onClick={() => setMenuOpen(false)}><RollText>{productCopy(locale).faqNav}</RollText></Link>
       </nav>
       <div className="header-actions"><LanguageSwitcher /><button className="bag-button" aria-label={`${t.nav.openBag}: ${count}`} onClick={open}><BagIcon /><span aria-live="polite">{count}</span></button><button className={`menu-button ${menuOpen ? "is-open" : ""}`} aria-label={menuOpen ? t.nav.closeMenu : t.nav.openMenu} aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}><span /><span /></button></div>
     </header>
@@ -100,7 +101,7 @@ export function SiteShell({ children, footer }: { children: React.ReactNode; foo
     {footer}
     <dialog className="bag-dialog" ref={dialog} onClick={e => { if (e.target === dialog.current) close(); }}>
       <div className="bag-panel"><div className="bag-heading"><p className="eyebrow">{t.bag.selection}</p><button onClick={close} aria-label={t.bag.close} className="close-button">×</button></div><h2>{t.bag.title}<sup>{count}</sup></h2>
-        {count ? <><div className="bag-item"><img src="/media/product.webp" alt={t.images.jar} width="120" height="150"/><div><h3>{t.bag.product}</h3><p>{t.bag.threads}</p><div className="quantity"><button aria-label={t.bag.decrease} onClick={() => update(count - 1)}>−</button><output aria-label={t.bag.quantity}>{count}</output><button aria-label={t.bag.increase} onClick={() => update(count + 1)} disabled={count >= 20}>+</button></div><button className="remove-item" onClick={() => update(0)}>{t.bag.remove}</button></div></div><div className="bag-checkout"><p>{t.bag.saved}</p><button className="button button-gold" disabled><ButtonInner icon={false}>{t.bag.unavailable}</ButtonInner></button></div></> : <div className="bag-empty"><FlowerMark /><p>{t.bag.empty[0]}<br />{t.bag.empty[1]}</p><Link className="button button-gold" href={localeHref(locale, "/saffron")} onClick={close}><ButtonInner>{t.actions.discoverSaffron}</ButtonInner></Link></div>}
+        {count ? <><div className="bag-item"><img src="/media/product.webp" alt={t.images.jar} width="120" height="150"/><div><h3>{t.bag.product}</h3><p>{t.bag.threads}</p><p>{productCopy(locale).minimumNote}</p><div className="quantity"><button aria-label={t.bag.decrease} onClick={() => update(count - 1)}>−</button><output aria-label={t.bag.quantity}>{count}</output><button aria-label={t.bag.increase} onClick={() => update(count + 1)} disabled={count >= 20}>+</button></div><button className="remove-item" onClick={() => update(0)}>{t.bag.remove}</button></div></div><div className="bag-checkout"><p>{t.bag.saved}</p><button className="button button-gold" disabled><ButtonInner icon={false}>{t.bag.unavailable}</ButtonInner></button></div></> : <div className="bag-empty"><FlowerMark /><p>{t.bag.empty[0]}<br />{t.bag.empty[1]}</p><Link className="button button-gold" href={localeHref(locale, "/saffron")} onClick={close}><ButtonInner>{t.actions.discoverSaffron}</ButtonInner></Link></div>}
         <button className="text-link bag-continue" onClick={close}>{t.actions.continue} <LinkArrow /></button>
       </div>
     </dialog>

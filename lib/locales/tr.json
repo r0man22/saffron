@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "story": "Hikâyemiz",
+    "saffron": "Safran",
+    "journal": "Rehber",
+    "main": "Ana menü",
+    "home": "Ana sayfa",
+    "homeLabel": "ROFRAN ana sayfa",
+    "skip": "İçeriğe geç",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "language": "Dil",
+    "openBag": "Sepeti aç",
+    "items": "ürün"
+  },
+  "actions": {
+    "discoverStory": "Hikâyeyi keşfet",
+    "discoverSaffron": "Safranımızı keşfet",
+    "exploreSaffron": "Safranı tanı",
+    "exploreJournal": "Rehberi keşfet",
+    "continue": "Keşfetmeye devam et",
+    "add": "Sepete ekle"
+  },
+  "bag": {
+    "selection": "SEÇİMİNİZ",
+    "title": "Sepetiniz",
+    "close": "Sepeti kapat",
+    "product": "ROFRAN safranı",
+    "threads": "Safran telleri",
+    "decrease": "Miktarı azalt",
+    "increase": "Miktarı artır",
+    "quantity": "Miktar",
+    "remove": "Kaldır",
+    "saved": "Seçiminiz kaydedildi. Çevrim içi ödeme henüz açık değil.",
+    "unavailable": "Sipariş henüz açık değil",
+    "empty": [
+      "Küçük bir hazine",
+      "sizi burada bekliyor."
+    ]
+  },
+  "home": {
+    "collection": "SAFRAN KOLEKSİYONU",
+    "eyebrow": "ROFRAN SAFRANI",
+    "productTitle": [
+      "Hikâye",
+      "*sofranızda sürsün.*"
+    ],
+    "description": "Küçük bir tel, altın rengi ve kendine özgü bir koku. Safranı günlük mutfağınızda tanıyın.",
+    "footnote": "SAFRANA DAHA YAKINDAN BAKIN",
+    "journalEyebrow": "BİLGİYLE ZENGİNLEŞEN BİR SOFRA",
+    "journalTitle": "Safran rehberi"
+  },
+  "footer": {
+    "taglinePrefix": "Doğadan gelen ",
+    "taglineEm": "değer.",
+    "explore": "KEŞFEDİN",
+    "journal": "SAFRAN REHBERİ",
+    "aria": "Alt menü",
+    "bottom": "Küçük bir tel. Sıra dışı bir hikâye.",
+    "top": "Başa dön ↑"
+  },
+  "journal": {
+    "eyebrow": "ROFRAN NOTLARI",
+    "title": [
+      "Safran",
+      "*rehberi.*"
+    ],
+    "description": "Safran nedir, nasıl demlenir ve nasıl saklanır? Mutfağınız için açık ve uygulanabilir bilgiler.",
+    "guides": "Safran rehberleri",
+    "toc": "BU YAZIDA",
+    "tocLabel": "Yazı içeriği",
+    "sources": "KAYNAKLAR"
+  },
+  "images": {
+    "valley": "Gün batımında dağ vadisindeki mor safran çiçekleri",
+    "product": "Mor bir çiçeğin yanında cam kavanozda safran telleri",
+    "flower": "Açılmakta olan safran çiçeği",
+    "jar": "ROFRAN safran kavanozu",
+    "gallery": [
+      "Altın kapaklı şeffaf kavanozda safran",
+      "Kırmızı safran tellerinin yakın planı",
+      "Gün batımında mor safran çiçeği"
+    ]
+  },
+  "notFound": {
+    "eyebrow": "404 / BAŞKA BİR YOL",
+    "title": [
+      "Birlikte",
+      "*geri dönelim.*"
+    ],
+    "description": "Bu sayfa hikâyemizin bir parçası değil.",
+    "back": "ROFRAN’a dön"
+  },
+  "meta": {
+    "homeTitle": "ROFRAN Safran — Safran Telleri ve Kullanım Rehberi",
+    "homeDescription": "ROFRAN safran tellerini tanıyın. En az {minimum} gram sipariş, safranın kullanımı, demlenmesi ve saklanması hakkında bilgiler.",
+    "brandTitle": "ROFRAN — Doğadan gelen değer",
+    "brandDescription": "Küçük bir tel. Sıra dışı bir hikâye. ROFRAN safranını keşfedin.",
+    "saffronTitle": "Safran Telleri — En Az {minimum} Gram Sipariş",
+    "saffronDescription": "ROFRAN safran telleri: en az {minimum} gram sipariş. Kullanım, saklama ve ürün seçimi bilgileri. Çevrim içi satış henüz açık değil.",
+    "journalTitle": "Safran rehberi",
+    "journalDescription": "Safran nedir, yemeklerde nasıl kullanılır ve nasıl saklanır? ROFRAN rehberlerini okuyun.",
+    "socialAlt": "Gün batımındaki safran tarlasında ROFRAN"
+  },
+  "story": {
+    "aria": "ROFRAN safranının hikâyesi",
+    "bottom": "KÜÇÜK BİR TEL. SIRA DIŞI BİR HİKÂYE.",
+    "scroll": "KEŞFETMEK İÇİN KAYDIRIN",
+    "continue": "KEŞFETMEYE DEVAM EDİN",
+    "pause": "Hikâyeyi duraklat",
+    "preparing": "Yolculuğunuz hazırlanıyor",
+    "unavailable": "Film şu an açılamıyor. Aşağıdan safranımızı keşfedin.",
+    "chaptersLabel": "Hikâye bölümleri",
+    "chapter": "Bölüm",
+    "soundOn": "SES AÇIK",
+    "soundOff": "SES KAPALI",
+    "soundEnable": "Tarla sesini aç",
+    "soundDisable": "Tarla sesini kapat",
+    "chapters": [
+      {
+        "name": "Başlangıç",
+        "label": "ROFRAN SAFRANI",
+        "title": [
+          "DOĞANIN",
+          "EN İNCE HAZİNESİ"
+        ],
+        "body": "Bir çiçekle başlayan hikâye."
+      },
+      {
+        "name": "Çiçek",
+        "label": "01 / ÇİÇEK",
+        "title": [
+          "Her şey bir",
+          "*çiçekle başlar.*"
+        ],
+        "body": "Bu küçük dünyaya biraz daha yaklaşın."
+      },
+      {
+        "name": "Öz",
+        "label": "02 / ÖZ",
+        "title": [
+          "İnceliğinde",
+          "*saklı.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Teller",
+        "label": "03 / KIRMIZI TELLER",
+        "title": [
+          "Her telde",
+          "bir *hikâye.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Yolculuk",
+        "label": "04 / YOLCULUK",
+        "title": [
+          "Çiçekten",
+          "*sofranıza.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Safran",
+        "label": "05 / ROFRAN SAFRANI",
+        "title": [
+          "Azı bile",
+          "*çok şey anlatır.*"
+        ],
+        "body": "Renk. Koku. Tadına varılacak bir an."
+      },
+      {
+        "name": "Doğadan gelen değer",
+        "label": "",
+        "title": [
+          "ROFRAN"
+        ],
+        "body": "Doğadan gelen değer."
+      }
+    ]
+  },
+  "product": {
+    "collection": "ROFRAN SAFRANI",
+    "title": [
+      "ROFRAN",
+      "*Safran telleri.*"
+    ],
+    "subtitle": "ROFRAN safran telleri",
+    "description": "Pilavdan tatlılara, safranın rengini ve kokusunu mutfağınıza taşıyın. Telleri tarifinize göre ölçün ve hazırlayın.",
+    "note": "Ürünü tanıyın. Çevrim içi ödeme henüz açık değil.",
+    "facts": [
+      {
+        "title": "Safran nedir?",
+        "text": "Safran, Crocus sativus çiçeğinin kurutulmuş kırmızı tepeciklerinden elde edilen baharattır. Yemeklere hem renk hem koku verir.",
+        "linkText": ""
+      },
+      {
+        "title": "Nasıl kullanılır?",
+        "text": "Safran içeren bir tarif seçin. Telleri tarifte belirtilen miktarda ölçüp uygun sıvıda demleyin.",
+        "linkText": "Kullanım rehberini okuyun."
+      },
+      {
+        "title": "Nasıl saklanır?",
+        "text": "Işıktan uzakta, hava geçirmeyen bir kapta saklayın. Kuru ve temiz bir kaşık kullanın.",
+        "linkText": "Saklama rehberini okuyun."
+      }
+    ],
+    "editorialEyebrow": "İLK TELDEN ÖNCE",
+    "editorialTitle": [
+      "Her şey bir",
+      "*çiçekle başlar.*"
+    ],
+    "editorialText": "Crocus sativus çiçeğini ve mutfaktaki bu özel baharatın kökenini tanıyın.",
+    "editorialLink": "Safranı yakından tanıyın",
+    "relatedTitle": "Sofranız için bilgiler",
+    "gallery": "Ürün görselleri",
+    "view": "Görüntüle"
+  }
+}

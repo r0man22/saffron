@@ -1,11 +1,11 @@
 import type { Locale } from "./i18n";
-export const siteLocales = ["en", "az", "ru", "tr", "ar", "de", "fr", "es", "it", "pt", "nl", "pl", "uk", "ka", "fa", "hi", "zh", "ja", "ko", "id"] as const;
+export const siteLocales = ["en", "az", "ru", "tr", "kk", "uz", "ky", "tg", "ar", "de", "fr", "es", "it", "pt", "nl", "pl", "uk", "ka", "fa", "hi", "zh", "ja", "ko", "id"] as const;
 export type SiteLocale = typeof siteLocales[number];
-export const siteLocaleNames: Record<SiteLocale, string> = { en: "English", az: "Azərbaycan", ru: "Русский", tr: "Türkçe", ar: "العربية", de: "Deutsch", fr: "Français", es: "Español", it: "Italiano", pt: "Português", nl: "Nederlands", pl: "Polski", uk: "Українська", ka: "ქართული", fa: "فارسی", hi: "हिन्दी", zh: "中文", ja: "日本語", ko: "한국어", id: "Bahasa Indonesia" };
+export const siteLocaleNames: Record<SiteLocale, string> = { en: "English", az: "Azərbaycan", ru: "Русский", tr: "Türkçe", kk: "Қазақша", uz: "O‘zbekcha", ky: "Кыргызча", tg: "Тоҷикӣ", ar: "العربية", de: "Deutsch", fr: "Français", es: "Español", it: "Italiano", pt: "Português", nl: "Nederlands", pl: "Polski", uk: "Українська", ka: "ქართული", fa: "فارسی", hi: "हिन्दी", zh: "中文", ja: "日本語", ko: "한국어", id: "Bahasa Indonesia" };
 export const isSiteLocale = (value: string): value is SiteLocale => siteLocales.some(locale => locale === value);
 export const isPrimaryLocale = (value: SiteLocale): value is Locale => publishedLocales.some(locale => locale === value);
 /** Activate a locale only after every public route has been translated and reviewed. */
-export const publishedLocales = ["en", "az", "ru"] as const;
+export const publishedLocales = ["en", "az", "ru", "tr", "kk", "uz", "ky", "tg"] as const;
 export const siteHref = (locale: SiteLocale, path: string) => locale === "en" ? path : `/${locale}${path === "/" ? "" : path}`;
 export const coreArticleSlugs = ["what-is-saffron", "how-to-use-saffron", "how-to-store-saffron"];
 export const corePaths = ["/", "/saffron", "/about", "/quality", "/faq", "/journal", ...coreArticleSlugs.map(slug => `/journal/${slug}`)];

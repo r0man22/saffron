@@ -1,0 +1,453 @@
+{
+  "labels": {
+    "explore": "ROFRAN’ı keşfedin",
+    "faq": "Sorular ve cevaplar",
+    "product": "Safranı keşfedin",
+    "journal": "Safran rehberi",
+    "updated": "Güncellendi",
+    "author": "ROFRAN editörleri",
+    "links": "İlgili bilgiler",
+    "back": "Ana sayfa"
+  },
+  "faqCopy": {
+    "title": "Safran hakkında sorular ve cevaplar",
+    "description": "Safran kullanımı, fiyat karşılaştırması, saklama ve en az {minimum} gram sipariş hakkında cevaplar.",
+    "eyebrow": "BİLMEYE DEĞER",
+    "intro": "Safranı seçerken, hazırlarken ve saklarken işinize yarayacak bilgiler.",
+    "all": "Tüm sorular",
+    "saffron": "Safran hakkında",
+    "kitchen": "Mutfakta",
+    "buying": "Seçim ve sipariş",
+    "more": "Rehberi okuyun",
+    "search": "Sorularda arayın",
+    "empty": "Uygun soru bulunamadı. Başka bir kelime deneyin."
+  },
+  "faqs": [
+    {
+      "question": "Safran nedir?",
+      "answer": "Safran, Crocus sativus çiçeğinin kurutulmuş kırmızı tepeciklerinden elde edilen baharattır. Taç yapraklarından ve sarı erkek organlarından farklıdır; yemeklere hem renk hem koku verir.",
+      "category": "saffron",
+      "link": "/journal/what-is-saffron"
+    },
+    {
+      "question": "Safran nasıl kullanılır ve demlenir?",
+      "answer": "Tarifteki safran miktarını ölçün, belirtilen sıvıda demleyin ve hem telleri hem demleme sıvısını yemeğe ekleyin. Miktar ve bekleme süresi hazırladığınız yemeğe bağlıdır.",
+      "category": "kitchen",
+      "link": "/journal/how-to-use-saffron"
+    },
+    {
+      "question": "Safran nasıl saklanır?",
+      "answer": "Safranı hava geçirmeyen kapalı bir kapta, ışıktan uzakta saklayın. Temiz ve kuru bir araçla ölçün; ambalajdaki saklama bilgilerini ve tarihleri koruyun.",
+      "category": "kitchen",
+      "link": "/journal/how-to-store-saffron"
+    },
+    {
+      "question": "Safranın tadı ve kokusu nasıldır?",
+      "answer": "Safranın aroması kendine özgüdür; tadı hafif acımsı, bazen kuru ot veya topraksı notalarla tarif edilir. Yemek ve kullanılan miktar bu algıyı değiştirir.",
+      "category": "saffron",
+      "link": "/journal/what-does-saffron-taste-like"
+    },
+    {
+      "question": "Safran neden pahalıdır, fiyatı nasıl karşılaştırılır?",
+      "answer": "Safran çiçeğin küçük bir kısmından elde edilir ve hazırlanması dikkatli emek ister. Ürünleri yalnızca kavanoz fiyatıyla değil, gram başına fiyat ve sunulan bilgilerle karşılaştırın.",
+      "category": "buying",
+      "link": "/journal/why-is-saffron-expensive"
+    },
+    {
+      "question": "Safran alırken nelere dikkat edilmeli?",
+      "answer": "Net ağırlığı, içeriği, yetiştirildiği yeri, satıcının iletişim bilgilerini ve ilgili ürün belgelerini kontrol edin. Siparişten önce toplam fiyatı ve teslimat koşullarını okuyun.",
+      "category": "buying",
+      "link": "/journal/how-to-buy-saffron"
+    },
+    {
+      "question": "Tel safran mı, toz safran mı?",
+      "answer": "Tel safranda ürünün şeklini görebilirsiniz. Toz kullanımı pratik olabilir, ancak görünüşünden içerik kesin olarak anlaşılmaz. Her iki biçimde de tedarik ve ürün bilgileri önemlidir.",
+      "category": "buying",
+      "link": "/journal/saffron-threads-vs-powder"
+    },
+    {
+      "question": "Minimum sipariş kaç gram?",
+      "answer": "Minimum safran siparişi {minimum} gramdır. Bu sipariş miktarıdır; bir yemek için kullanım miktarı değildir.",
+      "link": "/saffron",
+      "category": "buying"
+    },
+    {
+      "question": "Çevrim içi sipariş verebilir miyim?",
+      "answer": "Çevrim içi ödeme henüz açık değil. Kesin fiyat, ambalaj ve sipariş koşulları satış başlamadan önce ürün sayfasına eklenecek.",
+      "link": "/saffron",
+      "category": "buying"
+    },
+    {
+      "question": "Türkiye’ye ve diğer ülkelere teslimat var mı?",
+      "answer": "Teslimat ülkeleri, ücretleri ve süreleri henüz doğrulanmadı. Türkçe sayfanın bulunması teslimat taahhüdü değildir.",
+      "link": "/shipping",
+      "category": "buying"
+    },
+    {
+      "question": "Safranın yetiştirildiği yer neden önemli?",
+      "answer": "Yetiştirildiği yer ürünün kökenidir; paketleme adresi farklı olabilir. Belirli ürünün bilgisi tedarik belgeleriyle doğrulanmalıdır.",
+      "link": "/quality",
+      "category": "buying"
+    },
+    {
+      "question": "Safran ve zerdeçal aynı mı?",
+      "answer": "Hayır. Safran çiçeğin tepeciklerinden, zerdeçal ise köksaptan elde edilir. Renkleri benzer olsa da aromaları aynı değildir.",
+      "link": "/journal/what-is-saffron",
+      "category": "saffron"
+    },
+    {
+      "question": "Su testi safranın gerçekliğini kanıtlar mı?",
+      "answer": "Tek bir ev testi saflığı kanıtlamaz. Gözlemlerin yanında tedarik bilgisi ve ürünle eşleşen analiz raporu önemlidir.",
+      "link": "/quality",
+      "category": "buying"
+    }
+  ],
+  "resources": {
+    "about": {
+      "title": "ROFRAN hakkında",
+      "description": "ROFRAN, safran tellerine ve onların mutfaktaki kullanımına odaklanan bir markadır. İlk koleksiyonda yalnızca safran bulunur.",
+      "eyebrow": "ROFRAN hakkında",
+      "intro": "ROFRAN, safran tellerine ve onların mutfaktaki kullanımına odaklanan bir markadır. İlk koleksiyonda yalnızca safran bulunur.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Sofranıza odaklanıyoruz",
+          "text": "Safranı seçmeyi, hazırlamayı ve saklamayı anlaşılır bilgilerle kolaylaştırmak istiyoruz. Ürün, rehber ve sorular aynı yolculuğun parçalarıdır."
+        },
+        {
+          "title": "Bilgiler nasıl hazırlanıyor?",
+          "text": "Rehberler ROFRAN için hazırlanır ve kaynak bağlantılarıyla desteklenir. Ürünün kökeni ve belgeleri, yalnızca doğrulandıktan sonra gerçek ürün bilgisi olarak yayımlanır."
+        }
+      ]
+    },
+    "quality": {
+      "title": "Safran seçimi ve kalite bilgileri",
+      "description": "Safranı seçerken içeriği, kökeni, parti bilgisini ve varsa ilgili test raporunu birlikte inceleyin.",
+      "eyebrow": "Safran seçimi ve kalite bilgileri",
+      "intro": "Safranı seçerken içeriği, kökeni, parti bilgisini ve varsa ilgili test raporunu birlikte inceleyin.",
+      "image": "threads",
+      "sections": [
+        {
+          "title": "İzlenebilir bilgi",
+          "text": "Yetiştirildiği yer ile paketlendiği yer farklı olabilir. Belgenin ürün veya partiyle eşleşmesi gerekir."
+        },
+        {
+          "title": "Kanıtın kapsamı",
+          "text": "ISO 3632 bir standarttır; adının yazılması ürünün test edildiğini kanıtlamaz. Doğrulanmış ROFRAN belgeleri sağlandığında burada yayımlanacaktır."
+        }
+      ]
+    },
+    "shipping": {
+      "title": "Teslimat ve sipariş",
+      "description": "Minimum sipariş {minimum} gramdır. Çevrim içi ödeme, teslimat ülkeleri ve ücretleri henüz açıklanmadı.",
+      "eyebrow": "Teslimat ve sipariş",
+      "intro": "Minimum sipariş {minimum} gramdır. Çevrim içi ödeme, teslimat ülkeleri ve ücretleri henüz açıklanmadı.",
+      "image": "product",
+      "sections": [
+        {
+          "title": "Sipariş öncesi",
+          "text": "Satış açıldığında ürün bedeli, kargo, ödeme ve iade koşullarını satın almadan önce inceleyin."
+        },
+        {
+          "title": "Uluslararası teslimat",
+          "text": "Türkçe sayfa Türkiye’ye teslimat taahhüdü değildir. Desteklenen ülkeler ve süreler doğrulandıktan sonra açıklanacaktır."
+        }
+      ],
+      "draft": true
+    },
+    "contact": {
+      "title": "ROFRAN ile iletişim",
+      "description": "Ürün ve sipariş soruları için doğrulanmış ROFRAN iletişim bilgileri burada yer alacaktır.",
+      "eyebrow": "ROFRAN ile iletişim",
+      "intro": "Ürün ve sipariş soruları için doğrulanmış ROFRAN iletişim bilgileri burada yer alacaktır.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Ürün hakkında",
+          "text": "Şimdilik safran rehberlerini ve sık sorulan soruları okuyabilirsiniz."
+        },
+        {
+          "title": "İletişim kanalları",
+          "text": "E-posta, telefon ve şirket bilgileri henüz doğrulanmadı. Bu sayfada bir başvuru formu bulunmuyor."
+        }
+      ],
+      "draft": true
+    },
+    "wholesale": {
+      "title": "Profesyonel mutfaklar için safran",
+      "description": "Restoranlar ve iş ortakları için safran hakkında ön bilgiler. Toptan satış şartları henüz açıklanmadı.",
+      "eyebrow": "Profesyonel mutfaklar için safran",
+      "intro": "Restoranlar ve iş ortakları için safran hakkında ön bilgiler. Toptan satış şartları henüz açıklanmadı.",
+      "image": "threads",
+      "sections": [
+        {
+          "title": "İhtiyacı belirleyin",
+          "text": "Ülke, kullanım amacı, beklenen miktar ve ambalaj ihtiyacı teklif hazırlığında önemlidir."
+        },
+        {
+          "title": "Satış koşulları",
+          "text": "Perakende minimum sipariş {minimum} gramdır; bu miktar toptan satış taahhüdü değildir. Fiyat ve teslimat ayrıca doğrulanmalıdır."
+        }
+      ],
+      "draft": true
+    },
+    "privacy": {
+      "title": "Gizlilik ve tarayıcınız",
+      "description": "Site, sepet seçimini ve ses tercihini tarayıcınızda saklar. Bu açıklama mevcut tanıtım deneyimi içindir.",
+      "eyebrow": "Gizlilik ve tarayıcınız",
+      "intro": "Site, sepet seçimini ve ses tercihini tarayıcınızda saklar. Bu açıklama mevcut tanıtım deneyimi içindir.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Yerel kayıt",
+          "text": "Tarayıcıdaki site verilerini temizleyerek kaydedilen tercihleri silebilirsiniz. Tanıtım sepeti sipariş oluşturmaz."
+        },
+        {
+          "title": "Yayımdan önce",
+          "text": "Şirket, barındırma, ödeme ve analitik bilgilerine göre gizlilik metni tamamlanmalıdır. Bu sayfa gelecekteki hizmetler için tamamlanmış politika değildir."
+        }
+      ],
+      "draft": true
+    }
+  },
+  "articles": [
+    {
+      "slug": "what-is-saffron",
+      "title": "Safran nedir?",
+      "category": "Safran rehberleri",
+      "image": "flower",
+      "imageAlt": "Gün batımında mor safran çiçeği",
+      "readTime": "3 DK OKUMA",
+      "description": "Safran, Crocus sativus çiçeğinin kurutulmuş kırmızı tepeciklerinden elde edilen baharattır. Taç yapraklarından ve sarı erkek organlarından farklıdır; yemeklere hem renk hem koku verir.",
+      "deck": "Safran, Crocus sativus çiçeğinin kurutulmuş kırmızı tepeciklerinden elde edilen baharattır. Taç yapraklarından ve sarı erkek organlarından farklıdır; yemeklere hem renk hem koku verir.",
+      "lead": "Safran, Crocus sativus çiçeğinin kurutulmuş kırmızı tepeciklerinden elde edilen baharattır. Taç yapraklarından ve sarı erkek organlarından farklıdır; yemeklere hem renk hem koku verir.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Çiçekten baharata",
+          "text": "Crocus sativus, sonbaharda çiçek açan bir bitkidir. Baharat olarak değerlendirilen kısmı çiçeğin içindeki kırmızı tepeciklerdir. Toplama ve kurutma aşamaları, çiçek ile mutfakta kullandığımız tel arasındaki bağı oluşturur. Her mor çiçek safran değildir; tanımadığınız bitkileri bu görsele bakarak yemeklerde kullanmayın."
+        },
+        {
+          "id": "detail-2",
+          "title": "Mutfaktaki yeri",
+          "text": "Safran; pilav, risotto, bazı balık yemekleri ve tatlılarda kullanılabilir. Hangi aşamada ekleneceği ve sıvıda demlenip demlenmeyeceği tarife bağlıdır. Onu yalnızca tabağı renklendiren bir süs olarak düşünmeyin: kendine özgü kokusu da yemeğin bir parçasıdır."
+        },
+        {
+          "id": "detail-3",
+          "title": "Ürünle ilgili bilgi",
+          "text": "Bir kavanozu değerlendirirken net ağırlığı, içeriği, yetiştirildiği yeri ve satıcıyı birlikte inceleyin. Markanın bulunduğu ülke, safranın yetiştirildiği ülkeyle aynı olmak zorunda değildir. Çiçeğin genel hikâyesi, belirli ürünün belgelenmiş kökeninin yerine geçmez."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Crocus sativus",
+          "url": "https://www.rhs.org.uk/plants/4929/crocus-sativus/details"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-use-saffron",
+      "title": "Safran nasıl kullanılır ve demlenir?",
+      "category": "Safran rehberleri",
+      "image": "saffron",
+      "imageAlt": "Kırmızı safran tellerinin yakın planı",
+      "readTime": "3 DK OKUMA",
+      "description": "Tarifteki safran miktarını ölçün, belirtilen sıvıda demleyin ve hem telleri hem demleme sıvısını yemeğe ekleyin. Miktar ve bekleme süresi hazırladığınız yemeğe bağlıdır.",
+      "deck": "Tarifteki safran miktarını ölçün, belirtilen sıvıda demleyin ve hem telleri hem demleme sıvısını yemeğe ekleyin. Miktar ve bekleme süresi hazırladığınız yemeğe bağlıdır.",
+      "lead": "Tarifteki safran miktarını ölçün, belirtilen sıvıda demleyin ve hem telleri hem demleme sıvısını yemeğe ekleyin. Miktar ve bekleme süresi hazırladığınız yemeğe bağlıdır.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Miktarı önce belirleyin",
+          "text": "Safran içeren güvenilir bir tarif seçin ve porsiyon sayısına dikkat edin. Bir tutam kişiden kişiye değişir; tarif gram belirtiyorsa küçük miktarları ölçebilen bir terazi kullanın. ROFRAN’ın {minimum} gramlık minimum siparişi bir yemek için kullanım miktarı değildir."
+        },
+        {
+          "id": "detail-2",
+          "title": "Demleme adımları",
+          "text": "Telleri temiz küçük bir kaba alın. Tarif gerektiriyorsa hafifçe ezin. Yemeğe uygun miktarda ılık su veya süt ekleyin ve tarifteki süre boyunca bekletin. Telleri süzüp atmak yerine tarifin yönlendirdiği şekilde hem telleri hem sıvıyı kullanın."
+        },
+        {
+          "id": "detail-3",
+          "title": "Pilavda sıvı hesabı",
+          "text": "Demleme suyunu pilavın toplam sıvısına dahil edin; ölçüyü değiştirmeden fazladan su eklemek kıvamı etkileyebilir. İlk anda renk açık görünüyor diye safran miktarını artırmayın. Sonuç için kullanılan miktarı ve tarifi not etmek sonraki pişirmeyi kolaylaştırır."
+        }
+      ],
+      "sources": [
+        {
+          "title": "McCormick — Saffron",
+          "url": "https://www.mccormickforchefs.co.uk/en-gb/recipe-ideas/flavour-ingredients/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-store-saffron",
+      "title": "Safran nasıl saklanır?",
+      "category": "Safran rehberleri",
+      "image": "product",
+      "imageAlt": "Altın kapaklı şeffaf kavanozda safran",
+      "readTime": "3 DK OKUMA",
+      "description": "Safranı hava geçirmeyen kapalı bir kapta, ışıktan uzakta saklayın. Temiz ve kuru bir araçla ölçün; ambalajdaki saklama bilgilerini ve tarihleri koruyun.",
+      "deck": "Safranı hava geçirmeyen kapalı bir kapta, ışıktan uzakta saklayın. Temiz ve kuru bir araçla ölçün; ambalajdaki saklama bilgilerini ve tarihleri koruyun.",
+      "lead": "Safranı hava geçirmeyen kapalı bir kapta, ışıktan uzakta saklayın. Temiz ve kuru bir araçla ölçün; ambalajdaki saklama bilgilerini ve tarihleri koruyun.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Işık ve hava",
+          "text": "Kavanozu güneş alan bir pencere önünde sergilemek yerine kapalı bir dolapta tutun. Gereken miktarı aldıktan sonra kapağı hemen kapatın. Güzel bir ambalaj, ürünün sürekli ışık altında tutulması gerektiği anlamına gelmez."
+        },
+        {
+          "id": "detail-2",
+          "title": "Kuru kullanım",
+          "text": "Ölçmeden önce temiz ve kuru bir kaşık hazırlayın. Islak kaşığı kavanoza sokmayın ve yemek buharının içine dolmasını önleyin. Saklama alışkanlığını basit tutmak, her kullanımda aynı özeni göstermeyi kolaylaştırır."
+        },
+        {
+          "id": "detail-3",
+          "title": "Etiketi koruyun",
+          "text": "Başka bir kaba aktarırsanız orijinal etiket, parti bilgisi ve tarihi yeni kapla birlikte saklayın. Ürün için belirtilen talimatları izleyin. Tüm safranlar için ambalajdan bağımsız, kesin bir raf ömrü vermek doğru olmaz."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Saffron",
+          "url": "https://www.rhs.org.uk/herbs/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "what-does-saffron-taste-like",
+      "title": "Safranın tadı ve kokusu nasıldır?",
+      "category": "Safran rehberleri",
+      "image": "threads",
+      "imageAlt": "Kırmızı safran tellerinin yakın planı",
+      "readTime": "3 DK OKUMA",
+      "description": "Safranın aroması kendine özgüdür; tadı hafif acımsı, bazen kuru ot veya topraksı notalarla tarif edilir. Yemek ve kullanılan miktar bu algıyı değiştirir.",
+      "deck": "Safranın aroması kendine özgüdür; tadı hafif acımsı, bazen kuru ot veya topraksı notalarla tarif edilir. Yemek ve kullanılan miktar bu algıyı değiştirir.",
+      "lead": "Safranın aroması kendine özgüdür; tadı hafif acımsı, bazen kuru ot veya topraksı notalarla tarif edilir. Yemek ve kullanılan miktar bu algıyı değiştirir.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Renk tek başına yeterli değil",
+          "text": "Safran yemeğe renk verir, ancak onu zerdeçal gibi başka bir sarı renk veren malzemeyle değiştirdiğinizde aroma aynı kalmaz. İlk denemede tanıdığınız bir tarif kullanarak farkı daha rahat gözlemleyebilirsiniz."
+        },
+        {
+          "id": "detail-2",
+          "title": "Dengeli miktar",
+          "text": "Daha fazla safran her zaman daha iyi sonuç vermez. Fazlası acılığı belirginleştirebilir ve diğer tatların önüne geçebilir. Tarifteki miktarla başlayın, bitmiş yemeği değerlendirin ve sonraki denemede yalnızca bir değişkeni değiştirin."
+        },
+        {
+          "id": "detail-3",
+          "title": "Koku bir saflık belgesi değildir",
+          "text": "Kokuyu ve tel görünümünü gözlemlemek faydalıdır; ancak bunlar tek başına saflığı veya belirli bir kalite sınıfını kanıtlamaz. Ürünün kimliği, tedarik bilgisi ve varsa o partiye ait analiz sonucu birlikte değerlendirilmelidir."
+        }
+      ],
+      "sources": [
+        {
+          "title": "McCormick — Saffron",
+          "url": "https://www.mccormickforchefs.co.uk/en-gb/recipe-ideas/flavour-ingredients/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "why-is-saffron-expensive",
+      "title": "Safran neden pahalıdır, fiyatı nasıl karşılaştırılır?",
+      "category": "Safran rehberleri",
+      "image": "flower",
+      "imageAlt": "Gün batımında mor safran çiçeği",
+      "readTime": "3 DK OKUMA",
+      "description": "Safran çiçeğin küçük bir kısmından elde edilir ve hazırlanması dikkatli emek ister. Ürünleri yalnızca kavanoz fiyatıyla değil, gram başına fiyat ve sunulan bilgilerle karşılaştırın.",
+      "deck": "Safran çiçeğin küçük bir kısmından elde edilir ve hazırlanması dikkatli emek ister. Ürünleri yalnızca kavanoz fiyatıyla değil, gram başına fiyat ve sunulan bilgilerle karşılaştırın.",
+      "lead": "Safran çiçeğin küçük bir kısmından elde edilir ve hazırlanması dikkatli emek ister. Ürünleri yalnızca kavanoz fiyatıyla değil, gram başına fiyat ve sunulan bilgilerle karşılaştırın.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Fiyatı etkileyenler",
+          "text": "Yetiştirme, toplama, kurutma, paketleme ve tedarik koşulları fiyatı etkileyebilir. Pahalı bir etiket tek başına yüksek kaliteyi kanıtlamaz. Ürünün belgelerini ve gerçek net ağırlığını incelemek, genel sıfatlardan daha işe yarar."
+        },
+        {
+          "id": "detail-2",
+          "title": "Gram başına hesap",
+          "text": "Ürün bedelini net gram miktarına bölün. Aynı para birimindeki ürünleri karşılaştırın ve kargo bedelini ayrıca dikkate alın. {minimum} gramlık sipariş fiyatı açıklandığında bu hesabı ürün sayfasında da görebilmelisiniz; mevcut ROFRAN fiyatı henüz açıklanmadı."
+        },
+        {
+          "id": "detail-3",
+          "title": "Aynı ürünü karşılaştırın",
+          "text": "Tel safran, öğütülmüş ürün ve karışım aynı şey değildir. İçerik, ağırlık, köken ve belgeler karşılaştırılabilir olmalı. Piyasadaki tek bir örnekten evrensel fiyat veya otomatik kalite sıralaması çıkarmayın."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Saffron",
+          "url": "https://www.rhs.org.uk/herbs/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-buy-saffron",
+      "title": "Safran alırken nelere dikkat edilmeli?",
+      "category": "Safran rehberleri",
+      "image": "product",
+      "imageAlt": "Altın kapaklı şeffaf kavanozda safran",
+      "readTime": "3 DK OKUMA",
+      "description": "Net ağırlığı, içeriği, yetiştirildiği yeri, satıcının iletişim bilgilerini ve ilgili ürün belgelerini kontrol edin. Siparişten önce toplam fiyatı ve teslimat koşullarını okuyun.",
+      "deck": "Net ağırlığı, içeriği, yetiştirildiği yeri, satıcının iletişim bilgilerini ve ilgili ürün belgelerini kontrol edin. Siparişten önce toplam fiyatı ve teslimat koşullarını okuyun.",
+      "lead": "Net ağırlığı, içeriği, yetiştirildiği yeri, satıcının iletişim bilgilerini ve ilgili ürün belgelerini kontrol edin. Siparişten önce toplam fiyatı ve teslimat koşullarını okuyun.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Önce ürünün kimliği",
+          "text": "Ürünün tel mi, toz mu, karışım mı olduğunu öğrenin. Net ağırlık ambalaj dahil ağırlıkla karıştırılmamalıdır. Köken, hasat veya parti bilgisi mevcutsa hangi ürüne ait olduğunu kontrol edin. Temsili tarla görüntüleri gerçek üretim kanıtı sayılmaz."
+        },
+        {
+          "id": "detail-2",
+          "title": "Belgeyi doğru okuyun",
+          "text": "Analiz sunuluyorsa laboratuvarı, örnek veya parti numarasını, tarihi ve test kapsamını inceleyin. ISO 3632 adı tek başına ürünün analiz edildiğini göstermez. Tek bir su testi, saflığı veya ürünün bütün niteliklerini kanıtlamaz."
+        },
+        {
+          "id": "detail-3",
+          "title": "Sipariş koşulları",
+          "text": "Minimum siparişi, ürün bedelini, kargoyu ve destek kanalını kontrol edin. ROFRAN’da minimum sipariş {minimum} gramdır. Çevrim içi satış henüz açık değildir; dil seçeneği o ülkeye teslimat yapıldığı anlamına gelmez."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ISO 3632-2 — Saffron test methods",
+          "url": "https://www.iso.org/standard/44526.html"
+        }
+      ]
+    },
+    {
+      "slug": "saffron-threads-vs-powder",
+      "title": "Tel safran mı, toz safran mı?",
+      "category": "Safran rehberleri",
+      "image": "threads",
+      "imageAlt": "Kırmızı safran tellerinin yakın planı",
+      "readTime": "3 DK OKUMA",
+      "description": "Tel safranda ürünün şeklini görebilirsiniz. Toz kullanımı pratik olabilir, ancak görünüşünden içerik kesin olarak anlaşılmaz. Her iki biçimde de tedarik ve ürün bilgileri önemlidir.",
+      "deck": "Tel safranda ürünün şeklini görebilirsiniz. Toz kullanımı pratik olabilir, ancak görünüşünden içerik kesin olarak anlaşılmaz. Her iki biçimde de tedarik ve ürün bilgileri önemlidir.",
+      "lead": "Tel safranda ürünün şeklini görebilirsiniz. Toz kullanımı pratik olabilir, ancak görünüşünden içerik kesin olarak anlaşılmaz. Her iki biçimde de tedarik ve ürün bilgileri önemlidir.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Telin sağladığı görünürlük",
+          "text": "Bütün telleri gözlemleyebilir ve tarif gerektiriyorsa kullanmadan hemen önce hafifçe ezebilirsiniz. Bu, ürünü tanımayı kolaylaştırır; ancak yalnızca şekil veya renk üzerinden saflık garantisi verilemez."
+        },
+        {
+          "id": "detail-2",
+          "title": "Tozu değerlendirirken",
+          "text": "Öğütülmüş safranı bir baharat karışımıyla karıştırmayın. Etiketteki içeriği ve net ağırlığı okuyun; tedarikçiden ilgili belgeleri isteyin. Tozun kolay karışması kullanım avantajıdır, doğrulanmış içerik bilgisinin yerini tutmaz."
+        },
+        {
+          "id": "detail-3",
+          "title": "ROFRAN’ın odağı",
+          "text": "Bu ilk koleksiyonda yalnızca safran telleri yer alır; minimum sipariş {minimum} gramdır. Toz, çay veya başka ürünler şu anda sunulmuyor. Bu karşılaştırma, piyasadaki biçimleri anlamanıza yardımcı olan bir rehberdir."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ISO 3632-2 — Saffron test methods",
+          "url": "https://www.iso.org/standard/44526.html"
+        }
+      ]
+    }
+  ]
+}

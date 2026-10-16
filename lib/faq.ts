@@ -1,11 +1,13 @@
 import type { Locale } from "./i18n";
+import { regionalContent, type OriginalLocale } from "./regional-content";
+import { productCopy } from "./product-copy";
 export type FAQ = { question: string; answer: string; category: "saffron" | "kitchen" | "buying"; link?: string };
-export const faqCopy = {
+const originalFaqCopy = {
   en: { title: "Saffron questions, answered", description: "Straightforward answers about saffron threads, flavour, cooking, storage and what to check before buying. Explore the ROFRAN saffron guide.", eyebrow: "A LITTLE KNOWLEDGE", intro: "From the first thread to the last spoonful. Find the details that make choosing and using saffron easier.", all: "All questions", saffron: "The saffron", kitchen: "In the kitchen", buying: "Choosing & ordering", more: "Read the guide", search: "Search questions", empty: "No matching questions. Try another word or view all questions." },
   az: { title: "Zəfəran haqqında suallar və cavablar", description: "Zəfəranın dadı, istifadəsi, dəmlənməsi, saxlanması və alınarkən diqqət edilməli məqamlar haqqında aydın cavablar. ROFRAN bələdçisini kəşf edin.", eyebrow: "BİLMƏYƏ DƏYƏR", intro: "İlk teldən süfrəyə qədər. Zəfəranı seçməyi və mətbəxdə istifadə etməyi asanlaşdıran cavablar burada.", all: "Bütün suallar", saffron: "Zəfəran haqqında", kitchen: "Mətbəxdə", buying: "Seçim və sifariş", more: "Bələdçini oxuyun", search: "Suallarda axtarın", empty: "Uyğun sual tapılmadı. Başqa söz sınayın və ya bütün suallara baxın." },
   ru: { title: "Вопросы и ответы о шафране", description: "Понятные ответы о вкусе шафрана, приготовлении настоя, хранении и выборе перед покупкой. Познакомьтесь с шафраном вместе с ROFRAN.", eyebrow: "ПОЛЕЗНО ЗНАТЬ", intro: "От первой нити до готового блюда. Всё, что помогает выбрать шафран и найти ему место на вашей кухне.", all: "Все вопросы", saffron: "О шафране", kitchen: "На кухне", buying: "Выбор и заказ", more: "Читать руководство", search: "Поиск по вопросам", empty: "Подходящих вопросов нет. Попробуйте другое слово или откройте все вопросы." },
 };
-export const faqs: Record<Locale, FAQ[]> = {
+const originalFaqs: Record<OriginalLocale, FAQ[]> = {
   en: [
     { category: "saffron", question: "What is saffron?", answer: "Saffron is the spice made from the dried red stigmas of Crocus sativus. The spice is the red part of the flower, rather than its petals or yellow stamens. It brings both aroma and colour to food.", link: "/journal/what-is-saffron" },
     { category: "saffron", question: "What does saffron taste like?", answer: "Its flavour is aromatic and gently bitter, often described as earthy or hay-like. The impression changes with the dish and the amount used. More threads do not necessarily make a better dish: too much can let bitterness dominate.", link: "/journal/what-does-saffron-taste-like" },
@@ -49,3 +51,12 @@ export const faqs: Record<Locale, FAQ[]> = {
     { category: "buying", question: "Отправляет ли ROFRAN заказы за границу?", answer: "Страны международной доставки, стоимость и ориентировочные сроки ещё не объявлены. Перед планированием заказа проверьте подтверждённые сведения на странице доставки.", link: "/shipping" },
   ],
 };
+
+export const faqCopy = { ...originalFaqCopy, tr: regionalContent.tr.faqCopy, kk: regionalContent.kk.faqCopy, uz: regionalContent.uz.faqCopy, ky: regionalContent.ky.faqCopy, tg: regionalContent.tg.faqCopy };
+export const faqs: Record<Locale, FAQ[]> = {
+  ...Object.fromEntries((['en', 'az', 'ru'] as const).map(locale => {
+    const c = productCopy(locale);
+    return [locale, [...originalFaqs[locale], { category: 'buying', question: c.minimumQuestion, answer: c.minimumAnswer, link: '/saffron' }]];
+  })),
+  ...Object.fromEntries(Object.entries(regionalContent).map(([locale, c]) => [locale, c.faqs])),
+} as Record<Locale, FAQ[]>;

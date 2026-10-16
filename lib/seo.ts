@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { localeHref, languageAlternates, type Locale } from "./i18n";
-export const openGraphLocales = { en: "en_US", az: "az_AZ", ru: "ru_RU" };
+export const openGraphLocales = { en: "en_US", az: "az_AZ", ru: "ru_RU", tr: "tr_TR", kk: "kk_KZ", uz: "uz_UZ", ky: "ky_KG", tg: "tg_TJ" };
 export function contentMetadata(locale: Locale, path: string, title: string, description: string, image = "/media/social.jpg"): Metadata {
   return { title, description,
     alternates: { canonical: localeHref(locale, path), languages: languageAlternates(path) },

@@ -1,8 +1,9 @@
+import { regionalContent, type OriginalLocale } from "./regional-content";
 import type { Locale } from "./i18n";
 export const resourceSlugs = ["about", "quality", "shipping", "contact", "wholesale", "privacy"] as const;
 export type ResourceSlug = typeof resourceSlugs[number];
 export type ResourcePage = { title: string; description: string; eyebrow: string; intro: string; image: string; sections: { title: string; text: string }[]; draft?: boolean };
-export const resourceCopy: Record<Locale, Record<ResourceSlug, ResourcePage>> = {
+const originalResourceCopy: Record<OriginalLocale, Record<ResourceSlug, ResourcePage>> = {
   en: {
     about: { title: "A closer look at ROFRAN", description: "Meet ROFRAN, a saffron brand shaped around considered cooking, clear product information and the small details of a shared table.", eyebrow: "THE ROFRAN STORY", intro: "A small ingredient can change the way we approach a meal. ROFRAN begins with that idea: give saffron the attention it deserves, from the first question to the finished dish.", image: "flower", sections: [
       { title: "A place at your table", text: "Our world centres on saffron and the ways it becomes part of everyday cooking. The collection and journal bring the ingredient into focus: what it is, how to prepare it and what to ask before choosing it. A beautiful presentation should be accompanied by useful information." },
@@ -100,8 +101,11 @@ export const resourceCopy: Record<Locale, Record<ResourceSlug, ResourcePage>> = 
     ] },
   },
 };
-export const resourceLabels = {
+const originalResourceLabels = {
   en: { explore: "Explore ROFRAN", faq: "Questions & answers", product: "Discover the saffron", journal: "The journal", updated: "Updated", author: "ROFRAN editorial", links: "Further reading", back: "Home" },
   az: { explore: "ROFRAN-ı kəşf edin", faq: "Suallar və cavablar", product: "Zəfəranı kəşf edin", journal: "Bələdçi", updated: "Yenilənib", author: "ROFRAN redaksiyası", links: "Əlavə oxu", back: "Ana səhifə" },
   ru: { explore: "Откройте ROFRAN", faq: "Вопросы и ответы", product: "Познакомьтесь с шафраном", journal: "Журнал", updated: "Обновлено", author: "Редакция ROFRAN", links: "Читайте также", back: "Главная" },
 };
+
+export const resourceCopy: Record<Locale, Record<ResourceSlug, ResourcePage>> = { ...originalResourceCopy, ...Object.fromEntries(Object.entries(regionalContent).map(([locale, c]) => [locale, c.resources])) } as Record<Locale, Record<ResourceSlug, ResourcePage>>;
+export const resourceLabels = { ...originalResourceLabels, tr: regionalContent.tr.labels, kk: regionalContent.kk.labels, uz: regionalContent.uz.labels, ky: regionalContent.ky.labels, tg: regionalContent.tg.labels };

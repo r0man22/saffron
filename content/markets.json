@@ -1,0 +1,70 @@
+[
+  {
+    "country": "AZ",
+    "name": "Azərbaycan",
+    "languages": [
+      "az",
+      "ru"
+    ],
+    "priority": 1,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": "TR",
+    "name": "Türkiyə",
+    "languages": [
+      "tr"
+    ],
+    "priority": 1,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": "KZ",
+    "name": "Qazaxıstan",
+    "languages": [
+      "kk",
+      "ru"
+    ],
+    "priority": 2,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": "UZ",
+    "name": "Özbəkistan",
+    "languages": [
+      "uz",
+      "ru"
+    ],
+    "priority": 2,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": "KG",
+    "name": "Qırğızıstan",
+    "languages": [
+      "ky",
+      "ru"
+    ],
+    "priority": 2,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": "TJ",
+    "name": "Tacikistan",
+    "languages": [
+      "tg",
+      "ru"
+    ],
+    "priority": 2,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": null,
+    "name": "Beynəlxalq ingilisdilli auditoriya",
+    "languages": [
+      "en"
+    ],
+    "priority": 2,
+    "deliveryConfirmed": false
+  }
+]

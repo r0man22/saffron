@@ -86,3 +86,13 @@
 html:not([lang="en"]) .scene-copy:not(.scene-finale) h2{font-size:clamp(44px,5.1vw,84px)}
 html[lang="ru"] .home-product-copy h2{font-size:clamp(44px,4.7vw,78px)}
 @media(max-width:760px){.site-header{gap:12px}.header-actions{gap:8px}.site-header .brand{gap:8px;font-size:21px;letter-spacing:.14em}.site-header .brand svg{width:28px;height:34px}.language-picker summary{padding:10px 4px;gap:4px}.language-options{right:-80px;min-width:185px}html:not([lang="en"]) .scene-copy:not(.scene-finale) h2{font-size:clamp(34px,10vw,50px)}html:not([lang="en"]) .scene-intro h1{font-size:clamp(32px,9.2vw,48px)}.scroll-cue>span{max-width:190px;line-height:1.6;text-align:center}html:not([lang="en"]) .scene-intro .eyebrow{letter-spacing:.18em}html[lang="ru"] .scene-description{font-size:18px}}
+
+/* Product order information stays visible without opening an accordion. */
+.product-order-card{border:1px solid var(--line);padding:22px 24px;margin:0 0 24px;background:linear-gradient(115deg,#e5d4a40b,transparent)}
+.product-order-card>div{display:flex;align-items:baseline;justify-content:space-between;gap:20px}.product-order-card span{font-size:12px;color:var(--muted)}.product-order-card strong{font:400 clamp(28px,3vw,39px)/1.1 var(--serif);color:var(--gold);white-space:nowrap}.product-order-card p{font-size:12px;line-height:1.7;color:var(--muted);margin-top:12px}
+.product-origin-preview{border-left:1px solid var(--line);padding-left:16px;margin-bottom:28px}.product-origin-preview span{font-size:10px;line-height:1.7;color:var(--muted)}.product-origin-preview p{font:23px var(--serif);margin-top:8px}
+.product-questions{padding:80px var(--gutter);display:grid;grid-template-columns:1fr 1.5fr;gap:8vw;border-top:1px solid var(--line)}.product-questions h2{font:clamp(35px,4vw,58px)/1.1 var(--serif);margin:20px 0 28px}.product-questions .faq-list summary{font-size:clamp(24px,2.1vw,31px)}
+.language-options{max-height:min(520px,70dvh);overflow-y:auto;overscroll-behavior:contain}.product-detail-copy h1{overflow-wrap:anywhere}
+@media(max-width:760px){.product-questions{grid-template-columns:1fr;gap:22px;padding:42px var(--gutter)}.product-order-card{padding:20px}.product-order-card>div{align-items:flex-start;flex-wrap:wrap;gap:12px}.product-detail-copy h1{font-size:clamp(46px,12vw,65px)}}
+
+html[lang="kk"],html[lang="ky"],html[lang="tg"]{--sans:"Noto Sans",sans-serif}

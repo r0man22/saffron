@@ -1,0 +1,22 @@
+{
+  "minimumOrderGrams": 5,
+  "netWeightGrams": null,
+  "price": null,
+  "currency": "AZN",
+  "originConfirmed": false,
+  "originCountryCode": "AZ",
+  "originRegion": "Absheron",
+  "originLabels": {
+    "en": "Azerbaijan, Absheron",
+    "az": "Azərbaycan, Abşeron",
+    "ru": "Азербайджан, Абшерон",
+    "tr": "Azerbaycan, Abşeron",
+    "kk": "Әзербайжан, Абшерон",
+    "uz": "Ozarbayjon, Absheron",
+    "ky": "Азербайжан, Абшерон",
+    "tg": "Озарбойҷон, Абшерон"
+  },
+  "harvest": "",
+  "shippingCountries": [],
+  "salesEnabled": false
+}

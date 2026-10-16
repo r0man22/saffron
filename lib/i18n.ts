@@ -1,10 +1,11 @@
-import { publishedLocales } from "./international";
+import { publishedLocales, siteLocaleNames } from "./international";
 export const locales = publishedLocales;
 export type Locale = typeof locales[number];
-export const localeNames: Record<Locale, string> = { en: "English", az: "Azərbaycan", ru: "Русский" };
+export const localeNames: Record<Locale, string> = Object.fromEntries(locales.map(locale => [locale, siteLocaleNames[locale]])) as Record<Locale, string>;
 export const isLocale = (value: string): value is Locale => locales.some(locale => locale === value);
 export function withoutLocale(pathname: string) {
-  return pathname.replace(/^\/(az|ru)(?=\/|$)/, "") || "/";
+  const first = pathname.split("/")[1];
+  return isLocale(first) && first !== "en" ? pathname.slice(first.length + 1) || "/" : pathname;
 }
 export function localeHref(locale: Locale, href: string) {
   if (!href.startsWith("/") || href.startsWith("//")) return href;

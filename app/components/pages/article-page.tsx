@@ -1,3 +1,4 @@
+import { openGraphLocales } from "../../../lib/seo";
 import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -9,6 +10,7 @@ import { siteUrl } from "../../../lib/site-url";
 import { JournalCards } from "../journal-cards";
 import { Lines } from "../motion";
 import { BreadcrumbSchema, StructuredData } from "../structured-data";
+import { isRegionalLocale, regionalDate } from "../../../lib/regional-content";
 import { articleRevisions, editorial, editorialUpdated } from "../../../lib/editorial";
 import { resourceLabels } from "../../../lib/page-content";
 export function articleMetadata(locale: Locale, slug: string): Metadata {
@@ -16,16 +18,18 @@ export function articleMetadata(locale: Locale, slug: string): Metadata {
   if (!article) return {};
   const path = `/journal/${slug}`;
   return { title: article.title, description: article.description, alternates: { canonical: localeHref(locale, path), languages: languageAlternates(path) },
-    openGraph: { title: `${article.title} | ROFRAN`, description: article.description, type: "article", url: localeHref(locale, path), locale: { en: "en_US", az: "az_AZ", ru: "ru_RU" }[locale], images: [`/media/${article.image}.webp`] },
+    openGraph: { title: `${article.title} | ROFRAN`, description: article.description, type: "article", url: localeHref(locale, path), locale: openGraphLocales[locale], images: [`/media/${article.image}.webp`] },
     twitter: { card: "summary_large_image", title: article.title, description: article.description, images: [`/media/${article.image}.webp`] } };
 }
 export async function ArticlePage({ locale, slug }: { locale: Locale; slug: string }) {
   const article = getArticles(locale).find(item => item.slug === slug); if (!article) notFound();
   const t = getDictionary(locale); const url = await siteUrl();
   const labels = resourceLabels[locale];
-  const isNew = editorial[locale].some(item => item.slug === slug);
-  const modified = articleRevisions[slug] || (isNew ? editorialUpdated : undefined);
-  const structured = { "@context": "https://schema.org", "@type": "Article", headline: article.title, description: article.description, inLanguage: locale, image: `${url}/media/${article.image}.webp`, author: { "@type": "Organization", name: "ROFRAN", url: url + localeHref(locale, "/about") }, publisher: { "@id": `${url}/#organization` }, ...(isNew && { datePublished: editorialUpdated }), ...(modified && { dateModified: modified }), mainEntityOfPage: url + localeHref(locale, `/journal/${slug}`) };
+  const regional = isRegionalLocale(locale);
+  const isNew = regional || editorial[locale].some(item => item.slug === slug);
+  const published = regional ? regionalDate : editorialUpdated;
+  const modified = regional ? regionalDate : articleRevisions[slug] || (isNew ? editorialUpdated : undefined);
+  const structured = { "@context": "https://schema.org", "@type": "Article", headline: article.title, description: article.description, inLanguage: locale, image: `${url}/media/${article.image}.webp`, author: { "@type": "Organization", name: "ROFRAN", url: url + localeHref(locale, "/about") }, publisher: { "@id": `${url}/#organization` }, ...(isNew && { datePublished: published }), ...(modified && { dateModified: modified }), mainEntityOfPage: url + localeHref(locale, `/journal/${slug}`) };
   return <main id="main-content" className="inner-main">
     <StructuredData value={structured} /><BreadcrumbSchema locale={locale} items={[{ name: t.nav.home, path: "/" }, { name: t.nav.journal, path: "/journal" }, { name: article.title, path: `/journal/${slug}` }]} />
     <div className="page-topline"><Link href={localeHref(locale, "/")}>{t.nav.home}</Link><span>/</span><Link href={localeHref(locale, "/journal")}>{t.nav.journal}</Link><span>/</span><span>{article.title}</span></div>
