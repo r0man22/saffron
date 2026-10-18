@@ -20,7 +20,7 @@ export async function rootMetadata(locale: Locale): Promise<Metadata> {
 }
 export function RootDocument({ locale, children }: { locale: Locale; children: React.ReactNode }) {
   const t = getDictionary(locale);
-  return <html lang={locale}><head>
+  return <html lang={locale} dir={locale === "ar" ? "rtl" : undefined}><head>
     <link rel="preload" href="/fonts/cormorant-garamond-400-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
     <link rel="preload" href="/fonts/manrope-500-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
     <link rel="stylesheet" href="/fonts/fonts.css" />

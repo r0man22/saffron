@@ -1,210 +1,234 @@
 {
   "labels": {
     "explore": "ROFRAN’ni kashf eting",
-    "faq": "Savollar va javoblar",
-    "product": "Za’faron bilan tanishing",
-    "journal": "Qo‘llanma",
-    "updated": "Yangilandi",
-    "author": "ROFRAN tahririyati",
-    "links": "Qo‘shimcha ma’lumot",
+    "faq": "Ko‘p beriladigan savollar",
+    "product": "Za’faron tolalari bilan tanishing",
+    "journal": "Za’faron qo‘llanmasi",
+    "updated": "Yangilangan sana",
+    "author": "ROFRAN pazandalik tahririyati",
+    "links": "Mavzuga oid sahifalar",
     "back": "Bosh sahifa"
   },
   "faqCopy": {
     "title": "Za’faron haqida savollar va javoblar",
-    "description": "Za’farondan foydalanish, saqlash, narxlarni solishtirish va eng kam {minimum} gramm buyurtma haqida javoblar.",
-    "eyebrow": "BILISH FOYDALI",
-    "intro": "Za’faronni tanlash, tayyorlash va saqlash uchun tushunarli ma’lumot.",
+    "description": "Ozarbayjon, Boku, Mashtag‘a qishlog‘i za’faroni, osh va taomlar uchun za’faron damlash sirlari hamda eng kam {minimum} gramm buyurtma haqida aniq javoblar.",
+    "eyebrow": "OSHXONA VA BUYURTMA BO‘YICHA YO‘RIQNOMA",
+    "intro": "Za’faron tolalarini tanlash, palov yoki sho‘rva uchun to‘g‘ri damlash va uzoq vaqt xushbo‘y saqlash bo‘yicha eng muhim savollarga javoblar.",
     "all": "Barcha savollar",
     "saffron": "Za’faron haqida",
     "kitchen": "Oshxonada",
     "buying": "Tanlash va buyurtma",
-    "more": "Qo‘llanmani o‘qing",
-    "search": "Savollarni qidirish",
-    "empty": "Mos savol topilmadi. Boshqa so‘z bilan qidiring."
+    "more": "Batafsil maqolani o‘qing",
+    "search": "Savollar orasidan qidirish",
+    "empty": "Qidiruvingiz bo‘yicha savol topilmadi. Boshqa kalit so‘zni sinab ko‘ring."
   },
   "faqs": [
     {
-      "question": "Za’faron nima?",
-      "answer": "Za’faron — Crocus sativus gulining quritilgan qizil tumshuqchalaridan olinadigan ziravor. U gulbarg yoki sariq changchi emas. Taomga rang va xushbo‘y hid beradi.",
+      "question": "Za’faron o‘zi nima va u gulning qaysi qismidan olinadi?",
+      "answer": "Za’faron — kuzda gullaydigan Crocus sativus (za’faron safsari) gulining qo‘lda terib, ehtiyotkorlik bilan quritilgan uchta qirmizi tumshuqchasidan olinadigan noyob ziravordir. Gulning binafsha barglari yoki sariq changchilari za’faron hisoblanmaydi; taomga tiniq oltin tus va xushbo‘y ifor beradigan qism aynan shu qizil tolalardir.",
       "category": "saffron",
       "link": "/journal/what-is-saffron"
     },
     {
-      "question": "Za’faron qanday damlanadi va ishlatiladi?",
-      "answer": "Retseptdagi miqdorni o‘lchab, ko‘rsatilgan suyuqlikda damlang. Damlamani tolalari bilan birga belgilangan paytda taomga qo‘shing. Har bir taom uchun bir xil vaqt va miqdor to‘g‘ri kelmaydi.",
+      "question": "Osh (palov), sho‘rva va shirinliklar uchun za’faron qanday damlanadi?",
+      "answer": "Za’faron tolalarini qozonga quruqligicha solmang. Bir chimdim tolani chinni piyola yoki kichik idishga solib, ustidan 3–4 osh qoshiq iliq suv, go‘sht bulyoni yoki sut quying va 15–20 daqiqa damlab qo‘ying. Tolalar o‘z rangi va iforini suyuqlikka chiqargach, damlamani tolalari bilan birga taomga qo‘shing.",
       "category": "kitchen",
       "link": "/journal/how-to-use-saffron"
     },
     {
-      "question": "Za’faron qanday saqlanadi?",
-      "answer": "Za’faronni yorug‘likdan uzoqda, havo o‘tkazmaydigan yopiq idishda saqlang. Toza va quruq asbob ishlating; qadoqdagi ko‘rsatma va sanalarni saqlab qo‘ying.",
+      "question": "Uy sharoitida za’faron tolalarini qanday saqlash kerak?",
+      "answer": "Za’faron quyosh nuri, namlik va issiqlikni yoqtirmaydi. Uni havo o‘tkazmaydigan shisha yoki metall idishda, qozon bug‘idan uzoqda, qorong‘i va salqin javonda saqlang. Idishdan tola olayotganda har doim quruq qoshiq yoki qisqichdan foydalaning.",
       "category": "kitchen",
       "link": "/journal/how-to-store-saffron"
     },
     {
-      "question": "Za’faronning ta’mi va hidi qanday?",
-      "answer": "Za’faron xushbo‘y, yengil taxir ta’mga ega; ba’zan quruq o‘t yoki tuproqsimon ohanglar bilan tasvirlanadi. Taom va ishlatilgan miqdor seziladigan ta’mni o‘zgartiradi.",
+      "question": "Haqiqiy za’faronning ta’mi va ifori qanday bo‘ladi?",
+      "answer": "Sifatli za’faron tolalari yangi o‘rilgan xushbo‘y o‘tlar, gul asali va iliq zamin nafasi uyg‘unlashgan boy iforga ega. Ta’mi shirin emas, balki mayin, olijanob taxirlikka ega bo‘lib, osh yoki sho‘rvadagi go‘sht va guruch ta’mini yanada teranlashtiradi.",
       "category": "saffron",
       "link": "/journal/what-does-saffron-taste-like"
     },
     {
-      "question": "Za’faron nega qimmat va narxi qanday solishtiriladi?",
-      "answer": "Za’faron gulning kichik qismidan olinadi; terish va tayyorlash ehtiyotkor mehnat talab qiladi. Idish narxidan tashqari gramm narxi va mahsulot ma’lumotlarini ham solishtiring.",
+      "question": "Za’faron nega qimmat baholanadi va ROFRAN za’faronining narxi qancha?",
+      "answer": "Har bir safsar gulidan atigi uch dona nozik qizil tola chiqadi va ular tong saharda faqat qo‘l mehnati bilan terib olinadi. ROFRAN za’faroni kamida {minimum} grammlik (5 gramm) buyurtma asosida taklif etiladi: 5 gramm narxi xalqaro buyurtmalar uchun 50 USD, Ozarbayjon ichida esa 50 AZN ni tashkil etadi.",
       "category": "buying",
       "link": "/journal/why-is-saffron-expensive"
     },
     {
-      "question": "Za’faron sotib olayotganda nimani tekshirish kerak?",
-      "answer": "Sof vazn, tarkib, yetishtirilgan joy, sotuvchi aloqasi va tegishli hujjatlarni tekshiring. Buyurtmadan oldin umumiy narx va yetkazib berish shartlarini o‘qing.",
+      "question": "Za’faron xarid qilayotganda nimalarga e’tibor berish lozim?",
+      "answer": "Mahsulot kukunga aylantirilmagan butun tola shaklida ekaniga, sof og‘irligiga, aynan qaysi hududda yetishtirilganiga va sotuvchining ochiq aloqa ma’lumotlariga e’tibor bering. Idish ichida sariq changchi poyalari yoki uvoqlar emas, to‘q qirmizi butun tolalar bo‘lishi kerak.",
       "category": "buying",
       "link": "/journal/how-to-buy-saffron"
     },
     {
-      "question": "Za’faron tolasi yoki kukuni: qaysi biri?",
-      "answer": "Butun tolada mahsulot shaklini ko‘rish mumkin. Kukun qulay bo‘lishi mumkin, ammo tarkibini tashqi ko‘rinishidan ishonchli aniqlab bo‘lmaydi. Har ikki holatda ham mahsulot va sotuvchi ma’lumoti muhim.",
+      "question": "Butun za’faron tolalari afzalmi yoki maydalangan kukunimi?",
+      "answer": "Oshxonada har doim butun za’faron tolalari ishonchliroqdir: gul tumshuqchasining tabiiy shaklini o‘z ko‘zingiz bilan ko‘rasiz va uning efir moylari damlash paytigacha tola ichida saqlanadi. Kukun esa iforini tez yo‘qotadi va unga boshqa arzon ziravorlar qo‘shilgan-qo‘shilmaganini ko‘z bilan aniqlab bo‘lmaydi.",
       "category": "buying",
       "link": "/journal/saffron-threads-vs-powder"
     },
     {
-      "question": "Eng kam buyurtma necha gramm?",
-      "answer": "Eng kam za’faron buyurtmasi {minimum} gramm. Bu buyurtma miqdori, bitta taomga ishlatiladigan miqdor emas.",
-      "link": "/saffron",
-      "category": "buying"
+      "question": "ROFRAN’da eng kam buyurtma miqdori necha gramm?",
+      "answer": "Eng kam buyurtma miqdori {minimum} gramm (5 gramm) etib belgilangan. Bitta palov yoki sho‘rva uchun atigi 15–20 dona tola yetarli bo‘lgani sababli, 5 grammlik idish ro‘zg‘orda uzoq vaqt davomida barakali ishlatiladi.",
+      "category": "buying",
+      "link": "/saffron"
     },
     {
-      "question": "Onlayn buyurtma bera olamanmi?",
-      "answer": "Onlayn to‘lov hali ochilmagan. Aniq narx, qadoq va buyurtma shartlari savdodan oldin e’lon qilinadi.",
-      "link": "/saffron",
-      "category": "buying"
+      "question": "Hozir sayt orqali onlayn buyurtma berish mumkinmi?",
+      "answer": "Ayni paytda mahsulotimiz sotuvda yo‘q va saytda onlayn to‘lov tizimi hali ishga tushirilmagan. Yangi hosil zahirasi tayyor bo‘lishi bilan xarid shartlari mahsulot sahifasida e’lon qilinadi.",
+      "category": "buying",
+      "link": "/saffron"
     },
     {
-      "question": "O‘zbekistonga yetkazib berish bormi?",
-      "answer": "Yetkazish mamlakatlari, narxlari va muddatlari hali tasdiqlanmagan. O‘zbekcha sahifa yetkazish va’dasi emas.",
-      "link": "/shipping",
-      "category": "buying"
+      "question": "O‘zbekistonga yoki boshqa davlatlarga yetkazib berish xizmati bormi?",
+      "answer": "Hozircha yetkazib berish xizmati faqat Ozarbayjon hududi bo‘ylab amalga oshiriladi. Xalqaro pochta yo‘nalishlari yo‘lga qo‘yilgach, bu haqda qo‘shimcha xabar beramiz.",
+      "category": "buying",
+      "link": "/shipping"
     },
     {
-      "question": "Yetishtirilgan joy nimani anglatadi?",
-      "answer": "Bu za’faronning kelib chiqish joyi. Qadoqlash manzili boshqa bo‘lishi mumkin. Ma’lumot aniq mahsulot hujjatlari bilan tasdiqlanishi kerak.",
-      "link": "/quality",
-      "category": "buying"
+      "question": "ROFRAN za’faroni qayerda yetishtiriladi?",
+      "answer": "ROFRAN za’faroni ko‘p asrlik za’faronchilik an’analari bilan mashhur bo‘lgan Ozarbayjon, Boku, Mashtag‘a qishlog‘ida yetishtiriladi. Absheron yarimorolining qumloq tuprog‘i, dengiz shabadasi va kuzgi quyoshi tolalarga betakror rang hamda boy ifor bag‘ishlaydi.",
+      "category": "saffron",
+      "link": "/quality"
     },
     {
-      "question": "Za’faron va zarchava bir xilmi?",
-      "answer": "Yo‘q. Za’faron gul tumshuqchasidan, zarchava ildizpoyadan olinadi. Ikkalasi rang bersa ham, hidi bir xil emas.",
-      "link": "/journal/what-is-saffron",
-      "category": "saffron"
+      "question": "Za’faron bilan zarchava (kurkuma) yoki maxsar bir xil narsami?",
+      "answer": "Mutlaqo yo‘q. Zarchava o‘simlik ildizpoyasidan, maxsar esa boshqa bir gulning barglaridan olinadi. Ular taomni sariq rangga bo‘yashi mumkin, biroq haqiqiy za’faron tolalariga xos bo‘lgan teran ifor va lazzatni bera olmaydi.",
+      "category": "saffron",
+      "link": "/journal/what-is-saffron"
     },
     {
-      "question": "Suv sinovi soflikni isbotlaydimi?",
-      "answer": "Bitta uy sinovi soflikni isbotlamaydi. Kuzatish bilan birga ta’minot tarixi va mahsulotga mos tahlil muhim.",
-      "link": "/quality",
-      "category": "buying"
+      "question": "Iliq suv sinovi za’faronning haqiqiyligini qanday ko‘rsatadi?",
+      "answer": "Haqiqiy za’faron tolalari iliq suvga tushganda suvni bir zumda loyqa qizil rangga bo‘yamaydi, balki bir necha daqiqa davomida asta-sekin tiniq oltin-sariq rang chiqaradi va tolalarning o‘zi qizilligini saqlab qoladi. Shunga qaramay, eng ishonchli kafolat — aniq va tekshirilgan kelib chiqish manbaidir.",
+      "category": "buying",
+      "link": "/quality"
     }
   ],
   "resources": {
     "about": {
       "title": "ROFRAN haqida",
-      "description": "ROFRAN za’faron tolalari va ularning oshxonadagi qo‘llanilishiga e’tibor qaratadi. Ilk to‘plamda faqat za’faron bor.",
-      "eyebrow": "ROFRAN haqida",
-      "intro": "ROFRAN za’faron tolalari va ularning oshxonadagi qo‘llanilishiga e’tibor qaratadi. Ilk to‘plamda faqat za’faron bor.",
+      "description": "Ozarbayjon, Boku, Mashtag‘a qishlog‘ining qadimiy za’faronchilik merosini saralangan butun tolalar orqali dasturxoningizga yetkazuvchi ROFRAN hikoyasi.",
+      "eyebrow": "MASHTAG‘ADAN DASTURXONINGIZGA",
+      "intro": "ROFRAN e’tiborini faqat bitta bebaho ne’matga qaratadi: Ozarbayjon, Boku, Mashtag‘a qishlog‘i zaminida yetishtirilgan asl za’faron tolalari va ularning pazandalikdagi haqiqiy madaniyati.",
       "image": "flower",
       "sections": [
         {
-          "title": "Dasturxoningiz uchun",
-          "text": "Tanlash, tayyorlash va saqlash bo‘yicha tushunarli qo‘llanmalar mahsulot bilan tanishishni osonlashtiradi."
+          "title": "Mashtag‘a qishlog‘ining asriy an’anasi",
+          "text": "Kaspiy dengizi bo‘yidagi Absheron yarimorolida joylashgan Boku yaqinidagi Mashtag‘a qishlog‘i o‘zining minerallarga boy qumloq tuprog‘i va quyoshli iqlimi bilan asrlar davomida dunyoning eng sarxil za’faron maskanlaridan biri bo‘lib kelgan. ROFRAN ana shu tabiiy ne’matni asl holicha taqdim etadi."
         },
         {
-          "title": "Ma’lumot asosi",
-          "text": "Maqolalar ROFRAN uchun tayyorlanib, manbalar bilan bog‘lanadi. Mahsulotning kelib chiqishi va hujjatlari tasdiqlangach e’lon qilinadi."
+          "title": "Faqat butun za’faron tolalari",
+          "text": "Bizning ilk to‘plamimizda maydalangan kukunlar, sun’iy xushbo‘ylashtirilgan choylar yoki aralashmalar yo‘q. Maqsadimiz — bayramona osh, palov, sho‘rva va shirinliklar tayyorlaganda oshpaz hamda xonadon bekalariga gulning sof qirmizi tolalarini o‘z qo‘llari bilan damlash zavqini ulashishdir."
+        },
+        {
+          "title": "Bilim bilan boyigan dasturxon",
+          "text": "Haqiqiy za’faron to‘g‘ri damlanganda va ehtiyotkorlik bilan saqlangandagina o‘z qadrini namoyon etadi. Shu bois ROFRAN mahsulot bilan bir qatorda za’faronni tanlash, me’yorida ishlatish va saqlash sirlarini o‘z ichiga olgan batafsil qo‘llanmalarni ham taqdim etadi."
         }
       ]
     },
     "quality": {
-      "title": "Za’faron sifati haqida",
-      "description": "Tarkib, yetishtirilgan joy, partiya va tegishli laboratoriya hujjatlarini birgalikda tekshiring.",
-      "eyebrow": "Za’faron sifati haqida",
-      "intro": "Tarkib, yetishtirilgan joy, partiya va tegishli laboratoriya hujjatlarini birgalikda tekshiring.",
+      "title": "Za’faron sifati va kelib chiqishi",
+      "description": "Ozarbayjon, Boku, Mashtag‘a qishlog‘ida terilgan za’faron tolalarining sifat mezonlari, tozaligi va xalqaro standartlar haqida ma’lumot.",
+      "eyebrow": "MANBA VA SIFAT MEZONI",
+      "intro": "Za’faronning sifati balandparvoz so‘zlar bilan emas, balki u o‘sgan tuproq, tonggi terim intizomi hamda qirmizi tumshuqchalarning sariq changchilardan toza ajratilishi bilan o‘lchanadi.",
       "image": "threads",
       "sections": [
         {
-          "title": "Mahsulot tarixi",
-          "text": "Yetishtirish va qadoqlash joyi farq qilishi mumkin. Hujjat aniq mahsulotga mos kelishi lozim."
+          "title": "Aniq manzil: Ozarbayjon, Boku, Mashtag‘a qishlog‘i",
+          "text": "ROFRAN za’faroni manbasi noma’lum aralash partiyalardan emas, bevosita Ozarbayjon, Boku, Mashtag‘a qishlog‘i dalalaridan olinadi. Kuzgi salqin tongda endigina ochilgan Crocus sativus gullari quyosh qizdirmasidan qo‘lda teriladi va shu kunning o‘zida saralanib quritiladi."
         },
         {
-          "title": "Dalil doirasi",
-          "text": "ISO 3632 nomi mahsulot tahlil qilinganini bildirmaydi. Tasdiqlangan ROFRAN hujjatlari olingach shu yerda ko‘rsatiladi."
+          "title": "Butun qirmizi tolalar sofligi",
+          "text": "Yuqori navli za’faronda taomga rang ham, hid ham bermaydigan sariq poyalar (stamen) qoldirilmaydi — faqat krosin va safranalga boy to‘q qizil tumshuqchalar jamlanadi. Shisha idishdagi butun tolalar mahsulotning tuzilishi, quruqligi va bir tekisligini xarid oldidan aniq ko‘rish imkonini beradi."
+        },
+        {
+          "title": "ISO 3632 va pazandalikdagi sinov",
+          "text": "Xalqaro miqyosda za’faron sifati ISO 3632 standarti bo‘yicha uchta ko‘rsatkich — rang berish kuchi (krosin), ta’m chuqurligi (pikrokrosin) va xushbo‘ylik (safranal) orqali baholanadi. Mashtag‘a za’faroni iliq suvda damlanganda chiqaradigan tiniq zarhal rangi va yoqimli ifori bilan oshxonada o‘z sifatini darhol namoyon qiladi."
         }
       ]
     },
     "shipping": {
-      "title": "Yetkazib berish va buyurtma",
-      "description": "Eng kam buyurtma {minimum} gramm. Onlayn to‘lov, yetkazish mamlakatlari, narxlari va muddatlari hali e’lon qilinmagan.",
-      "eyebrow": "Yetkazib berish va buyurtma",
-      "intro": "Eng kam buyurtma {minimum} gramm. Onlayn to‘lov, yetkazish mamlakatlari, narxlari va muddatlari hali e’lon qilinmagan.",
+      "title": "Buyurtma va yetkazib berish shartlari",
+      "description": "ROFRAN za’faroni uchun eng kam 5 gramm buyurtma, narxlar (50 USD / 50 AZN), zahira holati va Ozarbayjon bo‘ylab yetkazib berish tartibi.",
+      "eyebrow": "BUYURTMA VA YETKAZIB BERISH",
+      "intro": "ROFRAN za’faron tolalari kamida {minimum} grammlik (5 gramm) buyurtma asosida taqdim etiladi. Hozirgi vaqtda mahsulotimiz sotuvda yo‘q va onlayn to‘lov tizimi hali ochilmagan.",
       "image": "product",
       "sections": [
         {
-          "title": "Buyurtmadan oldin",
-          "text": "Savdo boshlanganda mahsulot narxi, yetkazish, to‘lov va qaytarish shartlarini tekshiring."
+          "title": "Eng kam buyurtma va narxlar",
+          "text": "Za’faron tolalarining bus-butunligi va tabiiy xushbo‘yligini himoyalangan qadoqda yetkazish maqsadida eng kam buyurtma miqdori {minimum} gramm (5 gramm) qilib belgilangan. 5 gramm ROFRAN za’faronining narxi xalqaro xaridorlar uchun 50 USD, Ozarbayjon ichida esa 50 AZN ni tashkil qiladi."
         },
         {
-          "title": "Xalqaro yetkazish",
-          "text": "O‘zbekcha sahifa O‘zbekistonga yetkazish majburiyatini bildirmaydi. Mamlakatlar va muddatlar xizmat tayyor bo‘lganda aniqlanadi."
+          "title": "Joriy zahira va onlayn savdo holati",
+          "text": "Ayni paytda za’faronimiz sotuvda yo‘q (Sotuvda yo‘q) va sayt orqali bank kartasi bilan onlayn xarid qilish imkoniyati vaqtincha yopiq. Saytdagi savatcha funksiyasi mahsulot va miqdor bilan oldindan tanishish uchun xizmat qiladi."
+        },
+        {
+          "title": "Yetkazib berish hududi",
+          "text": "Hozirda buyurtmalarni yetkazib berish faqat Ozarbayjon hududi ichida amalga oshiriladi. O‘zbekiston va boshqa mamlakatlarga xalqaro yetkazib berish xizmati yo‘lga qo‘yilishi bilan ushbu sahifada muddatlar hamda tariflar e’lon qilinadi."
         }
       ],
       "draft": true
     },
     "contact": {
-      "title": "ROFRAN bilan aloqa",
-      "description": "Mahsulot va buyurtma savollari uchun tasdiqlangan aloqa ma’lumotlari shu yerda e’lon qilinadi.",
-      "eyebrow": "ROFRAN bilan aloqa",
-      "intro": "Mahsulot va buyurtma savollari uchun tasdiqlangan aloqa ma’lumotlari shu yerda e’lon qilinadi.",
+      "title": "ROFRAN bilan bog‘lanish",
+      "description": "Boku, Mashtag‘a za’faroni, yangi hosil va hamkorlik bo‘yicha savollar uchun ROFRAN rasmiy elektron pochta va telefon raqamlari.",
+      "eyebrow": "BEVOSITA ALOQA",
+      "intro": "Mashtag‘a za’faroni, kelgusi hosil mavsumi yoki buyurtma shartlari bo‘yicha savollaringiz bo‘lsa, biz bilan elektron pochta yoki telefon orqali bevosita bog‘lanishingiz mumkin.",
       "image": "flower",
       "sections": [
         {
-          "title": "Mahsulot haqida",
-          "text": "Hozircha qo‘llanmalar va savol-javoblardan tanishuv ma’lumotini topishingiz mumkin."
+          "title": "Elektron pochta manzillarimiz",
+          "text": "Xalqaro murojaatlar, umumiy savollar va hamkorlik takliflari uchun contact@rofran.com manziliga, Ozarbayjon ichidagi so‘rovlar uchun esa contact@rofran.az manziliga xat yozishingiz mumkin."
         },
         {
-          "title": "Aloqa kanallari",
-          "text": "Elektron pochta, telefon va kompaniya ma’lumotlari hali tasdiqlanmagan. Ushbu sahifa murojaat yubormaydi."
+          "title": "Telefon orqali muloqot",
+          "text": "Tezkor ma’lumot olish yoki to‘g‘ridan to‘g‘ri suhbatlashish uchun +994 50 823 93 45 telefon raqamiga qo‘ng‘iroq qiling. Jamoamiz barcha savollaringizga mamnuniyat bilan javob beradi."
+        },
+        {
+          "title": "Pazandalik bo‘yicha tavsiyalar",
+          "text": "Za’faron tolalarini osh, sho‘rva yoki shirinliklarda qanday damlash va qancha miqdorda ishlatish haqida tezda ma’lumot olmoqchi bo‘lsangiz, Za’faron kundaligi bo‘limidagi maqolalarimiz bilan tanishib chiqing."
         }
       ],
       "draft": true
     },
     "wholesale": {
-      "title": "Professional oshxonalar uchun za’faron",
-      "description": "Restoranlar va hamkorlar uchun dastlabki ma’lumot. Ulgurji savdo shartlari hali e’lon qilinmagan.",
-      "eyebrow": "Professional oshxonalar uchun za’faron",
-      "intro": "Restoranlar va hamkorlar uchun dastlabki ma’lumot. Ulgurji savdo shartlari hali e’lon qilinmagan.",
+      "title": "Professional oshxonalar va hamkorlik",
+      "description": "Restoranlar, bosh oshpazlar, mehmonxonalar va gastronomik do‘konlar uchun Boku, Mashtag‘a za’faron tolalari yetkazib berish shartlari.",
+      "eyebrow": "OSHPAZLAR VA HAMKORLAR UCHUN",
+      "intro": "Biz taomnomasida haqiqiy Ozarbayjon, Boku, Mashtag‘a qishlog‘i za’faronidan foydalanishni istagan restoranlar, oshpazlar va saralangan oziq-ovqat do‘konlari bilan hamkorlik qilamiz.",
       "image": "threads",
       "sections": [
         {
-          "title": "Ehtiyojni aniqlash",
-          "text": "Mamlakat, foydalanish maqsadi, hajm va qadoq talablari taklif tayyorlash uchun kerak."
+          "title": "Restoran va bosh oshpazlar talabi",
+          "text": "Bayramona palov, milliy sho‘rvalar, dengiz mahsulotlari va mualliflik shirinliklarida har safar bir xil oltin tus hamda barqaror iforga erishish uchun yuqori tozalikdagi butun tolalar zarur. Biz professional oshxonalar uchun saralangan za’faron tolalarini taqdim etamiz."
         },
         {
-          "title": "Savdo shartlari",
-          "text": "Chakana eng kam buyurtma {minimum} gramm; bu ulgurji taklif emas. Narx va yetkazish alohida tasdiqlanadi."
+          "title": "Narx va buyurtma hajmi",
+          "text": "Chakana xaridlar uchun eng kam buyurtma {minimum} grammni (5 gramm uchun 50 USD / 50 AZN) tashkil etadi. Hozirda joriy zahiramiz tugagan bo‘lsa-da, navbatdagi hosil mavsumi uchun ulgurji va doimiy yetkazib berish shartnomalarini oldindan rejalashtirishimiz mumkin."
+        },
+        {
+          "title": "Hamkorlik uchun murojaat",
+          "text": "Oshxonangizning oylik ehtiyoji, joylashgan shahringiz va qadoqlash bo‘yicha istaklaringizni contact@rofran.com yoki contact@rofran.az elektron pochtasiga yuboring yoxud +994 50 823 93 45 raqamiga qo‘ng‘iroq qiling."
         }
       ],
       "draft": true
     },
     "privacy": {
-      "title": "Maxfiylik va brauzeringiz",
-      "description": "Sayt savat tanlovi va ovoz sozlamasini brauzeringizda saqlaydi. Bu izoh hozirgi tanishtiruv tajribasiga tegishli.",
-      "eyebrow": "Maxfiylik va brauzeringiz",
-      "intro": "Sayt savat tanlovi va ovoz sozlamasini brauzeringizda saqlaydi. Bu izoh hozirgi tanishtiruv tajribasiga tegishli.",
+      "title": "Maxfiylik va brauzer sozlamalari",
+      "description": "ROFRAN saytida savatcha va ovoz sozlamalarining mahalliy saqlanishi hamda murojaatchilar ma’lumotlari daxlsizligi.",
+      "eyebrow": "MAXFIYLIK VA OCHIQLIK",
+      "intro": "ROFRAN saytidan foydalanganingizda faqat sahifa qulayligi uchun zarur bo‘lgan oddiy brauzer sozlamalari saqlanadi; sizdan yashirincha shaxsiy yoki to‘lov ma’lumotlari yig‘ilmaydi.",
       "image": "flower",
       "sections": [
         {
-          "title": "Mahalliy saqlash",
-          "text": "Brauzerda sayt ma’lumotlarini tozalab, tanlovni o‘chirishingiz mumkin. Tanishtiruv savati buyurtma yaratmaydi."
+          "title": "Brauzer xotirasidagi mahalliy qaydlar",
+          "text": "Saytimiz siz tanlagan za’faron miqdorini eslab qoluvchi tanishtiruv savatchasini hamda hikoya sahifasidagi ovoz sozlamasini faqat o‘z qurilmangiz brauzerida (localStorage) saqlaydi. Brauzer tarixini tozalash orqali bu qaydlarni istalgan vaqtda o‘chirib tashlashingiz mumkin."
         },
         {
-          "title": "E’lon qilishdan oldin",
-          "text": "Kompaniya, xosting, to‘lov va tahlil vositalari aniqlangach to‘liq maxfiylik matni tayyorlanishi kerak."
+          "title": "To‘lov ma’lumotlari xavfsizligi",
+          "text": "Hozirda sayt orqali onlayn savdo va to‘lov tizimi yoqilmagani sababli, foydalanuvchilardan bank kartasi raqamlari, hisob-kitob manzillari yoki moliyaviy ma’lumotlar so‘ralmaydi."
+        },
+        {
+          "title": "Muloqot maxfiyligi",
+          "text": "Bizga contact@rofran.com, contact@rofran.az manzillari yoki +994 50 823 93 45 raqami orqali murojaat qilganingizda taqdim etgan aloqa ma’lumotlaringiz faqat savolingizga javob berish uchun ishlatiladi va uchinchi shaxslarga uzatilmaydi."
         }
       ],
       "draft": true
@@ -216,26 +240,26 @@
       "title": "Za’faron nima?",
       "category": "Za’faron bo‘yicha qo‘llanmalar",
       "image": "flower",
-      "imageAlt": "Quyosh botayotgandagi binafsha za’faron guli",
-      "readTime": "2 DAQIQA",
-      "description": "Za’faron — Crocus sativus gulining quritilgan qizil tumshuqchalaridan olinadigan ziravor. U gulbarg yoki sariq changchi emas. Taomga rang va xushbo‘y hid beradi.",
-      "deck": "Za’faron — Crocus sativus gulining quritilgan qizil tumshuqchalaridan olinadigan ziravor. U gulbarg yoki sariq changchi emas. Taomga rang va xushbo‘y hid beradi.",
-      "lead": "Za’faron — Crocus sativus gulining quritilgan qizil tumshuqchalaridan olinadigan ziravor. U gulbarg yoki sariq changchi emas. Taomga rang va xushbo‘y hid beradi.",
+      "imageAlt": "Kechki quyosh nurida ochilib turgan binafsha za’faron guli",
+      "readTime": "3 DAQIQA",
+      "description": "Crocus sativus gulidan oshxona dasturxonigacha: za’faron tolalarining tabiati va milliy taomlardagi o‘rni.",
+      "deck": "Kuzning salqin tonglarida atigi bir necha hafta gullaydigan nafis safsar gulning uchta qirmizi tolasi asrlar osha Sharq oshxonasining toji bo‘lib kelmoqda.",
+      "lead": "Pazandalikda za’faron deganda o‘simlikning ildizi yoki bargi emas, balki kuzda ochiladigan Crocus sativus gulining qoq markazidagi uch dona qirmizi tumshuqcha tushuniladi. Qo‘lda avaylab terilib quritilgan ushbu za’faron tolalari taomga quyoshdek tiniq zarhal rang va hech bir ziravorga o‘xshamaydigan iliq, boy ifor bag‘ishlaydi.",
       "sections": [
         {
           "id": "detail-1",
-          "title": "Guldan ziravorgacha",
-          "text": "Kuzda gullaydigan Crocus sativus o‘simligining qizil tumshuqchalari terilib, quritiladi. Oshxonadagi tolalar shu qismdan hosil bo‘ladi. Har qanday binafsha gul za’faron emas; notanish o‘simlikni faqat rasmga qarab taomga qo‘shmang."
+          "title": "Kuzgi safsar guldan qirmizi tolagacha",
+          "text": "Crocus sativus yilning ko‘p qismini tuproq ostida piyozbosh holida o‘tkazib, faqat kuz oylarida binafsharang gullarini ochadigan nozik o‘simlikdir. Har bir gulning o‘rtasida uch shoxli qizil tumshuqcha bo‘ladi. Gulning sariq changchilari yoki binafsha gulbarglari za’faron emas; haqiqiy za’faron tolalari faqatgina ana shu qirmizi uchlarning qo‘lda ajratib olinishi va quritilishidan hosil bo‘ladi."
         },
         {
           "id": "detail-2",
-          "title": "Taomdagi o‘rni",
-          "text": "Za’faron guruchli taomlar, risotto, ayrim baliq taomlari va shirinliklarda qo‘llanadi. Miqdor va qo‘shish vaqti retseptga bog‘liq. Birinchi sinovda tanish taomni tanlash rang va hiddagi farqni sezishni osonlashtiradi."
+          "title": "Osh, palov va sho‘rvalardagi o‘rni",
+          "text": "Sharq va Markaziy Osiyo dasturxonida za’faron bayramona osh va to‘y palovlarining, tiniq go‘shtli sho‘rvalarning, baliq taomlari hamda sutli shirinliklarning ko‘rki hisoblanadi. Uni faqat guruchni sariq rangga bo‘yaydigan vosita deb bilish xato: iliq suvda damlangan za’faron tolalari palovning har bir guruch donasiga chuqur, ishtahaochar ifor singdiradi."
         },
         {
           "id": "detail-3",
-          "title": "Mahsulotning kelib chiqishi",
-          "text": "Brendning manzili za’faron yetishtirilgan joy bilan bir xil bo‘lishi shart emas. Mahsulotning kelib chiqishi, sof vazni va partiya ma’lumoti alohida tekshiriladi. Gul haqidagi umumiy hikoya aniq mahsulot hujjatining o‘rnini bosmaydi."
+          "title": "Zamin va iqlim sehri: Absheron va Mashtag‘a",
+          "text": "Choy yoki uzum kabi za’faronning ham xushbo‘yligi u yetishgan tuproq va iqlimga chambarchas bog‘liqdir. Ozarbayjonning Boku shahriga qarashli Mashtag‘a qishlog‘i va Absheron yarimoroli Kaspiy dengizining iliq shabadasi hamda qumloq-ohakli tuprog‘i bilan asrlar davomida za’faron yetishtirilgan qadimiy maskandir. Bu tarixiy an’ana tolalarning bo‘yash quvvatini va o‘ziga xos shirin-achqimtir iforini eng yuqori darajaga olib chiqadi."
         }
       ],
       "sources": [
@@ -250,26 +274,26 @@
       "title": "Za’faron qanday damlanadi va ishlatiladi?",
       "category": "Za’faron bo‘yicha qo‘llanmalar",
       "image": "saffron",
-      "imageAlt": "Qizil za’faron tolalarining yaqin tasviri",
-      "readTime": "2 DAQIQA",
-      "description": "Retseptdagi miqdorni o‘lchab, ko‘rsatilgan suyuqlikda damlang. Damlamani tolalari bilan birga belgilangan paytda taomga qo‘shing. Har bir taom uchun bir xil vaqt va miqdor to‘g‘ri kelmaydi.",
-      "deck": "Retseptdagi miqdorni o‘lchab, ko‘rsatilgan suyuqlikda damlang. Damlamani tolalari bilan birga belgilangan paytda taomga qo‘shing. Har bir taom uchun bir xil vaqt va miqdor to‘g‘ri kelmaydi.",
-      "lead": "Retseptdagi miqdorni o‘lchab, ko‘rsatilgan suyuqlikda damlang. Damlamani tolalari bilan birga belgilangan paytda taomga qo‘shing. Har bir taom uchun bir xil vaqt va miqdor to‘g‘ri kelmaydi.",
+      "imageAlt": "Qirmizi za’faron tolalarining yaqin tasviri",
+      "readTime": "4 DAQIQA",
+      "description": "Palov, osh, sho‘rva va shirinliklar tayyorlashda za’faron tolalarini o‘lchash, iliq suv yoki sutda damlash va qozonga qo‘shish qoidalari.",
+      "deck": "Za’faron tolalarini qozonga quruqligicha tashlamasdan, avval kichik piyolada iliq suvda damlab olsangiz, ziravorning butun sehri ochiladi.",
+      "lead": "Za’faron bilan ishlashning eng muhim qoidasi — shoshilmaslikdir. Quritilgan tolalar qizib turgan yog‘ga yoki qaynayotgan qozonga to‘g‘ridan to‘g‘ri tashlansa, ularning ichidagi rang va ifor to‘liq ajralib chiqmaydi; ammo taom pishishidan 15–20 daqiqa oldin iliq suyuqlikda damlangan za’faron butun taomga bir tekis oltin jilo beradi.",
       "sections": [
         {
           "id": "detail-1",
-          "title": "Avval miqdorni o‘lchang",
-          "text": "Porsiya soni aniq yozilgan retseptni tanlang. Bir chimdim har kimda har xil; gramm ko‘rsatilgan bo‘lsa, kichik vaznlarni o‘lchaydigan tarozidan foydalaning. Eng kam {minimum} gramm buyurtma bir taomda ishlatiladigan miqdor degani emas."
+          "title": "Me’yorni to‘g‘ri belgilash",
+          "text": "Za’faron juda kuchli ziravor bo‘lgani bois, 4–6 kishilik osh (palov) yoki sho‘rva uchun bir chimdim — taxminan 15–20 dona tola (0,1 gramm atrofida) kifoya qiladi. ROFRAN taklif etayotgan eng kam {minimum} grammlik (5 gramm) buyurtma bitta taom uchun emas, balki xonadoningizda oylar davomida o‘nlab marta lazzatli taomlar pishirish uchun mo‘ljallangan."
         },
         {
           "id": "detail-2",
-          "title": "Damlash tartibi",
-          "text": "Tolalarni kichik toza idishga soling. Retsept talab qilsa, yengil maydalang. Taomga mos iliq suv yoki sut qo‘shib, ko‘rsatilgan vaqt kuting. So‘ng tolalar va damlamani retseptdagi bosqichda ishlating."
+          "title": "Za’faron damlashning bosqichma-bosqich tartibi",
+          "text": "Kerakli miqdordagi za’faron tolalarini toza chinni piyola yoki shisha idishga soling; xohlasangiz, hovonchada bir chimdim tuz yoki bir bo‘lak qand bilan yengil ezib olishingiz mumkin. Ustidan 3–4 osh qoshiq qaynoq bo‘lmagan iliq suv (60–70 °C), go‘sht bulyoni yoki shirinliklar uchun iliq sut quying. Ustini yopib 15–20 daqiqa kutsangiz, suyuqlik quyuq qahrabo-oltin tusga kiradi."
         },
         {
           "id": "detail-3",
-          "title": "Guruch uchun suyuqlik",
-          "text": "Damlash suvini guruch retseptining umumiy suyuqligiga qo‘shib hisoblang. Ortiqcha suv taom tuzilishini o‘zgartirishi mumkin. Rang boshida och ko‘rindi deb ko‘proq za’faron qo‘shmang; keyingi sinov uchun miqdor va natijani yozib qo‘ying."
+          "title": "Osh va sho‘rvaga qachon qo‘shiladi?",
+          "text": "Tayyor bo‘lgan damlamani suzib tashlamang — oltinrang suvni qizil tolalari bilan birga ishlating. Palov damlashdan oldin guruch ustidan za’faron damlamasini aylantirib quyishingiz yoki pishgan oshning bir qismini za’faronli suv bilan aralashtirib, lagan ustiga bezak sifatida solishingiz mumkin. Sho‘rva va shirinliklarga esa olovni o‘chirishdan bir necha daqiqa avval qo‘shsangiz, uning nozik ifori havoga uchib ketmaydi."
         }
       ],
       "sources": [
@@ -284,26 +308,26 @@
       "title": "Za’faron qanday saqlanadi?",
       "category": "Za’faron bo‘yicha qo‘llanmalar",
       "image": "product",
-      "imageAlt": "Oltin qopqoqli shaffof idishdagi za’faron",
-      "readTime": "2 DAQIQA",
-      "description": "Za’faronni yorug‘likdan uzoqda, havo o‘tkazmaydigan yopiq idishda saqlang. Toza va quruq asbob ishlating; qadoqdagi ko‘rsatma va sanalarni saqlab qo‘ying.",
-      "deck": "Za’faronni yorug‘likdan uzoqda, havo o‘tkazmaydigan yopiq idishda saqlang. Toza va quruq asbob ishlating; qadoqdagi ko‘rsatma va sanalarni saqlab qo‘ying.",
-      "lead": "Za’faronni yorug‘likdan uzoqda, havo o‘tkazmaydigan yopiq idishda saqlang. Toza va quruq asbob ishlating; qadoqdagi ko‘rsatma va sanalarni saqlab qo‘ying.",
+      "imageAlt": "Oltin qopqoqli shaffof shisha idishdagi za’faron tolalari",
+      "readTime": "3 DAQIQA",
+      "description": "Za’faron tolalarining zarhal rangi va efir moylarini uzoq muddat saqlab qolish uchun yorug‘lik hamda namlikdan himoya qilish usullari.",
+      "deck": "Sifatli quritilgan za’faron tolalari to‘g‘ri saqlanganda o‘z kuchini yillab yo‘qotmaydi; uning asosiy dushmanlari — quyosh nuri, qozon bug‘i va namlikdir.",
+      "lead": "Ozarbayjonning Boku, Mashtag‘a qishlog‘ida terilib, me’yorida quritilgan za’faron tolalari oshxonangizga o‘zining tabiiy qirmizi rangi va boy ifori bilan yetib keladi. Ushbu xazinani ilk kungidek xushbo‘y saqlash uchun murakkab sharoit emas, balki bir nechta oddiy, ammo muhim oshxona odatlariga amal qilish yetarli.",
       "sections": [
         {
           "id": "detail-1",
-          "title": "Yopiq idish",
-          "text": "Kerakli miqdorni olgach, qopqoqni darhol yoping. Idishni quyoshli deraza yoniga emas, yopiq javonga joylashtiring. Chiroyli qadoq mahsulotni doim yorug‘likda ko‘rsatish kerakligini anglatmaydi."
+          "title": "Quyosh nuri va o‘choq issig‘idan uzoq tuting",
+          "text": "Shaffof shisha idishdagi qirmizi tolalar oshxona peshtaxtasida chiroyli ko‘rinsa-da, tik tushadigan quyosh nuri za’faronga rang beruvchi krosin moddasini asta-sekinemiradi. Shuningdek, gaz plitasi yonidagi javonlar ham doimiy harorat o‘zgarishiga uchraydi. Shu sababli za’faron idishini yorug‘lik tushmaydigan, salqin va quruq javon ichida saqlang."
         },
         {
           "id": "detail-2",
-          "title": "Quruq foydalanish",
-          "text": "Idishni ochishdan oldin toza va quruq qoshiq tayyorlang. Ho‘l asbobni ichiga solmang va pishayotgan taom bug‘idan himoya qiling. Har foydalanishda oddiy tartibga rioya qilish qulayroq."
+          "title": "Namlik va bug‘dan himoya: quruq qoshiq qoidasi",
+          "text": "Quruq za’faron tolalari havodagi namlikni juda tez o‘ziga tortadi; namlangan tola esa ham iforini yo‘qotadi, ham sifatini buzadi. Za’faron idishini hech qachon qaynayotgan qozon yoki choynak bug‘i ustida ochmang. Tolalarni olayotganda ho‘l barmoq yoki nam qoshiq emas, balki mutlaqo quruq choy qoshiq uchi yoxud oshxona qisqichini ishlating va qopqoqni darhol mahkam yoping."
         },
         {
           "id": "detail-3",
-          "title": "Yorliqni yo‘qotmang",
-          "text": "Boshqa idishga ko‘chirsangiz, eski yorliq, partiya raqami va sanani birga saqlang. Aynan mahsulot uchun berilgan ko‘rsatmaga amal qiling. Qadoq va sharoitdan qat’i nazar barcha za’faronga bir xil saqlanish muddatini aytib bo‘lmaydi."
+          "title": "Muzlatkichda saqlash shartmi?",
+          "text": "Uyingizda salqin va quruq oshxona javoni bo‘lsa, za’faronni muzlatkichga qo‘yish tavsiya etilmaydi: idish sovuqdan issiq xonaga olinganda uning devorlarida suv tomchilari (kondensat) hosil bo‘lib, tolalarni namlab qo‘yishi mumkin. Havo kirmaydigan yopiq idishda, qorong‘i joyda saqlangan butun tolalar o‘z rangi va iforini ikki yilgacha a’lo darajada saqlaydi."
         }
       ],
       "sources": [
@@ -318,26 +342,26 @@
       "title": "Za’faronning ta’mi va hidi qanday?",
       "category": "Za’faron bo‘yicha qo‘llanmalar",
       "image": "threads",
-      "imageAlt": "Qizil za’faron tolalarining yaqin tasviri",
-      "readTime": "2 DAQIQA",
-      "description": "Za’faron xushbo‘y, yengil taxir ta’mga ega; ba’zan quruq o‘t yoki tuproqsimon ohanglar bilan tasvirlanadi. Taom va ishlatilgan miqdor seziladigan ta’mni o‘zgartiradi.",
-      "deck": "Za’faron xushbo‘y, yengil taxir ta’mga ega; ba’zan quruq o‘t yoki tuproqsimon ohanglar bilan tasvirlanadi. Taom va ishlatilgan miqdor seziladigan ta’mni o‘zgartiradi.",
-      "lead": "Za’faron xushbo‘y, yengil taxir ta’mga ega; ba’zan quruq o‘t yoki tuproqsimon ohanglar bilan tasvirlanadi. Taom va ishlatilgan miqdor seziladigan ta’mni o‘zgartiradi.",
+      "imageAlt": "Yaqindan olingan to‘q qirmizi za’faron tolalari",
+      "readTime": "3 DAQIQA",
+      "description": "Za’faronning asal, quruq o‘tlar va iliq zamin ohanglarini o‘zida mujassam etgan ifori hamda taomlardagi ta’m uyg‘unligi.",
+      "deck": "Asalsimon mayin ifor va tildagi olijanob, yengil taxir ta’m o‘rtasidagi nozik muvozanat bilan tanishing.",
+      "lead": "Za’faron idishini ilk bor ochib hidlagan kishi uning gul asali va yozgi o‘tlarni eslatuvchi iliq iforiga qarab, ta’mi ham shirin bo‘lsa kerak, deb o‘ylashi mumkin. Aslida esa za’faron tolalari tilda shirin emas, balki quyoshda quritilgan giyohlar, iliq tuproq va yengil taxirlik uyg‘unlashgan juda boy, teran ta’m qoldiradi.",
       "sections": [
         {
           "id": "detail-1",
-          "title": "Rang va hid",
-          "text": "Boshqa sariq rang beruvchi ziravor za’faronning hidini takrorlamaydi. Birinchi sinovda o‘zingiz bilgan taomni tayyorlang. Shunda ingredient qo‘shilganda qanday o‘zgarish bo‘lganini sezish oson bo‘ladi."
+          "title": "Rang, ta’m va ifor uchligi",
+          "text": "Za’faronning pazandalikdagi sehri uchta tabiiy birikmaning uyg‘unligidan tug‘iladi: suvga tiniq oltin tus beruvchi krosin, ta’mga yoqimli va olijanob taxirlik baxsh etuvchi pikrokrosin hamda quritish jarayonida shakllanadigan xushbo‘y efir moyi — safranal. Ozarbayjon, Boku, Mashtag‘a qishlog‘ida yetishtirilgan za’faronimizda ushbu uch xususiyat bir-birini to‘ldirib namoyon bo‘ladi."
         },
         {
           "id": "detail-2",
-          "title": "Muvozanatli miqdor",
-          "text": "Ko‘proq tola har doim yaxshiroq natija bermaydi. Ortiqcha za’faron taxirlikni kuchaytirib, boshqa ta’mlarni bosishi mumkin. Retseptdagi miqdordan boshlang va keyingi safar faqat bitta o‘zgarish kiriting."
+          "title": "Qaysi masalliqlar bilan uyg‘unlashadi?",
+          "text": "Za’faron yog‘li va kraxmalli masalliqlar bilan uchrashganda o‘z qirralarini to‘liq ochadi. Devzira yoki lazer guruchidan damlangan palov, qo‘y va mol go‘shti, tovuq bulyoni, baliq, qaymoq, sut, bodom hamda kardamon za’faronning eng yaqin hamrohlaridir. Zarchava (kurkuma) taomni sarg‘aytirishi mumkin, ammo Mashtag‘a za’faronining oshga beradigan shohona nafasini hech narsa bosa olmaydi."
         },
         {
           "id": "detail-3",
-          "title": "Hid nimani tasdiqlaydi?",
-          "text": "Hid va tola shaklini kuzatish foydali, ammo bu soflikning mustaqil isboti emas. Mahsulot kelib chiqishi va unga mos hujjatlar muhim. Faqat hidga qarab sifat darajasini belgilamang."
+          "title": "Ozgina miqdor — ulug‘vor natija",
+          "text": "Za’farondan foydalanishda me’yorni oshirib yuborish taomda dorivor yoki o‘tkir taxir ta’m paydo bo‘lishiga olib kelishi mumkin. Yaxshi za’faron asosiy masalliqning ta’mini berkitmaydi, aksincha, guruch va go‘sht lazzatini bir-biriga bog‘lab, ularni yagona ohangga keltiradi. Shu bois har doim bir chimdimdan boshlab, o‘z oilangiz didiga mos me’yorni topish tavsiya etiladi."
         }
       ],
       "sources": [
@@ -352,26 +376,26 @@
       "title": "Za’faron nega qimmat va narxi qanday solishtiriladi?",
       "category": "Za’faron bo‘yicha qo‘llanmalar",
       "image": "flower",
-      "imageAlt": "Quyosh botayotgandagi binafsha za’faron guli",
-      "readTime": "2 DAQIQA",
-      "description": "Za’faron gulning kichik qismidan olinadi; terish va tayyorlash ehtiyotkor mehnat talab qiladi. Idish narxidan tashqari gramm narxi va mahsulot ma’lumotlarini ham solishtiring.",
-      "deck": "Za’faron gulning kichik qismidan olinadi; terish va tayyorlash ehtiyotkor mehnat talab qiladi. Idish narxidan tashqari gramm narxi va mahsulot ma’lumotlarini ham solishtiring.",
-      "lead": "Za’faron gulning kichik qismidan olinadi; terish va tayyorlash ehtiyotkor mehnat talab qiladi. Idish narxidan tashqari gramm narxi va mahsulot ma’lumotlarini ham solishtiring.",
+      "imageAlt": "Quyosh botayotganda dalada ochilgan binafsha za’faron guli",
+      "readTime": "3 DAQIQA",
+      "description": "Bir gramm za’faron tolasi uchun qancha gul kerakligi, tonggi qo‘l mehnati va 5 grammlik xaridlarda narxni to‘g‘ri baholash.",
+      "deck": "Har bir guldan faqat uch dona nozik tola olinadi va daladagi terimdan tortib saralashgacha bo‘lgan barcha jarayon inson qo‘li bilan bajariladi.",
+      "lead": "Za’faronning dunyodagi eng qimmatbaho ziravor ekani shunchaki ovoza emas, balki dehqonchilik mashaqqatining bevosita natijasidir. Atigi bir gramm quruq za’faron tolalarini olish uchun 150 tadan 200 tagacha Crocus sativus gulini tong saharda bittalab qo‘lda terish va har birining ichidagi uch dona qirmizi tumshuqchani shikastlamasdan ajratib olish talab etiladi.",
       "sections": [
         {
           "id": "detail-1",
-          "title": "Narxga ta’sir qiladigan omillar",
-          "text": "Yetishtirish, terish, quritish, qadoqlash va yetkazish sharoitlari xarajatga ta’sir qiladi. Yuqori narx o‘z-o‘zidan sifat dalili emas. Sof vazn va hujjatlangan ma’lumotni birga tekshirish foydaliroq."
+          "title": "Tonggi shudring ko‘tarilmasdan qilinadigan mehnat",
+          "text": "Za’faron gullari kuzda bor-yo‘g‘i ikki-uch hafta davomida ochiladi. Quyosh ko‘tarilib, gulbarglar keng ochilganda nozik tumshuqchalarning efir moylari kamaya boshlaydi. Shu sababli dalalarda terim subhidamda, shudring ko‘tarilmasdan amalga oshiriladi, so‘ngra qizil tolalar qo‘lda tozalanib, ehtiyotkorlik bilan quritiladi va o‘z vaznining sakson foizga yaqinini yo‘qotadi."
         },
         {
           "id": "detail-2",
-          "title": "Gramm bo‘yicha hisob",
-          "text": "Mahsulot narxini sof gramm miqdoriga bo‘ling. Bir xil valyutada solishtirib, yetkazish xarajatini alohida hisobga oling. ROFRAN narxi hali e’lon qilinmagan; tasdiqlanganda hisob haqiqiy taklifga asoslanishi kerak."
+          "title": "Gramm narxi va ROFRAN shaffofligi",
+          "text": "Za’faron narxini solishtirganda idishning kattaligiga emas, uning ichidagi sof gramm og‘irligiga va tolalarning tozaligiga qarang. Haddan tashqari arzon mahsulotlarda og‘irlikni ko‘paytirish uchun sariq changchilar qo‘shib yuboriladi yoki boshqa o‘simlik tolalari aralashtiriladi. ROFRAN’da eng kam buyurtma {minimum} gramm (5 gramm) bo‘lib, uning narxi xalqaro buyurtmalar uchun 50 USD, Ozarbayjonda esa 50 AZN etib belgilangan."
         },
         {
           "id": "detail-3",
-          "title": "Bir xil mahsulotni qiyoslang",
-          "text": "Butun tola, maydalangan ziravor va aralashma bir narsa emas. Tarkib, vazn va hujjatlar solishtirishga mos bo‘lishi kerak. Bitta do‘kon narxidan butun bozor narxi yoki mutlaq sifat xulosasini chiqarmang."
+          "title": "Har bir qozon taomga to‘g‘ri keladigan qiymat",
+          "text": "Gramm narxi bir qarashda baland tuyulsa-da, za’faron qozonga qoshiqlab emas, balki sanog‘i bilan tolalab solinadi. 5 grammlik qadoqda yuzlab qirmizi tolalar bo‘lib, bu miqdor uyda 40–50 marta bayramona palov, sho‘rva yoki shirinlik damlashga bemalol yetadi. Demak, bitta oilaviy dasturxon uchun sarflanadigan haqiqiy za’faronning bir porsiyaga to‘g‘ri keladigan ulushi ancha mo‘tadildir."
         }
       ],
       "sources": [
@@ -386,26 +410,26 @@
       "title": "Za’faron sotib olayotganda nimani tekshirish kerak?",
       "category": "Za’faron bo‘yicha qo‘llanmalar",
       "image": "product",
-      "imageAlt": "Oltin qopqoqli shaffof idishdagi za’faron",
-      "readTime": "2 DAQIQA",
-      "description": "Sof vazn, tarkib, yetishtirilgan joy, sotuvchi aloqasi va tegishli hujjatlarni tekshiring. Buyurtmadan oldin umumiy narx va yetkazib berish shartlarini o‘qing.",
-      "deck": "Sof vazn, tarkib, yetishtirilgan joy, sotuvchi aloqasi va tegishli hujjatlarni tekshiring. Buyurtmadan oldin umumiy narx va yetkazib berish shartlarini o‘qing.",
-      "lead": "Sof vazn, tarkib, yetishtirilgan joy, sotuvchi aloqasi va tegishli hujjatlarni tekshiring. Buyurtmadan oldin umumiy narx va yetkazib berish shartlarini o‘qing.",
+      "imageAlt": "Shaffof shisha idishdagi butun za’faron tolalari",
+      "readTime": "4 DAQIQA",
+      "description": "Asl za’faron tolalarini tanlashda yetishtirilgan hudud, tola tuzilishi, rang chiqarishi va buyurtma shartlarini tekshirish bo‘yicha qo‘llanma.",
+      "deck": "Sifatli za’faronni ajratib olish uchun qirmizi tolalarning butunligiga, u o‘sgan aniq qishloqqa va sotuvchining ochiqligiga e’tibor qarating.",
+      "lead": "Bozorda za’faron nomi ostida sotiladigan mahsulotlarning sifati bir-biridan keskin farq qiladi. Oshxonangizga haqiqatan ham halol mehnat bilan yetishtirilgan toza za’faron tolalarini olib kirish uchun xarid oldidan mahsulotning ko‘rinishi, kelib chiqish manzili va sotuv shartlarini sinchiklab ko‘zdan kechiring.",
       "sections": [
         {
           "id": "detail-1",
-          "title": "Mahsulotni aniqlang",
-          "text": "Tola, kukun yoki aralashma ekanini biling. Sof vazn qadoq bilan birgalikdagi vazn emas. Kelib chiqish yoki partiya ma’lumoti aynan tanlangan mahsulotga tegishli ekanini tekshiring. Tasviriy dala surati ishlab chiqarish dalili bo‘lmaydi."
+          "title": "Tolaning shakli va rangi",
+          "text": "Asl za’faron tolalari to‘q qirmizi rangda bo‘lib, bir uchi karnaychadek biroz kengaygan bo‘ladi. Idish ichida rangsiz sariq poyalar, maydalangan kukun qoldiqlari yoki bir-biriga yopishib qolgan nam bo‘laklar bo‘lmasligi lozim. Tolalar iliq suvga solinganda suvni darhol qip-qizil qilib yubormasdan, asta-sekin tiniq oltin-sariq rangga kiritishi haqiqiy sifat belgisidir."
         },
         {
           "id": "detail-2",
-          "title": "Hujjatlarni o‘qing",
-          "text": "Tahlil taqdim etilsa, laboratoriya, namuna yoki partiya raqami, sana va tekshiruv doirasini ko‘ring. ISO 3632 nomining o‘zi mahsulot tekshirilganini bildirmaydi. Uyda bir marta suvga solish soflikni to‘liq isbotlay olmaydi."
+          "title": "Aniq yetishtirilgan joy: Boku, Mashtag‘a",
+          "text": "Yorlig‘ida faqat qadoqlangan davlat nomi yozilgan mavhum mahsulotlardan ko‘ra, za’faron aynan qaysi zaminda o‘sganini ochiq ko‘rsatadigan ishlab chiqaruvchini tanlang. ROFRAN za’faroni Ozarbayjon, Boku, Mashtag‘a qishlog‘i dalalarida yetishtiriladi. Aniq manba — idishdagi tolalar turli joylardan yig‘ilgan eski aralashma emasligining eng muhim dalilidir."
         },
         {
           "id": "detail-3",
-          "title": "Buyurtma shartlari",
-          "text": "ROFRAN’da eng kam buyurtma {minimum} gramm. Onlayn to‘lov hali ochilmagan. O‘zbekcha sahifa O‘zbekistonga yetkazish va’dasi emas: xizmat boshlanganda manzil, to‘lov va yetkazish shartlarini tekshirish kerak."
+          "title": "Ishonchli yetkazib beruvchi va xarid mezonlari",
+          "text": "Za’faron xarid qilayotganda faqat yaltiroq qadoqlarga aldanmang; sotuvchi mahsulotning sof og‘irligini, partiya raqamini va hosil yilini ochiq ko‘rsatganiga e’tibor bering. Haqiqiy za’faron yetishtiruvchilar o‘z mahsulotining aniq manzilini yashirmaydi, noma’lum aralashmalarni sotmaydi va har qanday savol uchun ochiq aloqa vositalarini taqdim etadi. Buyurtma berishdan oldin yetkazib berish va sifat kafolatlarini aniqlashtirish xonadoningizga soxta emas, asl qirmizi tola kirib kelishini ta’minlaydi."
         }
       ],
       "sources": [
@@ -420,26 +444,26 @@
       "title": "Za’faron tolasi yoki kukuni: qaysi biri?",
       "category": "Za’faron bo‘yicha qo‘llanmalar",
       "image": "threads",
-      "imageAlt": "Qizil za’faron tolalarining yaqin tasviri",
-      "readTime": "2 DAQIQA",
-      "description": "Butun tolada mahsulot shaklini ko‘rish mumkin. Kukun qulay bo‘lishi mumkin, ammo tarkibini tashqi ko‘rinishidan ishonchli aniqlab bo‘lmaydi. Har ikki holatda ham mahsulot va sotuvchi ma’lumoti muhim.",
-      "deck": "Butun tolada mahsulot shaklini ko‘rish mumkin. Kukun qulay bo‘lishi mumkin, ammo tarkibini tashqi ko‘rinishidan ishonchli aniqlab bo‘lmaydi. Har ikki holatda ham mahsulot va sotuvchi ma’lumoti muhim.",
-      "lead": "Butun tolada mahsulot shaklini ko‘rish mumkin. Kukun qulay bo‘lishi mumkin, ammo tarkibini tashqi ko‘rinishidan ishonchli aniqlab bo‘lmaydi. Har ikki holatda ham mahsulot va sotuvchi ma’lumoti muhim.",
+      "imageAlt": "Yaqin masofadan olingan qirmizi za’faron tolalari",
+      "readTime": "3 DAQIQA",
+      "description": "Butun za’faron tolalari bilan maydalangan kukun o‘rtasidagi ifor saqlanishi, soflikni tekshirish va oshxonada qo‘llash farqlari.",
+      "deck": "Tayyor kukun bir qarashda qulay tuyulsa-da, gulning tabiiy sofligini ko‘rish va xushbo‘y efir moylarini asrashning eng ishonchli yo‘li butun tolalardir.",
+      "lead": "Za’faron xarid qilmoqchi bo‘lganingizda ikki xil shaklga duch kelasiz: gulning quritilgan butun tumshuqchalari (za’faron tolalari) hamda maydalangan za’faron kukuni. Tajribali oshpazlar va pazandalar deyarli har doim butun tolalarni tanlaydilar, chunki tola shakli ham soflik guvohnomasi, ham ifor qalqonidir.",
       "sections": [
         {
           "id": "detail-1",
-          "title": "Butun tolalar",
-          "text": "Retsept talab qilsa, foydalanish oldidan yengil maydalash mumkin. Shaklni ko‘rish mahsulotni tanishga yordam beradi. Lekin faqat rang yoki shakl soflikka kafolat bermaydi."
+          "title": "Ko‘zga ko‘rinib turgan tabiiylik",
+          "text": "Butun za’faron tolalariga qaraganingizda Crocus sativus gulining tabiiy qirmizi tumshuqchalarini o‘z ko‘zingiz bilan ko‘rasiz va hech qanday shubhaga o‘rin qolmaydi. Bundan tashqari, za’faronning nozik safranal ifori butun tola qobig‘i ichida uzoq vaqt himoyalangan holda turadi. Agar retseptda maydalangan za’faron talab qilinsa, damlashdan oldin tolalarni hovonchada o‘zingiz yengil ezib olishingiz mumkin."
         },
         {
           "id": "detail-2",
-          "title": "Kukunni baholash",
-          "text": "Maydalangan za’faronni ziravorlar aralashmasi bilan adashtirmang. Tarkib, sof vazn va hujjatlarni ko‘ring. Suyuqlikda oson aralashishi foydalanish xususiyati bo‘lib, tasdiqlangan tarkib o‘rnini bosmaydi."
+          "title": "Tayyor kukunning kamchiliklari",
+          "text": "Za’faron oldindan kukunga aylantirilganda uning havo bilan to‘qnashuv yuzasi bir necha barobar ortib, xushbo‘y efir moylari tezda uchib ketadi. Eng xavfli jihati shundaki, qizg‘ish-sariq kukunning ichiga zarchava, maxsar, qizil qalampir yoki sun’iy bo‘yoqlar aralashtirilgan bo‘lsa, buni uy sharoitida ko‘z bilan ajratib bo‘lmaydi."
         },
         {
           "id": "detail-3",
-          "title": "ROFRAN to‘plami",
-          "text": "Dastlabki to‘plam faqat za’faron tolalaridan iborat; eng kam buyurtma {minimum} gramm. Hozircha choy, kukun yoki boshqa mahsulotlar yo‘q. Ushbu taqqoslash bozordagi shakllarni tushunishga yordam berish uchun berilgan."
+          "title": "Oshxonada nega har doim butun tola afzal ko‘riladi?",
+          "text": "Sharqona pazandalik va tajribali oshpazlar za’faronni doimo butun tola holida saqlashni qat’iy qoida deb biladi. Butun tolalar gulning tabiiy xushbo‘y efir moylarini o‘z ichida uzoq vaqt saqlab qoladi. ROFRAN to‘plamida ham maydalangan kukunlarga o‘rin berilmaydi; Absheronning qadimiy Mashtag‘a zaminida terilgan za’faron faqat toza qirmizi tola ko‘rinishida taqdim etiladi. Shu bois idishni har gal ochganingizda gulning tabiiy va sof iforini tuyasiz."
         }
       ],
       "sources": [

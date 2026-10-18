@@ -5,7 +5,7 @@ import { readFileSync } from 'node:fs';
 const base = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
 const canonicalBase = process.env.TEST_CANONICAL_URL || base;
 const originalRoutes = ['/', '/saffron', '/journal', '/journal/what-is-saffron', '/journal/how-to-use-saffron', '/journal/how-to-store-saffron'];
-const locales = ['en', 'az', 'ru', 'tr', 'kk', 'uz', 'ky', 'tg'];
+const locales = ['en', 'az', 'ru', 'tr', 'kk', 'uz', 'ky', 'tg', 'de', 'fr', 'es', 'it', 'nl', 'pl', 'pt', 'uk', 'ka', 'ar', 'ja', 'ko', 'zh'];
 const routeFor = (locale, path) => locale === 'en' ? path : `/${locale}${path === '/' ? '' : path}`;
 const routes = locales.flatMap(locale => originalRoutes.map(path => routeFor(locale, path)));
 const minimum = JSON.parse(readFileSync(new URL('../content/product.json', import.meta.url), 'utf8')).minimumOrderGrams;
@@ -70,7 +70,7 @@ test('discovery files list the real content routes and unknown articles return 4
   const robots = await fetch(base + '/robots.txt');
   assert.equal(robots.status, 200);
   assert.match(await robots.text(), /Sitemap:/);
-  for (const path of [...locales.map(l => routeFor(l, '/journal/does-not-exist')), '/az/missing/page', '/ru/missing/page', '/de']) {
+  for (const path of [...locales.map(l => routeFor(l, '/journal/does-not-exist')), '/az/missing/page', '/ru/missing/page', '/fa']) {
     const missing = await fetch(base + path);
     assert.equal(missing.status, 404, path);
     if (locales.some(l => l !== 'en' && path.startsWith(`/${l}/`))) {

@@ -1,0 +1,477 @@
+{
+  "labels": {
+    "explore": "Découvrir ROFRAN",
+    "faq": "Questions et réponses",
+    "product": "Découvrir le safran",
+    "journal": "Le journal du safran",
+    "updated": "Mis à jour",
+    "author": "La rédaction ROFRAN",
+    "links": "Pages associées",
+    "back": "Accueil"
+  },
+  "faqCopy": {
+    "title": "Questions fréquentes sur le safran",
+    "description": "Tout savoir sur notre safran de Machtaga (Bakou), son infusion en cuisine, sa conservation et les commandes dès {minimum} grammes.",
+    "eyebrow": "REPÈRES ESSENTIELS",
+    "intro": "Des réponses claires pour choisir, infuser, conserver et commander nos filaments entiers de safran d’Azerbaïdjan.",
+    "all": "Toutes les questions",
+    "saffron": "Le safran",
+    "kitchen": "En cuisine",
+    "buying": "Choix et commande",
+    "more": "Lire le journal",
+    "search": "Rechercher une question",
+    "empty": "Aucune question ne correspond à votre recherche. Essayez un autre terme."
+  },
+  "faqs": [
+    {
+      "question": "Qu’est-ce que le véritable safran ?",
+      "answer": "Le safran est constitué uniquement des trois stigmates carmin, cueillis puis séchés, de la fleur d’automne Crocus sativus. Contrairement aux pétales mauves ou aux étamines jaunes, seuls ces filaments rouges concentrent le pouvoir colorant doré et le parfum miellé propres à l’épice.",
+      "category": "saffron",
+      "link": "/journal/what-is-saffron"
+    },
+    {
+      "question": "D’où provient le safran ROFRAN ?",
+      "answer": "Notre safran est cultivé à Machtaga (Maştağa), un village historique situé aux portes de Bakou, sur la péninsule d’Abchéron en Azerbaïdjan. Ses sols sablonneux, ses étés secs et les brises de la mer Caspienne y façonnent depuis des générations un safran d’une grande intensité aromatique.",
+      "category": "saffron",
+      "link": "/quality"
+    },
+    {
+      "question": "Comment utiliser et faire infuser les filaments de safran ?",
+      "answer": "Plongez le nombre de filaments indiqué par votre recette — entiers ou légèrement froissés au mortier — dans un peu d’eau tiède, de bouillon ou de lait (sans ébullition) pendant 15 à 20 minutes. Versez ensuite l’infusion dorée ainsi que les pistils directement dans votre préparation.",
+      "category": "kitchen",
+      "link": "/journal/how-to-use-saffron"
+    },
+    {
+      "question": "Comment conserver le safran pour préserver son parfum ?",
+      "answer": "Conservez vos filaments dans un flacon hermétique, au sec, au frais et surtout à l’abri de la lumière du jour. Prélevez toujours les pistils à l’aide d’une pince ou d’une cuillère parfaitement sèche, loin de la vapeur des casseroles.",
+      "category": "kitchen",
+      "link": "/journal/how-to-store-saffron"
+    },
+    {
+      "question": "Quel est le goût et le parfum du vrai safran ?",
+      "answer": "Un grand safran mêle des notes chaudes de foin coupé au soleil et de miel sec à une noble amertume minérale et florale en bouche. Jamais piquant ni sucré, il apporte une longueur aromatique inimitable aux riz, aux bouillons de poissons et aux brioches.",
+      "category": "saffron",
+      "link": "/journal/what-does-saffron-taste-like"
+    },
+    {
+      "question": "Pourquoi le safran est-il précieux et comment comparer son prix ?",
+      "answer": "Chaque fleur de Crocus sativus ne livre que trois fins stigmates qu’il faut cueillir à l’aube et émonder entièrement à la main. Chez ROFRAN, la commande minimale de {minimum} grammes est proposée à 50 USD (50 AZN en Azerbaïdjan) ; comparez toujours le prix au gramme net plutôt que le prix au pot.",
+      "category": "buying",
+      "link": "/journal/why-is-saffron-expensive"
+    },
+    {
+      "question": "Quels repères vérifier avant d’acheter du safran ?",
+      "answer": "Privilégiez des stigmates entiers d’un rouge profond sans styles jaunes, vérifiez le poids net exact et exigez une origine géographique précise comme notre terroir de Machtaga à Bakou. Des coordonnées de contact vérifiables sont également un gage de sérieux.",
+      "category": "buying",
+      "link": "/journal/how-to-buy-saffron"
+    },
+    {
+      "question": "Faut-il choisir le safran en filaments ou en poudre ?",
+      "answer": "Les filaments entiers permettent de vérifier immédiatement l’intégrité botanique du pistil et protègent beaucoup mieux les huiles essentielles que la poudre déjà moulue. ROFRAN propose exclusivement des filaments rouges entiers, que vous pouvez réduire en poudre au mortier juste avant de cuisiner.",
+      "category": "buying",
+      "link": "/journal/saffron-threads-vs-powder"
+    },
+    {
+      "question": "Quels sont le poids minimal de commande et le tarif chez ROFRAN ?",
+      "answer": "La commande minimale chez ROFRAN est de {minimum} grammes de safran en filaments entiers, au prix de 50 USD à l’international (ou 50 AZN en Azerbaïdjan). Comme une simple pincée suffit pour un plat familial, {minimum} grammes accompagnent de très nombreux repas.",
+      "category": "buying",
+      "link": "/saffron"
+    },
+    {
+      "question": "Le safran ROFRAN est-il en stock et commandable en ligne ?",
+      "answer": "Notre récolte est actuellement en rupture de stock et le paiement en ligne n’est pas encore activé sur le site. Pour toute question sur la prochaine récolte de Machtaga, vous pouvez nous écrire à contact@rofran.com ou nous joindre au +994 50 823 93 45.",
+      "category": "buying",
+      "link": "/saffron"
+    },
+    {
+      "question": "Livrez-vous en France, en Belgique ou en Suisse ?",
+      "answer": "À ce jour, les expéditions sont assurées uniquement en Azerbaïdjan ; la livraison internationale vers l’Europe n’est pas encore ouverte. L’édition française de ce site vous permet de découvrir notre terroir d’Abchéron et nos guides culinaires en attendant l’ouverture des envois internationaux.",
+      "category": "buying",
+      "link": "/shipping"
+    },
+    {
+      "question": "Quelle est la différence entre le safran, le curcuma et le carthame ?",
+      "answer": "Le curcuma est un rhizome moulu et le carthame (parfois appelé faux safran) provient des pétales d’un chardon : s’ils teintent les plats en jaune ou en orangé, aucun des deux ne possède le parfum miellé ni la finesse aromatique des stigmates de Crocus sativus.",
+      "category": "saffron",
+      "link": "/journal/what-is-saffron"
+    },
+    {
+      "question": "Comment observer la qualité du safran lors de l’infusion dans l’eau ?",
+      "answer": "Plongés dans une eau tiède, de véritables filaments de safran libèrent progressivement une robe jaune d’or limpide tout en conservant leur couleur rouge carmin. Une eau qui devient immédiatement rouge sombre ou trouble trahit souvent l’ajout de colorants artificiels.",
+      "category": "buying",
+      "link": "/quality"
+    }
+  ],
+  "resources": {
+    "about": {
+      "eyebrow": "TERROIR D’ABCHÉRON",
+      "title": "À propos de ROFRAN",
+      "description": "ROFRAN se consacre aux filaments entiers de safran cultivés à Machtaga, près de Bakou. Découvrez notre terroir sur la péninsule d’Abchéron et notre démarche.",
+      "intro": "ROFRAN est né d’une fidélité à un seul produit de la terre : le safran en filaments entiers, récolté dans le village de Machtaga sur la péninsule d’Abchéron, en Azerbaïdjan.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "L’héritage safranier de Machtaga (Bakou)",
+          "text": "Sur la péninsule d’Abchéron, bercée par les vents de la mer Caspienne, la culture du Crocus sativus se transmet depuis des générations. À Machtaga (Maştağa), aux portes de Bakou, les sols sablonneux bien drainés et l’ensoleillement sec favorisent une concentration remarquable en arômes et en pigments naturels."
+        },
+        {
+          "title": "Une maison dédiée à un seul produit",
+          "text": "Plutôt que de disperser notre attention sur un catalogue d’épices multiples, nous consacrons toute notre exigence aux seuls stigmates rouges entiers de safran. Notre récolte est proposée à partir de {minimum} grammes au tarif de 50 USD (50 AZN en Azerbaïdjan)."
+        },
+        {
+          "title": "Une approche gastronomique et sincère",
+          "text": "Un grand safran se passe d’artifices. À travers nos carnets et nos guides, nous partageons des repères précis sur la botanique du crocus, le geste de l’infusion et la conservation, afin d’accompagner chaque amateur de cuisine avec clarté."
+        }
+      ]
+    },
+    "quality": {
+      "eyebrow": "PURETÉ & SAVOIR-FAIRE",
+      "title": "Origine et exigence de qualité",
+      "description": "De la cueillette matinale à Machtaga (Bakou) au séchage délicat des stigmates rouges : découvrez comment ROFRAN préserve l’intégrité de son safran.",
+      "intro": "La noblesse d’un safran se joue dès l’aube dans les parcelles de Machtaga : dans la fraîcheur de la corolle cueillie à la main, la précision de l’émondage et la douceur du séchage.",
+      "image": "threads",
+      "sections": [
+        {
+          "title": "Cueillette à l’aube sur la péninsule d’Abchéron",
+          "text": "Durant quelques semaines d’automne, les fleurs mauves de Crocus sativus s’ouvrent aux premières lueurs du jour. À Machtaga, elles sont récoltées à la main avant que le soleil ne flétrisse les délicats stigmates, puis émondées le jour même avec une extrême minutie."
+        },
+        {
+          "title": "Des filaments rouges entiers, sans compromis",
+          "text": "ROFRAN sélectionne exclusivement les stigmates carmin entiers, débarrassés des étamines jaunes et des débris floraux dépourvus de saveur. Choisir le filament entier vous permet d’apprécier au premier coup d’œil la forme en trompette caractéristique du pistil authentique."
+        },
+        {
+          "title": "L’épreuve de l’infusion en cuisine",
+          "text": "Au contact d’une eau tiède, nos filaments libèrent lentement leur crocine naturelle pour offrir une liqueur jaune d’or lumineuse et limpide, tandis que le stigmate reste rouge et exhale son bouquet profond de miel sec et d’herbes d’automne."
+        }
+      ]
+    },
+    "shipping": {
+      "eyebrow": "COMMANDES & EXPÉDITIONS",
+      "title": "Livraison, tarifs et disponibilité",
+      "description": "Informations sur la commande minimale de {minimum} grammes (50 USD / 50 AZN), la rupture de stock actuelle et les conditions de livraison en Azerbaïdjan.",
+      "intro": "Avant toute commande, retrouvez ici en toute transparence l’état de notre stock, nos tarifs et le périmètre actuel de nos expéditions.",
+      "image": "product",
+      "sections": [
+        {
+          "title": "Disponibilité actuelle et paiement en ligne",
+          "text": "Notre récolte de Machtaga est actuellement en rupture de stock et le module de paiement en ligne n’est pas encore ouvert sur ce site. Vous pouvez néanmoins parcourir notre collection et nous contacter pour être informé de la disponibilité des prochains lots."
+        },
+        {
+          "title": "Minimum de commande et tarification claire",
+          "text": "Le safran ROFRAN est proposé à partir d’un minimum de commande de {minimum} grammes de filaments entiers. Le prix est fixé à 50 AZN en Azerbaïdjan et à 50 USD à l’international pour {minimum} grammes, hors frais de port éventuels."
+        },
+        {
+          "title": "Livraison en Azerbaïdjan et perspectives internationales",
+          "text": "Pour l’heure, les livraisons sont effectuées uniquement sur le territoire de l’Azerbaïdjan. L’expédition internationale vers la France, la Belgique, la Suisse et le reste de l’Europe n’est pas encore ouverte. Pour toute demande particulière, écrivez-nous à contact@rofran.com."
+        }
+      ],
+      "draft": true
+    },
+    "contact": {
+      "eyebrow": "NOUS ÉCRIRE",
+      "title": "Contacter ROFRAN à Bakou",
+      "description": "Une question sur notre safran de Machtaga ou sur une future commande ? Contactez ROFRAN par courriel à contact@rofran.com, contact@rofran.az ou au +994 50 823 93 45.",
+      "intro": "Que vous souhaitiez en savoir plus sur nos parcelles de Machtaga, vérifier le retour en stock ou préparer une commande, notre équipe vous répond directement depuis Bakou.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Courriel et ligne directe",
+          "text": "Pour toute correspondance internationale, écrivez-nous à contact@rofran.com ; pour les demandes locales en Azerbaïdjan, vous pouvez également utiliser contact@rofran.az. Nous sommes joignables par téléphone au +994 50 823 93 45."
+        },
+        {
+          "title": "Renseignements sur les prochaines récoltes",
+          "text": "Notre safran étant produit en quantités limitées à Machtaga et actuellement en rupture de stock, nous vous indiquerons volontiers par courriel les délais prévus pour la prochaine mise en vente (dès {minimum} grammes pour 50 USD / 50 AZN)."
+        },
+        {
+          "title": "Un échange direct, sans formulaire automatisé",
+          "text": "Nous privilégions le contact humain aux formulaires automatiques. Envoyez-nous simplement un message depuis votre messagerie habituelle en précisant votre pays et l’objet de votre demande."
+        }
+      ],
+      "draft": true
+    },
+    "wholesale": {
+      "eyebrow": "RESTAURANTS & ÉPICERIES FINES",
+      "title": "Le safran ROFRAN pour les professionnels",
+      "description": "Filaments entiers de safran de Machtaga (Bakou) pour les chefs, pâtissiers et maisons d’épicerie fine. Contactez ROFRAN pour vos demandes professionnelles.",
+      "intro": "Nous accompagnons les tables gastronomiques, artisans pâtissiers et comptoirs d’épices à la recherche d’un safran de terroir traçable, issu de la péninsule d’Abchéron.",
+      "image": "threads",
+      "sections": [
+        {
+          "title": "Une signature aromatique franche en cuisine",
+          "text": "Dans un fumet de crustacés, un risotto, un pilaf de fête ou une infusion lactée pour la pâtisserie, le safran de Machtaga se distingue par la pureté de sa teinte dorée et sa longueur en bouche. Le travail en filaments entiers garantit au chef une maîtrise parfaite du dosage et du temps d’infusion."
+        },
+        {
+          "title": "Volumes, réservations et tarification",
+          "text": "Si notre offre habituelle débute à {minimum} grammes pour 50 USD (50 AZN en Azerbaïdjan), les conditionnements destinés aux cuisines professionnelles font l’objet d’une étude sur mesure selon les volumes disponibles à chaque récolte."
+        },
+        {
+          "title": "Prendre attache avec notre équipe",
+          "text": "Notre stock étant momentanément épuisé et les expéditions actuellement limitées à l’Azerbaïdjan, nous invitons les professionnels à nous adresser leurs besoins prévisionnels à contact@rofran.com ou au +994 50 823 93 45."
+        }
+      ],
+      "draft": true
+    },
+    "privacy": {
+      "eyebrow": "CONFIDENTIALITÉ",
+      "title": "Vie privée et fonctionnement du site",
+      "description": "Découvrez comment le site ROFRAN enregistre localement vos préférences de navigation (panier et ambiance sonore) dans le respect de votre vie privée.",
+      "intro": "Nous accordons à vos données personnelles la même discrétion et le même soin qu’à notre travail agricole : ce site fonctionne sans collecte intrusive.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Mémoire locale de votre navigateur",
+          "text": "Lorsque vous ajoutez un article à votre sélection ou que vous réglez le son du film de présentation, ce choix est uniquement conservé dans le stockage local (Local Storage) de votre navigateur. Le paiement en ligne n’étant pas encore actif, aucune donnée bancaire ou postale n’est saisie sur le site."
+        },
+        {
+          "title": "Échanges par courriel ou téléphone",
+          "text": "Si vous prenez contact avec nous via contact@rofran.com, contact@rofran.az ou au +994 50 823 93 45, vos coordonnées servent exclusivement à répondre à votre demande et ne sont jamais cédées à des tiers publicitaires."
+        },
+        {
+          "title": "Évolution lors de l’ouverture de la vente en ligne",
+          "text": "Avant l’activation future du paiement et de la livraison en ligne, cette notice sera complétée par l’ensemble des informations légales relatives aux prestataires de paiement et de transport."
+        }
+      ],
+      "draft": true
+    }
+  },
+  "articles": [
+    {
+      "slug": "what-is-saffron",
+      "title": "Qu’est-ce que le safran ? Botanique, terroir d’Abchéron et usages",
+      "category": "Guides du safran",
+      "image": "flower",
+      "imageAlt": "Fleur violette de Crocus sativus baignée par la lumière du couchant",
+      "readTime": "4 MIN DE LECTURE",
+      "description": "Comprenez ce qu’est le véritable safran, comment naissent les stigmates rouges de Crocus sativus et pourquoi le village de Machtaga à Bakou est un terroir d’exception.",
+      "deck": "De l’éclosion automnale du crocus sur les sables d’Abchéron jusqu’au filament carmin en cuisine.",
+      "lead": "Le safran n’est ni une racine séchée ni un simple colorant : c’est le cœur intime d’une fleur d’automne, composé des trois stigmates pourpres du Crocus sativus. Sur les rives de la mer Caspienne, dans le village de Machtaga près de Bakou, cette culture exigeante perpétue un savoir-faire séculaire.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "De la corolle mauve aux trois filaments rouges",
+          "text": "Le Crocus sativus est une plante bulbeuse à floraison automnale qui ne se reproduit que par division de ses cormes, avec l’aide de la main de l’homme. Au centre de sa corolle lilas se dressent trois étamines jaunes et un pistil divisé en trois fins stigmates d’un rouge vif. Seuls ces trois filaments rouges, délicatement pincés puis séchés, donnent naissance au safran. Attention toutefois dans la nature : tous les crocus mauves ne sont pas comestibles, et le colchique d’automne qui lui ressemble est toxique."
+        },
+        {
+          "id": "detail-2",
+          "title": "Machtaga et la tradition safranière de Bakou",
+          "text": "La péninsule d’Abchéron, en Azerbaïdjan, figure parmi les terres historiques de l’or rouge. Le village de Machtaga (Maştağa), au nord-est de Bakou, réunit un microclimat rare : des sols sablonneux filtrants, des étés arides et le souffle iodé de la mer Caspienne. Ces conditions naturelles permettent aux stigmates de concentrer les trois molécules clés du safran : la crocine (l’éclat doré), la picrocrocine (la fine amertume) et le safranal (le bouquet aromatique)."
+        },
+        {
+          "id": "detail-3",
+          "title": "L’accord de la lumière et du parfum à table",
+          "text": "Du majestueux chah-pilaf azerbaïdjanais au risotto alla milanese, en passant par la bouillabaisse méditerranéenne ou les brioches safranées, le safran joue un double rôle en gastronomie. Il habille le plat d’un jaune solaire profond tout en lui insufflant une chaleur aromatique miellée et racée qu’aucune autre épice ne peut imiter."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Crocus sativus",
+          "url": "https://www.rhs.org.uk/plants/4929/crocus-sativus/details"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-use-saffron",
+      "title": "Comment utiliser et infuser le safran en cuisine ?",
+      "category": "Guides du safran",
+      "image": "saffron",
+      "imageAlt": "Gros plan sur des filaments de safran rouge avant leur infusion",
+      "readTime": "4 MIN DE LECTURE",
+      "description": "Apprenez à doser et à faire infuser vos filaments de safran dans l’eau tiède, le bouillon ou le lait pour libérer toute leur robe dorée et leur arôme.",
+      "deck": "Quelques pistils, un liquide tiède et vingt minutes de patience suffisent à métamorphoser un plat.",
+      "lead": "Jeter des filaments de safran secs directement dans une poêle brûlante ou en toute fin de cuisson revient à brider leur potentiel. Pour que les parois végétales du stigmate s’assouplissent et libèrent harmonieusement pigments et parfums, le safran réclame le temps calme d’une infusion préalable.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "La justesse du dosage",
+          "text": "Le safran possède un pouvoir aromatique et colorant remarquable : pour un plat destiné à quatre convives, 10 à 20 filaments (soit une fraction de gramme) suffisent amplement. C’est pourquoi notre format minimal de commande de {minimum} grammes vous accompagnera durant de très nombreux repas. Ayez la main légère au départ : un excès de safran ne rend pas le plat plus luxueux, mais accentue une note médicinale et amère."
+        },
+        {
+          "id": "detail-2",
+          "title": "Le rituel de l’infusion tiède",
+          "text": "Déposez les filaments comptés dans un petit bol en porcelaine ou un verre. Vous pouvez les laisser entiers ou les froisser légèrement au mortier. Versez dessus deux à trois cuillères à soupe d’eau tiède (autour de 50 à 60 °C, jamais bouillante), de bouillon clair, de lait ou de vin blanc selon votre recette, puis laissez infuser à couvert pendant au moins 15 à 20 minutes."
+        },
+        {
+          "id": "detail-3",
+          "title": "Incorporer la liqueur et les pistils",
+          "text": "Ne filtrez surtout pas votre infusion : versez à la fois le liquide ambré et les filaments rouges dans votre casserole, car les pistils continuent de diffuser leur saveur pendant la cuisson. Lorsque vous préparez un riz pilaf ou un risotto, pensez à comptabiliser le volume de l’infusion dans la quantité totale de mouillement afin de préserver la texture idéale du grain."
+        }
+      ],
+      "sources": [
+        {
+          "title": "McCormick for Chefs — Saffron Culinary Guide",
+          "url": "https://www.mccormickforchefs.co.uk/en-gb/recipe-ideas/flavour-ingredients/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-store-saffron",
+      "title": "Comment conserver le safran : protéger la couleur et les arômes",
+      "category": "Guides du safran",
+      "image": "product",
+      "imageAlt": "Flacon en verre fermé à couvercle doré contenant des filaments de safran",
+      "readTime": "3 MIN DE LECTURE",
+      "description": "Lumière, humidité et chaleur : découvrez les gestes essentiels pour conserver vos filaments de safran intacts pendant de longs mois.",
+      "deck": "L’obscurité d’un placard sec reste le meilleur écrin pour préserver la finesse du safranal.",
+      "lead": "Si la beauté d’un flacon de safran donne envie de l’exposer sur une étagère ouverte, la lumière du jour et la chaleur des fourneaux sont pourtant les premiers ennemis de ses composés volatils. Quelques réflexes simples permettent de garder à vos filaments de safran tout leur éclat au fil des saisons.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "À l’abri de la lumière et de l’air",
+          "text": "Les rayons lumineux et l’oxygène dégradent progressivement la crocine responsable de la couleur d’or ainsi que le safranal qui porte le parfum de l’épice. Rangez toujours votre flacon hermétiquement refermé à l’intérieur d’un placard sombre et tempéré, à bonne distance du four, des plaques de cuisson et des fenêtres ensoleillées."
+        },
+        {
+          "id": "detail-2",
+          "title": "Éviter toute trace d’humidité",
+          "text": "Les stigmates de safran doivent leur conservation à un séchage minutieux après la récolte. Ne plongez jamais une cuillère humide ou des doigts mouillés dans le pot, et évitez d’ouvrir le flacon juste au-dessus d’une casserole fumante : la condensation suffirait à altérer les filaments. Utilisez de préférence une petite pince sèche pour prélever votre dose avant de cuisiner."
+        },
+        {
+          "id": "detail-3",
+          "title": "L’avantage décisif du filament entier",
+          "text": "Contrairement au safran en poudre dont la surface exposée à l’air est immense, le stigmate entier retient ses huiles essentielles au cœur de ses fibres séchées. Conservés au sec et dans l’obscurité, des filaments entiers gardent leur noblesse aromatique bien au-delà d’une année. Ne broyez au mortier que la stricte pincée destinée au repas du jour."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Saffron Care and Storage",
+          "url": "https://www.rhs.org.uk/herbs/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "what-does-saffron-taste-like",
+      "title": "Quel goût a le safran ? Parfum, amertume fine et accords",
+      "category": "Guides du safran",
+      "image": "threads",
+      "imageAlt": "Gros plan détaillé sur des stigmates rouges de safran",
+      "readTime": "4 MIN DE LECTURE",
+      "description": "Notes de foin coupé, de miel sec et délicate amertume : explorez la palette aromatique du vrai safran et ses meilleurs accords salés ou sucrés.",
+      "deck": "Entre chaleur miellée, herbes sèches et pointe minérale, une épice tout en relief.",
+      "lead": "Décrire la saveur du safran à qui n’en a jamais goûté relève d’un exercice subtil. Loin des épices brûlantes ou piquantes, le safran agit en cuisine comme un révélateur : il enveloppe les matières grasses, le riz ou le lait d’une onde chaleureuse, à la fois florale, terrienne et délicatement amère.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "L’alchimie de la crocine, de la picrocrocine et du safranal",
+          "text": "Le profil sensoriel du safran repose sur l’équilibre naturel de trois composés. La crocine offre d’abord le plaisir visuel d’un jaune franc et lumineux. En bouche, la picrocrocine apporte une fine amertume structurante qui équilibre la richesse d’un beurre ou d’une crème. Enfin, le safranal — né lors du séchage des stigmates — déploie au nez des notes enveloppantes de foin coupé au soleil, de cire d’abeille et d’embruns."
+        },
+        {
+          "id": "detail-2",
+          "title": "Des grands plats de riz aux douceurs lactées",
+          "text": "Parce qu’il évoque le miel au nez sans jamais apporter de sucre en bouche, le safran traverse avec aisance la frontière du salé et du sucré. En Azerbaïdjan, notre safran de Machtaga signe les grands pilafs aux fruits secs et à l’agneau ; en Europe, il sublime aussi bien les poissons de roche, les crustacés et le risotto que les crèmes infusées, le riz au lait ou les brioches dorées."
+        },
+        {
+          "id": "detail-3",
+          "title": "Laisser au parfum le temps de s’ouvrir",
+          "text": "Lors d’une première utilisation, il est fréquent de trouver la couleur encore pâle durant les premières secondes et d’être tenté de rajouter des filaments. Faites confiance au temps d’infusion : en une vingtaine de minutes dans un liquide tiède, l’arôme s’arrondit et la teinte dorée gagne toute sa profondeur sans que l’amertume ne prenne le dessus."
+        }
+      ],
+      "sources": [
+        {
+          "title": "McCormick for Chefs — Understanding Saffron Flavour",
+          "url": "https://www.mccormickforchefs.co.uk/en-gb/recipe-ideas/flavour-ingredients/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "why-is-saffron-expensive",
+      "title": "Pourquoi le safran est-il si cher ? Récolte manuelle et prix au gramme",
+      "category": "Guides du safran",
+      "image": "flower",
+      "imageAlt": "Crocus sativus en fleur dans un champ au soleil couchant",
+      "readTime": "4 MIN DE LECTURE",
+      "description": "Découvrez pourquoi le safran est l’épice la plus précieuse au monde : cueillette à l’aube à Machtaga, rendement de Crocus sativus et calcul du prix au gramme.",
+      "deck": "Trois infimes stigmates par fleur et un travail entièrement manuel concentré sur quelques matins d’automne.",
+      "lead": "Le surnom d’« or rouge » donné au safran ne doit rien au hasard. Sa valeur reflète directement une réalité botanique et humaine incompressible : aucune mécanique n’a jamais pu remplacer la délicatesse des doigts qui cueillent la fleur fragile du Crocus sativus à l’aube et en détachent le pistil.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "La patience de cent cinquante mille fleurs",
+          "text": "Chaque fleur de safran ne porte que trois filaments rouges. Pour obtenir un seul kilogramme de safran sec, il faut cueillir à la main puis émonder le jour même entre 150 000 et 200 000 fleurs fraîches durant une brève fenêtre automnale. Au cours du séchage qui suit la récolte, les stigmates perdent environ 80 % de leur poids en eau pour concentrer leurs arômes."
+        },
+        {
+          "id": "detail-2",
+          "title": "Lire le prix au gramme avec discernement",
+          "text": "Dans le commerce, le safran est souvent vendu en très petites capsules de 0,1 ou 0,2 gramme qui masquent le tarif réel au poids. Ramenez toujours le prix affiché au gramme net. Chez ROFRAN, nos filaments entiers de Machtaga (Bakou) sont proposés à partir d’un minimum de commande de {minimum} grammes au tarif clair de 50 USD (ou 50 AZN en Azerbaïdjan), soit 10 USD le gramme."
+        },
+        {
+          "id": "detail-3",
+          "title": "Une épice précieuse à l’achat, économique à l’assiette",
+          "text": "Un safran pur et bien séché offre un rendement remarquable en cuisine. Puisqu’un dixième de gramme suffit généralement à parfumer et dorer un plat pour quatre personnes, un flacon de {minimum} grammes permet de réaliser plusieurs dizaines de recettes — rendant le coût par assiette tout à fait mesuré au regard de l’émotion gustative apportée."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Crocus sativus",
+          "url": "https://www.rhs.org.uk/herbs/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-buy-saffron",
+      "title": "Comment bien acheter son safran : origine, pureté et conditions",
+      "category": "Guides du safran",
+      "image": "product",
+      "imageAlt": "Flacon en verre transparent ROFRAN rempli de filaments de safran",
+      "readTime": "4 MIN DE LECTURE",
+      "description": "Tous les critères pour acheter un safran authentique : vérifier la forme des stigmates entiers, la traçabilité du terroir, le poids net et les gages de pureté.",
+      "deck": "Savoir observer le filament, exiger un terroir nommé et lire clairement les conditions de vente.",
+      "lead": "Parce qu’il est convoité, le safran fait l’objet de nombreuses imitations ou coupages sur les marchés. Avant de choisir un flacon, quelques vérifications visuelles et documentaires permettent de distinguer une récolte sincère d’un produit standardisé.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Observer le stigmate et exiger un lieu de récolte précis",
+          "text": "Un véritable filament de Crocus sativus présente une couleur rouge carmin uniforme et s’évase légèrement en trompette à son extrémité supérieure. Écartez les lots mêlés de styles jaunes inodores ou de brisures indistinctes. Assurez-vous également que le terroir de culture est explicitement nommé : chez ROFRAN, nos filaments proviennent du village de Machtaga, sur la péninsule d’Abchéron à Bakou (Azerbaïdjan)."
+        },
+        {
+          "id": "detail-2",
+          "title": "Comprendre la norme ISO 3632 et le test d’infusion",
+          "text": "Sur le marché international, la norme ISO 3632 évalue le safran selon son pouvoir colorant (crocine), son amertume (picrocrocine) et son arôme (safranal). En cuisine, l’observation de l’infusion reste un excellent repère : de vrais filaments teintent l’eau tiède d’un jaune d’or limpide en quelques minutes sans se décolorer eux-mêmes, contrairement aux faux safrans teintés qui rougissent l’eau instantanément."
+        },
+        {
+          "id": "detail-3",
+          "title": "Exiger la transparence du producteur et du terroir",
+          "text": "Un producteur rigoureux indique sans détour le lieu précis de récolte, l’année de cueillette et le poids net réel sans artifice d’emballage. Privilégier des filaments entiers d’origine certifiée et un contact direct avec le producteur est la meilleure assurance pour éviter les contrefaçons et offrir à sa cuisine une épice d’une pureté irréprochable."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ISO 3632-2 — Épices, Safran (Crocus sativus L.) Méthodes d’essai",
+          "url": "https://www.iso.org/standard/44526.html"
+        }
+      ]
+    },
+    {
+      "slug": "saffron-threads-vs-powder",
+      "title": "Safran en filaments ou en poudre : que choisir en cuisine ?",
+      "category": "Guides du safran",
+      "image": "threads",
+      "imageAlt": "Gros plan sur des filaments entiers de safran rouge carmin",
+      "readTime": "3 MIN DE LECTURE",
+      "description": "Filaments entiers ou safran moulu ? Découvrez pourquoi les stigmates entiers garantissent l’authenticité et préservent mieux les arômes.",
+      "deck": "La transparence botanique et la fraîcheur aromatique plaident résolument pour le filament entier.",
+      "lead": "Si le safran moulu séduit parfois par sa rapidité d’emploi, les cuisiniers avertis privilégient presque toujours le safran en filaments entiers. Entre traçabilité visuelle et protection des huiles essentielles, la forme entière offre des garanties que la poudre ne peut égaler.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "L’authenticité visible au premier regard",
+          "text": "Un filament entier conserve la silhouette naturelle du stigmate de Crocus sativus : impossible de le confondre avec une racine moulue ou des pétales de carthame. À l’inverse, une fois réduit industriellement en poudre fine, le safran perd son identité visuelle et devient beaucoup plus vulnérable aux mélanges avec du curcuma, du paprika ou des étamines jaunes broyées."
+        },
+        {
+          "id": "detail-2",
+          "title": "Préserver les molécules aromatiques jusqu’à l’infusion",
+          "text": "La mouture multiplie la surface de contact de l’épice avec l’oxygène, accélérant l’évaporation du safranal et l’oxydation des pigments. En conservant le stigmate intact jusqu’au moment de cuisiner, vous gardez toute la vivacité du parfum. Si votre recette demande une diffusion immédiate sans filaments visibles, il vous suffit de réduire quelques pistils en poudre au mortier juste avant de les infuser."
+        },
+        {
+          "id": "detail-3",
+          "title": "Sublimer les saveurs en cuisine : moudre au moment du plat",
+          "text": "Les chefs et cuisiniers passionnés choisissent toujours les stigmates entiers et ne les écrasent délicatement au mortier qu’au moment précis de la préparation. Ce geste libère instantanément le safranal et la crocine, conférant à une bouillabaisse, une paella ou un risotto une profondeur aromatique et une pureté qu’aucune poudre industrielle ne saurait égaler."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ISO 3632-2 — Spécifications et méthodes d’essai du safran",
+          "url": "https://www.iso.org/standard/44526.html"
+        }
+      ]
+    }
+  ]
+}

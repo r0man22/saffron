@@ -1,0 +1,477 @@
+{
+  "labels": {
+    "explore": "Descubrir ROFRAN",
+    "faq": "Preguntas y respuestas",
+    "product": "Explorar el azafrán",
+    "journal": "El cuaderno del azafrán",
+    "updated": "Actualizado",
+    "author": "Redacción ROFRAN",
+    "links": "Lecturas relacionadas",
+    "back": "Inicio"
+  },
+  "faqCopy": {
+    "title": "Preguntas frecuentes sobre el azafrán",
+    "description": "Respuestas claras sobre el origen en Mashtaga, la infusión de las hebras en la cocina, la conservación y los pedidos desde {minimum} gramos.",
+    "eyebrow": "CONOCIMIENTO PRÁCTICO",
+    "intro": "Todo lo que conviene saber para elegir, infusionar y conservar el azafrán en hebra con criterio gastronómico.",
+    "all": "Todas las preguntas",
+    "saffron": "Sobre el azafrán",
+    "kitchen": "En la cocina",
+    "buying": "Selección y compra",
+    "more": "Leer la guía completa",
+    "search": "Buscar en las preguntas",
+    "empty": "No hemos encontrado ninguna pregunta con ese término. Pruebe con otra palabra."
+  },
+  "faqs": [
+    {
+      "question": "¿Qué es exactamente el azafrán?",
+      "answer": "El azafrán se compone de los tres estigmas rojos secos de la flor Crocus sativus. A diferencia de los pétalos violetas o de los estambres amarillos, son estas hebras carmesíes las que concentran el color dorado y el aroma característico de la especia.",
+      "category": "saffron",
+      "link": "/journal/what-is-saffron"
+    },
+    {
+      "question": "¿Cómo se infusiona y utiliza el azafrán en la cocina?",
+      "answer": "Lo ideal es pesar las hebras que indique la receta, majarlas suavemente si se desea y dejarlas infusionar en un poco de caldo, agua o leche tibia durante unos quince minutos antes de incorporar tanto el líquido como las hebras al guiso o al arroz.",
+      "category": "kitchen",
+      "link": "/journal/how-to-use-saffron"
+    },
+    {
+      "question": "¿Cuál es la mejor manera de conservar las hebras?",
+      "answer": "Guarde el azafrán en un tarro hermético, protegido de la luz solar, del calor de los fogones y de la humedad. Utilice siempre una cucharilla o pinza completamente seca al extraer las hebras.",
+      "category": "kitchen",
+      "link": "/journal/how-to-store-saffron"
+    },
+    {
+      "question": "¿A qué sabe y huele el buen azafrán?",
+      "answer": "Su perfume recuerda al heno recién cortado, la miel seca y la tierra cálida, mientras que en boca ofrece un fondo sutilmente amargo y sápido que redondea caldos de pescado, paellas y arroces sin resultar dulce.",
+      "category": "saffron",
+      "link": "/journal/what-does-saffron-taste-like"
+    },
+    {
+      "question": "¿Por qué tiene el azafrán un precio elevado y cómo compararlo?",
+      "answer": "Cada flor de Crocus sativus produce solo tres estigmas que deben recolectarse al alba y mondarse a mano el mismo día. Para comparar con rigor, calcule siempre el precio por gramo neto ($10 USD por gramo en el formato ROFRAN de {minimum} gramos a $50 USD) en lugar de fijarse únicamente en el tamaño del envase.",
+      "category": "buying",
+      "link": "/journal/why-is-saffron-expensive"
+    },
+    {
+      "question": "¿En qué debo fijarme al comprar azafrán?",
+      "answer": "Compruebe que se trate de hebras enteras rojas sin restos florales añadidos, revise el peso neto en gramos, verifique el origen agrícola concreto (como Mashtaga, en Bakú) y confirme los datos de contacto del productor.",
+      "category": "buying",
+      "link": "/journal/how-to-buy-saffron"
+    },
+    {
+      "question": "¿Es preferible comprar el azafrán en hebras o molido?",
+      "answer": "Las hebras enteras permiten comprobar a simple vista la morfología del estigma y retienen mejor sus compuestos aromáticos hasta el momento de usarlas. El polvo es cómodo, pero impide distinguir visualmente la pureza de la especia.",
+      "category": "buying",
+      "link": "/journal/saffron-threads-vs-powder"
+    },
+    {
+      "question": "¿Cuál es el pedido mínimo y el precio en ROFRAN?",
+      "answer": "El pedido mínimo en ROFRAN es de {minimum} gramos de hebras enteras de azafrán, con un precio de $50 USD para referencias internacionales (50 AZN en Azerbaiyán). Esta cantidad equivale a decenas de preparaciones en la cocina doméstica.",
+      "link": "/saffron",
+      "category": "buying"
+    },
+    {
+      "question": "¿Puedo hacer un pedido en línea ahora mismo?",
+      "answer": "Actualmente nuestra cosecha se encuentra agotada y el pago en línea aún no está activado. Para consultas sobre próximas partidas o reservas puede escribirnos a contact@rofran.com.",
+      "link": "/saffron",
+      "category": "buying"
+    },
+    {
+      "question": "¿Realizan envíos a España, Latinoamérica u otros países?",
+      "answer": "Por el momento solo realizamos entregas dentro de Azerbaiyán. Los envíos internacionales aún no están abiertos, aunque ofrecemos información completa en español para lectores y cocineros de todo el mundo.",
+      "link": "/shipping",
+      "category": "buying"
+    },
+    {
+      "question": "¿Dónde se cultiva el azafrán ROFRAN?",
+      "answer": "Nuestro azafrán se cultiva y cosecha en el pueblo de Mashtaga, en Bakú (península de Absherón, Azerbaiyán), una zona histórica de tradición azafranera junto al mar Caspio.",
+      "link": "/quality",
+      "category": "buying"
+    },
+    {
+      "question": "¿Son lo mismo el azafrán y la cúrcuma o el cártamo?",
+      "answer": "No. El azafrán procede de los estigmas del Crocus sativus, mientras que la cúrcuma es un rizoma y el cártamo otra planta distinta. Aunque aporten tonos amarillos al plato, carecen por completo del aroma y la complejidad del azafrán.",
+      "link": "/journal/what-is-saffron",
+      "category": "saffron"
+    },
+    {
+      "question": "¿Basta la prueba del vaso de agua para confirmar la pureza?",
+      "answer": "Observar cómo las hebras tiñen el agua tibia de amarillo dorado de forma gradual mientras conservan su color rojo es un buen indicio doméstico, pero solo la trazabilidad del origen y el análisis de laboratorio según la norma ISO 3632 acreditan la calidad con exactitud.",
+      "link": "/quality",
+      "category": "buying"
+    }
+  ],
+  "resources": {
+    "about": {
+      "eyebrow": "ORIGEN Y OFICIO",
+      "title": "Sobre ROFRAN y el azafrán de Mashtaga",
+      "description": "Conozca ROFRAN, casa dedicada exclusivamente a las hebras enteras de azafrán cultivadas en Mashtaga, en la península de Absherón (Bakú).",
+      "intro": "ROFRAN nace con un propósito claro: ofrecer únicamente hebras enteras de azafrán (Crocus sativus) cultivadas en las tierras arenosas de Mashtaga, en Bakú, acompañadas de una divulgación gastronómica rigurosa y honesta.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "El terruño de Mashtaga en Absherón",
+          "text": "La península de Absherón, bañada por los vientos secos del mar Caspio y caracterizada por sus suelos ligeros y calcáreos, alberga desde hace siglos uno de los cultivos de azafrán más singulares del Cáucaso. En el pueblo de Mashtaga (Bakú, Azerbaiyán), las flores de Crocus sativus brotan cada otoño y se recogen a mano al amanecer para preservar la integridad aromática de sus estigmas."
+        },
+        {
+          "title": "Un solo ingrediente, sin distracciones",
+          "text": "Nuestra primera colección se centra de forma exclusiva en el azafrán en hebras rojas enteras, presentado con un pedido mínimo de {minimum} gramos ($50 USD / 50 AZN). No comercializamos mezclas de especias, polvos ni extractos artificiales: preferimos que quien cocina vea con claridad la hebra entera desde el tarro hasta la cazuela."
+        },
+        {
+          "title": "Divulgación culinaria con criterio",
+          "text": "Creemos que un ingrediente de esta naturaleza merece explicaciones claras, alejadas de la exageración comercial. Por eso acompañamos nuestro trabajo en Mashtaga con guías detalladas sobre botánica, tiempos de infusión en caldos y arroces, y pautas de conservación doméstica respaldadas por fuentes de referencia."
+        }
+      ]
+    },
+    "quality": {
+      "eyebrow": "PUREZA Y TRAZABILIDAD",
+      "title": "Criterios de calidad y selección de la hebra",
+      "description": "Cómo evaluamos las hebras enteras de azafrán ROFRAN de Mashtaga: selección del estigma rojo, trazabilidad de origen y estándares de análisis.",
+      "intro": "La calidad del azafrán empieza en el campo y en el desbrizne manual, donde se separan los tres estigmas rojos del resto de la flor para garantizar una hebra limpia, aromática y de alto poder colorante.",
+      "image": "threads",
+      "sections": [
+        {
+          "title": "Origen confirmado en Mashtaga, Bakú",
+          "text": "En el comercio de especias es frecuente que el país de envasado no coincida con el lugar de cultivo. En ROFRAN mantenemos una trazabilidad directa: todas nuestras hebras proceden de cosechas cultivadas y recolectadas en Mashtaga, en la península de Absherón (Bakú, Azerbaiyán)."
+        },
+        {
+          "title": "Selección exclusiva de estigmas rojos",
+          "text": "El valor gastronómico del Crocus sativus reside en la parte roja del estigma, rica en crocina (responsable del tono dorado), picrocrocina (su característico amargor noble) y safranal (el aroma volátil). Descartamos pétalos y restos florales extraños para ofrecer únicamente hebras enteras."
+        },
+        {
+          "title": "Norma ISO 3632 y verificación técnica",
+          "text": "La norma internacional ISO 3632 clasifica el azafrán mediante espectrofotometría midiendo su intensidad colorante, amargor y aroma, además del porcentaje de humedad. Recomendamos valorar siempre los certificados que correspondan al lote específico antes que los reclamos genéricos en la etiqueta."
+        }
+      ]
+    },
+    "shipping": {
+      "eyebrow": "PEDIDOS Y DISPONIBILIDAD",
+      "title": "Condiciones de pedido, precios y envíos",
+      "description": "Información sobre el pedido mínimo de {minimum} gramos ($50 USD / 50 AZN), estado actual de existencias y alcance de los envíos en Azerbaiyán.",
+      "intro": "Trabajamos con cosechas limitadas de otoño procedentes de Mashtaga. A continuación detallamos las condiciones actuales de precio, disponibilidad de stock y zonas de entrega.",
+      "image": "product",
+      "sections": [
+        {
+          "title": "Formato mínimo y precio transparente",
+          "text": "El pedido mínimo de azafrán ROFRAN es de {minimum} gramos de hebras enteras, con un precio fijado en 50 AZN para entregas locales en Azerbaiyán y una referencia de $50 USD para el mercado internacional ($10 USD por gramo neto)."
+        },
+        {
+          "title": "Estado actual: cosecha agotada",
+          "text": "En este momento nuestras existencias se encuentran agotadas y la pasarela de pago en línea aún no está habilitada. Puede recorrer el catálogo y guardar su selección en el navegador, pero el sitio no procesa cobros automáticos."
+        },
+        {
+          "title": "Alcance geográfico de las entregas",
+          "text": "Actualmente los envíos se realizan únicamente dentro del territorio de Azerbaiyán. La logística de envío internacional hacia España, el resto de Europa y América aún se encuentra en fase de preparación y se anunciará en esta página cuando esté operativa."
+        }
+      ],
+      "draft": true
+    },
+    "contact": {
+      "eyebrow": "ATENCIÓN DIRECTA",
+      "title": "Contacto con el equipo de ROFRAN",
+      "description": "Canales oficiales de contacto de ROFRAN en Bakú: correo electrónico y teléfono directo para consultas sobre el azafrán de Mashtaga.",
+      "intro": "Tanto si desea consultar la disponibilidad de la próxima cosecha de Mashtaga como si tiene dudas sobre nuestros formatos o colaboraciones gastronómicas, le atendemos directamente desde Bakú.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Correo electrónico",
+          "text": "Para consultas generales, información sobre futuras partidas y solicitudes de prensa o restauración, puede escribirnos en cualquier momento a contact@rofran.com o a nuestra dirección local contact@rofran.az."
+        },
+        {
+          "title": "Teléfono y atención desde Bakú",
+          "text": "Si prefiere una comunicación telefónica directa con nuestro equipo en Azerbaiyán, puede llamarnos o escribirnos al número +994 50 823 93 45 en horario laboral de Bakú (GMT+4)."
+        },
+        {
+          "title": "Consultas sobre reservas y pedidos",
+          "text": "Dado que la cosecha actual está agotada y la tienda en línea aún no admite pagos directos, atendemos de manera personalizada las consultas sobre el formato mínimo de {minimum} gramos a través de nuestros canales oficiales."
+        }
+      ],
+      "draft": true
+    },
+    "wholesale": {
+      "eyebrow": "RESTAURACIÓN Y OBRADORES",
+      "title": "Azafrán para cocinas profesionales y hostelería",
+      "description": "Información para restaurantes, chefs y distribuidores interesados en las hebras enteras de azafrán ROFRAN cosechadas en Mashtaga.",
+      "intro": "En la cocina profesional, la regularidad del poder colorante y la limpieza de la hebra marcan la diferencia en partidas de arroces, fondos de pescado, escabeches y pastelería.",
+      "image": "threads",
+      "sections": [
+        {
+          "title": "Rendimiento en la cocina de restaurante",
+          "text": "Las hebras enteras de Mashtaga ofrecen una liberación progresiva y estable de crocina y safranal durante la infusión en timbales y caldos base, facilitando la estandarización de recetas en restaurantes, arrocerías y hoteles."
+        },
+        {
+          "title": "Formatos y disponibilidad por cosecha",
+          "text": "Mientras que el pedido mínimo de referencia es de {minimum} gramos ($50 USD / 50 AZN), las solicitudes para hostelería se estudian según el volumen disponible de cada campaña otoñal. Actualmente el stock se encuentra agotado."
+        },
+        {
+          "title": "Solicitud de muestras y acuerdos comerciales",
+          "text": "Los jefes de cocina, compradores gastronómicos y distribuidores pueden dirigirse a contact@rofran.com o contact@rofran.az, o contactar en el +994 50 823 93 45, indicando su ubicación, volumen estimado y formato de envasado requerido."
+        }
+      ],
+      "draft": true
+    },
+    "privacy": {
+      "eyebrow": "DATOS Y TRANSPARENCIA",
+      "title": "Privacidad y almacenamiento en su navegador",
+      "description": "Cómo funciona el almacenamiento local de preferencias en la web de ROFRAN y cómo tratamos las comunicaciones por correo electrónico.",
+      "intro": "Esta edición digital de ROFRAN está diseñada para ofrecer una lectura limpia y respetuosa con su privacidad, sin formularios invasivos ni cobros ocultos.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Preferencias guardadas en su dispositivo",
+          "text": "Este sitio web utiliza únicamente el almacenamiento local de su navegador para recordar su selección en la cesta de muestra y su preferencia de sonido en el relato audiovisual. Puede borrar estos datos en cualquier momento desde los ajustes de su navegador."
+        },
+        {
+          "title": "Sin procesamiento de pagos en línea",
+          "text": "Dado que la venta en línea no está activa y el producto figura como agotado, no recopilamos datos de tarjetas bancarias, direcciones de facturación ni información financiera a través del sitio web."
+        },
+        {
+          "title": "Comunicaciones directas",
+          "text": "Si decide escribirnos a contact@rofran.com o contact@rofran.az, o comunicarse al +994 50 823 93 45, sus datos de contacto se emplearán exclusivamente para responder a su consulta."
+        }
+      ],
+      "draft": true
+    }
+  },
+  "articles": [
+    {
+      "slug": "what-is-saffron",
+      "title": "¿Qué es el azafrán? De la flor de otoño a la hebra carmesí",
+      "category": "Guías sobre el azafrán",
+      "image": "flower",
+      "imageAlt": "Flor violeta de Crocus sativus al atardecer en el campo",
+      "readTime": "4 MIN DE LECTURA",
+      "description": "Descubra qué es el azafrán (Crocus sativus), cómo se recolectan sus estigmas rojos en Mashtaga y por qué es insustituible en los arroces y guisos.",
+      "deck": "Tres filamentos carmesíes nacidos de un croco de otoño bastan para iluminar y perfumar la cocina tradicional.",
+      "lead": "Pocas especias despiertan tanta fascinación culinaria como el azafrán. Detrás de cada hebra roja se esconde el breve ciclo otoñal de la flor Crocus sativus y un trabajo agrícola minucioso que, en tierras como Mashtaga (Bakú), sigue marcando el pulso del mes de noviembre.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "La anatomía del Crocus sativus y el arte de la monda",
+          "text": "El Crocus sativus es una planta bulbosa que florece durante apenas unas semanas en otoño. De su corola lila emergen tres estambres amarillos —carentes de valor culinario— y un pistilo que se divide en tres largos estigmas de color rojo vivo. Es exclusivamente esa parte roja, una vez separada a mano mediante el delicado proceso de la monda o desbrizne y secada con precisión, la que se convierte en azafrán. Conviene no confundir nunca el croco del azafrán con otras flores silvestres de otoño, como el cólquico (Colchicum autumnale), que resulta tóxico."
+        },
+        {
+          "id": "detail-2",
+          "title": "Su papel insustituible en arroces, caldos y guisos",
+          "text": "En la tradición gastronómica mediterránea y caucásica, el azafrán cumple una doble función que ningún colorante artificial puede imitar. Desde una paella valenciana o un arroz a banda hasta una zarzuela de mariscos o el fragante plov azerbaiyano, las hebras ceden al caldo una tonalidad dorada limpia gracias a la crocina, al tiempo que envuelven el grano con las notas cálidas del safranal. No es un simple adorno visual: es el hilo conductor que une el sofrito, el caldo y el cereal."
+        },
+        {
+          "id": "detail-3",
+          "title": "El valor del origen: las tierras de Mashtaga",
+          "text": "Igual que ocurre con el vino o el aceite de oliva, el lugar donde crece el bulbo define el carácter del azafrán. En ROFRAN trabajamos únicamente con hebras cultivadas en el pueblo de Mashtaga, en la península de Absherón (Bakú, Azerbaiyán), donde la brisa seca del Caspio y los suelos arenosos favorecen estigmas de gran concentración aromática. Al evaluar un tarro, compruebe siempre que indique el origen agrícola real y el peso neto exacto."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Crocus sativus",
+          "url": "https://www.rhs.org.uk/plants/4929/crocus-sativus/details"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-use-saffron",
+      "title": "Cómo infusionar y cocinar con hebras de azafrán",
+      "category": "Guías sobre el azafrán",
+      "image": "saffron",
+      "imageAlt": "Primer plano de hebras rojas de azafrán listas para infusionar",
+      "readTime": "4 MIN DE LECTURA",
+      "description": "Aprenda a medir, tostar suavemente e infusionar las hebras de azafrán en caldo o agua tibia para extraer todo su color y aroma en paellas y arroces.",
+      "deck": "Unos minutos de reposo en líquido tibio bastan para despertar el color dorado y el perfume profundo de cada hebra.",
+      "lead": "Echar las hebras de azafrán directamente sobre una sartén hirviendo a última hora es uno de los errores más habituales en la cocina doméstica. Para que el estigma libere toda su riqueza cromática y aromática de manera uniforme, necesita calma, temperatura moderada y un medio acuoso.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Medir con precisión antes de encender el fuego",
+          "text": "El azafrán es un ingrediente de gran potencia en el que unas pocas hebras transforman por completo una cazuela para cuatro comensales. Si la receta indica el peso en gramos o miligramos, utilice una báscula de precisión; si habla de hebras, cuéntelas en función del número de raciones. Recuerde que el pedido mínimo de ROFRAN de {minimum} gramos ($50 USD) es un formato de despensa pensado para numerosas elaboraciones, nunca la dosis de un solo plato."
+        },
+        {
+          "id": "detail-2",
+          "title": "El paso clave: la infusión en líquido tibio",
+          "text": "Coloque las hebras en un mortero o en una taza pequeña de porcelana. En muchas cocinas tradicionales españolas se envuelven en papel o se acercan un instante al calor residual para secarlas antes de quebrarlas ligeramente, sin llegar nunca a quemarlas. A continuación, vierta unas cucharadas de agua tibia, caldo limpio o leche templada y deje reposar entre 15 y 20 minutos. Verá cómo el líquido adquiere un tono amarillo anaranjado luminoso; incorpore entonces tanto la infusión como las propias hebras al guiso."
+        },
+        {
+          "id": "detail-3",
+          "title": "El equilibrio del caldo en los arroces secos y melosos",
+          "text": "Cuando prepare una paella o un arroz al horno, contabilice el volumen de la infusión dentro de la proporción total de caldo para no alterar el punto de cocción del grano. Añada la infusión cuando el caldo comience a hervir, de modo que el arroz absorba el color y el aroma desde el primer minuto. No caiga en la tentación de duplicar la cantidad si el caldo parece pálido al principio: la crocina sigue tiñendo a medida que avanza la cocción."
+        }
+      ],
+      "sources": [
+        {
+          "title": "McCormick — Saffron Culinary Guide",
+          "url": "https://www.mccormickforchefs.co.uk/en-gb/recipe-ideas/flavour-ingredients/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-store-saffron",
+      "title": "Cómo conservar el azafrán para proteger su aroma y color",
+      "category": "Guías sobre el azafrán",
+      "image": "product",
+      "imageAlt": "Tarro de cristal con tapa dorada que contiene hebras de azafrán",
+      "readTime": "3 MIN DE LECTURA",
+      "description": "Guía práctica para conservar las hebras de azafrán en casa: cómo protegerlas de la luz, la humedad y el calor para mantener intacto su aroma.",
+      "deck": "La luz solar, el vapor de los fogones y el aire son los tres enemigos silenciosos de una buena hebra.",
+      "lead": "Un tarro de {minimum} gramos de azafrán en hebras acompaña la cocina de una casa durante meses. Sin embargo, los compuestos que le dan su personalidad —en especial la crocina y el safranal— son sensibles a la oxidación y a la luz, por lo que el lugar donde lo guardamos importa tanto como su calidad de origen.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Oscuridad y cierre hermético en la despensa",
+          "text": "Aunque las hebras rojas dentro de un frasco de vidrio resultan muy atractivas a la vista, dejar el tarro en una estantería abierta junto a la ventana degrada rápidamente sus pigmentos naturales. Guarde siempre el envase dentro de un armario cerrado, fresco y oscuro, o en el interior de una caja opaca, asegurándose de ajustar bien la tapa inmediatamente después de cada uso."
+        },
+        {
+          "id": "detail-2",
+          "title": "Lejos del vapor y con utensilios secos",
+          "text": "El azafrán se seca tras la cosecha hasta alcanzar un grado de humedad muy bajo que garantiza su estabilidad. Si abre el tarro justo encima de una olla humeante o introduce dedos o cucharillas húmedas, las hebras absorberán agua del ambiente y perderán su textura quebradiza y su fragancia. Extraiga las hebras necesarias en la encimera con unas pinzas limpias y secas antes de acercarse al fuego."
+        },
+        {
+          "id": "detail-3",
+          "title": "Conservar la trazabilidad del lote",
+          "text": "Si decide trasladar las hebras a otro recipiente hermético, conserve siempre la etiqueta original con la fecha de cosecha o envasado y la referencia del lote. Bien protegido del calor y nunca en la nevera —donde la condensación por cambios de temperatura podría dañarlo—, el azafrán en hebra mantiene su plenitud aromática durante meses."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Saffron Cultivation and Care",
+          "url": "https://www.rhs.org.uk/herbs/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "what-does-saffron-taste-like",
+      "title": "¿A qué sabe el azafrán? Notas aromáticas y equilibrio en el plato",
+      "category": "Guías sobre el azafrán",
+      "image": "threads",
+      "imageAlt": "Hebras enteras de azafrán rojo sobre superficie oscura",
+      "readTime": "3 MIN DE LECTURA",
+      "description": "Explora el perfil sensorial del azafrán: sus notas de heno seco, miel y tierra cálida, su amargor elegante y cómo armoniza con arroces y pescados.",
+      "deck": "Más allá de su célebre tono dorado, la hebra despliega un perfume complejo de campo seco, miel y brisa mineral.",
+      "lead": "Describir el sabor del azafrán a quien solo lo conoce por su color no es tarea sencilla. Lejos de ser una especia picante o dulzona, el azafrán actúa en la cocina como un fijador de aromas capaz de dar profundidad y persistencia a los platos más delicados.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "La química del sabor: picrocrocina y safranal",
+          "text": "Durante el secado tradicional de los estigmas, el calor suave transforma los compuestos naturales de la flor en safranal, responsable de su fragancia envolvente que evoca el heno recién segado, las flores secas y un toque de miel rústica. En el paladar, la picrocrocina aporta un amargor limpio y sápido que equilibra la grasa de los caldos de ave, el aceite de oliva de los sofritos o la mantequilla de un buen arroz cremoso."
+        },
+        {
+          "id": "detail-2",
+          "title": "La virtud de la mesura en la cazuela",
+          "text": "En gastronomía, añadir más azafrán no significa obtener un plato más rico. Un exceso de hebras puede saturar el paladar con notas medicinales o metálicas y eclipsar el sabor del marisco, el pescado de roca o las verduras de temporada. La maestría consiste en usar la cantidad justa para que el comensal perciba un perfume cálido y armonioso sin que la especia domine por encima del producto principal."
+        },
+        {
+          "id": "detail-3",
+          "title": "Por qué ningún sustituto reproduce su carácter",
+          "text": "A menudo se recurre a la cúrcuma, al achiote o a colorantes alimentarios para teñir el arroz de amarillo a bajo coste. Sin embargo, basta acercar el plato a la nariz para notar la ausencia del azafrán: el color por sí solo no aporta ni la redondez en boca ni el recuerdo aromático que dejan las hebras auténticas de Crocus sativus."
+        }
+      ],
+      "sources": [
+        {
+          "title": "McCormick — Flavour Profile of Saffron",
+          "url": "https://www.mccormickforchefs.co.uk/en-gb/recipe-ideas/flavour-ingredients/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "why-is-saffron-expensive",
+      "title": "¿Por qué es tan valioso el azafrán y cómo comparar su precio por gramo?",
+      "category": "Guías sobre el azafrán",
+      "image": "flower",
+      "imageAlt": "Flor de azafrán recién abierta al amanecer",
+      "readTime": "4 MIN DE LECTURA",
+      "description": "Entienda por qué el azafrán requiere tanta labor manual, cuántas flores hacen falta por gramo y cómo calcular el precio real por gramo neto.",
+      "deck": "Detrás de cada gramo de hebras secas hay ciento cincuenta flores recogidas al alba y desbriznadas a mano.",
+      "lead": "El sobrenombre de «oro rojo» no responde a un capricho del mercado, sino a una realidad botánica y agrícola inalterable. Ninguna máquina ha logrado sustituir con éxito la delicadeza de los dedos humanos a la hora de separar los finos estigmas de una flor que solo se abre durante unos días al año.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Una cosecha al año y un trabajo íntegramente manual",
+          "text": "El Crocus sativus no se reproduce por semillas; cada cormo debe plantarse y cuidarse en la tierra esperando la breve floración de otoño. Al despuntar el alba, antes de que el sol marchite los pétalos, se recogen las flores una a una en cestos. Ese mismo día es preciso separar a mano los tres estigmas rojos de cada corola y someterlos a un secado controlado en el que pierden cerca de cuatro quintas partes de su peso en agua."
+        },
+        {
+          "id": "detail-2",
+          "title": "Cómo calcular el precio real por gramo neto",
+          "text": "En los comercios es habitual encontrar envases grandes y vistosos que apenas contienen 0,5 o 1 gramo de azafrán, lo que dificulta comparar precios a primera vista. Divida siempre el importe total entre los gramos de peso neto declarados. En ROFRAN ofrecemos un formato mínimo claro de {minimum} gramos de hebras enteras de Mashtaga por $50 USD (50 AZN en Azerbaiyán), lo que supone una referencia transparente de $10 USD por gramo neto."
+        },
+        {
+          "id": "detail-3",
+          "title": "Comparar calidades equivalentes, no solo precios",
+          "text": "Un precio inusualmente bajo suele esconder hebras mezcladas con estambres amarillos sin poder colorante, exceso de humedad para inflar el peso o incluso fibras teñidas de otras plantas. Del mismo modo, un envase lujoso tampoco garantiza por sí solo la pureza: exija siempre conocer el origen agrícola de la cosecha y verifique que se trate de hebras rojas enteras."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Saffron",
+          "url": "https://www.rhs.org.uk/herbs/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-buy-saffron",
+      "title": "Cómo elegir y comprar buen azafrán: guía de lectura de la etiqueta",
+      "category": "Guías sobre el azafrán",
+      "image": "product",
+      "imageAlt": "Hebras de azafrán ROFRAN en tarro de cristal",
+      "readTime": "4 MIN DE LECTURA",
+      "description": "Claves prácticas para comprar azafrán de calidad: inspección visual de la hebra, peso neto, trazabilidad de origen e interpretación de la norma ISO 3632.",
+      "deck": "Saber leer la morfología de la hebra y los datos de origen es la mejor garantía frente a las imitaciones.",
+      "lead": "Adquirir azafrán con confianza requiere fijarse en detalles objetivos más que en adjetivos grandilocuentes. Desde la forma ensanchada del estigma hasta la claridad con la que el productor declara el pueblo de cultivo, cada dato cuenta una parte de la verdad.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "La forma de la hebra y la limpieza del corte",
+          "text": "Observe el contenido a través del cristal: el estigma auténtico de Crocus sativus presenta una forma de pequeña trompeta que se ensancha ligeramente en el extremo superior y mantiene un color rojo carmesí mate y uniforme. La presencia abundante de filamentos amarillos o blanquecinos indica que se ha incluido el estilo floral para aumentar el peso en detrimento de la intensidad culinaria."
+        },
+        {
+          "id": "detail-2",
+          "title": "Origen concreto y lectura rigurosa de los certificados",
+          "text": "Desconfíe de las etiquetas que solo mencionan dónde se ha envasado el producto sin especificar dónde creció la flor. En ROFRAN declaramos con orgullo nuestro origen único en el pueblo de Mashtaga, en Bakú (península de Absherón). Asimismo, si un vendedor menciona la norma ISO 3632, compruebe que el informe de laboratorio corresponda al lote en venta y detalle los valores de crocina, picrocrocina y safranal."
+        },
+        {
+          "id": "detail-3",
+          "title": "Criterios claros de compra y garantías del productor",
+          "text": "Antes de comprar, compruebe siempre que el peso neto en gramos, la fecha de cosecha y la identificación del lote aparezcan con total claridad en el envase. Un productor de confianza nunca oculta la región agrícola de origen ni vende mezclas anónimas, y pone a su disposición canales directos de consulta. Conocer las condiciones de pedido y la autenticidad del producto es el paso indispensable para asegurar que solo entre auténtico azafrán en su cocina."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ISO 3632-2 — Spices — Saffron (Crocus sativus L.) — Test methods",
+          "url": "https://www.iso.org/standard/44526.html"
+        }
+      ]
+    },
+    {
+      "slug": "saffron-threads-vs-powder",
+      "title": "Azafrán en hebras frente a azafrán molido: diferencias en la cocina",
+      "category": "Guías sobre el azafrán",
+      "image": "threads",
+      "imageAlt": "Detalle de hebras enteras de azafrán de color rojo intenso",
+      "readTime": "3 MIN DE LECTURA",
+      "description": "Comparamos el azafrán en hebras enteras y el azafrán en polvo: por qué la hebra entera garantiza mayor transparencia visual y mejor conservación del aroma.",
+      "deck": "La hebra entera muestra su identidad a simple vista y custodia mejor sus aceites esenciales hasta el momento de cocinar.",
+      "lead": "En el mercado el azafrán se presenta principalmente en dos formatos: las hebras enteras —los estigmas secos tal como salen de la flor— y el polvo molido. Aunque ambos pueden proceder de la misma planta, su comportamiento en la despensa y la seguridad que ofrecen al comprador son muy distintos.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "La transparencia visual de la hebra entera",
+          "text": "La principal ventaja de comprar azafrán en hebras es la certeza visual. Al observar el filamento entero se aprecia de inmediato su forma característica de estigma, la ausencia de polvo extraño y la uniformidad del color rojo. Además, si una receta requiere que el azafrán se disuelva por completo sin dejar hebras visibles, basta con majar los filamentos secos en un mortero justo un minuto antes de infusionarlos."
+        },
+        {
+          "id": "detail-2",
+          "title": "Los riesgos y la oxidación del formato en polvo",
+          "text": "El azafrán molido ofrece rapidez en cocinas con poco tiempo, pero presenta dos inconvenientes importantes. En primer lugar, al romperse la estructura celular del estigma, el safranal se volatiliza mucho más deprisa y el aroma pierde fuerza en pocos meses. En segundo lugar, un polvo fino de color anaranjado no permite distinguir a simple vista si contiene únicamente azafrán puro o si ha sido rebajado con cúrcuma, pimentón u otros aditivos."
+        },
+        {
+          "id": "detail-3",
+          "title": "Por qué la alta cocina prefiere siempre la hebra entera",
+          "text": "Por respeto a la integridad del ingrediente y a la conservación natural de sus aromas, los grandes cocineros y las recetas tradicionales exigen siempre estigmas enteros. En ROFRAN compartimos esta filosofía y presentamos nuestro azafrán cosechado en Mashtaga (Bakú) exclusivamente en hebras enteras. De este modo garantizamos que cada plato disfrute de la pureza intacta de la flor, permitiendo moler las hebras en el mortero justo en el instante preciso de cocinarlas."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ISO 3632-2 — Saffron Specifications and Test Methods",
+          "url": "https://www.iso.org/standard/44526.html"
+        }
+      ]
+    }
+  ]
+}

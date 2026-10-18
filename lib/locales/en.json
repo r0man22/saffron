@@ -31,8 +31,8 @@
     "increase": "Increase quantity",
     "quantity": "Quantity",
     "remove": "Remove",
-    "saved": "Your selection is saved. Online checkout is not available yet.",
-    "unavailable": "Checkout unavailable",
+    "saved": "Your selection is saved. The current harvest is out of stock.",
+    "unavailable": "Currently out of stock",
     "empty": [
       "A little treasure",
       "belongs here."
@@ -145,12 +145,12 @@
       "*Saffron threads.*"
     ],
     "subtitle": "ROFRAN saffron threads",
-    "description": "For the meals you linger over. For the small rituals that become your own. Discover the colour and aroma of saffron, one thread at a time.",
-    "note": "Explore the collection. Online checkout is not available yet.",
+    "description": "Grown in the coastal village of Mashtaga in Baku, Azerbaijan. Whole crimson threads for the meals you linger over — steeping golden colour and warm aroma into rice, broth and baking.",
+    "note": "Currently out of stock. Minimum order: 5 grams ($50 USD · 50 AZN in Azerbaijan).",
     "facts": [
       {
         "title": "The saffron",
-        "text": "Saffron is made from the dried red stigmas of the Crocus sativus flower. Its place in the kitchen is both visual and aromatic: a small ingredient that invites a little attention.",
+        "text": "Harvested from the autumn-blooming Crocus sativus in Mashtaga, Baku. Each flower yields three vivid red stigmas, dried whole for the kitchen.",
         "linkText": ""
       },
       {
@@ -212,8 +212,8 @@
     "homeDescription": "Discover ROFRAN saffron threads. Learn how to choose, use and store saffron, explore its flavour and find clear answers before your first purchase.",
     "brandTitle": "ROFRAN — Precious by nature",
     "brandDescription": "A small thread. An extraordinary story. Discover ROFRAN saffron.",
-    "saffronTitle": "Saffron Threads — Orders from {minimum} Grams",
-    "saffronDescription": "ROFRAN saffron threads, with a minimum order of {minimum} grams. Explore cooking, storage and product details. Online sales are not open yet.",
+    "saffronTitle": "Saffron Threads — Orders from {minimum} Grams ($50 USD)",
+    "saffronDescription": "Whole Crocus sativus saffron threads from Mashtaga, Baku, Azerbaijan. Orders from {minimum} grams ($50 USD internationally · 50 AZN in Azerbaijan). Currently out of stock.",
     "journalTitle": "The saffron journal",
     "journalDescription": "Get to know saffron: where it begins, how to cook with its threads and how to care for it in your kitchen.",
     "socialAlt": "ROFRAN saffron in a sunset crocus field"

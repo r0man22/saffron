@@ -1,0 +1,477 @@
+{
+  "labels": {
+    "explore": "ROFRAN ontdekken",
+    "faq": "Vragen en antwoorden",
+    "product": "Saffraan bekijken",
+    "journal": "Saffraanjournaal",
+    "updated": "Bijgewerkt",
+    "author": "Redactie ROFRAN",
+    "links": "Gerelateerde pagina’s",
+    "back": "Terug naar de startpagina"
+  },
+  "faqCopy": {
+    "title": "Veelgestelde vragen over saffraan",
+    "description": "Praktische antwoorden over onze hele saffraandraadjes uit Mashtaga bij Bakoe, het trekken van een infusie in de keuken, bewaren en bestellingen vanaf {minimum} gram.",
+    "eyebrow": "GOED OM TE WETEN",
+    "intro": "Duidelijke toelichting bij de herkomst, het culinaire gebruik en de bestelvoorwaarden van onze hele saffraandraadjes uit Azerbeidzjan.",
+    "all": "Alle vragen",
+    "saffron": "Over saffraan",
+    "kitchen": "In de keuken",
+    "buying": "Keuze en bestelling",
+    "more": "Verder lezen in het journaal",
+    "search": "Zoek in vragen",
+    "empty": "Geen passende vraag gevonden. Probeer een andere zoekterm."
+  },
+  "faqs": [
+    {
+      "question": "Wat is echte saffraan precies?",
+      "answer": "Saffraan bestaat uit de drie gedroogde, karmozijnrode stempels van de herfstbloeiende krokus Crocus sativus. In tegenstelling tot de paarse bloemblaadjes of de gele meeldraden bevatten alleen deze fijne rode saffraandraadjes het karakteristieke samenspel van diepgouden kleurkracht en een warm, honingachtig aroma.",
+      "category": "saffron",
+      "link": "/journal/what-is-saffron"
+    },
+    {
+      "question": "Waar komt de saffraan van ROFRAN vandaan?",
+      "answer": "Onze saffraan wordt geteeld in Mashtaga (Maştağa), een historisch dorp aan de rand van Bakoe op het schiereiland Abşeron in Azerbeidzjan. De kalkrijke zandgrond, droge zomers en de bries vanaf de Kaspische Zee vormen daar al eeuwenlang een ideaal microklimaat voor aromatische saffraankrokussen.",
+      "category": "saffron",
+      "link": "/quality"
+    },
+    {
+      "question": "Hoe maak ik een goede saffraaninfusie in de keuken?",
+      "answer": "Kneuz de benodigde saffraandraadjes eventueel licht in een vijzel of laat ze heel, en leg ze in een kommetje met twee tot drie eetlepels warm (niet kokend) water, melk of visbouillon. Laat de infusie 15 tot 20 minuten trekken en voeg daarna zowel het goudgele vocht als de draadjes toe aan uw risotto, paella of saus.",
+      "category": "kitchen",
+      "link": "/journal/how-to-use-saffron"
+    },
+    {
+      "question": "Hoe bewaar ik saffraandraadjes thuis het best?",
+      "answer": "Bewaar saffraandraadjes altijd droog, koel en in het donker in een luchtdicht afgesloten glazen of metalen potje. Gebruik bij het koken een droog pincet of een droog lepeltje om draadjes uit het potje te nemen, zodat er geen waterdamp boven het fornuis bij de voorraad komt.",
+      "category": "kitchen",
+      "link": "/journal/how-to-store-saffron"
+    },
+    {
+      "question": "Hoe smaakt en ruikt echte saffraan?",
+      "answer": "Zuivere saffraan combineert een warme geur van gedroogd zomerhooi en donkere bloemenhoning met een verfijnde, aards-bittere toets in de mond. De specerij is nooit zoet of scherp, maar geeft rijstgerechten, schaaldierenfond en fijn gebak een ronde, herkenbare diepte.",
+      "category": "saffron",
+      "link": "/journal/what-does-saffron-taste-like"
+    },
+    {
+      "question": "Waarom is saffraan zo kostbaar en hoe vergelijk ik prijzen?",
+      "answer": "Elke bloem van Crocus sativus vormt slechts drie rode draadjes die bij zonsopgang met de hand moeten worden geplukt en gepeld. Bij ROFRAN kosten {minimum} gram hele saffraandraadjes 50 USD (50 AZN in Azerbeidzjan) — reken bij het vergelijken altijd terug naar de prijs per gram in plaats van de prijs per verpakking.",
+      "category": "buying",
+      "link": "/journal/why-is-saffron-expensive"
+    },
+    {
+      "question": "Waar moet ik op letten bij het kopen van saffraan?",
+      "answer": "Kies voor hele, dieprode saffraandraadjes zonder gele stijldelen, een duidelijk vermeld nettogewicht en een specifieke herkomst zoals ons teeltgebied Mashtaga bij Bakoe. Controleer daarnaast of de aanbieder rechtstreeks bereikbaar is en zuivere draadjes levert zonder vulstoffen.",
+      "category": "buying",
+      "link": "/journal/how-to-buy-saffron"
+    },
+    {
+      "question": "Kan ik beter hele saffraandraadjes of saffraanpoeder kiezen?",
+      "answer": "Bij hele saffraandraadjes ziet u in één oogopslag de natuurlijke vorm van de stamper en blijven de vluchtige aroma’s veel langer behouden dan in voorgemalen poeder. ROFRAN levert uitsluitend hele rode draadjes, die u vlak voor het koken zelf in een vijzel kunt fijnwrijven.",
+      "category": "buying",
+      "link": "/journal/saffron-threads-vs-powder"
+    },
+    {
+      "question": "Wat zijn de minimale bestelhoeveelheid en de prijs bij ROFRAN?",
+      "answer": "Onze minimale afname bedraagt {minimum} gram hele saffraandraadjes voor 50 USD internationaal of 50 AZN binnen Azerbeidzjan. Omdat u voor een pan risotto, paella of visbouillon slechts een tiental draadjes nodig hebt, gaat een portie van {minimum} gram in de thuiskeuken zeer lang mee.",
+      "category": "buying",
+      "link": "/saffron"
+    },
+    {
+      "question": "Is ROFRAN saffraan momenteel op voorraad en online te bestellen?",
+      "answer": "Op dit moment is onze saffraan niet op voorraad en is het online afrekenen via de website nog niet geactiveerd. Voor vragen over de volgende oogst of reserveringen kunt u rechtstreeks contact opnemen via contact@rofran.com of telefonisch via +994 50 823 93 45.",
+      "category": "buying",
+      "link": "/saffron"
+    },
+    {
+      "question": "Verzendt ROFRAN ook naar Nederland of België?",
+      "answer": "Momenteel verzenden wij uitsluitend binnen Azerbeidzjan. Internationale verzending naar de Europese Unie wordt voorbereid maar is nog niet geopend. De Nederlandstalige versie van onze website biedt voorlopig achtergrondinformatie over onze herkomst en het gebruik in de keuken.",
+      "category": "buying",
+      "link": "/shipping"
+    },
+    {
+      "question": "Wat is het verschil tussen saffraan, kurkuma en saffloer?",
+      "answer": "Kurkuma is een gemalen wortelstok die gerechten weliswaar heldergeel kleurt, maar een heel ander, houtachtig en peperig smaakprofiel heeft. Saffloer (verfdistel) wordt soms als goedkoop alternatief aangeboden, maar mist zowel het safranal-aroma als de culinaire rijkdom van echte Crocus sativus.",
+      "category": "saffron",
+      "link": "/journal/what-is-saffron"
+    },
+    {
+      "question": "Hoe herken ik thuis tijdens de infusie of saffraan zuiver is?",
+      "answer": "Echte saffraandraadjes geven hun kleur in warm water geleidelijk af als een heldere, goudgele infusie, terwijl de draadjes zelf rood en stevig blijven. Kleurt het water binnen enkele seconden troebel oranjerood, dan wijst dat vaak op toegevoegde synthetische kleurstoffen.",
+      "category": "buying",
+      "link": "/quality"
+    }
+  ],
+  "resources": {
+    "about": {
+      "eyebrow": "HERKOMST ABŞERON",
+      "title": "Over ROFRAN",
+      "description": "ROFRAN legt zich toe op hele saffraandraadjes uit het dorp Mashtaga bij Bakoe. Lees meer over onze wortels op het schiereiland Abşeron en onze werkwijze.",
+      "intro": "ROFRAN is ontstaan uit waardering voor één enkel landbouwproduct: zuivere, hele saffraandraadjes uit Mashtaga op het schiereiland Abşeron in Azerbeidzjan.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Geworteld in Mashtaga bij Bakoe",
+          "text": "Op het schiereiland Abşeron aan de Kaspische Zee kent de saffraanteelt een eeuwenoude traditie. In het dorp Mashtaga (Maştağa) bij Bakoe vinden de knollen van Crocus sativus precies de omstandigheden die nodig zijn voor een geconcentreerd aroma: doorlatende zandbodems, droge zomers en milde herfstdagen."
+        },
+        {
+          "title": "Volledige focus op één oogstproduct",
+          "text": "In plaats van een breed assortiment specerijen richt ROFRAN zich uitsluitend op hele rode saffraandraadjes. Wij bieden onze oogst aan vanaf een minimale afname van {minimum} gram voor 50 USD (50 AZN in Azerbeidzjan) — voor koks en liefhebbers die waarde hechten aan een herleidbare herkomst."
+        },
+        {
+          "title": "Praktische warenkennis voor de keuken",
+          "text": "Goede saffraan heeft geen grote woorden nodig. Ons journaal en onze productpagina’s combineren botanische feiten met heldere aanwijzingen voor het trekken van een warme infusie, het doseren en het bewaren, zodat elk draadje in uw risotto, paella of visbouillon tot zijn recht komt."
+        }
+      ]
+    },
+    "quality": {
+      "eyebrow": "ZUIVERHEID EN AMBACHT",
+      "title": "Kwaliteit en herkomst van onze saffraan",
+      "description": "Ontdek hoe ROFRAN saffraan in Mashtaga bij Bakoe met de hand wordt geoogst, geselecteerd en zorgvuldig gedroogd, en hoe u zuivere saffraandraadjes herkent.",
+      "intro": "De kwaliteit van saffraan wordt bepaald lang voordat het potje wordt gevuld: in de bodem van Mashtaga, bij het plukken in de vroege ochtendschemering en tijdens het beheerst drogen van de rode stempels.",
+      "image": "threads",
+      "sections": [
+        {
+          "title": "Handmatige oogst op het schiereiland Abşeron",
+          "text": "Tijdens de korte bloeiperiode in de late herfst openen de paarse kelken van Crocus sativus zich bij het eerste ochtendlicht. In Mashtaga worden de bloemen met de hand geplukt voordat de zon de tere stempels verwarmt, waarna de drie rode draadjes nog dezelfde dag zorgvuldig met de hand worden losgemaakt."
+        },
+        {
+          "title": "Uitsluitend hele rode saffraandraadjes",
+          "text": "Voor ROFRAN selecteren wij alleen de hele, dieprode stempels. Gele meeldraden, bloembladresten of vreemde plantenvezels horen niet in onze potjes thuis. Doordat wij uitsluitend ongemalen draadjes leveren, blijft de botanische vorm voor u altijd met het blote oog controleerbaar."
+        },
+        {
+          "title": "Sensorische controle via een warme infusie",
+          "text": "Wanneer u enkele saffraandraadjes in warm water laat trekken, lost de natuurlijke crocine langzaam op tot een heldere, goudgele infusie. Het draadje zelf behoudt zijn rode vorm en verspreidt zijn kenmerkende geur van honing, hooi en fijne kruidigheid."
+        }
+      ]
+    },
+    "shipping": {
+      "eyebrow": "BESTELLING EN VERZENDING",
+      "title": "Verzending, prijzen en beschikbaarheid",
+      "description": "Informatie over de minimale bestelhoeveelheid van {minimum} gram (50 USD / 50 AZN), de actuele voorraadstatus en onze verzending binnen Azerbeidzjan.",
+      "intro": "Heldere voorwaarden vooraf: hier vindt u het actuele overzicht van onze voorraadstatus, minimale afname en leveringsgebieden.",
+      "image": "product",
+      "sections": [
+        {
+          "title": "Actuele voorraad en online afrekenen",
+          "text": "Onze saffraan uit Mashtaga is momenteel niet op voorraad. Ook de directe online betaalfunctie via het winkelmandje op deze website is op dit moment nog niet actief. U kunt zich wel alvast verdiepen in onze gidsen of contact opnemen over toekomstige oogstpartijen."
+        },
+        {
+          "title": "Minimale bestelling en prijsstelling",
+          "text": "ROFRAN saffraan wordt aangeboden vanaf een minimale bestelhoeveelheid van {minimum} gram. De vaste prijs voor {minimum} gram bedraagt 50 AZN binnen Azerbeidzjan en 50 USD voor internationale aanvragen, exclusief eventuele verzendkosten."
+        },
+        {
+          "title": "Levering binnen Azerbeidzjan en internationale plannen",
+          "text": "Zodra een nieuwe oogst beschikbaar komt, verzenden wij vooralsnog uitsluitend binnen Azerbeidzjan. Rechtstreekse pakketverzending naar Nederland, België en de rest van Europa is momenteel nog niet geopend; voor vragen kunt u ons bereiken via contact@rofran.com."
+        }
+      ],
+      "draft": true
+    },
+    "contact": {
+      "eyebrow": "RECHTSTREEKS CONTACT",
+      "title": "Contact met ROFRAN",
+      "description": "Neem contact op met ROFRAN in Bakoe via e-mail op contact@rofran.com, contact@rofran.az of telefonisch via +994 50 823 93 45.",
+      "intro": "Hebt u een vraag over de komende oogst in Mashtaga, over onze saffraandraadjes of over de beschikbaarheid? Wij beantwoorden uw bericht persoonlijk vanuit Bakoe.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Bereikbaar per e-mail en telefoon",
+          "text": "Voor internationale vragen kunt u schrijven naar contact@rofran.com; voor vragen binnen Azerbeidzjan is daarnaast contact@rofran.az beschikbaar. Telefonisch zijn wij rechtstreeks bereikbaar op +994 50 823 93 45."
+        },
+        {
+          "title": "Vragen over voorraad en oogst",
+          "text": "Omdat onze oogst uit Mashtaga beperkt is en momenteel niet op voorraad ligt, informeren wij u per e-mail graag wanneer een nieuwe partij vanaf {minimum} gram (50 USD / 50 AZN) weer beschikbaar komt."
+        },
+        {
+          "title": "Persoonlijke correspondentie zonder formulieren",
+          "text": "Wij werken op deze website bewust zonder geautomatiseerde contactformulieren. Stuur ons eenvoudig een e-mail vanuit uw eigen mailprogramma en vermeld bij bestelvragen uw locatie en de gewenste hoeveelheid."
+        }
+      ],
+      "draft": true
+    },
+    "wholesale": {
+      "eyebrow": "VOOR HORECA EN DELICATESSEN",
+      "title": "Saffraan voor restaurants en speciaalzaken",
+      "description": "Hele saffraandraadjes uit Mashtaga (Bakoe) voor de gastronomie, patisserie en delicatessenhandel. Neem contact op met ROFRAN voor zakelijke aanvragen.",
+      "intro": "Voor chefs, patissiers en delicatessenzaken die werken met traceerbare ingrediënten van het schiereiland Abşeron bieden wij direct contact met ons team in Bakoe.",
+      "image": "threads",
+      "sections": [
+        {
+          "title": "Karaktervolle saffraan voor de professionele keuken",
+          "text": "In schaaldierenjus, visbouillon, klassieke risotto, paella of verfijnde patisserie onderscheidt de saffraan uit Mashtaga zich door zijn hoge kleurkracht en zuivere, warme geur. Hele saffraandraadjes geven de keukenbrigade volledige controle over het vijzelen en de trektijd van de infusie."
+        },
+        {
+          "title": "Hoeveelheden en oogstplanning",
+          "text": "Waar voor particuliere bestellingen een minimale afname geldt van {minimum} gram voor 50 USD (50 AZN in Azerbeidzjan), bespreken wij grotere gewichten en reserveringen voor horecapartners op maat, afhankelijk van de beschikbare najaarsoogst."
+        },
+        {
+          "title": "Zakelijk contact opnemen",
+          "text": "Aangezien onze huidige oogst niet op voorraad is en verzending momenteel uitsluitend binnen Azerbeidzjan plaatsvindt, nodigen wij geïnteresseerde keukens en inkopers uit om tijdig contact op te nemen via contact@rofran.com of +994 50 823 93 45."
+        }
+      ],
+      "draft": true
+    },
+    "privacy": {
+      "eyebrow": "PRIVACY EN GEGEVENS",
+      "title": "Privacyverklaring",
+      "description": "Lees hoe de website van ROFRAN lokale browseropslag gebruikt voor uw selectie en geluidsinstellingen en hoe wij omgaan met uw contactgegevens.",
+      "intro": "Wij gaan net zo zorgvuldig om met uw gegevens als met onze saffraan: tijdens uw bezoek slaat deze website uitsluitend functionele voorkeuren lokaal in uw eigen browser op.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Lokale opslag in uw browser",
+          "text": "Wanneer u op onze website een hoeveelheid bewaart in uw tas of het geluid van de introductiefilm in- of uitschakelt, wordt deze keuze alleen opgeslagen in het lokale geheugen (Local Storage) van uw browser. Omdat online afrekenen nog niet actief is, verzamelen wij via de website geen betaal- of adresgegevens."
+        },
+        {
+          "title": "Contact per e-mail of telefoon",
+          "text": "Neemt u zelf contact met ons op via contact@rofran.com, contact@rofran.az of +994 50 823 93 45, dan gebruiken wij uw gegevens uitsluitend om uw vraag te beantwoorden. Wij verkopen of delen uw gegevens nooit met advertentienetwerken."
+        },
+        {
+          "title": "Toekomstige uitbreiding bij online bestellingen",
+          "text": "Zodra het online bestelproces en de betaling op deze website worden opengesteld, vullen wij deze verklaring vooraf aan met alle informatie over betaaldienstverleners, verzendpartners en wettelijke bewaartermijnen."
+        }
+      ],
+      "draft": true
+    }
+  },
+  "articles": [
+    {
+      "slug": "what-is-saffron",
+      "title": "Wat is saffraan? Botanische oorsprong, herkomst en rol in de keuken",
+      "category": "Saffraangids",
+      "image": "flower",
+      "imageAlt": "Paarse bloem van Crocus sativus in het zachte avondlicht",
+      "readTime": "4 MIN. LEESTIJD",
+      "description": "Ontdek wat echte saffraan is, hoe de rode stempels van Crocus sativus met de hand worden geoogst en waarom het dorp Mashtaga bij Bakoe bekendstaat om zijn kwaliteit.",
+      "deck": "Van de herfstbloeiende krokus op het schiereiland Abşeron tot het karmozijnrode draadje in uw keuken.",
+      "lead": "Achter de naam saffraan schuilt geen gemalen wortel of zaad, maar het tedere hart van een herfstbloem: de drie dieprode stempels van Crocus sativus. Al eeuwenlang wordt deze krokus gekoesterd aan de kust van de Kaspische Zee, waar in het dorp Mashtaga bij Bakoe de saffraandraadjes van ROFRAN groeien.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Van paarse krokus tot karmozijnrood draadje",
+          "text": "Crocus sativus is een herfstbloeiende cultuurplant die zich uitsluitend via knollen vermeerdert en slechts enkele weken per jaar zijn lila bloemkelken opent. In het hart van elke bloem prijken drie felrode stempels naast de gele meeldraden. Alleen deze drie rode draadjes vormen na zorgvuldig losmaken en drogen de echte saffraan. Goed om te weten: niet elke wildgroeiende krokus of herfsttijloos is eetbaar — sommige soorten in de natuur zijn zelfs giftig."
+        },
+        {
+          "id": "detail-2",
+          "title": "De teelttraditie van Mashtaga op Abşeron",
+          "text": "Op het schiereiland Abşeron in Azerbeidzjan heeft de saffraanteelt een rijke geschiedenis. Vooral het kustdorp Mashtaga (Maştağa) ten noordoosten van Bakoe biedt met zijn minerale zandgronden, warme droge zomers en de zeewind van de Kaspische Zee uitstekende groeicondities. Hier ontwikkelen de stempels een hoge concentratie aan natuurlijke stoffen: crocine voor de goudgele infusie, picrocrocine voor de verfijnde bitterheid en safranal voor het onmiskenbare aroma."
+        },
+        {
+          "id": "detail-3",
+          "title": "Meer dan alleen een gouden kleur op het bord",
+          "text": "In zowel de Europese als de Kaukasische keuken — van feestelijke Azerbeidzjaanse plov tot Milanese risotto, Spaanse paella en krachtige visbouillon — vervult saffraan een dubbelrol. Een warme infusie van enkele saffraandraadjes kleurt rijst, sauzen en deeg stralend goudgeel en voegt tegelijk een aardse, honingachtige diepte toe die door geen enkele andere specerij kan worden geëvenaard."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Crocus sativus",
+          "url": "https://www.rhs.org.uk/plants/4929/crocus-sativus/details"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-use-saffron",
+      "title": "Saffraan gebruiken in de keuken: doseren, vijzelen en infusie trekken",
+      "category": "Saffraangids",
+      "image": "saffron",
+      "imageAlt": "Close-up van karmozijnrode saffraandraadjes klaar voor een warme infusie",
+      "readTime": "4 MIN. LEESTIJD",
+      "description": "Leer hoe u het maximale uit hele saffraandraadjes haalt met een warme infusie in water, melk of visbouillon voor risotto, paella en gebak.",
+      "deck": "Waarom een handjevol draadjes en twintig minuten geduld het verschil maken in elke pan.",
+      "lead": "Wie droge saffraandraadjes rechtstreeks in hete olie of een pruttelende saus strooit, laat het grootste deel van hun kleur en geur onbenut. Pas door de draadjes vooraf rustig te laten trekken in een beetje warme vloeistof openen de gedroogde plantencellen zich en ontstaat een egale, geurige infusie.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Zuinig doseren voor een zuivere balans",
+          "text": "Goede saffraan is bijzonder krachtig. Voor een gerecht voor vier personen — zoals een romige risotto of een pan paella — volstaan doorgaans 10 tot 20 saffraandraadjes, een fractie van een gram. Onze minimale bestelhoeveelheid van {minimum} gram is in de thuiskeuken dan ook goed voor tientallen maaltijden. Gebruik liever niet meer dan het recept aangeeft: een teveel aan saffraan maakt een gerecht niet rijker, maar kan een overheersende, bijna medicinale toon geven."
+        },
+        {
+          "id": "detail-2",
+          "title": "De kunst van een warme infusie",
+          "text": "Leg de afgemeten saffraandraadjes in een klein porseleinen kommetje of glas. U kunt de draadjes vooraf in een vijzel licht kneuzen met een snufje zeezout of suiker, maar ook hele draadjes geven hun kracht uitstekend af. Schenk er twee tot drie eetlepels warm (niet kokend) water, warme melk, witte wijn of visbouillon op en laat de infusie minstens 15 tot 20 minuten rustig trekken."
+        },
+        {
+          "id": "detail-3",
+          "title": "Infusie én draadjes samen toevoegen",
+          "text": "Zeef de geweekte saffraandraadjes na het trekken niet uit het vocht: zowel de diepgouden infusie als de rode draadjes zelf gaan mee de pan in. Houd bij rijstgerechten zoals plov, paella of risotto rekening met de hoeveelheid infusievocht in de totale hoeveelheid bouillon, zodat de rijstkorrel precies de juiste garing behoudt."
+        }
+      ],
+      "sources": [
+        {
+          "title": "McCormick for Chefs — Saffron Guide",
+          "url": "https://www.mccormickforchefs.co.uk/en-gb/recipe-ideas/flavour-ingredients/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-store-saffron",
+      "title": "Saffraan bewaren: bescherming tegen licht, lucht en vocht",
+      "category": "Saffraangids",
+      "image": "product",
+      "imageAlt": "Hele saffraandraadjes in een afgesloten glazen potje met gouden deksel",
+      "readTime": "3 MIN. LEESTIJD",
+      "description": "Praktisch bewaaradvies voor hele saffraandraadjes: hoe u het aroma en de kleurkracht van zuivere saffraan maandenlang optimaal beschermt.",
+      "deck": "Daglicht, warmte en stoom boven het fornuis zijn de grootste vijanden van fijne specerijen.",
+      "lead": "Een glazen potje vol karmozijnrode saffraandraadjes oogt prachtig op een open keukenplank, maar daglicht en fornuiswarmte doen het tere aroma snel vervliegen. Met een paar doordachte gewoonten houdt u gedroogde saffraandraadjes langdurig geurig en kleurkrachtig.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Donker, koel en luchtdicht wegzetten",
+          "text": "Ultraviolet licht en zuurstof breken de kleurgevende carotenoïden (crocine) en de vluchtige geurstof safranal geleidelijk af. Zet het goed gesloten potje daarom in een donkere keukenkast of voorraadlade op kamertemperatuur, uit de buurt van oven, kookplaat en direct zonlicht."
+        },
+        {
+          "id": "detail-2",
+          "title": "Voorkom condens en vocht in het potje",
+          "text": "Saffraandraadjes worden na de oogst zorgvuldig gedroogd om hun kwaliteit te bewaren. Haal nooit draadjes uit het potje met vochtige vingers of een nat lepeltje, en houd het geopende potje niet boven een dampende pan visbouillon of rijst. Neem de benodigde draadjes vóór het koken uit het potje met een schoon, droog pincet en sluit het deksel direct weer."
+        },
+        {
+          "id": "detail-3",
+          "title": "Waarom hele saffraandraadjes langer vers blijven",
+          "text": "In vergelijking met gemalen poeder hebben hele saffraandraadjes een aanzienlijk kleiner contactoppervlak met de lucht. Zolang de draadjes droog, koel en in een goed gesloten glazen potje bewaard worden, blijft het complexe bouquet ruim een tot twee jaar behouden. Vijzel of kneus altijd uitsluitend de portie die u dezelfde dag voor uw infusie gebruikt."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Growing and Storing Saffron",
+          "url": "https://www.rhs.org.uk/herbs/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "what-does-saffron-taste-like",
+      "title": "Hoe smaakt saffraan? Geur, kleur en aromatisch profiel",
+      "category": "Saffraangids",
+      "image": "threads",
+      "imageAlt": "Gedetailleerde opname van dieprode saffraandraadjes",
+      "readTime": "4 MIN. LEESTIJD",
+      "description": "Tussen gedroogd zomerhooi, bloemenhoning en een edele bitterheid: ontdek hoe echte saffraandraadjes smaken en hoe crocine, picrocrocine en safranal samenwerken.",
+      "deck": "Een warme geur van laat zomerhooi en honingraat, gedragen door een verfijnde, aardse toets.",
+      "lead": "De smaak van echte saffraan laat zich moeilijk in één enkel woord vangen. In de pan gedraagt een goede saffraaninfusie zich als een warme klankkast: ze overstemt de andere ingrediënten niet, maar verbindt rijst, boter, schaaldieren of room tot een harmonieus geheel.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Het samenspel van drie natuurlijke verbindingen",
+          "text": "Het karakter van saffraan rust op drie pijlers. Het wateroplosbare crocine zorgt voor de heldere, goudgele kleur van de infusie. Picrocrocine geeft op de tong een subtiele, zuivere bitterheid die voorkomt dat rijke gerechten zoals risotto of roomsauzen zwaar aanvoelen. Tijdens het drogen van de stempels ontstaat ten slotte safranal: de etherische olie die zorgt voor de geur van vers hooi, warme honing en een vleugje zee."
+        },
+        {
+          "id": "detail-2",
+          "title": "Thuis in zowel hartige klassiekers als gebak",
+          "text": "Doordat saffraan zelf geen suiker bevat maar wel florale, honingachtige geurnoten meebrengt, past de specerij in zowel hartige als zoete bereidingen. In traditionele feestgerechten vormt saffraan het hart van geurige rijstschotels met lamsvlees en gedroogd fruit; in de Europese keuken schittert hij in paella, bouillabaisse, visbouillon, Zweedse saffraanbroodjes en romige desserts met kardemom."
+        },
+        {
+          "id": "detail-3",
+          "title": "Evenwicht door geduld bij het trekken",
+          "text": "Wie voor het eerst met zuivere saffraandraadjes kookt, laat zich in de eerste minuut soms misleiden door de nog lichte kleur van het water en voegt te snel extra draadjes toe. Gun de warme infusie eerst haar volledige trektijd van twintig minuten: pas dan ontvouwt zich de juiste balans tussen gouden kleur, zacht aroma en fijne kruidigheid."
+        }
+      ],
+      "sources": [
+        {
+          "title": "McCormick for Chefs — Flavour Profile of Saffron",
+          "url": "https://www.mccormickforchefs.co.uk/en-gb/recipe-ideas/flavour-ingredients/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "why-is-saffron-expensive",
+      "title": "Waarom is saffraan zo duur? Handwerk, opbrengst en prijs per gram",
+      "category": "Saffraangids",
+      "image": "flower",
+      "imageAlt": "Bloeiende saffraankrokus op het veld bij zonsondergang",
+      "readTime": "4 MIN. LEESTIJD",
+      "description": "Waarom echte saffraan kostbaar is: inzicht in de handmatige oogst van Crocus sativus in Mashtaga en hoe u de prijs per gram eerlijk vergelijkt.",
+      "deck": "Honderdduizenden bloemen, fijn handwerk bij dageraad en slechts enkele oogstweken in de herfst.",
+      "lead": "Saffraan staat al eeuwenlang bekend als de kostbaarste specerij ter wereld. Die prijs is geen marketingverhaal, maar het directe gevolg van de botanie van Crocus sativus: geen enkele machine kan de tere paarse herfstbloemen plukken en de drie kwetsbare rode stempels onbeschadigd uit de bloemkelk halen.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "De cijfers achter één enkele oogst",
+          "text": "Elke krokusbloem geeft slechts drie rode saffraandraadjes. Voor één kilogram gedroogde saffraan moeten tussen de 150.000 en 200.000 bloemen in de vroege ochtend met de hand worden geplukt en nog dezelfde dag draadje voor draadje worden gepeld. Tijdens het drogen verliezen de verse stempels bovendien ongeveer tachtig procent van hun gewicht aan vocht."
+        },
+        {
+          "id": "detail-2",
+          "title": "Transparant rekenen met de prijs per gram",
+          "text": "In winkels wordt saffraan vaak aangeboden in minuscule doosjes van 0,05 of 0,1 gram, waardoor een lage stuksprijs al snel voordelig lijkt. Reken bij het kopen daarom altijd om naar de prijs per gram. Bij ROFRAN bestelt u hele saffraandraadjes uit Mashtaga (Bakoe) vanaf een minimale hoeveelheid van {minimum} gram voor 50 USD (of 50 AZN in Azerbeidzjan) — een heldere prijs van 10 USD per gram."
+        },
+        {
+          "id": "detail-3",
+          "title": "Kostbaar in aanschaf, zuinig in gebruik",
+          "text": "De aanschafprijs van zuivere saffraan krijgt een ander perspectief zodra u kijkt naar het verbruik in de keuken. Omdat 0,1 tot 0,15 gram al volstaat voor een royale pan risotto, paella of visbouillon voor vier personen, kost het gebruik van echte saffraandraadjes uit Mashtaga per gerecht slechts een bescheiden bedrag."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Crocus sativus Cultivation",
+          "url": "https://www.rhs.org.uk/herbs/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-buy-saffron",
+      "title": "Saffraan kopen: waar u op let bij draadjes, herkomst en voorwaarden",
+      "category": "Saffraangids",
+      "image": "product",
+      "imageAlt": "ROFRAN saffraandraadjes in een helder glazen potje met gouden deksel",
+      "readTime": "4 MIN. LEESTIJD",
+      "description": "Praktische koopgids voor echte saffraan: zo beoordeelt u hele saffraandraadjes, herkomst uit Mashtaga (Bakoe), het nettogewicht en de leveringsvoorwaarden.",
+      "deck": "Duidelijke aandachtspunten voor de aankoop: hele rode stempels, een benoemd dorp van herkomst en heldere gewichten.",
+      "lead": "Weinig specerijen worden op markten en online zo vaak verdund of onduidelijk geëtiketteerd als saffraan. Wie vooraf let op de vorm van het draadje, de exacte herkomst en het nettogewicht, onderscheidt zuivere saffraandraadjes moeiteloos van goedkope imitaties.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "De vorm van het draadje en een concrete herkomst",
+          "text": "Echte stempels van Crocus sativus zijn dieprood en lopen aan het uiteinde licht trompetvormig uit. Vermijd potjes met veel gele, smaakloze stijldelen of los gruis. Let daarnaast op een specifieke plaatsnaam in plaats van vage aanduidingen: bij ROFRAN komt elk saffraandraadje uit het dorp Mashtaga op het schiereiland Abşeron in Bakoe, Azerbeidzjan."
+        },
+        {
+          "id": "detail-2",
+          "title": "Kwaliteitsnormen en de infusietest thuis",
+          "text": "In de internationale handel wordt de norm ISO 3632 gebruikt om kleurkracht (crocine), smaak (picrocrocine) en aroma (safranal) in het laboratorium te meten. Ook thuis geeft een kleine infusie direct duidelijkheid: echte saffraandraadjes kleuren warm water gedurende meerdere minuten helder goudgeel en blijven zelf rood, terwijl kunstmatig gekleurde vezels het water vrijwel direct rood of troebel maken."
+        },
+        {
+          "id": "detail-3",
+          "title": "Heldere aankoopcriteria en betrouwbare herkomst",
+          "text": "Kijk bij het kopen van saffraan niet enkel naar sierlijke doosjes of marketingtermen als premium; controleer altijd of het nettogewicht in grammen, de oogstdatum en het partijnummer duidelijk vermeld staan. Eerlijke producenten zijn open over de teeltregio en bieden rechtstreekse contactgegevens voor vragen. Door leveringsvoorwaarden en herkomst vooraf te verifiëren, weet u zeker dat u echte, zuivere saffraan in uw keuken haalt."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ISO 3632-2 — Spices, Saffron (Crocus sativus L.) Test Methods",
+          "url": "https://www.iso.org/standard/44526.html"
+        }
+      ]
+    },
+    {
+      "slug": "saffron-threads-vs-powder",
+      "title": "Saffraandraadjes of saffraanpoeder? Het verschil in kwaliteit en smaak",
+      "category": "Saffraangids",
+      "image": "threads",
+      "imageAlt": "Close-up van hele karmozijnrode saffraandraadjes",
+      "readTime": "3 MIN. LEESTIJD",
+      "description": "Kiezen tussen hele saffraandraadjes of gemalen poeder? Lees waarom hele stempels hun aroma langer vasthouden en hoe u ze zelf vijzelt.",
+      "deck": "Waarom het ongeschonden rode draadje het wint van voorgemalen poeder in zowel zuiverheid als geur.",
+      "lead": "Saffraan wordt doorgaans in twee vormen aangeboden: als hele, fijne saffraandraadjes of als feloranje poeder. Hoewel poeder op het eerste gezicht handig lijkt, kiezen koks bijna altijd voor hele draadjes vanwege de controleerbare zuiverheid en het behoud van aroma.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Zichtbare echtheid van het hele draadje",
+          "text": "Bij hele saffraandraadjes herkent u direct de botanische vorm van de drie krokusstempels. Zodra saffraan industrieel tot poeder is vermalen, is met het blote oog niet meer te zien of er gele meeldraden, kurkuma, saffloer of paprika doorheen zijn gemengd."
+        },
+        {
+          "id": "detail-2",
+          "title": "Aromabehoud tot het moment van de infusie",
+          "text": "Door specerijen te malen wordt het oppervlak dat aan zuurstof en licht blootstaat vele malen groter, waardoor vluchtige geurstoffen zoals safranal snel vervliegen. Hele saffraandraadjes sluiten hun kleur- en geurstoffen veilig op in de gedroogde vezel. Vraagt een recept om fijngewreven saffraan voor een snelle infusie, wrijf dan vlak voor het koken enkele draadjes fijn in een vijzel en giet er warm water of visbouillon op."
+        },
+        {
+          "id": "detail-3",
+          "title": "Waarom gastronomen altijd hele draadjes verkiezen",
+          "text": "In de verfijnde gastronomie en traditionele keukens geldt het gebruik van hele saffraandraadjes als een vanzelfsprekende kwaliteitsnorm. Hele draadjes sluiten de vluchtige geurstoffen in hun eigen celwanden op en bieden het visuele bewijs van botanische zuiverheid. Ook bij ROFRAN kiezen wij er bewust voor om saffraan uit het historische Mashtaga op Abşeron uitsluitend als hele, onversneden draadjes aan te bieden."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ISO 3632-2 — Saffron Specification and Test Methods",
+          "url": "https://www.iso.org/standard/44526.html"
+        }
+      ]
+    }
+  ]
+}

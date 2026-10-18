@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "story": "Ons verhaal",
+    "saffron": "Saffraan",
+    "journal": "Journaal",
+    "main": "Hoofdnavigatie",
+    "home": "Startpagina",
+    "homeLabel": "ROFRAN startpagina",
+    "skip": "Direct naar inhoud",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten",
+    "language": "Taal",
+    "openBag": "Tas openen",
+    "items": "items"
+  },
+  "actions": {
+    "discoverStory": "Ontdek het verhaal",
+    "discoverSaffron": "Ontdek onze saffraan",
+    "exploreSaffron": "Saffraan bekijken",
+    "exploreJournal": "Lees het journaal",
+    "continue": "Verder ontdekken",
+    "add": "Aan tas toevoegen"
+  },
+  "bag": {
+    "selection": "UW SELECTIE",
+    "title": "Uw tas",
+    "close": "Tas sluiten",
+    "product": "ROFRAN saffraan",
+    "threads": "Saffraandraadjes",
+    "decrease": "Aantal verlagen",
+    "increase": "Aantal verhogen",
+    "quantity": "Aantal",
+    "remove": "Verwijderen",
+    "saved": "Uw selectie is bewaard. De huidige oogst is niet op voorraad.",
+    "unavailable": "Momenteel niet op voorraad",
+    "empty": [
+      "Een kleine kostbaarheid",
+      "hoort hier thuis."
+    ]
+  },
+  "story": {
+    "aria": "Het ROFRAN saffraanverhaal",
+    "bottom": "EEN KLEIN DRAADJE. EEN BIJZONDER VERHAAL.",
+    "scroll": "SCROLL OM TE ONTDEKKEN",
+    "continue": "VERDER ONTDEKKEN",
+    "pause": "Verhaal pauzeren",
+    "preparing": "Uw reis wordt voorbereid",
+    "unavailable": "De film is niet beschikbaar. Ontdek onze saffraan hieronder.",
+    "chaptersLabel": "Hoofdstukken van het verhaal",
+    "chapter": "Hoofdstuk",
+    "soundOn": "GELUID AAN",
+    "soundOff": "GELUID UIT",
+    "soundEnable": "Veldgeluid inschakelen",
+    "soundDisable": "Veldgeluid uitschakelen",
+    "chapters": [
+      {
+        "name": "Het begin",
+        "label": "SAFFRAAN VAN ROFRAN",
+        "title": [
+          "DE FIJNSTE SCHAT",
+          "VAN DE NATUUR"
+        ],
+        "body": "Een verhaal dat begint bij een bloem."
+      },
+      {
+        "name": "De bloem",
+        "label": "01 / DE BLOEM",
+        "title": [
+          "Het begint met",
+          "een *bloem.*"
+        ],
+        "body": "Kom iets dichter bij iets buitengewoons."
+      },
+      {
+        "name": "De essentie",
+        "label": "02 / DE ESSENTIE",
+        "title": [
+          "Een verstild",
+          "*wonder.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "De draadjes",
+        "label": "03 / DE KARMOZIJNRODE DRAAD",
+        "title": [
+          "Een verhaal in",
+          "elk *draadje.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "De reis",
+        "label": "04 / DE REIS",
+        "title": [
+          "Van bloei",
+          "tot aan *tafel.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "De saffraan",
+        "label": "05 / ROFRAN SAFFRAAN",
+        "title": [
+          "Subtiel.",
+          "*Onvergetelijk.*"
+        ],
+        "body": "Kleur. Aroma. Een moment om te koesteren."
+      },
+      {
+        "name": "Kostbaar van nature",
+        "label": "",
+        "title": [
+          "ROFRAN"
+        ],
+        "body": "Kostbaar van nature."
+      }
+    ]
+  },
+  "home": {
+    "collection": "DE SAFFRAANCOLLECTIE",
+    "eyebrow": "ROFRAN SAFFRAAN",
+    "productTitle": [
+      "Breng het verhaal",
+      "naar uw *tafel.*"
+    ],
+    "description": "Een fijn draadje. Een diepgouden tint. Een onmiskenbaar aroma. Ontdek een ander soort keukenritueel.",
+    "footnote": "EEN BLIK DICHTER BIJ IETS BIJZONDERS",
+    "journalEyebrow": "EEN BEETJE KENNIS, EEN RIJKER RITUEEL",
+    "journalTitle": "Het saffraanjournaal"
+  },
+  "footer": {
+    "taglinePrefix": "Kostbaar van ",
+    "taglineEm": "nature.",
+    "explore": "ONTDEKKEN",
+    "journal": "HET JOURNAAL",
+    "aria": "Voettekst",
+    "bottom": "Een klein draadje. Een bijzonder verhaal.",
+    "top": "Terug naar boven ↑"
+  },
+  "product": {
+    "collection": "DE ROFRAN COLLECTIE",
+    "title": [
+      "ROFRAN",
+      "*Saffraandraadjes.*"
+    ],
+    "subtitle": "ROFRAN saffraandraadjes",
+    "description": "Geteeld in het kustdorp Mashtaga in Bakoe, Azerbeidzjan. Hele karmozijnrode saffraandraadjes voor gerechten waar u de tijd voor neemt — met een gouden infusie en warm aroma voor risotto, paella, visbouillon en gebak.",
+    "note": "Momenteel niet op voorraad. Minimale afname: 5 gram ($50 USD · 50 AZN in Azerbeidzjan).",
+    "facts": [
+      {
+        "title": "De saffraan",
+        "text": "Met de hand geoogst uit de herfstbloeiende Crocus sativus in Mashtaga, Bakoe. Elke bloem geeft drie dieprode stampers, in hun geheel gedroogd voor de keuken.",
+        "linkText": ""
+      },
+      {
+        "title": "Uw eerste infusie",
+        "text": "Kies een recept en laat de draadjes eerst rustig trekken in een beetje warme vloeistof, zodat kleur en geur zich volledig openen.",
+        "linkText": "Lees onze gids over het gebruik van saffraan."
+      },
+      {
+        "title": "Zorgvuldig bewaren",
+        "text": "Bewaar uw saffraandraadjes in een luchtdicht potje op een donkere, droge plek, ver weg van het warme fornuis.",
+        "linkText": "Bekijk het bewaaradvies."
+      }
+    ],
+    "editorialEyebrow": "VOOR HET EERSTE DRAADJE",
+    "editorialTitle": [
+      "Het begint",
+      "met een *bloem.*"
+    ],
+    "editorialText": "Bekijk Crocus sativus van dichtbij en ontdek de oorsprong van dit verfijnde ingrediënt op het schiereiland Abşeron.",
+    "editorialLink": "Maak kennis met saffraan",
+    "relatedTitle": "Een rijker ritueel",
+    "gallery": "Productfoto’s",
+    "view": "Weergave"
+  },
+  "journal": {
+    "eyebrow": "NOTITIES VAN ROFRAN",
+    "title": [
+      "Het saffraan",
+      "*journaal.*"
+    ],
+    "description": "Met aandacht voor herkomst en techniek haalt u meer uit elk draadje. Maak kennis met de krokus, beheers de warme infusie en bewaar uw oogst zoals het hoort.",
+    "guides": "Saffraangidsen",
+    "toc": "IN DIT VERHAAL",
+    "tocLabel": "In dit artikel",
+    "sources": "BRONNEN EN NASLAG"
+  },
+  "images": {
+    "valley": "Paarse saffraanbloemen in een vallei bij zonsondergang",
+    "product": "Saffraandraadjes in een glazen potje naast een violette krokus bij avondlicht",
+    "flower": "Een zich openende saffraankrokus",
+    "jar": "Glazen potje ROFRAN saffraan",
+    "gallery": [
+      "Saffraandraadjes in een helder glazen potje met gouden deksel",
+      "Close-up van hele rode saffraandraadjes",
+      "Violette saffraanbloem op het veld bij zonsondergang"
+    ]
+  },
+  "notFound": {
+    "eyebrow": "404 / EEN ANDER PAD",
+    "title": [
+      "Laten we de weg",
+      "*terugvinden.*"
+    ],
+    "description": "Deze pagina maakt geen deel uit van ons verhaal.",
+    "back": "Terug naar ROFRAN"
+  },
+  "meta": {
+    "homeTitle": "ROFRAN Saffraan — Hele Saffraandraadjes, Infusie en Keukengidsen",
+    "homeDescription": "Ontdek de hele saffraandraadjes van ROFRAN uit Mashtaga, Bakoe. Leer hoe u saffraan kiest, laat trekken en bewaart voor risotto, visbouillon en fijne gerechten.",
+    "brandTitle": "ROFRAN — Kostbaar van nature",
+    "brandDescription": "Een klein draadje. Een bijzonder verhaal. Ontdek ROFRAN saffraan uit Mashtaga, Azerbeidzjan.",
+    "saffronTitle": "Saffraandraadjes uit Mashtaga — Bestellingen vanaf {minimum} gram ($50 USD)",
+    "saffronDescription": "ROFRAN hele rode saffraandraadjes uit Mashtaga, Bakoe, Azerbeidzjan. Minimale bestelling van {minimum} gram ($50 USD internationaal · 50 AZN in Azerbeidzjan). Momenteel niet op voorraad.",
+    "journalTitle": "Het saffraanjournaal",
+    "journalDescription": "Alles over saffraan: van de oogst van Crocus sativus in Mashtaga tot het trekken van een gouden infusie en het bewaren in de keuken.",
+    "socialAlt": "ROFRAN saffraan in een krokusveld bij zonsondergang"
+  }
+}

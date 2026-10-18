@@ -1,0 +1,477 @@
+{
+  "labels": {
+    "explore": "Descobrir a ROFRAN",
+    "faq": "Perguntas e respostas",
+    "product": "Explorar o açafrão",
+    "journal": "O caderno do açafrão",
+    "updated": "Atualizado",
+    "author": "Redação ROFRAN",
+    "links": "Leituras relacionadas",
+    "back": "Início"
+  },
+  "faqCopy": {
+    "title": "Perguntas frequentes sobre o açafrão",
+    "description": "Respostas claras sobre a colheita em Mashtaga, a infusão dos fios de açafrão na cozinha, a conservação e as encomendas a partir de {minimum} gramas.",
+    "eyebrow": "CONHECIMENTO CULINÁRIO",
+    "intro": "Tudo o que convém saber para escolher, preparar em infusão e guardar os estigmas inteiros de açafrão com rigor gastronómico.",
+    "all": "Todas as perguntas",
+    "saffron": "Sobre o açafrão",
+    "kitchen": "Na cozinha",
+    "buying": "Seleção e compra",
+    "more": "Ler o guia completo",
+    "search": "Pesquisar nas perguntas",
+    "empty": "Não encontrámos nenhuma pergunta com esse termo. Experimente outra palavra."
+  },
+  "faqs": [
+    {
+      "question": "O que é exatamente o açafrão verdadeiro?",
+      "answer": "O açafrão verdadeiro consiste nos três estigmas vermelhos secos da flor Crocus sativus. Ao contrário das pétalas violetas ou dos estames amarelos, são estes fios carmesins que concentram a crocina e o safranal, responsáveis pela cor dourada e pelo perfume inconfundível da especiaria.",
+      "category": "saffron",
+      "link": "/journal/what-is-saffron"
+    },
+    {
+      "question": "Como se faz a infusão dos fios de açafrão para cozinhar?",
+      "answer": "Meça os fios pedidos na receita, esmague-os levemente num almofariz se desejar e deixe-os em infusão em algumas colheres de água morna, caldo de peixe ou leite tépido durante 15 a 20 minutos antes de juntar tanto o líquido como os estigmas ao tacho.",
+      "category": "kitchen",
+      "link": "/journal/how-to-use-saffron"
+    },
+    {
+      "question": "Qual é a melhor forma de conservar o açafrão em casa?",
+      "answer": "Mantenha os fios de açafrão num frasco hermético, guardado num armário escuro, fresco e seco, longe da luz solar e do vapor do fogão. Retire sempre os estigmas com uma pinça ou colher perfeitamente seca.",
+      "category": "kitchen",
+      "link": "/journal/how-to-store-saffron"
+    },
+    {
+      "question": "A que sabe e cheira o bom açafrão?",
+      "answer": "O seu aroma lembra feno seco acabado de cortar, mel silvestre e terra aquecida pelo sol, enquanto no paladar oferece um fundo sápido e subtilmente amargo que dá profundidade a um arroz de marisco, uma caldeirada ou um risoto sem adoçar o prato.",
+      "category": "saffron",
+      "link": "/journal/what-does-saffron-taste-like"
+    },
+    {
+      "question": "Porque tem o açafrão um valor elevado e como comparar preços?",
+      "answer": "Cada flor de Crocus sativus dá apenas três estigmas que têm de ser colhidos de madrugada e separados à mão no próprio dia. Para comparar com justiça, calcule sempre o preço por grama líquido ($10 USD por grama no formato ROFRAN de {minimum} gramas a $50 USD) em vez de olhar apenas para o tamanho da embalagem.",
+      "category": "buying",
+      "link": "/journal/why-is-saffron-expensive"
+    },
+    {
+      "question": "Em que devo reparar ao comprar fios de açafrão?",
+      "answer": "Verifique se são estigmas inteiros de tom vermelho vivo sem estames amarelos soltos, confirme o peso líquido em gramas, procure a origem agrícola exata (como a aldeia de Mashtaga, em Baku) e certifique-se de que o produtor disponibiliza contactos diretos.",
+      "category": "buying",
+      "link": "/journal/how-to-buy-saffron"
+    },
+    {
+      "question": "É melhor escolher açafrão em fios inteiros ou em pó?",
+      "answer": "Os fios inteiros permitem comprovar a olho nu a morfologia autêntica do estigma da flor e conservam os compostos aromáticos durante muito mais tempo. O pó é prático, mas oxida depressa e impede distinguir visualmente a pureza da especiaria.",
+      "category": "buying",
+      "link": "/journal/saffron-threads-vs-powder"
+    },
+    {
+      "question": "Qual é a encomenda mínima e o preço na ROFRAN?",
+      "answer": "A encomenda mínima na ROFRAN é de {minimum} gramas de fios inteiros de açafrão, pelo valor de $50 USD para referência internacional (50 AZN no Azerbaijão). Esta quantidade rende dezenas de pratos na cozinha doméstica.",
+      "category": "buying",
+      "link": "/saffron"
+    },
+    {
+      "question": "Posso fazer uma encomenda online neste momento?",
+      "answer": "Atualmente o nosso stock encontra-se esgotado e o pagamento online ainda não está ativo no site. Para informações sobre a próxima colheita de outono ou reservas, pode contactar-nos através de contact@rofran.com.",
+      "category": "buying",
+      "link": "/saffron"
+    },
+    {
+      "question": "Fazem envios para Portugal, Brasil ou outros países?",
+      "answer": "Neste momento apenas efetuamos entregas dentro do território do Azerbaijão. Os envios internacionais ainda não estão abertos, embora disponibilizemos todos os nossos guias culinários em português para cozinheiros e leitores de todo o mundo.",
+      "category": "buying",
+      "link": "/shipping"
+    },
+    {
+      "question": "Onde é cultivado o açafrão da ROFRAN?",
+      "answer": "O nosso açafrão é cultivado e colhido na aldeia costeira de Mashtaga, em Baku, na península de Absheron (Azerbaijão), uma região histórica de tradição agrícola junto ao mar Cáspio.",
+      "category": "buying",
+      "link": "/quality"
+    },
+    {
+      "question": "O açafrão é o mesmo que a curcuma (açafrão-da-terra) ou o cártamo?",
+      "answer": "Não. O açafrão verdadeiro provém exclusivamente dos estigmas da flor Crocus sativus, enquanto a curcuma (frequentemente chamada açafrão-da-terra ou açafrão-da-índia) é um rizoma e o cártamo outra planta distinta. Embora tinjam o comida de amarelo, não possuem o perfume nem a complexidade gastronómica do Crocus sativus.",
+      "category": "saffron",
+      "link": "/journal/what-is-saffron"
+    },
+    {
+      "question": "O teste do copo de água morna chega para provar a pureza?",
+      "answer": "Observar os fios a libertarem lentamente um tom amarelo dourado na água morna sem perderem a sua cor vermelha é um bom indício caseiro, mas só a rastreabilidade da origem e a análise laboratorial segundo a norma ISO 3632 garantem a qualidade com rigor.",
+      "category": "buying",
+      "link": "/quality"
+    }
+  ],
+  "resources": {
+    "about": {
+      "eyebrow": "ORIGEM E OFÍCIO",
+      "title": "Sobre a ROFRAN e a colheita de Mashtaga",
+      "description": "Conheça a ROFRAN, casa dedicada exclusivamente aos fios inteiros de açafrão cultivados em Mashtaga, na península de Absheron (Baku).",
+      "intro": "A ROFRAN nasceu com um compromisso claro: apresentar apenas estigmas inteiros de açafrão (Crocus sativus) colhidos nos solos arenosos de Mashtaga, em Baku, acompanhados de informação culinária rigorosa e transparente.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "O terroir de Mashtaga na península de Absheron",
+          "text": "Banhada pelos ventos secos do mar Cáspio e marcada por terrenos calcários e luminosos, a península de Absheron preserva há séculos um dos cultivos de açafrão mais singulares do Cáucaso. Na aldeia de Mashtaga (Baku, Azerbaijão), as flores de Crocus sativus abrem todos os outonos e são colhidas à mão ao romper da aurora para proteger a integridade aromática dos seus estigmas."
+        },
+        {
+          "title": "Um único ingrediente, sem artifícios",
+          "text": "A nossa coleção dedica-se em exclusivo aos fios vermelhos inteiros de açafrão, disponíveis a partir de uma encomenda mínima de {minimum} gramas ($50 USD / 50 AZN). Não trabalhamos com misturas de especiarias, pós moídos nem extratos: queremos que quem cozinha reconheça a forma intacta do estigma desde o frasco até ao tacho."
+        },
+        {
+          "title": "Cultura gastronómica e clareza",
+          "text": "Acreditamos que uma especiaria desta nobreza pede explicações precisas e longe de promessas exageradas. Por isso reunimos no nosso caderno guias detalhados sobre a botânica da flor, os tempos exatos de infusão para caldos e arrozes e os cuidados de conservação na despensa."
+        }
+      ]
+    },
+    "quality": {
+      "eyebrow": "PUREZA E RASTREABILIDADE",
+      "title": "Critérios de qualidade e seleção dos estigmas",
+      "description": "Como avaliamos os fios inteiros de açafrão ROFRAN de Mashtaga: escolha exclusiva do estigma vermelho, origem comprovada e parâmetros técnicos.",
+      "intro": "A excelência do açafrão decide-se no campo e na monda manual, quando os três filamentos carmesins são separados da flor e secos com precisão para preservar o seu poder corante e aromático.",
+      "image": "threads",
+      "sections": [
+        {
+          "title": "Origem agrícola confirmada em Mashtaga, Baku",
+          "text": "No mercado das especiarias é comum o país de embalamento não coincidir com a terra onde a planta cresceu. Na ROFRAN asseguramos uma rastreabilidade direta: todos os nossos fios provêm de colheitas cultivadas na aldeia de Mashtaga, na península de Absheron (Baku, Azerbaijão)."
+        },
+        {
+          "title": "Apenas estigmas vermelhos inteiros",
+          "text": "A riqueza gastronómica do Crocus sativus concentra-se na parte vermelha do estigma, onde residem a crocina (que dá o tom dourado ao caldo), a picrocrocina (o amargor equilibrado) e o safranal (o perfume volátil). Rejeitamos pétalas, estames amarelos soltos ou fragmentos estranhos para oferecer um fio limpo."
+        },
+        {
+          "title": "A norma ISO 3632 e o controlo laboratorial",
+          "text": "A norma internacional ISO 3632 avalia o açafrão por espectrofotometria, medindo a intensidade corante, o amargor, o aroma e o teor máximo de humidade. Recomendamos aos compradores que valorizem sempre relatórios técnicos referentes ao lote específico em vez de menções genéricas no rótulo."
+        }
+      ]
+    },
+    "shipping": {
+      "eyebrow": "ENCOMENDAS E DISPONIBILIDADE",
+      "title": "Condições de encomenda, preços e entregas",
+      "description": "Informação detalhada sobre o formato mínimo de {minimum} gramas ($50 USD / 50 AZN), estado atual de stock e área de envio no Azerbaijão.",
+      "intro": "Trabalhamos com colheitas sazonais de outono provenientes de Mashtaga. Apresentamos de seguida as condições atuais de preço, disponibilidade e logística de entrega.",
+      "image": "product",
+      "sections": [
+        {
+          "title": "Encomenda mínima e preço transparente",
+          "text": "A encomenda mínima de açafrão ROFRAN é de {minimum} gramas de fios inteiros, com o preço de 50 AZN para entregas locais no Azerbaijão e o valor de referência internacional de $50 USD ($10 USD por grama líquido)."
+        },
+        {
+          "title": "Estado atual: colheita esgotada",
+          "text": "Neste momento o nosso stock encontra-se esgotado e o checkout de pagamento online ainda não está ativo. Pode explorar o site e guardar a sua seleção no navegador, mas não são processados pagamentos automáticos."
+        },
+        {
+          "title": "Área geográfica de envio",
+          "text": "Atualmente realizamos entregas apenas dentro do território do Azerbaijão. A expedição internacional para Portugal, Brasil e restantes países encontra-se em preparação e será anunciada nesta página assim que estiver disponível."
+        }
+      ],
+      "draft": true
+    },
+    "contact": {
+      "eyebrow": "ATENDIMENTO DIRETO",
+      "title": "Contacto com a equipa da ROFRAN",
+      "description": "Canais oficiais de contacto da ROFRAN em Baku: correio eletrónico e telefone direto para questões sobre o açafrão de Mashtaga.",
+      "intro": "Quer pretenda saber quando estará disponível a próxima colheita de Mashtaga, quer tenha dúvidas sobre os nossos formatos ou parcerias gastronómicas, respondemos diretamente a partir de Baku.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Correio eletrónico",
+          "text": "Para questões gerais, informações sobre futuros lotes e pedidos de imprensa ou restauração, pode escrever-nos a qualquer momento para contact@rofran.com ou para o endereço local contact@rofran.az."
+        },
+        {
+          "title": "Telefone direto em Baku",
+          "text": "Se preferir falar diretamente por telefone com a nossa equipa no Azerbaijão, estamos disponíveis através do número +994 50 823 93 45 durante o horário de expediente de Baku (GMT+4)."
+        },
+        {
+          "title": "Esclarecimentos sobre reservas e encomendas",
+          "text": "Uma vez que a colheita atual está esgotada e a loja online ainda não processa pagamentos automáticos, acompanhamos de forma personalizada todos os pedidos de informação sobre o formato mínimo de {minimum} gramas através dos nossos contactos oficiais."
+        }
+      ],
+      "draft": true
+    },
+    "wholesale": {
+      "eyebrow": "RESTAURAÇÃO E HOTELARIA",
+      "title": "Açafrão para cozinhas profissionais e chefes",
+      "description": "Informação destinada a restaurantes, chefes de cozinha e distribuidores interessados nos fios inteiros de açafrão ROFRAN colhidos em Mashtaga.",
+      "intro": "Na cozinha de restaurante, a regularidade do poder corante e a pureza do estigma fazem toda a diferença na preparação de caldos de peixe, arroz de marisco, risotos e pastelaria fina.",
+      "image": "threads",
+      "sections": [
+        {
+          "title": "Rendimento e consistência ao lume",
+          "text": "Os fios inteiros de Mashtaga oferecem uma libertação progressiva e estável de crocina e safranal durante a infusão em fundos e caldos base, permitindo manter o mesmo padrão aromático e visual em cada serviço de restaurante."
+        },
+        {
+          "title": "Formatos e disponibilidade sazonal",
+          "text": "Embora o formato mínimo de referência seja de {minimum} gramas ($50 USD / 50 AZN), os pedidos para restauração e hotelaria são avaliados consoante o volume disponível em cada colheita de outono. Atualmente o nosso stock encontra-se esgotado."
+        },
+        {
+          "title": "Contacto comercial para profissionais",
+          "text": "Chefes executivos, responsáveis de compras e distribuidores gastronómicos podem contactar-nos através de contact@rofran.com, contact@rofran.az ou pelo telefone +994 50 823 93 45, indicando a sua localização e o volume pretendido."
+        }
+      ],
+      "draft": true
+    },
+    "privacy": {
+      "eyebrow": "DADOS E TRANSPARÊNCIA",
+      "title": "Privacidade e armazenamento no navegador",
+      "description": "Saiba como funciona o armazenamento local de preferências no site da ROFRAN e como tratamos as mensagens enviadas por correio eletrónico.",
+      "intro": "Esta edição digital da ROFRAN foi desenhada para proporcionar uma leitura tranquila e respeitadora da sua privacidade, sem formulários intrusivos nem recolha oculta de dados.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Preferências guardadas localmente no seu dispositivo",
+          "text": "Este website utiliza apenas o armazenamento local do seu navegador para memorizar a sua seleção no saco de demonstração e a sua preferência de som na narrativa visual. Pode limpar estes dados a qualquer momento nas definições do navegador."
+        },
+        {
+          "title": "Sem recolha de dados bancários",
+          "text": "Como o checkout de venda online não está ativo e a colheita figura como esgotada, não recolhemos números de cartões de pagamento, moradas de faturação nem dados financeiros através deste site."
+        },
+        {
+          "title": "Comunicações por correio eletrónico ou telefone",
+          "text": "Caso decida contactar-nos através de contact@rofran.com, contact@rofran.az ou pelo número +994 50 823 93 45, os seus dados serão utilizados exclusivamente para responder ao seu contacto."
+        }
+      ],
+      "draft": true
+    }
+  },
+  "articles": [
+    {
+      "slug": "what-is-saffron",
+      "title": "O que é o açafrão? Da flor de outono ao fio carmesim",
+      "category": "Guias sobre o açafrão",
+      "image": "flower",
+      "imageAlt": "Flor violeta de Crocus sativus ao entardecer no campo",
+      "readTime": "4 MIN DE LEITURA",
+      "description": "Descubra o que é o açafrão verdadeiro (Crocus sativus), como se colhem os seus estigmas vermelhos em Mashtaga e a diferença face ao açafrão-da-terra.",
+      "deck": "Três delicados filamentos vermelhos colhidos de um croco de outono bastam para dar cor dourada e perfume profundo à cozinha tradicional.",
+      "lead": "Poucas especiarias despertam tanta admiração na cozinha como o açafrão verdadeiro. Por detrás de cada fio carmesim está o breve florescimento outonal do Crocus sativus e um saber agrícola minucioso que, na aldeia costeira de Mashtaga (Baku), continua a marcar o ritmo das manhãs de novembro.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "A botânica do Crocus sativus e a distinção face à curcuma",
+          "text": "O açafrão nasce de uma planta bolbosa, o Crocus sativus, que floresce durante apenas algumas semanas no outono. No centro das suas pétalas lilases surgem três estames amarelos — sem valor aromático — e um pistilo que se divide em três longos estigmas de cor vermelha viva. É unicamente essa parte vermelha, separada à mão e seca com cuidado, que constitui o açafrão. Na língua portuguesa, convém não o confundir com a curcuma (muitas vezes chamada açafrão-da-terra ou açafrão-da-índia), que é uma raiz moída, nem com flores silvestres tóxicas de outono como o cólquico."
+        },
+        {
+          "id": "detail-2",
+          "title": "O seu lugar no arroz de marisco, na caldeirada e no risoto",
+          "text": "Na cozinha portuguesa, mediterrânica e caucásica, os fios de açafrão cumprem um papel duplo que nenhum corante sintético consegue imitar. Seja num arroz de marisco malandrinho, numa caldeirada de peixe rica, numa paelha ou num risoto alla milanese, os estigmas libertam no caldo uma cor dourada luminosa graças à crocina, enquanto envolvem o grão nas notas quentes e florais do safranal. Mais do que colorir, o açafrão liga os sabores do refogado e do caldo."
+        },
+        {
+          "id": "detail-3",
+          "title": "O carácter da origem: as terras de Mashtaga em Baku",
+          "text": "Tal como acontece no vinho ou no azeite, o solo e o clima moldam a qualidade do estigma. Na ROFRAN trabalhamos em exclusivo com fios de açafrão cultivados em Mashtaga, na península de Absheron (Baku, Azerbaijão), onde os solos arenosos e a brisa seca do mar Cáspio favorecem uma concentração invulgar de compostos aromáticos. Ao escolher um frasco, procure sempre a indicação clara da terra de colheita e do peso líquido."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Crocus sativus",
+          "url": "https://www.rhs.org.uk/plants/4929/crocus-sativus/details"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-use-saffron",
+      "title": "Como fazer a infusão e cozinhar com fios de açafrão",
+      "category": "Guias sobre o açafrão",
+      "image": "saffron",
+      "imageAlt": "Plano aproximado de fios vermelhos de açafrão prontos para infusão",
+      "readTime": "4 MIN DE LEITURA",
+      "description": "Aprenda a medir, esmagar levemente e preparar a infusão dos fios de açafrão em caldo ou água morna para extrair toda a cor e aroma.",
+      "deck": "Alguns minutos de repouso num líquido tépido são o segredo para despertar o tom dourado e o perfume de cada estigma.",
+      "lead": "Atirar os fios de açafrão diretamente para um tacho a ferver nos últimos minutos é um dos erros mais comuns na cozinha. Para que o estigma seco ceda toda a sua riqueza cromática e aromática de forma uniforme, precisa de tempo, temperatura moderada e uma breve infusão prévia.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Medir com conta, peso e medida antes de acender o lume",
+          "text": "O açafrão é uma especiaria de enorme concentração em que uma pequena pitada de fios transforma um tacho para quatro ou seis pessoas. Se a receita indicar o peso em gramas ou miligramas, recorra a uma balança de precisão; se indicar o número de fios, conte-os consoante as porções. Lembre-se de que a encomenda mínima da ROFRAN de {minimum} gramas ($50 USD) é uma reserva de despensa para dezenas de refeições, e nunca a dose para uma única receita."
+        },
+        {
+          "id": "detail-2",
+          "title": "O passo essencial: a infusão em líquido morno",
+          "text": "Coloque os estigmas numa pequena taça de porcelana ou num almofariz. Pode esmagá-los suavemente a seco ou deixá-los inteiros se quiser ver os fios vermelhos no prato final. Em seguida, verta três ou quatro colheres de sopa de água morna, caldo de peixe limpo, caldo de aves ou leite tépido — quente ao toque, mas sem ferver em cachão — e deixe repousar entre 15 e 20 minutos. Quando o líquido exibir um tom amarelo-alaranjado profundo, junte toda a infusão e os fios ao cozinhado."
+        },
+        {
+          "id": "detail-3",
+          "title": "Equilibrar o caldo em arrozes malandrinhos e secos",
+          "text": "Ao preparar um arroz de marisco, uma caldeirada ou um risoto, contabilize o líquido da infusão no volume total de caldo da receita para não alterar o ponto do grão. Incorpore a infusão no momento em que o caldo começa a cozinhar o arroz, permitindo que o cereal absorva o aroma desde o início. Resista à tentação de acrescentar mais fios se o caldo parecer suave no primeiro minuto: a crocina continua a abrir a cor à medida que a cozedura avança."
+        }
+      ],
+      "sources": [
+        {
+          "title": "McCormick — Saffron Culinary Guide",
+          "url": "https://www.mccormickforchefs.co.uk/en-gb/recipe-ideas/flavour-ingredients/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-store-saffron",
+      "title": "Como conservar o açafrão para proteger o seu aroma e cor",
+      "category": "Guias sobre o açafrão",
+      "image": "product",
+      "imageAlt": "Frasco de vidro com tampa dourada contendo fios de açafrão",
+      "readTime": "3 MIN DE LEITURA",
+      "description": "Guia prático para guardar os fios de açafrão na despensa: como protegê-los da luz, da humidade e do calor do fogão durante meses.",
+      "deck": "A luz direta, o vapor das panelas e o ar são os três inimigos silenciosos de um bom estigma de açafrão.",
+      "lead": "Um frasco de {minimum} gramas de açafrão em fios acompanha a cozinha de uma casa ao longo de muitos meses. Contudo, os compostos naturais que lhe dão carácter — sobretudo a crocina e o safranal — são sensíveis à luz e à oxidação, pelo que o cuidado na despensa é tão decisivo como a colheita.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Escuridão e fecho hermético no armário",
+          "text": "Embora os fios carmesins num frasco de vidro transparente sejam bonitos de ver na bancada, a exposição diária à luz solar ou artificial degrada gradualmente os pigmentos da flor. Guarde sempre o recipiente num armário fechado, fresco e escuro, ou dentro da sua caixa opaca original, certificando-se de que a tampa fica bem roscada logo após retirar os fios."
+        },
+        {
+          "id": "detail-2",
+          "title": "Longe do vapor do fogão e com utensílios secos",
+          "text": "Após a colheita, os estigmas são secos até atingirem um nível de humidade muito baixo que garante a sua conservação natural. Se abrir o frasco por cima de um tacho a fumegar ou se retirar os fios com os dedos húmidos, o açafrão absorverá essa humidade e perderá a sua textura quebradiça e pureza aromática. Retire sempre a dose necessária na bancada com uma pinça limpa e seca."
+        },
+        {
+          "id": "detail-3",
+          "title": "Preservar a informação do lote e evitar o frigorífico",
+          "text": "Evite guardar o açafrão no frigorífico, pois a condensação provocada pelas mudanças de temperatura prejudica os estigmas secos. Se transferir os fios para outro frasco hermético, conserve sempre o rótulo com a data da colheita e a referência do lote para manter o controlo sobre a frescura da sua despensa."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Saffron Cultivation and Care",
+          "url": "https://www.rhs.org.uk/herbs/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "what-does-saffron-taste-like",
+      "title": "A que sabe o açafrão? Notas aromáticas e harmonia no prato",
+      "category": "Guias sobre o açafrão",
+      "image": "threads",
+      "imageAlt": "Fios inteiros de açafrão vermelho sobre fundo escuro",
+      "readTime": "3 MIN DE LEITURA",
+      "description": "Explore o perfil sensorial do açafrão verdadeiro: as notas de feno seco, mel e terra quente, o amargor subtil e o seu equilíbrio na cozinha.",
+      "deck": "Para lá do famoso tom dourado, o estigma revela um perfume envolvente de feno cortado, mel seco e brisa mineral.",
+      "lead": "Explicar o sabor do açafrão a quem o conhece apenas pela cor amarela dos pratos não é imediato. Longe de ser picante ou adocicado, o açafrão funciona na gastronomia como um elo aromático profundo, capaz de dar estrutura e persistência aos caldos mais delicados.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "A química natural do aroma: picrocrocina e safranal",
+          "text": "Durante a secagem cuidadosa dos estigmas de Crocus sativus, o calor suave desenvolve o safranal, composto volátil responsável pela fragrância que lembra erva seca ao sol, flores de outono e um toque de mel rústico. Na boca, a picrocrocina oferece um amargor limpo e elegante que corta a riqueza do azeite num refogado, da manteiga num risoto ou de um caldo apurado de marisco."
+        },
+        {
+          "id": "detail-2",
+          "title": "A arte da moderação ao temperar",
+          "text": "Na cozinha com açafrão, juntar o dobro dos fios não torna o prato duas vezes melhor. O excesso de estigmas pode tornar o caldo demasiado intenso, com notas quase medicinais ou metálicas que encobrem a frescura do peixe, do camarão ou da amêijoa. O segredo está em usar a medida certa para que o perfume acompanhe cada garfada com subtileza."
+        },
+        {
+          "id": "detail-3",
+          "title": "Porque nenhum corante substitui o estigma verdadeiro",
+          "text": "Muitas vezes recorre-se à curcuma, ao colorau ou a corantes alimentares para dar cor ao arroz a baixo custo. No entanto, basta aproximar o prato para perceber a diferença: a cor isolada não traz a redondeza sápida nem o perfume persistente que os fios autênticos de Mashtaga deixam na mesa."
+        }
+      ],
+      "sources": [
+        {
+          "title": "McCormick — Flavour Profile of Saffron",
+          "url": "https://www.mccormickforchefs.co.uk/en-gb/recipe-ideas/flavour-ingredients/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "why-is-saffron-expensive",
+      "title": "Porque é o açafrão tão valioso e como calcular o preço por grama?",
+      "category": "Guias sobre o açafrão",
+      "image": "flower",
+      "imageAlt": "Flor de açafrão acabada de abrir ao nascer do sol",
+      "readTime": "4 MIN DE LEITURA",
+      "description": "Compreenda o trabalho manual por detrás da colheita do açafrão, quantas flores são necessárias por grama e como comparar preços pelo peso líquido.",
+      "deck": "Em cada grama de açafrão seco cabem cerca de cento e cinquenta flores colhidas de madrugada e desfiadas à mão.",
+      "lead": "A fama do açafrão como a especiaria mais preciosa do mundo não resulta de uma estratégia comercial, mas de uma realidade botânica exigente. Nenhuma máquina conseguiu substituir a precisão das mãos humanas na colheita e na separação dos frágeis estigmas de uma flor que abre apenas uma vez por ano.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Uma única colheita de outono e trabalho inteiramente manual",
+          "text": "O Crocus sativus multiplica-se através de bolbos subterrâneos que exigem cuidados constantes até à curta floração de outono. Ao romper da manhã, antes que o sol murche as pétalas, as flores são apanhadas uma a uma. Nesse mesmo dia, é necessário separar manualmente os três estigmas vermelhos de cada flor e secá-los com rigor, processo em que perdem cerca de oitenta por cento do seu peso em água."
+        },
+        {
+          "id": "detail-2",
+          "title": "Como comparar o preço real por grama líquido",
+          "text": "É frequente encontrar nas prateleiras caixas volumosas que contêm apenas 0,2 ou 0,5 gramas de fios, o que cria a ilusão de um preço baixo. Para fazer uma escolha informada, divida sempre o preço final pelo peso líquido em gramas. Na ROFRAN apresentamos um formato mínimo transparente de {minimum} gramas de fios inteiros de Mashtaga por $50 USD (50 AZN no Azerbaijão), o que corresponde a $10 USD por grama líquido."
+        },
+        {
+          "id": "detail-3",
+          "title": "Avaliar pureza equivalente em vez de olhar só para o preço",
+          "text": "Um valor invulgarmente barato esconde quase sempre estigmas misturados com partes amarelas da flor sem poder corante, humidade excessiva para inflacionar o peso ou fibras de cártamo tingidas. Exija sempre ver fios vermelhos inteiros e conhecer a origem agrícola exata da colheita."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Saffron",
+          "url": "https://www.rhs.org.uk/herbs/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-buy-saffron",
+      "title": "Como escolher e comprar bom açafrão: guia para ler o rótulo",
+      "category": "Guias sobre o açafrão",
+      "image": "product",
+      "imageAlt": "Fios de açafrão ROFRAN num frasco de vidro transparente",
+      "readTime": "4 MIN DE LEITURA",
+      "description": "Critérios práticos para comprar açafrão com confiança: inspeção visual dos estigmas, peso líquido, origem em Mashtaga e leitura da norma ISO 3632.",
+      "deck": "Saber observar a forma do estigma e confirmar a terra de origem é a melhor proteção contra imitações.",
+      "lead": "Comprar açafrão com segurança passa por observar detalhes objetivos em vez de adjetivos vagos na embalagem. Desde a extremidade alargada do estigma até à clareza com que o produtor indica a aldeia de cultivo, cada elemento ajuda a distinguir um ingrediente autêntico.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Inspeção visual: a forma do estigma e a cor uniforme",
+          "text": "Observe os fios através do vidro: o estigma verdadeiro do Crocus sativus tem a forma de um pequeno filamento que alarga suavemente na ponta superior, apresentando uma cor vermelha carmesim mate e uniforme. Se notar muitos fios amarelos ou esbranquiçados misturados, significa que a parte inferior do estilete floral foi incluída para acrescentar peso sem contribuir para o aroma."
+        },
+        {
+          "id": "detail-2",
+          "title": "Origem agrícola declarada e norma ISO 3632",
+          "text": "Desconfie de embalagens que referem apenas o local onde o produto foi acondicionado sem indicar onde a flor cresceu. Na ROFRAN declaramos com exatidão a nossa origem única na aldeia de Mashtaga, em Baku (península de Absheron). Além disso, quando um produtor menciona a norma ISO 3632, verifique se os dados de crocina, picrocrocina e safranal dizem respeito ao lote específico."
+        },
+        {
+          "id": "detail-3",
+          "title": "Critérios de compra claros e garantias do produtor",
+          "text": "Ao adquirir açafrão, confirme sempre se o peso líquido, a safra e as informações do lote estão claramente expressos no frasco. Produtores sérios identificam com rigor a sua região de cultivo, fornecem canais diretos de comunicação e esclarecem previamente todas as condições de entrega. Exigir transparência é o primeiro passo para assegurar que apenas estigmas verdadeiros entram na sua cozinha."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ISO 3632-2 — Spices — Saffron (Crocus sativus L.) — Test methods",
+          "url": "https://www.iso.org/standard/44526.html"
+        }
+      ]
+    },
+    {
+      "slug": "saffron-threads-vs-powder",
+      "title": "Açafrão em fios ou em pó: diferenças na despensa e no tacho",
+      "category": "Guias sobre o açafrão",
+      "image": "threads",
+      "imageAlt": "Detalhe de fios inteiros de açafrão de tom vermelho vivo",
+      "readTime": "3 MIN DE LEITURA",
+      "description": "Comparamos o açafrão em fios inteiros com o açafrão moído em pó: porque o estigma inteiro garante maior pureza visual e melhor conservação aromática.",
+      "deck": "O fio inteiro mostra a sua autenticidade a olho nu e protege os seus óleos essenciais até ao momento de ir ao lume.",
+      "lead": "No comércio, o açafrão surge habitualmente sob duas formas: os fios inteiros — os estigmas secos tal como saem da flor — e o pó finamente moído. Embora possam ter a mesma origem botânica, o seu comportamento na despensa e a transparência que oferecem a quem cozinha são muito diferentes.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "A certeza visual do estigma inteiro",
+          "text": "A grande vantagem de adquirir açafrão em fios é a transparência imediata. Ao olhar para o filamento inteiro reconhece-se de pronto a anatomia do estigma da flor, a ausência de pós estranhos e a integridade da cor carmesim. E se uma receita pedir que o açafrão se dissolva sem deixar fios visíveis no molho, basta esmagar os estigmas secos num almofariz um minuto antes de fazer a infusão."
+        },
+        {
+          "id": "detail-2",
+          "title": "A perda rápida de aroma e as dúvidas no formato em pó",
+          "text": "O açafrão já comprado em pó poupa alguns segundos de preparação, mas traz duas desvantagens claras. Primeiro, ao quebrar a estrutura do estigma meses antes de cozinhar, o safranal volatiliza-se muito mais depressa e a especiaria perde perfume. Segundo, num pó laranja homogéneo é impossível distinguir a olho nu se há mistura com curcuma, pimentão ou outros corantes."
+        },
+        {
+          "id": "detail-3",
+          "title": "Porque a gastronomia prefere sempre o fio inteiro",
+          "text": "Por respeito pela integridade do ingrediente e pela preservação dos seus aromas naturais, os chefes e as cozinhas tradicionais optam invariavelmente por estigmas inteiros. Na ROFRAN partilhamos desta visão, apresentando o açafrão colhido em Mashtaga (Baku) exclusivamente sob a forma de fios inteiros. Assim, cada apreciador recebe o produto puro e colhido à mão, podendo moê-lo apenas no momento exato de o utilizar."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ISO 3632-2 — Saffron Specifications and Test Methods",
+          "url": "https://www.iso.org/standard/44526.html"
+        }
+      ]
+    }
+  ]
+}

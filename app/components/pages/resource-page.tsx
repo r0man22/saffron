@@ -20,7 +20,7 @@ export function ResourcePage({ locale, slug }: { locale: Locale; slug: ResourceS
     <div className="knowledge-body"><aside className="knowledge-aside"><span className="eyebrow">ROFRAN</span><nav aria-label={page.title}>{page.sections.map((section, i) => <a key={section.title} href={`#detail-${i + 1}`}>{section.title}</a>)}</nav><Link className="text-link" href={localeHref(locale, "/faq")}>{t.faq}<LinkArrow /></Link></aside>
       <div className="knowledge-sections">{page.sections.map((section, i) => <section id={`detail-${i + 1}`} key={section.title}><span className="resource-number">0{i + 1}</span><h2>{section.title}</h2><p>{section.text}</p></section>)}
         {slug === "quality" && business.certificates.length > 0 && <ul>{business.certificates.map(c => <li key={c.url}><a href={c.url}>{c.name}</a></li>)}</ul>}
-        {slug === "contact" && (business.email || business.telephone) && <div className="contact-details">{business.email && <a href={`mailto:${business.email}`}>{business.email}</a>}{business.telephone && <a href={`tel:${business.telephone}`}>{business.telephone}</a>}</div>}
+        {slug === "contact" && (business.emails.length > 0 || business.telephone) && <div className="contact-details">{business.emails.map(email => <a key={email} href={`mailto:${email}`}>{email}</a>)}{business.telephone && <a href={`tel:${business.telephone}`}>{business.telephoneDisplay}</a>}</div>}
         <div className="knowledge-next"><Link className="button button-gold" href={localeHref(locale, "/saffron")}>{t.product}<LinkArrow /></Link><Link className="text-link" href={localeHref(locale, "/journal")}>{t.journal}<LinkArrow /></Link></div>
       </div></div><ResourceLinks locale={locale} />
   </main>;

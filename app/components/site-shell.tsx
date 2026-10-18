@@ -37,16 +37,23 @@ export function SiteShell({ children, footer }: { children: React.ReactNode; foo
   const dialog = useRef<HTMLDialogElement>(null);
   const path = usePathname();
   const localPath = withoutLocale(path);
+  const [scrollProgress, setScrollProgress] = useState(0);
   useEffect(() => {
     let last = window.scrollY;
     const scroll = () => {
       const y = window.scrollY;
       setScrolled(y > 40);
+      const total = document.documentElement.scrollHeight - window.innerHeight;
+      setScrollProgress(total > 0 ? Math.min(1, Math.max(0, y / total)) : 0);
       if (Math.abs(y - last) < 8) return;
       setHidden(y > last && y > 160); last = y;
     };
     scroll(); window.addEventListener("scroll", scroll, { passive: true });
-    return () => window.removeEventListener("scroll", scroll);
+    window.addEventListener("resize", scroll);
+    return () => {
+      window.removeEventListener("scroll", scroll);
+      window.removeEventListener("resize", scroll);
+    };
   }, []);
   useEffect(() => {
     // Content already on screen at first paint stays put; everything else rises in as it is scrolled into view.
@@ -87,6 +94,7 @@ export function SiteShell({ children, footer }: { children: React.ReactNode; foo
   const close = () => dialog.current?.close();
   return <BagContext.Provider value={{ count, open, add: () => { update(count + 1); open(); } }}>
     <a href="#main-content" className="skip-link">{t.nav.skip}</a>
+    <div className="scroll-progress-thread" style={{ transform: `scaleX(${scrollProgress})` }} aria-hidden="true" />
     <header className={`site-header ${scrolled || localPath !== "/" ? "header-solid" : ""} ${hidden && !menuOpen ? "header-hidden" : ""}`}>
       <Link className="brand" href={localeHref(locale, "/")} aria-label={t.nav.homeLabel} onClick={() => setMenuOpen(false)}><RofranMark /><span className="gold-glint" data-glint="ROFRAN">ROFRAN</span></Link>
       <nav className={menuOpen ? "navigation is-open" : "navigation"} aria-label={t.nav.main}>

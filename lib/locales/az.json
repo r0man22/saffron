@@ -31,8 +31,8 @@
     "increase": "Miqdarı artır",
     "quantity": "Miqdar",
     "remove": "Sil",
-    "saved": "Seçiminiz yadda saxlanılıb. Onlayn sifarişin rəsmiləşdirilməsi hələ aktiv deyil.",
-    "unavailable": "Sifariş hələ aktiv deyil",
+    "saved": "Seçiminiz yadda saxlanılıb. Hazırkı partiya stokda yoxdur.",
+    "unavailable": "Hazırda stokda yoxdur",
     "empty": [
       "Kiçik bir xəzinə",
       "burada sizi gözləyir."
@@ -145,12 +145,12 @@
       "*Zəfəran telləri.*"
     ],
     "subtitle": "ROFRAN zəfəran telləri",
-    "description": "Dadını tələsmədən çıxardığınız yeməklər üçün. Özünüzə məxsus kiçik ənənələr üçün. Zəfəranın rəngini və ətrini tel-tel kəşf edin.",
-    "note": "Kolleksiya ilə tanış olun. Onlayn sifarişin rəsmiləşdirilməsi hələ aktiv deyil.",
+    "description": "Bakının Maştağa kəndində yetişdirilən bütöv qırmızı zəfəran telləri. Plovdan şirniyyata qədər süfrənizə kəhrəba rəngi və dərin Abşeron ətri qatan ənənə.",
+    "note": "Hazırda satışda yoxdur. Minimum sifariş: 5 qram (Azərbaycanda 50 AZN · xaric üçün $50 USD).",
     "facts": [
       {
-        "title": "Zəfəran haqqında",
-        "text": "Zəfəran Crocus sativus çiçəyinin qurudulmuş qırmızı dişicik ağızcıqlarından əldə edilir. Mətbəxdə həm rəngi, həm də ətri ilə seçilir: az miqdarda istifadə edilən, bir qədər diqqət tələb edən bir ədviyyatdır.",
+        "title": "Abşeron zəfəranı",
+        "text": "Bakının Maştağa kəndində payızda çiçəkləyən Crocus sativus çiçəyinin qırmızı dişicik tellərindən əldə edilir. Yalnız bütöv tellər təqdim olunur.",
         "linkText": ""
       },
       {
@@ -212,8 +212,8 @@
     "homeDescription": "ROFRAN zəfəranını kəşf edin. Zəfəranın seçimi, dadı, dəmlənməsi və saxlanması haqqında bələdçilər və alışdan əvvəl faydalı sual-cavablar.",
     "brandTitle": "ROFRAN — Təbiətdən gələn dəyər",
     "brandDescription": "Kiçik bir tel. Qeyri-adi bir hekayə. ROFRAN zəfəranını kəşf edin.",
-    "saffronTitle": "Zəfəran Telləri — Minimum Sifariş {minimum} Qram",
-    "saffronDescription": "ROFRAN zəfəran telləri. Minimum sifariş {minimum} qramdır. İstifadə, saxlama və məhsul seçimi haqqında məlumat. Onlayn satış hələ açılmayıb.",
+    "saffronTitle": "Zəfəran Telləri — Minimum Sifariş {minimum} Qram (50 AZN)",
+    "saffronDescription": "Abşeronun qədim Maştağa kəndindən təbii ROFRAN zəfəran telləri. Minimum sifariş {minimum} qramdır (Azərbaycanda 50 AZN · xaric üçün $50 USD). Hazırda satışda deyil.",
     "journalTitle": "Zəfəran bələdçisi",
     "journalDescription": "Zəfəranı yaxından tanıyın: hansı çiçəkdən əldə edilir, yeməklərdə necə istifadə olunur və mətbəxdə necə saxlanır.",
     "socialAlt": "Gün batımında zəfəran tarlasında ROFRAN zəfəranı"

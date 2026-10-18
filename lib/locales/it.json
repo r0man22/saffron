@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "story": "La nostra storia",
+    "saffron": "Zafferano",
+    "journal": "Diario",
+    "main": "Navigazione principale",
+    "home": "Home",
+    "homeLabel": "Home ROFRAN",
+    "skip": "Vai al contenuto",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu",
+    "language": "Lingua",
+    "openBag": "Apri carrello",
+    "items": "articoli"
+  },
+  "actions": {
+    "discoverStory": "Scopri la storia",
+    "discoverSaffron": "Scopri il nostro zafferano",
+    "exploreSaffron": "Esplora lo zafferano",
+    "exploreJournal": "Esplora il diario",
+    "continue": "Continua a esplorare",
+    "add": "Aggiungi al carrello"
+  },
+  "bag": {
+    "selection": "LA TUA SELEZIONE",
+    "title": "Il tuo carrello",
+    "close": "Chiudi carrello",
+    "product": "Zafferano ROFRAN",
+    "threads": "Pistilli di zafferano",
+    "decrease": "Riduci quantità",
+    "increase": "Aumenta quantità",
+    "quantity": "Quantità",
+    "remove": "Rimuovi",
+    "saved": "La tua selezione è stata salvata. L'acquisto online non è ancora attivo.",
+    "unavailable": "Esaurito",
+    "empty": [
+      "Un piccolo tesoro",
+      "trova posto qui."
+    ]
+  },
+  "story": {
+    "aria": "La storia dello zafferano ROFRAN",
+    "bottom": "UN PICCOLO STIMMA. UNA STORIA STRAORDINARIA.",
+    "scroll": "SCORRI PER SCOPRIRE",
+    "continue": "CONTINUA A ESPLORARE",
+    "pause": "Metti in pausa la storia",
+    "preparing": "Preparazione del racconto",
+    "unavailable": "Il video non è disponibile. Scopri il nostro zafferano qui sotto.",
+    "chaptersLabel": "Capitoli della storia",
+    "chapter": "Capitolo",
+    "soundOn": "AUDIO ATTIVO",
+    "soundOff": "AUDIO DISATTIVATO",
+    "soundEnable": "Attiva i suoni del campo",
+    "soundDisable": "Disattiva i suoni del campo",
+    "chapters": [
+      {
+        "name": "L'origine",
+        "label": "ZAFFERANO ROFRAN",
+        "title": [
+          "IL TESORO PIÙ PURO",
+          "DELLA NATURA"
+        ],
+        "body": "Una storia che comincia da un fiore d'autunno."
+      },
+      {
+        "name": "Il fiore",
+        "label": "01 / IL FIORE",
+        "title": [
+          "Tutto nasce",
+          "da un *fiore.*"
+        ],
+        "body": "Uno sguardo ravvicinato a un antico sapere agricolo nella penisola di Absheron."
+      },
+      {
+        "name": "L'essenza",
+        "label": "02 / L'ESSENZA",
+        "title": [
+          "La meraviglia",
+          "vista da *vicino.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "I pistilli",
+        "label": "03 / IL FILO CREMISI",
+        "title": [
+          "Una storia in",
+          "ogni *pistillo.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Il viaggio",
+        "label": "04 / IL VIAGGIO",
+        "title": [
+          "Dal fiore",
+          "alla tua *tavola.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Lo zafferano",
+        "label": "05 / ZAFFERANO ROFRAN",
+        "title": [
+          "Essenziale.",
+          "*Inconfondibile.*"
+        ],
+        "body": "Luce dorata. Profumo avvolgente. Un momento da assaporare."
+      },
+      {
+        "name": "Prezioso per natura",
+        "label": "",
+        "title": [
+          "ROFRAN"
+        ],
+        "body": "Prezioso per natura."
+      }
+    ]
+  },
+  "home": {
+    "collection": "LA COLLEZIONE DI ZAFFERANO",
+    "eyebrow": "ZAFFERANO ROFRAN",
+    "productTitle": [
+      "Porta la storia",
+      "sulla tua *tavola.*"
+    ],
+    "description": "Stimmi interi raccolti a Mashtaga. Un giallo dorato luminoso. Un aroma caldo e avvolgente che esalta il risotto e la cucina di casa.",
+    "footnote": "UNO SGUARDO RAVVICINATO A UN INGREDIENTE STRAORDINARIO",
+    "journalEyebrow": "CONOSCERE LA MATERIA PRIMA PER UN RITO PIÙ RICCO",
+    "journalTitle": "Il diario dello zafferano"
+  },
+  "footer": {
+    "taglinePrefix": "Prezioso per ",
+    "taglineEm": "natura.",
+    "explore": "ESPLORA",
+    "journal": "IL DIARIO",
+    "aria": "Piè di pagina",
+    "bottom": "Un piccolo stimma. Una storia straordinaria.",
+    "top": "Torna su ↑"
+  },
+  "product": {
+    "collection": "LA COLLEZIONE ROFRAN",
+    "title": [
+      "ROFRAN",
+      "*Pistilli di zafferano.*"
+    ],
+    "subtitle": "Pistilli interi di zafferano di Mashtaga, Baku",
+    "description": "Coltivato nei terreni sabbiosi di Mashtaga, sulla penisola di Absheron. Pensato per i pranzi lenti, per il risotto mantecato con cura e per i piccoli riti quotidiani in cucina, uno stimma alla volta.",
+    "note": "Attualmente esaurito. Il checkout online non è ancora attivo.",
+    "facts": [
+      {
+        "title": "Lo zafferano",
+        "text": "Lo zafferano ROFRAN è ottenuto esclusivamente dagli stimmi rossi essiccati del fiore Crocus sativus, raccolti a Mashtaga (Baku, Azerbaigian). In cucina regala sia una tonalità dorata intensa sia un bouquet aromatico inconfondibile.",
+        "linkText": ""
+      },
+      {
+        "title": "Il primo rito",
+        "text": "Prima di unirlo a un risotto alla milanese o a un brodo di pesce, lascia gli stimmi in infusione in un liquido caldo per sprigionare colore e profumo in modo uniforme.",
+        "linkText": "Leggi la guida all'uso dello zafferano."
+      },
+      {
+        "title": "Cura e conservazione",
+        "text": "Custodisci i pistilli in un vasetto ermetico al riparo dalla luce e dall'umidità per preservarne intatte le note volatili.",
+        "linkText": "Scopri la guida alla conservazione."
+      }
+    ],
+    "editorialEyebrow": "PRIMA DEL PRIMO PISTILLO",
+    "editorialTitle": [
+      "Tutto inizia",
+      "da un *fiore.*"
+    ],
+    "editorialText": "Osserva da vicino il Crocus sativus e il lavoro paziente che trasforma un effimero fiore autunnale in una spezia preziosa.",
+    "editorialLink": "Conosci lo zafferano",
+    "relatedTitle": "Un rito più consapevole",
+    "gallery": "Fotografie del prodotto",
+    "view": "Vista"
+  },
+  "journal": {
+    "eyebrow": "APPUNTI DA ROFRAN",
+    "title": [
+      "Il diario",
+      "*dello zafferano.*"
+    ],
+    "description": "Conoscere il fiore rende più ricco il gesto in cucina. Scopri come nasce lo zafferano, come dosare i pistilli in infusione e come conservarne l'aroma nel tempo.",
+    "guides": "Guide allo zafferano",
+    "toc": "IN QUESTO ARTICOLO",
+    "tocLabel": "In questo articolo",
+    "sources": "FONTI E APPROFONDIMENTI"
+  },
+  "images": {
+    "valley": "Fiori viola di zafferano in una vallata al tramonto",
+    "product": "Pistilli di zafferano in un vasetto di vetro accanto a un croco viola al tramonto",
+    "flower": "Un fiore di zafferano che si schiude",
+    "jar": "Vasetto di zafferano ROFRAN",
+    "gallery": [
+      "Zafferano in pistilli in un vasetto di vetro trasparente con tappo dorato",
+      "Dettaglio ravvicinato degli stimmi rossi di zafferano",
+      "Fiore viola di zafferano nel campo al tramonto"
+    ]
+  },
+  "notFound": {
+    "eyebrow": "404 / UN ALTRO SENTIERO",
+    "title": [
+      "Ritroviamo la",
+      "*via di casa.*"
+    ],
+    "description": "Questa pagina non fa parte del nostro racconto.",
+    "back": "Torna a ROFRAN"
+  },
+  "meta": {
+    "homeTitle": "Zafferano ROFRAN — Pistilli di Mashtaga, Cucina e Guide Gastronomiche",
+    "homeDescription": "Scopri i pistilli di zafferano ROFRAN coltivati a Mashtaga, Baku. Impara come scegliere, mettere in infusione e conservare lo zafferano in cucina.",
+    "brandTitle": "ROFRAN — Prezioso per natura",
+    "brandDescription": "Un piccolo stimma. Una storia straordinaria. Scopri lo zafferano ROFRAN della penisola di Absheron.",
+    "saffronTitle": "Pistilli di Zafferano — Ordini a partire da {minimum} grammi",
+    "saffronDescription": "Pistilli interi di zafferano ROFRAN da Mashtaga (Baku), con ordine minimo di {minimum} grammi ($50 USD). Attualmente esaurito; vendita online non ancora attiva.",
+    "journalTitle": "Il diario dello zafferano",
+    "journalDescription": "Approfondimenti sullo zafferano: dall'origine botanica del Crocus sativus all'infusione dei pistilli per risotti e piatti tradizionali.",
+    "socialAlt": "Zafferano ROFRAN in un campo di crochi al tramonto"
+  }
+}

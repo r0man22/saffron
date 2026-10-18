@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "story": "브랜드 스토리",
+    "saffron": "사프란",
+    "journal": "저널",
+    "main": "메인 내비게이션",
+    "home": "홈",
+    "homeLabel": "ROFRAN 홈",
+    "skip": "본문으로 건너뛰기",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기",
+    "language": "언어",
+    "openBag": "장바구니 열기",
+    "items": "개"
+  },
+  "actions": {
+    "discoverStory": "스토리 보기",
+    "discoverSaffron": "사프란 살펴보기",
+    "exploreSaffron": "사프란 자세히 보기",
+    "exploreJournal": "저널 읽기",
+    "continue": "계속 살펴보기",
+    "add": "장바구니에 담기"
+  },
+  "bag": {
+    "selection": "선택한 상품",
+    "title": "장바구니",
+    "close": "장바구니 닫기",
+    "product": "ROFRAN 사프란",
+    "threads": "사프란 홀 스레드 (통암술대)",
+    "decrease": "수량 줄이기",
+    "increase": "수량 늘리기",
+    "quantity": "수량",
+    "remove": "삭제",
+    "saved": "선택하신 내역이 저장되었습니다. 이번 수확분은 현재 품절 상태입니다.",
+    "unavailable": "현재 품절",
+    "empty": [
+      "작고 귀한 보물이",
+      "담길 자리입니다."
+    ]
+  },
+  "story": {
+    "aria": "ROFRAN 사프란 스토리",
+    "bottom": "한 가닥의 붉은 실, 그 안에 담긴 비범한 이야기.",
+    "scroll": "스크롤하여 자세히 보기",
+    "continue": "계속 살펴보기",
+    "pause": "스토리 일시정지",
+    "preparing": "여정을 준비하고 있습니다",
+    "unavailable": "영상을 불러올 수 없습니다. 아래에서 ROFRAN 사프란을 만나보세요.",
+    "chaptersLabel": "스토리 챕터",
+    "chapter": "챕터",
+    "soundOn": "사운드 켜기",
+    "soundOff": "사운드 끄기",
+    "soundEnable": "현장 사운드 켜기",
+    "soundDisable": "현장 사운드 끄기",
+    "chapters": [
+      {
+        "name": "시작",
+        "label": "SAFFRON BY ROFRAN",
+        "title": [
+          "자연이 빚어낸",
+          "가장 귀한 보물"
+        ],
+        "body": "한 송이 꽃에서 시작되는 이야기."
+      },
+      {
+        "name": "꽃",
+        "label": "01 / 꽃",
+        "title": [
+          "모든 것은 한 송이",
+          "*꽃*에서 시작됩니다."
+        ],
+        "body": "자연이 선사하는 경이로운 순간을 가까이에서 마주해 보세요."
+      },
+      {
+        "name": "정수",
+        "label": "02 / 정수",
+        "title": [
+          "가까이에서 마주하는",
+          "깊은 *경이로움.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "진홍빛 암술대",
+        "label": "03 / 진홍빛 실",
+        "title": [
+          "한 가닥마다 깃든",
+          "깊은 *이야기.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "여정",
+        "label": "04 / 여정",
+        "title": [
+          "가을의 꽃밭에서",
+          "당신의 *식탁*까지."
+        ],
+        "body": ""
+      },
+      {
+        "name": "사프란",
+        "label": "05 / ROFRAN 사프란",
+        "title": [
+          "단 몇 가닥으로 완성되는",
+          "*특별한 미식.*"
+        ],
+        "body": "맑은 황금빛, 그윽한 아로마, 음미하는 순간."
+      },
+      {
+        "name": "자연이 부여한 고귀함",
+        "label": "",
+        "title": [
+          "ROFRAN"
+        ],
+        "body": "자연이 부여한 고귀함."
+      }
+    ]
+  },
+  "home": {
+    "collection": "THE SAFFRON COLLECTION",
+    "eyebrow": "ROFRAN SAFFRON",
+    "productTitle": [
+      "자연의 이야기를",
+      "당신의 *식탁*으로."
+    ],
+    "description": "가느다란 진홍빛 암술대, 맑게 퍼지는 황금빛 수색, 잊을 수 없는 따뜻한 향기. 일상의 요리를 품격 있는 의식으로 바꾸어 보세요.",
+    "footnote": "특별한 식재료를 깊이 이해하는 시간",
+    "journalEyebrow": "알수록 깊어지는 미식의 즐거움",
+    "journalTitle": "사프란 저널"
+  },
+  "footer": {
+    "taglinePrefix": "자연이 부여한 ",
+    "taglineEm": "고귀함.",
+    "explore": "살펴보기",
+    "journal": "저널",
+    "aria": "푸터",
+    "bottom": "한 가닥의 붉은 실, 그 안에 담긴 비범한 이야기.",
+    "top": "맨 위로 이동 ↑"
+  },
+  "product": {
+    "collection": "THE ROFRAN COLLECTION",
+    "title": [
+      "ROFRAN",
+      "*사프란 홀 스레드*"
+    ],
+    "subtitle": "ROFRAN 사프란 홀 스레드",
+    "description": "아제르바이잔 바쿠의 해안 마을 마슈타가에서 재배한 온전한 진홍빛 사프란 암술대입니다. 리조또와 파에야, 해산물 육수, 베이킹에 맑은 황금빛 색감과 따스한 향미를 더해 줍니다.",
+    "note": "현재 품절 상태입니다. 최소 주문 수량: 5그램 (국제 가격 50 USD · 아제르바이잔 내 50 AZN).",
+    "facts": [
+      {
+        "title": "사프란의 기원",
+        "text": "바쿠 마슈타가 마을에서 가을에 피어나는 사프란 크로커스(Crocus sativus)를 수작업으로 수확합니다. 꽃 한 송이에서 단 세 가닥만 얻을 수 있는 진홍빛 암술대를 원형 그대로 건조했습니다.",
+        "linkText": ""
+      },
+      {
+        "title": "첫 번째 과정 (온수 우려내기)",
+        "text": "요리에 넣기 전, 따뜻한 물이나 육수, 우유에 암술대를 담가 15~20분간 천천히 황금빛 색소와 향을 우려내는 것이 가장 기본적인 준비 과정입니다.",
+        "linkText": "사프란 활용 가이드 읽기"
+      },
+      {
+        "title": "세심한 보관법",
+        "text": "직사광선과 습기를 피해 밀폐 용기에 담아 서늘하고 어두운 곳에 보관해 주세요. 사프란 고유의 향과 색을 오래도록 지키는 방법입니다.",
+        "linkText": "보관 가이드 살펴보기"
+      }
+    ],
+    "editorialEyebrow": "첫 가닥을 우려내기 전에",
+    "editorialTitle": [
+      "모든 것은 한 송이",
+      "*꽃*에서 시작됩니다."
+    ],
+    "editorialText": "크로커스 사티부스(Crocus sativus)라는 가을 꽃과 이 특별한 식재료가 탄생하기까지의 섬세한 과정을 살펴보세요.",
+    "editorialLink": "사프란 기본 가이드 보기",
+    "relatedTitle": "더 풍요로운 미식을 위하여",
+    "gallery": "제품 사진 갤러리",
+    "view": "사진 보기"
+  },
+  "journal": {
+    "eyebrow": "NOTES FROM ROFRAN",
+    "title": [
+      "사프란",
+      "*저널*"
+    ],
+    "description": "식재료에 대한 깊은 이해는 요리의 즐거움을 배가시킵니다. 꽃의 생태부터 온수에 우려내는 법, 올바른 보관법까지 차근차근 알아보세요.",
+    "guides": "사프란 가이드",
+    "toc": "본문 목차",
+    "tocLabel": "이 글의 목차",
+    "sources": "참고 자료 및 출처"
+  },
+  "images": {
+    "valley": "해 질 녘 산골짜기에 피어난 보라색 사프란 꽃들",
+    "product": "노을빛 아래 보라색 크로커스 꽃 옆에 놓인 유리병 속 사프란 암술대",
+    "flower": "꽃잎을 여는 사프란 크로커스",
+    "jar": "ROFRAN 사프란 유리병",
+    "gallery": [
+      "금빛 뚜껑이 있는 투명한 유리병에 담긴 사프란",
+      "진홍빛 사프란 암술대(홀 스레드) 클로즈업",
+      "해 질 녘 들판에 피어난 보라색 사프란 꽃"
+    ]
+  },
+  "notFound": {
+    "eyebrow": "404 / 길을 잃으셨나요",
+    "title": [
+      "다시 원래의 길로",
+      "*안내해 드릴게요.*"
+    ],
+    "description": "찾으시는 페이지가 존재하지 않거나 이동되었습니다.",
+    "back": "ROFRAN 홈으로 돌아가기"
+  },
+  "meta": {
+    "homeTitle": "ROFRAN 사프란 — 홀 스레드, 요리 활용법 및 사프란 가이드",
+    "homeDescription": "아제르바이잔 바쿠 마슈타가에서 자란 ROFRAN 사프란 홀 스레드를 만나보세요. 사프란 고르는 법, 온수 우려내기, 보관법 및 주문 안내를 제공합니다.",
+    "brandTitle": "ROFRAN — 자연이 부여한 고귀함",
+    "brandDescription": "한 가닥의 붉은 실, 그 안에 담긴 비범한 이야기. ROFRAN 사프란을 경험해 보세요.",
+    "saffronTitle": "마슈타가 사프란 홀 스레드 — 최소 주문 {minimum}그램 (50 USD)",
+    "saffronDescription": "아제르바이잔 바쿠 마슈타가에서 수확한 ROFRAN 통사프란 암술대. 최소 주문 수량 {minimum}그램 (국제 50 USD · 아제르바이잔 50 AZN). 현재 품절.",
+    "journalTitle": "사프란 저널",
+    "journalDescription": "사프란의 식물학적 기원부터 리조또와 파에야를 위한 온수 우려내기 기법, 주방에서의 보관법까지 상세히 안내합니다.",
+    "socialAlt": "해 질 녘 크로커스 들판과 ROFRAN 사프란"
+  }
+}

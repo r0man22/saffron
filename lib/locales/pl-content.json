@@ -1,0 +1,477 @@
+{
+  "labels": {
+    "explore": "Odkryj ROFRAN",
+    "faq": "Pytania i odpowiedzi",
+    "product": "Zobacz szafran",
+    "journal": "Dziennik szafranu",
+    "updated": "Zaktualizowano",
+    "author": "Redakcja ROFRAN",
+    "links": "Powiązane strony",
+    "back": "Powrót na stronę główną"
+  },
+  "faqCopy": {
+    "title": "Pytania i odpowiedzi o szafranie",
+    "description": "Najważniejsze informacje o naszych całych nitkach szafranu z Masztagi pod Baku, przygotowywaniu naparu w kuchni, przechowywaniu oraz zamówieniach od {minimum} gramów.",
+    "eyebrow": "WARTO WIEDZIEĆ",
+    "intro": "Rzetelne odpowiedzi dotyczące pochodzenia, parzenia w kuchni oraz zasad zamawiania całych nitek szafranu z Azerbejdżanu.",
+    "all": "Wszystkie pytania",
+    "saffron": "O szafranie",
+    "kitchen": "W kuchni",
+    "buying": "Wybór i zamówienie",
+    "more": "Czytaj więcej w dzienniku",
+    "search": "Szukaj w pytaniach",
+    "empty": "Nie znaleziono pasującego pytania. Spróbuj wpisać inne hasło."
+  },
+  "faqs": [
+    {
+      "question": "Czym dokładnie jest prawdziwy szafran?",
+      "answer": "Szafran to trzy wysuszone, karmazynowe znamiona słupka jesiennego krokusa uprawnego (Crocus sativus). W przeciwieństwie do fioletowych płatków czy żółtych pręcików, wyłącznie te cienkie czerwone nitki szafranu kryją w sobie połączenie złocistej mocy barwiącej oraz miodowo-korzennego aromatu.",
+      "category": "saffron",
+      "link": "/journal/what-is-saffron"
+    },
+    {
+      "question": "Skąd pochodzi szafran ROFRAN?",
+      "answer": "Nasz szafran rośnie w Masztadze (Maştağa), historycznej wsi położonej na obrzeżach Baku na Półwyspie Abszerońskim w Azerbejdżanie. Przepuszczalne, piaszczyste gleby, suche lata oraz bryza znad Morza Kaspijskiego od wieków tworzą tam doskonałe warunki do uprawy aromatycznych krokusów.",
+      "category": "saffron",
+      "link": "/quality"
+    },
+    {
+      "question": "Jak prawidłowo przygotować napar z nitek szafranu?",
+      "answer": "Odliczoną porcję nitek szafranu możesz lekko rozetrzeć w moździerzu lub pozostawić w całości, a następnie zalać w małym naczyniu dwiema lub trzema łyżkami ciepłej (nie wrzącej) wody, mleka albo bulionu rybnego. Po 15–20 minutach parzenia wlej złocisty napar razem z nitkami do risotto, zupy lub ciasta.",
+      "category": "kitchen",
+      "link": "/journal/how-to-use-saffron"
+    },
+    {
+      "question": "Jak najlepiej przechowywać nitki szafranu w domu?",
+      "answer": "Przechowuj nitki szafranu w suchym, chłodnym i ciemnym miejscu, w szczelnie zamkniętym szklanym lub metalowym słoiczku. Wyjmuj je zawsze suchą pęsetą lub suchą łyżeczką, aby wilgoć i para wodna znad garnków nie dostały się do wnętrza naczynia.",
+      "category": "kitchen",
+      "link": "/journal/how-to-store-saffron"
+    },
+    {
+      "question": "Jak smakuje i pachnie prawdziwy szafran?",
+      "answer": "Szlachetny szafran łączy ciepły zapach suszonego letniego siana i ciemnego miodu z subtelną, ziemistą i lekko wytrawną nutą na podniebieniu. Nigdy nie jest słodki ani ostry — nadaje natomiast głębię potrawom z ryżu, takim jak risotto czy pilaw, a także bulionom rybnym i drożdżowym wypiekom.",
+      "category": "saffron",
+      "link": "/journal/what-does-saffron-taste-like"
+    },
+    {
+      "question": "Dlaczego szafran jest tak cenny i jak porównywać jego ceny?",
+      "answer": "Każdy kwiat Crocus sativus wytwarza zaledwie trzy czerwone nitki, które trzeba zebrać ręcznie o świcie i pojedynczo oddzielić od kielicha. W ROFRAN {minimum} gramów całych nitek szafranu kosztuje 50 USD (50 AZN w Azerbejdżanie) — porównując oferty, zawsze przeliczaj cenę za jeden gram, a nie za samo opakowanie.",
+      "category": "buying",
+      "link": "/journal/why-is-saffron-expensive"
+    },
+    {
+      "question": "Na co zwrócić uwagę przy zakupie szafranu?",
+      "answer": "Wybieraj całe, ciemnoczerwone nitki szafranu bez żółtych fragmentów słupka, z jasno podaną masą netto oraz precyzyjnym miejscem pochodzenia, takim jak nasza wieś Masztaga w Baku. Równie ważne są bezpośrednie dane kontaktowe producenta oraz pewność, że kupujesz czyste nitki bez domieszek.",
+      "category": "buying",
+      "link": "/journal/how-to-buy-saffron"
+    },
+    {
+      "question": "Lepiej wybrać całe nitki szafranu czy szafran w proszku?",
+      "answer": "Całe nitki szafranu pozwalają od razu ocenić autentyczność przyprawy i zatrzymują olejki eteryczne znacznie dłużej niż gotowy proszek. ROFRAN oferuje wyłącznie całe czerwone nitki, które w razie potrzeby możesz samodzielnie utrzeć w moździerzu tuż przed gotowaniem.",
+      "category": "buying",
+      "link": "/journal/saffron-threads-vs-powder"
+    },
+    {
+      "question": "Jakie jest minimalne zamówienie i cena w ROFRAN?",
+      "answer": "Minimalne zamówienie wynosi {minimum} gramów całych nitek szafranu w cenie 50 USD dla zapytań międzynarodowych lub 50 AZN na terenie Azerbejdżanu. Ponieważ do przygotowania naparu na cztery porcje risotto czy bulionu rybnego wystarczy kilkanaście nitek, słoiczek {minimum} gramów wystarcza na wiele miesięcy gotowania.",
+      "category": "buying",
+      "link": "/saffron"
+    },
+    {
+      "question": "Czy szafran ROFRAN jest obecnie dostępny i czy można kupić go online?",
+      "answer": "Obecnie nasz szafran ma status: brak w magazynie (zbiory zostały wyprzedane), a płatności online w koszyku nie są jeszcze aktywne. W sprawie kolejnych zbiorów lub rezerwacji możesz napisać do nas na adres contact@rofran.com albo zadzwonić pod numer +994 50 823 93 45.",
+      "category": "buying",
+      "link": "/saffron"
+    },
+    {
+      "question": "Czy ROFRAN wysyła zamówienia do Polski?",
+      "answer": "Obecnie realizujemy wysyłkę wyłącznie na terenie Azerbejdżanu. Wysyłka międzynarodowa do krajów Unii Europejskiej jest w przygotowaniu, ale nie została jeszcze uruchomiona. Polska wersja serwisu służy obecnie zapoznaniu się z pochodzeniem naszego szafranu oraz przewodnikami kulinarnymi.",
+      "category": "buying",
+      "link": "/shipping"
+    },
+    {
+      "question": "Czym szafran różni się od kurkumy i krokosza barwierskiego?",
+      "answer": "Kurkuma to zmielone kłącze, które wprawdzie barwi potrawy na żółto, lecz ma zupełnie inny, korzenno-pieprzny smak. Krokosz barwierski (szafran łąkowy) bywa sprzedawany jako tani zamiennik, ale nie zawiera safranalu ani krocyny odpowiedzialnych za aromat i szlachetny napar z Crocus sativus.",
+      "category": "saffron",
+      "link": "/journal/what-is-saffron"
+    },
+    {
+      "question": "Jak w domowej kuchni sprawdzić, czy nitki szafranu są prawdziwe?",
+      "answer": "Prawdziwe nitki szafranu po zalaniu ciepłą wodą oddają barwę powoli i równomiernie, tworząc przejrzysty, złocistożółty napar, podczas gdy same nitki pozostają czerwone i nie rozpadają się. Jeśli woda w kilka sekund staje się mętnie czerwona, często świadczy to o obecności sztucznych barwników.",
+      "category": "buying",
+      "link": "/quality"
+    }
+  ],
+  "resources": {
+    "about": {
+      "eyebrow": "POCHODZENIE ABSZERON",
+      "title": "O ROFRAN",
+      "description": "ROFRAN poświęca się całym nitkom szafranu ze wsi Masztaga pod Baku. Poznaj nasze korzenie na Półwyspie Abszerońskim oraz podejście do uprawy.",
+      "intro": "ROFRAN powstał z szacunku dla jednego produktu rolnego: autentycznych, całych nitek szafranu zbieranych w Masztadze na Półwyspie Abszerońskim w Azerbejdżanie.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Zakorzenieni w Masztadze pod Baku",
+          "text": "Na Półwyspie Abszerońskim nad Morzem Kaspijskim uprawa szafranu ma wielowiekową tradycję. We wsi Masztaga (Maştağa) pod Baku bulwy Crocus sativus znajdują dokładnie to, czego potrzebują do wytworzenia gęstego bukietu: przepuszczalne, wapienne piaski, suche lato oraz łagodną jesień."
+        },
+        {
+          "title": "Skupienie na jednym produkcie",
+          "text": "Zamiast szerokiego katalogu przypraw ROFRAN oferuje wyłącznie całe, czerwone nitki szafranu. Nasze zbiory udostępniamy w zamówieniach od minimum {minimum} gramów w cenie 50 USD (50 AZN w Azerbejdżanie) — z myślą o osobach, które w kuchni cenią udokumentowane pochodzenie składników."
+        },
+        {
+          "title": "Rzetelna wiedza kulinarna bez przesady",
+          "text": "Dobry szafran nie potrzebuje przesadnych obietnic. Nasz dziennik oraz opisy łączą wiedzę botaniczną z praktycznymi wskazówkami dotyczącymi przygotowywania ciepłego naparu, dawkowania i przechowywania, aby każda nitka w pełni wzbogaciła Twoje risotto, bulion rybny czy domowe wypieki."
+        }
+      ]
+    },
+    "quality": {
+      "eyebrow": "CZYSTOŚĆ ORAZ RZEMIOSŁO",
+      "title": "Jakość i pochodzenie naszego szafranu",
+      "description": "Dowiedz się, jak szafran ROFRAN jest ręcznie zbierany w Masztadze pod Baku, selekcjonowany i suszony oraz jak rozpoznać czyste nitki szafranu.",
+      "intro": "O jakości szafranu decyduje to, co dzieje się na długo przed zamknięciem słoiczka: gleba w Masztadze, ręczny zbiór o brzasku oraz uważne suszenie karmazynowych znamion.",
+      "image": "threads",
+      "sections": [
+        {
+          "title": "Ręczny zbiór na Półwyspie Abszerońskim",
+          "text": "Podczas krótkiego okresu kwitnienia późną jesienią fioletowe kielichy Crocus sativus otwierają się w pierwszych godzinach poranka. W Masztadze kwiaty są zbierane ręcznie, zanim słońce osłabi delikatne znamiona, a jeszcze tego samego dnia z każdego kielicha ostrożnie wyjmuje się trzy czerwone nitki."
+        },
+        {
+          "title": "Wyłącznie całe czerwone nitki bez domieszek",
+          "text": "Do słoiczków ROFRAN trafiają wyłącznie całe, ciemnoczerwone znamiona słupka. Żółte pręciki, resztki płatków czy obce włókna roślinne są odrzucane podczas selekcji. Dzięki zachowaniu pełnej nitki jej botaniczny kształt pozostaje zawsze widoczny gołym okiem."
+        },
+        {
+          "title": "Sprawdzenie jakości w ciepłym naparze",
+          "text": "Gdy wrzucisz kilka nitek naszego szafranu do ciepłej wody, naturalna krocyna powoli zabarwi płyn na czysty, złocisty kolor. Sama nitka zachowa czerwony kształt i uwolni charakterystyczny, miodowo-ziołowy aromat."
+        }
+      ]
+    },
+    "shipping": {
+      "eyebrow": "ZAMÓWIENIA ORAZ DOSTAWA",
+      "title": "Dostawa, ceny i dostępność",
+      "description": "Informacje o minimalnym zamówieniu {minimum} gramów (50 USD / 50 AZN), aktualnym stanie magazynowym oraz wysyłce na terenie Azerbejdżanu.",
+      "intro": "Przejrzyste zasady przed zakupem: poniżej znajdziesz aktualne informacje o dostępności zbiorów, minimalnym zamówieniu oraz obszarze dostaw.",
+      "image": "product",
+      "sections": [
+        {
+          "title": "Aktualny stan magazynowy i koszyk online",
+          "text": "Nasz szafran z Masztagi ma obecnie status: brak w magazynie (aktualna partia została wyprzedana). Również bezpośrednie płatności online na stronie nie są jeszcze uruchomione. Możesz jednak zapoznać się z naszą ofertą lub skontaktować się z nami w sprawie przyszłych zbiorów."
+        },
+        {
+          "title": "Minimalne zamówienie i cennik",
+          "text": "Szafran ROFRAN oferowany jest w minimalnej ilości {minimum} gramów. Cena za {minimum} gramów wynosi 50 AZN w Azerbejdżanie oraz 50 USD w przypadku zapytań międzynarodowych (do ceny mogą zostać doliczone koszty doręczenia)."
+        },
+        {
+          "title": "Dostawa w Azerbejdżanie i plany międzynarodowe",
+          "text": "Po udostępnieniu nowej partii zbiorów zamówienia wysyłamy obecnie wyłącznie na terenie Azerbejdżanu. Bezpośrednia wysyłka kurierska do Polski oraz pozostałych krajów Unii Europejskiej nie jest jeszcze otwarta; w razie pytań prosimy o wiadomość na adres contact@rofran.com."
+        }
+      ],
+      "draft": true
+    },
+    "contact": {
+      "eyebrow": "BEZPOŚREDNI KONTAKT",
+      "title": "Kontakt z ROFRAN",
+      "description": "Skontaktuj się z ROFRAN w Baku mailowo pod adresem contact@rofran.com, contact@rofran.az lub telefonicznie pod numerem +994 50 823 93 45.",
+      "intro": "Niezależnie od tego, czy chcesz zapytać o nadchodzące zbiory w Masztadze, nasze nitki szafranu czy dostępność kolejnej partii — odpowiadamy bezpośrednio z Baku.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Poczta elektroniczna i telefon",
+          "text": "W sprawach międzynarodowych prosimy pisać na adres contact@rofran.com; dla zapytań z Azerbejdżanu działa również adres contact@rofran.az. Telefonicznie jesteśmy dostępni pod numerem +994 50 823 93 45."
+        },
+        {
+          "title": "Zapytania o dostępność zbiorów",
+          "text": "Ponieważ nasze zbiory z Masztagi są ściśle limitowane i obecnie wyprzedane (brak w magazynie), chętnie poinformujemy Cię mailowo, kiedy kolejna partia w porcjach od {minimum} gramów (50 USD / 50 AZN) będzie ponownie dostępna."
+        },
+        {
+          "title": "Bezpośrednia korespondencja bez formularzy",
+          "text": "Na naszej stronie świadomie rezygnujemy z automatycznych formularzy zgłoszeniowych. Napisz do nas bezpośrednio ze swojej skrzynki pocztowej, podając przy zapytaniach o zamówienie swoją lokalizację oraz interesującą Cię ilość."
+        }
+      ],
+      "draft": true
+    },
+    "wholesale": {
+      "eyebrow": "DLA GASTRONOMII ORAZ DELIKATESÓW",
+      "title": "Szafran dla restauracji i cukierni",
+      "description": "Całe nitki szafranu z Masztagi (Baku) dla restauracji, pracowni cukierniczych i delikatesów. Skontaktuj się z ROFRAN w sprawie współpracy.",
+      "intro": "Szefom kuchni, cukiernikom oraz właścicielom delikatesów poszukującym jednorodnego szafranu z Półwyspu Abszerońskiego oferujemy bezpośredni kontakt z naszym zespołem w Baku.",
+      "image": "threads",
+      "sections": [
+        {
+          "title": "Wyrazisty szafran do profesjonalnej kuchni",
+          "text": "W esencjonalnym bulionie rybnym, sosach maślanych, klasycznym risotto czy rzemieślniczych wypiekach szafran z Masztagi wyróżnia się wysoką wydajnością oraz czystym, głębokim aromatem. Całe nitki szafranu dają kucharzom pełną kontrolę nad rozcieraniem w moździerzu oraz czasem parzenia naparu."
+        },
+        {
+          "title": "Wielkości zamówień i rezerwacja zbiorów",
+          "text": "Podczas gdy w sprzedaży detalicznej minimalne zamówienie wynosi {minimum} gramów w cenie 50 USD (50 AZN w Azerbejdżanie), większe gramatury oraz rezerwacje dla partnerów gastronomicznych ustalamy indywidualnie w zależności od wielkości jesiennego zbioru."
+        },
+        {
+          "title": "Kontakt dla klientów biznesowych",
+          "text": "Ponieważ obecny zbiór jest wyprzedany (brak w magazynie), a dostawy realizujemy aktualnie tylko w granicach Azerbejdżanu, zainteresowane restauracje prosimy o wcześniejszy kontakt pod adresem contact@rofran.com lub numerem +994 50 823 93 45."
+        }
+      ],
+      "draft": true
+    },
+    "privacy": {
+      "eyebrow": "PRYWATNOŚĆ ORAZ DANE",
+      "title": "Polityka prywatności",
+      "description": "Sprawdź, jak strona ROFRAN wykorzystuje pamięć lokalną przeglądarki do obsługi koszyka i dźwięku oraz jak chronimy Twoje dane kontaktowe.",
+      "intro": "Do ochrony danych podchodzimy z takim samym umiarem jak do naszych składników: podczas przeglądania strony zapisujemy wyłącznie podstawowe ustawienia techniczne lokalnie w Twojej przeglądarce.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Pamięć lokalna przeglądarki",
+          "text": "Gdy zapisujesz wybrany produkt w koszyku lub włączasz i wyłączasz dźwięk filmu wprowadzającego, ustawienia te są przechowywane wyłącznie w pamięci lokalnej (Local Storage) Twojej przeglądarki. Ponieważ płatności online nie są jeszcze aktywne, strona nie pobiera żadnych danych adresowych ani płatniczych."
+        },
+        {
+          "title": "Kontakt mailowy lub telefoniczny",
+          "text": "Jeśli kontaktujesz się z nami pod adresem contact@rofran.com, contact@rofran.az lub numerem +994 50 823 93 45, przekazane informacje wykorzystujemy wyłącznie do udzielenia odpowiedzi na Twoje zapytanie. Nie udostępniamy danych sieciom reklamowym."
+        },
+        {
+          "title": "Przyszłe uruchomienie sprzedaży online",
+          "text": "Przed włączeniem bezpośrednich zamówień i płatności online na stronie niniejsza polityka zostanie uzupełniona o szczegółowe informacje dotyczące operatorów płatności, firm kurierskich oraz okresów przechowywania dokumentacji."
+        }
+      ],
+      "draft": true
+    }
+  },
+  "articles": [
+    {
+      "slug": "what-is-saffron",
+      "title": "Czym jest szafran? Botanika, pochodzenie i rola w kuchni",
+      "category": "Przewodnik po szafranie",
+      "image": "flower",
+      "imageAlt": "Fioletowy kwiat Crocus sativus w ciepłym świetle zachodu słońca",
+      "readTime": "4 MIN CZYTANIA",
+      "description": "Dowiedz się, czym jest prawdziwy szafran, jak pozyskuje się czerwone znamiona Crocus sativus oraz dlaczego wieś Masztaga pod Baku słynie z wyjątkowej uprawy.",
+      "deck": "Od jesiennego krokusa na Półwyspie Abszerońskim po karmazynową nitkę w szklanym słoiczku.",
+      "lead": "Pod nazwą szafran nie kryje się zmielony korzeń ani nasiona, lecz delikatne serce jesiennego kwiatu: trzy ciemnoczerwone znamiona słupka rośliny Crocus sativus. Od stuleci ten szlachetny krokus jest uprawiany nad Morzem Kaspijskim, gdzie we wsi Masztaga w Baku powstaje nasz szafran ROFRAN.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Od fioletowego kielicha do karmazynowej nitki",
+          "text": "Krokus uprawny (Crocus sativus) kwitnie jesienią przez zaledwie kilka tygodni w roku i rozmnaża się wyłącznie przez bulwy potomne. W środku każdego liliowego kwiatu, obok żółtych pręcików, wyrastają trzy intensywnie czerwone znamiona. Tylko te czerwone nitki szafranu, ręcznie oddzielone i starannie wysuszone, tworzą prawdziwą przyprawę. Warto pamiętać, że nie każdy dziko rosnący krokus lub zimowit jesienny jest jadalny — niektóre gatunki spotykane na łąkach są silnie trujące."
+        },
+        {
+          "id": "detail-2",
+          "title": "Tradycja uprawy w Masztadze na Abszeronie",
+          "text": "Półwysep Abszeroński w Azerbejdżanie od wieków cieszy się renomą jednego z najcenniejszych siedlisk szafranu. Szczególnie wieś Masztaga (Maştağa) w północno-wschodniej części Baku, dzięki przepuszczalnym piaszczystym glebom, gorącym latom i kaspijskiej bryzie, sprzyja koncentracji naturalnych związków w nitkach: krocyny dającej złocisty kolor naparu, pikrokrocyny odpowiadającej za szlachetną goryczkę oraz safranalu tworzącego głęboki bukiet."
+        },
+        {
+          "id": "detail-3",
+          "title": "Więcej niż złocista barwa na talerzu",
+          "text": "W kuchni europejskiej i bliskowschodniej — od odświętnego azerbejdżańskiego pilawu, przez mediolańskie risotto i hiszpańską paellę, po aromatyczny bulion rybny oraz drożdżowe wypieki — szafran pełni podwójną rolę. Ciepły napar z kilku nitek nadaje potrawie słoneczny, złoty odcień, a jednocześnie wnosi ziemisto-miodowy aromat, którego nie zastąpi żadna inna przyprawa."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Crocus sativus",
+          "url": "https://www.rhs.org.uk/plants/4929/crocus-sativus/details"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-use-saffron",
+      "title": "Jak używać szafranu w kuchni: dawkowanie, moździerz i ciepły napar",
+      "category": "Przewodnik po szafranie",
+      "image": "saffron",
+      "imageAlt": "Zbliżenie na karmazynowe nitki szafranu przed zaparzeniem",
+      "readTime": "4 MIN CZYTANIA",
+      "description": "Praktyczny przewodnik po parzeniu nitek szafranu: jak przygotować złocisty napar w wodzie, mleku lub bulionie rybnym do risotto, ryżu i wypieków.",
+      "deck": "Dlaczego kilkanaście nitek i dwadzieścia minut cierpliwego parzenia całkowicie zmieniają charakter potrawy.",
+      "lead": "Wrzucenie suchych nitek szafranu bezpośrednio na gorący tłuszcz lub do gęstego sosu sprawia, że większość ich barwy i zapachu pozostaje zamknięta wewnątrz włókien. Dopiero spokojne przygotowanie ciepłego naparu przed gotowaniem pozwala wysuszonym znamionom otworzyć się i równomiernie oddać złocistą esencję.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Oszczędne dawkowanie zamiast nadmiaru",
+          "text": "Szafran jest niezwykle wydajny. Do przygotowania czteroosobowej porcji risotto, pilawu czy zupy rybnej wystarczy zazwyczaj od 10 do 20 pojedynczych nitek, czyli ułamek grama. Nasze minimalne zamówienie wynoszące {minimum} gramów wystarcza w domowej kuchni na dziesiątki obiadów i wypieków. Warto trzymać się ilości podanej w przepisie: nadmiar szafranu nie uszlachetni dania, lecz nada mu zbyt cierpką, apteczną nutę."
+        },
+        {
+          "id": "detail-2",
+          "title": "Sztuka przygotowania ciepłego naparu",
+          "text": "Przełóż odmierzone nitki szafranu do małej porcelanowej czarki lub kieliszka. Możesz wcześniej delikatnie rozetrzeć je w moździerzu ze szczyptą soli lub cukru, choć całe nitki równie dobrze oddają swój charakter. Zalej szafran dwiema lub trzema łyżkami ciepłej (lecz nie wrzącej) wody, ciepłego mleka, białego wina albo klarownego bulionu rybnego i odstaw na 15 do 20 minut."
+        },
+        {
+          "id": "detail-3",
+          "title": "Dodawanie naparu razem z nitkami",
+          "text": "Po zaparzeniu nie przecedzaj płynu: zarówno intensywnie złocisty napar, jak i same czerwone nitki szafranu trafiają prosto do garnka lub formy. Gotując dania z ryżu, takie jak risotto czy pilaw, uwzględnij objętość wlewanego naparu w całkowitej ilości płynu, aby ziarna zachowały idealną sprężystość."
+        }
+      ],
+      "sources": [
+        {
+          "title": "McCormick for Chefs — Saffron Guide",
+          "url": "https://www.mccormickforchefs.co.uk/en-gb/recipe-ideas/flavour-ingredients/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-store-saffron",
+      "title": "Jak przechowywać szafran: ochrona przed światłem, powietrzem i wilgocią",
+      "category": "Przewodnik po szafranie",
+      "image": "product",
+      "imageAlt": "Całe nitki szafranu w zamkniętym szklanym słoiczku ze złotą zakrętką",
+      "readTime": "3 MIN CZYTANIA",
+      "description": "Dowiedz się, jak przechowywać całe nitki szafranu w domowej kuchni, aby przez wiele miesięcy zachowały swój aromat i złocistą moc barwiącą.",
+      "deck": "Światło dzienne, ciepło piekarnika i para wodna znad garnków to cisi przeciwnicy olejków eterycznych.",
+      "lead": "Szklany słoiczek wypełniony karmazynowymi nitkami szafranu pięknie wygląda na otwartej półce, jednak światło słoneczne oraz ciepło znad kuchenki szybko osłabiają jego bukiet. Wystarczy kilka prostych nawyków, aby prawdziwy szafran zachował pełnię aromatu przez długie miesiące.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Ciemna szafka i szczelne zamknięcie",
+          "text": "Promienie ultrafioletowe oraz tlen stopniowo rozkładają odpowiadające za barwę karotenoidy (krocynę) oraz lotny safranal. Przechowuj szczelnie zakręcony słoiczek w zamkniętej szafce kuchennej lub szufladzie w temperaturze pokojowej, z dala od piekarnika, płyty grzewczej i nasłonecznionego parapetu."
+        },
+        {
+          "id": "detail-2",
+          "title": "Ochrona przed parą wodną podczas gotowania",
+          "text": "Nitki szafranu są po zbiorach starannie suszone, aby zachowały trwałość. Nigdy nie wyjmuj ich ze słoiczka wilgotnymi palcami ani mokrą łyżeczką i nie otwieraj naczynia bezpośrednio nad parującym garnkiem z bulionem rybnym czy ryżem. Najlepiej odmierzyć potrzebną porcję przed rozpoczęciem gotowania za pomocą czystej, suchej pęsety."
+        },
+        {
+          "id": "detail-3",
+          "title": "Dlaczego całe nitki dłużej zachowują świeżość",
+          "text": "W porównaniu ze zmielonym proszkiem całe nitki szafranu mają znacznie mniejszą powierzchnię kontaktu z powietrzem. Całe nitki przechowywane w chłodnym, ciemnym i suchym miejscu zachowują swój złożony aromat przez ponad rok, a nawet dwa lata. W moździerzu rozcieraj zawsze tylko tyle nitek, ile zużyjesz do naparu tego samego dnia."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Growing and Storing Saffron",
+          "url": "https://www.rhs.org.uk/herbs/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "what-does-saffron-taste-like",
+      "title": "Jak smakuje szafran? Aromat, barwa i profil sensoryczny",
+      "category": "Przewodnik po szafranie",
+      "image": "threads",
+      "imageAlt": "Ciemnoczerwone nitki szafranu w dużym zbliżeniu",
+      "readTime": "4 MIN CZYTANIA",
+      "description": "Między zapachem letniego siana, gryczanego miodu a subtelną goryczką: poznaj profil smakowy prawdziwych nitek szafranu i rolę safranalu oraz pikrokrocyny.",
+      "deck": "Ciepły bukiet suszonego siana i plastra miodu, podtrzymany szlachetną, wytrawną nutą.",
+      "lead": "Opisanie smaku prawdziwego szafranu jednym słowem sprawia trudność nawet doświadczonym szefom kuchni. W potrawie dobrze zaparzony szafran działa jak pudło rezonansowe: nie dominuje na pierwszym planie, lecz spaja masło, ryż, owoce morza lub mleko w harmonijną całość.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Współdziałanie trzech naturalnych związków",
+          "text": "Profil sensoryczny szafranu opiera się na trzech filarach. Rozpuszczalna w wodzie krocyna odpowiada za przejrzystą, złocistą barwę naparu. Pikrokrocyna daje na podniebieniu delikatną, czystą goryczkę, dzięki której maślane risotto czy kremowe sosy nie wydają się ciężkie. Podczas suszenia zbiorów powstaje natomiast safranal — olejek eteryczny o zapachu skoszonego siana, miodu i morskiego powietrza."
+        },
+        {
+          "id": "detail-2",
+          "title": "W daniach wytrawnych i słodkich wypiekach",
+          "text": "Ponieważ szafran nie zawiera cukru, a jednocześnie wnosi kwiatowo-miodowe nuty zapachowe, doskonale odnajduje się po obu stronach kuchennego stołu. W Azerbejdżanie nasz szafran z Masztagi wieńczy odświętny pilaw z jagnięciną, kasztanami i suszonymi owocami; w kuchni europejskiej uszlachetnia bulion rybny, bouillabaisse, mediolańskie risotto oraz maślane drożdżówki i świąteczne wypieki."
+        },
+        {
+          "id": "detail-3",
+          "title": "Równowaga dzięki umiarowi i cierpliwości",
+          "text": "Osoby sięgające po raz pierwszy po czyste nitki szafranu bywają zwiedzione jasnym kolorem wody w pierwszej minucie parzenia i zbyt pochopnie dokładają kolejną szczyptę. Pozwól ciepłemu naparowi spokojnie naciągać przez pełne dwadzieścia minut — dopiero wtedy ujawnia się właściwa równowaga między złocistą barwą a łagodną korzennością."
+        }
+      ],
+      "sources": [
+        {
+          "title": "McCormick for Chefs — Flavour Profile of Saffron",
+          "url": "https://www.mccormickforchefs.co.uk/en-gb/recipe-ideas/flavour-ingredients/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "why-is-saffron-expensive",
+      "title": "Dlaczego szafran jest tak drogi? Ręczny zbiór, wydajność i cena za gram",
+      "category": "Przewodnik po szafranie",
+      "image": "flower",
+      "imageAlt": "Kwitnący krokus szafranowy na polu o zachodzie słońca",
+      "readTime": "4 MIN CZYTANIA",
+      "description": "Wyjaśniamy, skąd bierze się cena prawdziwego szafranu: ile kwiatów Crocus sativus potrzeba na jeden zbiór w Masztadze i jak rzetelnie porównywać cenę za gram.",
+      "deck": "Setki tysięcy kwiatów, ręczna praca o świcie i zaledwie kilkanaście dni zbiorów późną jesienią.",
+      "lead": "Szafran od starożytności uchodzi za najdroższą przyprawę świata. Jego wartość nie wynika ze sztucznego marketingu, lecz bezpośrednio z biologii rośliny Crocus sativus: żadna maszyna nie potrafi zerwać kruchych jesiennych kwiatów i bez uszkodzeń wyjąć z ich wnętrza trzech cienkich czerwonych znamion.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Matematyka jesiennego zbioru",
+          "text": "Każdy pojedynczy kwiat krokusa daje tylko trzy czerwone nitki szafranu. Aby uzyskać jeden kilogram wysuszonej przyprawy, trzeba o brzasku ręcznie zebrać i jeszcze tego samego dnia przebrać od 150 000 do 200 000 kwiatów. Podczas późniejszego suszenia świeże znamiona tracą około czterech piątych swojej masy na skutek odparowania wody."
+        },
+        {
+          "id": "detail-2",
+          "title": "Jak porównywać cenę za jeden gram",
+          "text": "W sklepach szafran bywa sprzedawany w mikroskopijnych opakowaniach po 0,1 lub 0,2 grama, co utrudnia ocenę rzeczywistego kosztu. Podczas zakupów zawsze przeliczaj cenę na pełny gram. W ROFRAN całe nitki szafranu z Masztagi (Baku) oferujemy od minimalnego zamówienia {minimum} gramów w cenie 50 USD (lub 50 AZN w Azerbejdżanie), co daje przejrzystą stawkę 10 USD za gram."
+        },
+        {
+          "id": "detail-3",
+          "title": "Cenny przy zakupie, oszczędny w garnku",
+          "text": "Wysoka cena zakupu nabiera zupełnie innego wymiaru w codziennym gotowaniu. Ponieważ na cztery porcje risotto, bulionu rybnego czy domowego ciasta drożdżowego wystarcza 0,1 do 0,15 grama czystych nitek z Masztagi, koszt pojedynczego dania pozostaje przystępny — pod warunkiem, że używasz autentycznego szafranu o pełnej sile barwienia."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Crocus sativus Cultivation",
+          "url": "https://www.rhs.org.uk/herbs/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-buy-saffron",
+      "title": "Jak kupować szafran: na co zwrócić uwagę przy wyborze nitek i pochodzenia",
+      "category": "Przewodnik po szafranie",
+      "image": "product",
+      "imageAlt": "Nitki szafranu ROFRAN w przezroczystym słoiczku ze złotą zakrętką",
+      "readTime": "4 MIN CZYTANIA",
+      "description": "Praktyczny poradnik zakupowy: jak rozpoznać całe nitki szafranu, zweryfikować wiarygodne pochodzenie, sprawdzić masę netto oraz czystość przyprawy.",
+      "deck": "Jasne kryteria wyboru: całe czerwone znamiona, konkretna miejscowość pochodzenia i uczciwa gramatura.",
+      "lead": "Mało która przyprawa bywa na targowiskach i w internecie tak często fałszowana lub mieszana z tańszymi dodatkami jak szafran. Znając kilka prostych cech botanicznych oraz zasad zakupu, bez trudu odróżnisz rzemieślnicze nitki szafranu od barwionych zamienników.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Kształt nitki i dokładne miejsce uprawy",
+          "text": "Prawdziwe znamiona Crocus sativus mają głęboki, ciemnoczerwony kolor i lekko rozszerzają się na jednym końcu niczym maleńka trąbka. Unikaj produktów zawierających dużo żółtych, pozbawionych smaku fragmentów słupka lub pokruszonego pyłu. Zwróć też uwagę na konkretne miejsce zbioru zamiast ogólników: w ROFRAN każda nitka pochodzi ze wsi Masztaga na Półwyspie Abszerońskim w Baku (Azerbejdżan)."
+        },
+        {
+          "id": "detail-2",
+          "title": "Norma ISO 3632 oraz domowa próba naparu",
+          "text": "W międzynarodowym obrocie przyprawami jakość szafranu bada się według normy ISO 3632, określającej siłę barwiącą (krocynę), goryczkę (pikrokrocynę) i aromat (safranal). W domu równie wiele powie prosty napar: prawdziwe nitki barwią ciepłą wodę stopniowo na przejrzysty, złocisty kolor i zachowują swoją czerwoną formę, podczas gdy sztucznie barwione włókna natychmiast puszczają czerwoną lub mętną farbę."
+        },
+        {
+          "id": "detail-3",
+          "title": "Zaufany producent i przejrzystość partii",
+          "text": "Rzetelny producent zawsze podaje dokładny region uprawy, rok zbiorów oraz rzeczywistą gramaturę netto bez mylących opakowań. Wybierając całe nitki o potwierdzonym pochodzeniu i stawiając na przejrzysty kontakt z wytwórcą, zyskujesz pewność ochrony przed podróbkami oraz gwarancję najczystszego smaku w domowej kuchni."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ISO 3632-2 — Spices, Saffron (Crocus sativus L.) Test Methods",
+          "url": "https://www.iso.org/standard/44526.html"
+        }
+      ]
+    },
+    {
+      "slug": "saffron-threads-vs-powder",
+      "title": "Nitki szafranu czy szafran w proszku? Różnice w jakości i w kuchni",
+      "category": "Przewodnik po szafranie",
+      "image": "threads",
+      "imageAlt": "Zbliżenie na całe karmazynowe nitki szafranu",
+      "readTime": "3 MIN CZYTANIA",
+      "description": "Całe nitki szafranu czy mielony proszek? Sprawdź, dlaczego całe znamiona dłużej zatrzymują aromat i jak rozcierać je w moździerzu przed parzeniem.",
+      "deck": "Dlaczego nienaruszona czerwona nitka przewyższa gotowy proszek pod względem świeżości i pewności pochodzenia.",
+      "lead": "Szafran spotyka się w sprzedaży w dwóch postaciach: jako całe, smukłe nitki lub jako drobno zmielony, pomarańczowoczerwony proszek. Choć proszek wydaje się na pierwszy rzut oka wygodny, w świadomej kuchni niemal wszystkie argumenty przemawiają za całą nitką.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Widoczna gołym okiem autentyczność nitki",
+          "text": "Sięgając po całe nitki szafranu, od razu widzisz naturalny kształt wysuszonych znamion krokusa. Gdy przyprawa zostanie przemysłowo zmielona na proszek, bez badań laboratoryjnych trudno ocenić, czy nie dodano do niej zmielonych żółtych pręcików, kurkumy, krokosza barwierskiego lub słodkiej papryki."
+        },
+        {
+          "id": "detail-2",
+          "title": "Ochrona olejków eterycznych aż do chwili parzenia",
+          "text": "Rozdrobnienie przyprawy wielokrotnie zwiększa jej powierzchnię styku z tlenem, przez co lotne związki zapachowe — przede wszystkim safranal — ulatniają się znacznie szybciej. Całe nitki szafranu zamykają barwę i aromat wewnątrz wysuszonej tkanki roślinnej. Jeśli przepis wymaga drobnego proszku do szybkiego naparu, wystarczy tuż przed gotowaniem utrzeć kilka nitek w moździerzu i zalać ciepłą wodą lub bulionem rybnym."
+        },
+        {
+          "id": "detail-3",
+          "title": "Pełnia smaku w kuchni: rozcieranie nitek tuż przed gotowaniem",
+          "text": "Doświadczeni szefowie kuchni zawsze wybierają całe nitki i rozcierają je w moździerzu dopiero w momencie przyrządzania potrawy. Dzięki temu krocyna i safranal uwalniają się świeżo podczas parzenia, nadając risotto, zupom rybnym czy wypiekom głęboki kolor i czysty bukiet, którego żaden przemysłowy proszek nie jest w stanie zapewnić."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ISO 3632-2 — Saffron Specification and Test Methods",
+          "url": "https://www.iso.org/standard/44526.html"
+        }
+      ]
+    }
+  ]
+}

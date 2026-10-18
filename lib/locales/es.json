@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "story": "Nuestra historia",
+    "saffron": "Azafrán",
+    "journal": "Cuaderno",
+    "main": "Navegación principal",
+    "home": "Inicio",
+    "homeLabel": "Inicio de ROFRAN",
+    "skip": "Saltar al contenido",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "language": "Idioma",
+    "openBag": "Abrir cesta",
+    "items": "artículos"
+  },
+  "actions": {
+    "discoverStory": "Descubrir la historia",
+    "discoverSaffron": "Descubrir nuestro azafrán",
+    "exploreSaffron": "Explorar el azafrán",
+    "exploreJournal": "Explorar el cuaderno",
+    "continue": "Seguir explorando",
+    "add": "Añadir a la cesta"
+  },
+  "bag": {
+    "selection": "SU SELECCIÓN",
+    "title": "Su cesta",
+    "close": "Cerrar cesta",
+    "product": "Azafrán ROFRAN",
+    "threads": "Hebras de azafrán",
+    "decrease": "Reducir cantidad",
+    "increase": "Aumentar cantidad",
+    "quantity": "Cantidad",
+    "remove": "Eliminar",
+    "saved": "Su selección se ha guardado. La compra en línea aún no está disponible.",
+    "unavailable": "Agotado temporalmente",
+    "empty": [
+      "Un pequeño tesoro",
+      "merece este lugar."
+    ]
+  },
+  "story": {
+    "aria": "La historia del azafrán ROFRAN",
+    "bottom": "UNA PEQUEÑA HEBRA. UNA HISTORIA EXTRAORDINARIA.",
+    "scroll": "DESLICE PARA DESCUBRIR",
+    "continue": "SEGUIR EXPLORANDO",
+    "pause": "Pausar historia",
+    "preparing": "Preparando el recorrido",
+    "unavailable": "El vídeo no está disponible. Descubra nuestro azafrán más abajo.",
+    "chaptersLabel": "Capítulos de la historia",
+    "chapter": "Capítulo",
+    "soundOn": "SONIDO ACTIVADO",
+    "soundOff": "SONIDO DESACTIVADO",
+    "soundEnable": "Activar el sonido del campo",
+    "soundDisable": "Desactivar el sonido del campo",
+    "chapters": [
+      {
+        "name": "El origen",
+        "label": "AZAFRÁN DE ROFRAN",
+        "title": [
+          "EL TESORO MÁS PURO",
+          "DE LA NATURALEZA"
+        ],
+        "body": "Una historia que nace en una flor de otoño."
+      },
+      {
+        "name": "La flor",
+        "label": "01 / LA FLOR",
+        "title": [
+          "Todo empieza",
+          "en una *flor.*"
+        ],
+        "body": "Acérquese a un oficio silencioso en la península de Absherón."
+      },
+      {
+        "name": "La esencia",
+        "label": "02 / LA ESENCIA",
+        "title": [
+          "El asombro",
+          "visto de *cerca.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Las hebras",
+        "label": "03 / LA HEBRA CARMESÍ",
+        "title": [
+          "Una historia en",
+          "cada *hebra.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "El camino",
+        "label": "04 / EL CAMINO",
+        "title": [
+          "De la flor",
+          "a su *mesa.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "El azafrán",
+        "label": "05 / AZAFRÁN ROFRAN",
+        "title": [
+          "Sutil.",
+          "*Inconfundible.*"
+        ],
+        "body": "Color dorado. Aroma profundo. Un instante para saborear."
+      },
+      {
+        "name": "Valioso por naturaleza",
+        "label": "",
+        "title": [
+          "ROFRAN"
+        ],
+        "body": "Valioso por naturaleza."
+      }
+    ]
+  },
+  "home": {
+    "collection": "LA COLECCIÓN DE AZAFRÁN",
+    "eyebrow": "AZAFRÁN ROFRAN",
+    "productTitle": [
+      "Lleve la historia",
+      "a su *mesa.*"
+    ],
+    "description": "Una hebra carmesí de Mashtaga. Un tono dorado luminoso. Un aroma profundo y sereno que transforma el arroz, el caldo y la sobremesa.",
+    "footnote": "UNA MIRADA CERCANA A UN INGREDIENTE EXTRAORDINARIO",
+    "journalEyebrow": "SABER MÁS PARA COCINAR MEJOR",
+    "journalTitle": "El cuaderno del azafrán"
+  },
+  "footer": {
+    "taglinePrefix": "Valioso por ",
+    "taglineEm": "naturaleza.",
+    "explore": "EXPLORAR",
+    "journal": "EL CUADERNO",
+    "aria": "Pie de página",
+    "bottom": "Una pequeña hebra. Una historia extraordinaria.",
+    "top": "Volver arriba ↑"
+  },
+  "product": {
+    "collection": "COLECCIÓN ROFRAN",
+    "title": [
+      "ROFRAN",
+      "*Hebras de azafrán.*"
+    ],
+    "subtitle": "Hebras enteras de azafrán de Mashtaga, Bakú",
+    "description": "Cultivado en los suelos arenosos de Mashtaga, en la península de Absherón. Pensado para los arroces reposados, los guisos de fuego lento y los pequeños rituales de cocina que se disfrutan hebra a hebra.",
+    "note": "Actualmente agotado. La venta en línea aún no está activa.",
+    "facts": [
+      {
+        "title": "El azafrán",
+        "text": "Nuestro azafrán se compone exclusivamente de los estigmas rojos secos de la flor Crocus sativus, cosechados en Mashtaga (Bakú, Azerbaiyán). Aporta a la cocina tanto luz dorada como un perfume cálido e inconfundible.",
+        "linkText": ""
+      },
+      {
+        "title": "Su primer ritual",
+        "text": "Antes de incorporarlo a un arroz o a una paella, infusione las hebras en caldo o agua tibia para liberar de manera uniforme la crocina y el safranal.",
+        "linkText": "Lea nuestra guía sobre cómo usar el azafrán."
+      },
+      {
+        "title": "Conservación",
+        "text": "Guarde las hebras en un recipiente hermético, lejos de la luz directa y del vapor de la cocina, para preservar intacto su aroma.",
+        "linkText": "Consulte la guía de conservación."
+      }
+    ],
+    "editorialEyebrow": "ANTES DE LA PRIMERA HEBRA",
+    "editorialTitle": [
+      "Todo nace",
+      "en una *flor.*"
+    ],
+    "editorialText": "Conozca de cerca el Crocus sativus y el delicado oficio agrícola que da vida a uno de los ingredientes más apreciados de la gastronomía.",
+    "editorialLink": "Conocer el azafrán",
+    "relatedTitle": "Un ritual más completo",
+    "gallery": "Fotografías del producto",
+    "view": "Vista"
+  },
+  "journal": {
+    "eyebrow": "APUNTES DE ROFRAN",
+    "title": [
+      "El cuaderno",
+      "*del azafrán.*"
+    ],
+    "description": "Conocer el origen de la flor y entender su química en el fuego enriquece cada plato. Descubra cómo elegir, infusionar y conservar cada hebra con criterio.",
+    "guides": "Guías sobre el azafrán",
+    "toc": "EN ESTE ARTÍCULO",
+    "tocLabel": "En este artículo",
+    "sources": "LECTURAS Y FUENTES"
+  },
+  "images": {
+    "valley": "Flores violetas de azafrán en un valle al atardecer",
+    "product": "Hebras de azafrán en un tarro de cristal junto a una flor de croco al atardecer",
+    "flower": "Una flor de azafrán abriéndose al alba",
+    "jar": "Tarro de azafrán ROFRAN",
+    "gallery": [
+      "Azafrán en hebras dentro de un tarro de cristal con tapa dorada",
+      "Detalle cercano de las hebras rojas de azafrán",
+      "Flor violeta de azafrán en el campo al atardecer"
+    ]
+  },
+  "notFound": {
+    "eyebrow": "404 / UN CAMINO DISTINTO",
+    "title": [
+      "Volvamos al",
+      "*origen.*"
+    ],
+    "description": "Esta página no forma parte de nuestro recorrido.",
+    "back": "Volver a ROFRAN"
+  },
+  "meta": {
+    "homeTitle": "Azafrán ROFRAN — Hebras de Mashtaga, Cocina y Guías Culinarias",
+    "homeDescription": "Descubra las hebras de azafrán ROFRAN cultivadas en Mashtaga, Bakú. Aprenda cómo infusionar, conservar y elegir el azafrán en su cocina.",
+    "brandTitle": "ROFRAN — Valioso por naturaleza",
+    "brandDescription": "Una pequeña hebra. Una historia extraordinaria. Descubra el azafrán ROFRAN de la península de Absherón.",
+    "saffronTitle": "Hebras de Azafrán — Pedidos desde {minimum} gramos",
+    "saffronDescription": "Hebras enteras de azafrán ROFRAN de Mashtaga (Bakú), con un pedido mínimo de {minimum} gramos ($50 USD). Actualmente agotado; venta en línea aún no activa.",
+    "journalTitle": "El cuaderno del azafrán",
+    "journalDescription": "Guías culinarias sobre el azafrán: su origen botánico, cómo infusionar las hebras en arroces y guisos, y cómo conservar su aroma.",
+    "socialAlt": "Azafrán ROFRAN en un campo de crocos al atardecer"
+  }
+}

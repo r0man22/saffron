@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "story": "Unsere Geschichte",
+    "saffron": "Safran",
+    "journal": "Journal",
+    "main": "Hauptnavigation",
+    "home": "Startseite",
+    "homeLabel": "ROFRAN Startseite",
+    "skip": "Zum Inhalt springen",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "language": "Sprache",
+    "openBag": "Warenkorb öffnen",
+    "items": "Artikel"
+  },
+  "actions": {
+    "discoverStory": "Die Geschichte entdecken",
+    "discoverSaffron": "Unseren Safran entdecken",
+    "exploreSaffron": "Safran kennenlernen",
+    "exploreJournal": "Im Journal lesen",
+    "continue": "Weiterlesen",
+    "add": "In den Warenkorb"
+  },
+  "bag": {
+    "selection": "IHRE AUSWAHL",
+    "title": "Ihr Warenkorb",
+    "close": "Warenkorb schließen",
+    "product": "ROFRAN Safran",
+    "threads": "Ganze Safranfäden",
+    "decrease": "Menge verringern",
+    "increase": "Menge erhöhen",
+    "quantity": "Menge",
+    "remove": "Entfernen",
+    "saved": "Ihre Auswahl bleibt gespeichert. Derzeit nicht vorrätig – der Online-Verkauf ist noch nicht geöffnet.",
+    "unavailable": "Nicht vorrätig",
+    "empty": [
+      "Ein kostbarer Faden",
+      "findet hier seinen Platz."
+    ]
+  },
+  "story": {
+    "aria": "Die Geschichte des ROFRAN Safrans",
+    "bottom": "EIN ZARTER FADEN. EINE AUSSERGEWÖHNLICHE HERKUNFT.",
+    "scroll": "SCROLLEN ZUM ENTDECKEN",
+    "continue": "WEITER ENTDECKEN",
+    "pause": "Film anhalten",
+    "preparing": "Die Reise beginnt",
+    "unavailable": "Der Film kann nicht geladen werden. Entdecken Sie unseren Safran weiter unten.",
+    "chaptersLabel": "Kapitel der Geschichte",
+    "chapter": "Kapitel",
+    "soundOn": "TON EIN",
+    "soundOff": "TON AUS",
+    "soundEnable": "Klang der Felder einschalten",
+    "soundDisable": "Klang der Felder ausschalten",
+    "chapters": [
+      {
+        "name": "Der Ursprung",
+        "label": "SAFRAN VON ROFRAN",
+        "title": [
+          "DAS KOSTBARSTE",
+          "GESCHENK DER NATUR"
+        ],
+        "body": "Alles beginnt mit einer herbstlichen Blüte auf Abşeron."
+      },
+      {
+        "name": "Die Blüte",
+        "label": "01 / DIE BLÜTE",
+        "title": [
+          "Es beginnt mit",
+          "einer *Blüte.*"
+        ],
+        "body": "Treten Sie näher an ein stilles Wunder der Natur."
+      },
+      {
+        "name": "Das Wesen",
+        "label": "02 / DAS WESEN",
+        "title": [
+          "Still gewachsene",
+          "*Vollkommenheit.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Die Fäden",
+        "label": "03 / DER KARMINROTE FADEN",
+        "title": [
+          "Herkunft in",
+          "jedem *Faden.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Der Weg",
+        "label": "04 / DER WEG",
+        "title": [
+          "Von der Blüte",
+          "auf Ihren *Tisch.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Der Safran",
+        "label": "05 / ROFRAN SAFRAN",
+        "title": [
+          "Ganz wenig.",
+          "*Unvergleichlich.*"
+        ],
+        "body": "Leuchtendes Gold. Warmer Duft. Ein Augenblick für die Sinne."
+      },
+      {
+        "name": "Von Natur aus kostbar",
+        "label": "",
+        "title": [
+          "ROFRAN"
+        ],
+        "body": "Von Natur aus kostbar."
+      }
+    ]
+  },
+  "home": {
+    "collection": "DIE SAFRAN-EDITION",
+    "eyebrow": "ROFRAN SAFRAN AUS MASCHTAGA",
+    "productTitle": [
+      "Holen Sie die Herkunft",
+      "an Ihren *Tisch.*"
+    ],
+    "description": "Ein feiner roter Faden. Warmes Gold im Glas. Ein unverkennbarer, honig-herber Duft aus den Gärten von Maschtaga bei Baku.",
+    "footnote": "EINBLICK IN EINE JAHRHUNDERTEALTE KULTURPFLANZE",
+    "journalEyebrow": "FUNDWISSEN FÜR DIE KÜCHE",
+    "journalTitle": "Das Safran-Journal"
+  },
+  "footer": {
+    "taglinePrefix": "Von Natur aus ",
+    "taglineEm": "kostbar.",
+    "explore": "ENTDECKEN",
+    "journal": "DAS JOURNAL",
+    "aria": "Fußzeile",
+    "bottom": "Ein zarter Faden. Eine außergewöhnliche Herkunft.",
+    "top": "Nach oben ↑"
+  },
+  "product": {
+    "collection": "DIE ROFRAN EDITION",
+    "title": [
+      "ROFRAN",
+      "*Safranfäden.*"
+    ],
+    "subtitle": "Ganze Safranfäden aus Maschtaga, Baku",
+    "description": "Für Gerichte, denen man Zeit schenkt. Unsere ganzen roten Fäden von Crocus sativus stammen aus dem Dorf Maschtaga auf der Halbinsel Abşeron und entfalten Faden für Faden ihre goldene Farbe und ihr vielschichtiges Aroma.",
+    "note": "Derzeit nicht vorrätig. Mindestbestellmenge {minimum} g für 50 USD (50 AZN in Aserbaidschan). Der Online-Verkauf ist noch nicht aktiv.",
+    "facts": [
+      {
+        "title": "Der Safran",
+        "text": "Gewonnen aus den handverlesenen, schonend getrockneten roten Narbenschenkeln von Crocus sativus aus Maschtaga bei Baku. In der Küche verbindet er tiefgoldene Leuchtkraft mit feiner, erdig-floraler Würze.",
+        "linkText": ""
+      },
+      {
+        "title": "Das erste Aufgießen",
+        "text": "Lassen Sie einige Fäden vor dem Kochen in warmem Wasser, Brühe oder Milch ziehen, damit sich Farbstoffe und ätherische Öle gleichmäßig lösen.",
+        "linkText": "Zum Leitfaden für die Zubereitung."
+      },
+      {
+        "title": "Sorgfältige Lagerung",
+        "text": "Bewahren Sie die Fäden luftdicht verschlossen, kühl und vor Tageslicht geschützt auf, damit das feine Aroma über Monate erhalten bleibt.",
+        "linkText": "Hinweise zur richtigen Aufbewahrung."
+      }
+    ],
+    "editorialEyebrow": "VOR DEM ERSTEN AUFGUSS",
+    "editorialTitle": [
+      "Es beginnt",
+      "mit einer *Blüte.*"
+    ],
+    "editorialText": "Lernen Sie Crocus sativus, die herbstliche Ernte auf der Halbinsel Abşeron und die handwerkliche Sorgfalt hinter jedem einzelnen Faden kennen.",
+    "editorialLink": "Safran näher kennenlernen",
+    "relatedTitle": "Vertiefende Lektüre",
+    "gallery": "Produktansichten",
+    "view": "Ansicht"
+  },
+  "journal": {
+    "eyebrow": "NOTIZEN VON ROFRAN",
+    "title": [
+      "Das Safran-",
+      "*Journal.*"
+    ],
+    "description": "Wissen verfeinert das Handwerk in der Küche. Erfahren Sie mehr über die Botanik des Krokus, die Kunst des Aufgießens und worauf es beim Kauf ganzer Safranfäden ankommt.",
+    "guides": "Safran-Ratgeber",
+    "toc": "IN DIESEM BEITRAG",
+    "tocLabel": "Inhaltsverzeichnis",
+    "sources": "QUELLEN UND WEITERFÜHRENDE LITERATUR"
+  },
+  "images": {
+    "valley": "Violette Safranblüten in einem Tal in der Abendsonne",
+    "product": "Ganze Safranfäden im Glas neben einer violetten Krokusblüte bei Sonnenuntergang",
+    "flower": "Sich öffnende Blüte von Crocus sativus",
+    "jar": "ROFRAN Safran im Glasgefäß",
+    "gallery": [
+      "ROFRAN Safranfäden im Klarglas mit goldfarbenem Deckel",
+      "Nahaufnahme ganzer karminroter Safranfäden",
+      "Blühender Safrankrokus im Abendlicht"
+    ]
+  },
+  "notFound": {
+    "eyebrow": "404 / ABSEITS DES WEGES",
+    "title": [
+      "Finden wir den",
+      "*Weg zurück.*"
+    ],
+    "description": "Diese Seite gehört nicht zu unserer Geschichte.",
+    "back": "Zurück zu ROFRAN"
+  },
+  "meta": {
+    "homeTitle": "ROFRAN Safran — Ganze Fäden aus Maschtaga, Wissen & Küchenpraxis",
+    "homeDescription": "Entdecken Sie ganze Safranfäden von ROFRAN aus Maschtaga bei Baku. Fundierte Ratgeber zu Herkunft, Zubereitung, Aromatik und Lagerung.",
+    "brandTitle": "ROFRAN — Von Natur aus kostbar",
+    "brandDescription": "Ein zarter Faden aus Maschtaga, Baku. Entdecken Sie die Geschichte und Qualität von ROFRAN Safran.",
+    "saffronTitle": "Ganze Safranfäden aus Baku — Ab {minimum} Gramm (50 USD)",
+    "saffronDescription": "ROFRAN Safranfäden aus Maschtaga, Aserbaidschan. Mindestbestellmenge {minimum} Gramm für 50 USD. Derzeit nicht vorrätig; der Online-Shop ist noch nicht geöffnet.",
+    "journalTitle": "Das Safran-Journal — Warenkunde & Küchenpraxis",
+    "journalDescription": "Alles über echten Safran: vom Anbau auf der Halbinsel Abşeron über das richtige Aufgießen bis zur verlässlichen Qualitätsprüfung.",
+    "socialAlt": "ROFRAN Safran im Abendlicht eines Krokusfeldes"
+  }
+}

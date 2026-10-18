@@ -5,7 +5,7 @@ export const siteLocaleNames: Record<SiteLocale, string> = { en: "English", az: 
 export const isSiteLocale = (value: string): value is SiteLocale => siteLocales.some(locale => locale === value);
 export const isPrimaryLocale = (value: SiteLocale): value is Locale => publishedLocales.some(locale => locale === value);
 /** Activate a locale only after every public route has been translated and reviewed. */
-export const publishedLocales = ["en", "az", "ru", "tr", "kk", "uz", "ky", "tg"] as const;
+export const publishedLocales = ["en", "az", "ru", "tr", "kk", "uz", "ky", "tg", "de", "fr", "es", "it", "nl", "pl", "pt", "uk", "ka", "ar", "ja", "ko", "zh"] as const;
 export const siteHref = (locale: SiteLocale, path: string) => locale === "en" ? path : `/${locale}${path === "/" ? "" : path}`;
 export const coreArticleSlugs = ["what-is-saffron", "how-to-use-saffron", "how-to-store-saffron"];
 export const corePaths = ["/", "/saffron", "/about", "/quality", "/faq", "/journal", ...coreArticleSlugs.map(slug => `/journal/${slug}`)];

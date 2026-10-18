@@ -5,7 +5,7 @@ const productSettings = JSON.parse(readFileSync(new URL('../content/product.json
 
 const base = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
 const canonicalBase = process.env.TEST_CANONICAL_URL || base;
-const locales = ['en', 'az', 'ru', 'tr', 'kk', 'uz', 'ky', 'tg'];
+const locales = ['en', 'az', 'ru', 'tr', 'kk', 'uz', 'ky', 'tg', 'de', 'fr', 'es', 'it', 'nl', 'pl', 'pt', 'uk', 'ka', 'ar', 'ja', 'ko', 'zh'];
 const href = (locale, path) => locale === 'en' ? path : `/${locale}${path}`;
 const contentPaths = ['/about', '/quality', '/faq', '/journal/what-does-saffron-taste-like', '/journal/why-is-saffron-expensive', '/journal/how-to-buy-saffron', '/journal/saffron-threads-vs-powder'];
 const draftPaths = ['/contact', '/shipping', '/wholesale', '/privacy'];
@@ -45,10 +45,10 @@ test('every new localized page has its own metadata, content and valid structure
 
 test('the sitemap contains all published content, not operational drafts or untranslated locales', async () => {
   const xml = await (await fetch(base + '/sitemap.xml')).text();
-  assert.equal((xml.match(/<loc>/g) || []).length, 104);
+  assert.equal((xml.match(/<loc>/g) || []).length, 273);
   for (const locale of locales) for (const path of contentPaths) assert.ok(xml.includes(canonicalBase + href(locale, path)), path);
   for (const locale of locales) for (const path of draftPaths) assert.ok(!xml.includes(`<loc>${canonicalBase + href(locale, path)}</loc>`), path);
-  assert.doesNotMatch(xml, /<loc>[^<]*\/(?:de|ar|fr)(?:\/|<)/);
+  assert.doesNotMatch(xml, /<loc>[^<]*\/(?:fa|hi|id)(?:\/|<)/);
   const priceArticle = xml.match(/<url>[^]*?<loc>[^<]*\/journal\/why-is-saffron-expensive<\/loc>([^]*?)<\/url>/)?.[1];
   assert.ok(priceArticle?.includes('/media/flower.webp'));
   const flavourArticle = xml.match(/<loc>[^<]*\/journal\/what-does-saffron-taste-like<\/loc>([^]*?)<\/url>/)?.[1];

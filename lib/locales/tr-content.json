@@ -1,210 +1,234 @@
 {
   "labels": {
     "explore": "ROFRAN’ı keşfedin",
-    "faq": "Sorular ve cevaplar",
-    "product": "Safranı keşfedin",
+    "faq": "Sık sorulan sorular",
+    "product": "Tel safranı inceleyin",
     "journal": "Safran rehberi",
-    "updated": "Güncellendi",
-    "author": "ROFRAN editörleri",
-    "links": "İlgili bilgiler",
+    "updated": "Son güncelleme",
+    "author": "ROFRAN mutfak ekibi",
+    "links": "İlgili başlıklar",
     "back": "Ana sayfa"
   },
   "faqCopy": {
-    "title": "Safran hakkında sorular ve cevaplar",
-    "description": "Safran kullanımı, fiyat karşılaştırması, saklama ve en az {minimum} gram sipariş hakkında cevaplar.",
-    "eyebrow": "BİLMEYE DEĞER",
-    "intro": "Safranı seçerken, hazırlarken ve saklarken işinize yarayacak bilgiler.",
+    "title": "Safran hakkında merak edilenler",
+    "description": "Bakü, Maştağa köyü safranının özellikleri, safran demleme incelikleri, saklama koşulları ve en az {minimum} gram sipariş hakkında yanıtlar.",
+    "eyebrow": "MUTFAK VE SİPARİŞ REHBERİ",
+    "intro": "Tel safranı seçerken, pilav veya tatlılar için demlerken ve kavanozunda saklarken işinize yarayacak pratik yanıtlar.",
     "all": "Tüm sorular",
     "saffron": "Safran hakkında",
-    "kitchen": "Mutfakta",
+    "kitchen": "Mutfakta kullanım",
     "buying": "Seçim ve sipariş",
-    "more": "Rehberi okuyun",
-    "search": "Sorularda arayın",
-    "empty": "Uygun soru bulunamadı. Başka bir kelime deneyin."
+    "more": "Rehber yazısını okuyun",
+    "search": "Sorular arasında arayın",
+    "empty": "Aramanızla eşleşen bir soru bulunamadı. Farklı bir anahtar kelime deneyebilirsiniz."
   },
   "faqs": [
     {
-      "question": "Safran nedir?",
-      "answer": "Safran, Crocus sativus çiçeğinin kurutulmuş kırmızı tepeciklerinden elde edilen baharattır. Taç yapraklarından ve sarı erkek organlarından farklıdır; yemeklere hem renk hem koku verir.",
+      "question": "Safran tam olarak nedir ve çiçeğin hangi kısmından elde edilir?",
+      "answer": "Safran, sonbaharda açan Crocus sativus çiçeğinin el ile toplanıp kurutulan üç parçalı kızıl tepeciklerinden (stigma) elde edilen değerli bir baharattır. Çiçeğin mor taç yaprakları veya sarı erkek organları safran değildir; yemeğe o kehribar rengini ve derin kokuyu veren yalnızca bu ince kızıl tellerdir.",
       "category": "saffron",
       "link": "/journal/what-is-saffron"
     },
     {
-      "question": "Safran nasıl kullanılır ve demlenir?",
-      "answer": "Tarifteki safran miktarını ölçün, belirtilen sıvıda demleyin ve hem telleri hem demleme sıvısını yemeğe ekleyin. Miktar ve bekleme süresi hazırladığınız yemeğe bağlıdır.",
+      "question": "Pilav, zerde veya balık buğulama için safran nasıl demlenir?",
+      "answer": "Safran tellerini doğrudan kaynayan tencereye atmak yerine küçük bir fincana alın, üzerine birkaç yemek kaşığı ılık su, et suyu veya süt ekleyip 15–20 dakika dinlendirin. Teller rengini ve aromasını sıvıya bıraktığında hem demleme suyunu hem de telleri yemeğinize katın.",
       "category": "kitchen",
       "link": "/journal/how-to-use-saffron"
     },
     {
-      "question": "Safran nasıl saklanır?",
-      "answer": "Safranı hava geçirmeyen kapalı bir kapta, ışıktan uzakta saklayın. Temiz ve kuru bir araçla ölçün; ambalajdaki saklama bilgilerini ve tarihleri koruyun.",
+      "question": "Evde tel safran nasıl saklanmalı?",
+      "answer": "Safran ışığa, neme ve sıcağa karşı oldukça hassastır. Kavanozunu ocak buharından ve güneş ışığından uzak, serin ve karanlık bir dolapta hava almayacak şekilde kapalı tutun; kavanozdan tel alırken mutlaka kuru bir kaşık veya cımbız kullanın.",
       "category": "kitchen",
       "link": "/journal/how-to-store-saffron"
     },
     {
-      "question": "Safranın tadı ve kokusu nasıldır?",
-      "answer": "Safranın aroması kendine özgüdür; tadı hafif acımsı, bazen kuru ot veya topraksı notalarla tarif edilir. Yemek ve kullanılan miktar bu algıyı değiştirir.",
+      "question": "Gerçek safranın tadı ve kokusu nasıldır?",
+      "answer": "İyi kurutulmuş tel safran; yeni biçilmiş kuru ot, hafif çiçeksi bal ve sıcak topraksı notaları bir arada taşır. Dilde tatlı değil, yemekle birleştiğinde derinlik katan zarif ve hafif buruk bir iz bırakır.",
       "category": "saffron",
       "link": "/journal/what-does-saffron-taste-like"
     },
     {
-      "question": "Safran neden pahalıdır, fiyatı nasıl karşılaştırılır?",
-      "answer": "Safran çiçeğin küçük bir kısmından elde edilir ve hazırlanması dikkatli emek ister. Ürünleri yalnızca kavanoz fiyatıyla değil, gram başına fiyat ve sunulan bilgilerle karşılaştırın.",
+      "question": "Safran neden pahalıdır ve ROFRAN safranının fiyatı nedir?",
+      "answer": "Her safran çiçeğinden yalnızca üç ince tel çıkar ve hasat sabahın erken saatlerinde tamamen el emeğiyle yapılır. ROFRAN safranı en az {minimum} gramlık siparişlerle sunulur; 5 gram fiyatı uluslararası siparişlerde 50 USD, Azerbaycan içinde ise 50 AZN’dir.",
       "category": "buying",
       "link": "/journal/why-is-saffron-expensive"
     },
     {
-      "question": "Safran alırken nelere dikkat edilmeli?",
-      "answer": "Net ağırlığı, içeriği, yetiştirildiği yeri, satıcının iletişim bilgilerini ve ilgili ürün belgelerini kontrol edin. Siparişten önce toplam fiyatı ve teslimat koşullarını okuyun.",
+      "question": "Safran satın alırken nelere dikkat etmeliyim?",
+      "answer": "Ürünün bütün tel halinde olmasına, net gramajına, hasat edildiği gerçek bölgeye ve satıcının şeffaf iletişim bilgilerine dikkat edin. Kavanozda sarı polen sapları veya kırık kırıntılar yerine koyu kızıl, bütün teller görmelisiniz.",
       "category": "buying",
       "link": "/journal/how-to-buy-saffron"
     },
     {
-      "question": "Tel safran mı, toz safran mı?",
-      "answer": "Tel safranda ürünün şeklini görebilirsiniz. Toz kullanımı pratik olabilir, ancak görünüşünden içerik kesin olarak anlaşılmaz. Her iki biçimde de tedarik ve ürün bilgileri önemlidir.",
+      "question": "Tel safran mı yoksa toz safran mı tercih edilmeli?",
+      "answer": "Mutfakta her zaman bütün tel safran daha güvenilirdir; çünkü çiçeğin kızıl tepeciklerini gözünüzle görebilir ve aromasını demleme anına kadar telin içinde koruyabilirsiniz. Toz safran pratik görünse de aromasını çabuk yitirir ve içine başka maddeler karıştırılıp karıştırılmadığını anlamak zordur.",
       "category": "buying",
       "link": "/journal/saffron-threads-vs-powder"
     },
     {
-      "question": "Minimum sipariş kaç gram?",
-      "answer": "Minimum safran siparişi {minimum} gramdır. Bu sipariş miktarıdır; bir yemek için kullanım miktarı değildir.",
-      "link": "/saffron",
-      "category": "buying"
+      "question": "Minimum sipariş miktarı kaç gramdır?",
+      "answer": "ROFRAN’da minimum sipariş miktarı {minimum} gramdır (5 gram). Bir yemeklik kullanımda yalnızca bir tutam tel yeterli olduğu için 5 gramlık bir kavanoz ev mutfağında uzun süre bereketli biçimde kullanılır.",
+      "category": "buying",
+      "link": "/saffron"
     },
     {
-      "question": "Çevrim içi sipariş verebilir miyim?",
-      "answer": "Çevrim içi ödeme henüz açık değil. Kesin fiyat, ambalaj ve sipariş koşulları satış başlamadan önce ürün sayfasına eklenecek.",
-      "link": "/saffron",
-      "category": "buying"
+      "question": "Şu anda çevrim içi sipariş verebilir miyim?",
+      "answer": "Ürünümüz şu anda stokta yok ve çevrim içi ödeme sistemi henüz açılmadı. Yeni hasat stokları hazır olduğunda sipariş ve ödeme adımları ürün sayfasından duyurulacaktır.",
+      "category": "buying",
+      "link": "/saffron"
     },
     {
-      "question": "Türkiye’ye ve diğer ülkelere teslimat var mı?",
-      "answer": "Teslimat ülkeleri, ücretleri ve süreleri henüz doğrulanmadı. Türkçe sayfanın bulunması teslimat taahhüdü değildir.",
-      "link": "/shipping",
-      "category": "buying"
+      "question": "Türkiye’ye veya diğer ülkelere kargo gönderimi var mı?",
+      "answer": "Şu an için teslimatlarımız yalnızca Azerbaycan sınırları içinde yapılmaktadır. Uluslararası kargo seçenekleri üzerinde çalışıyoruz; sorularınız için bizimle doğrudan iletişime geçebilirsiniz.",
+      "category": "buying",
+      "link": "/shipping"
     },
     {
-      "question": "Safranın yetiştirildiği yer neden önemli?",
-      "answer": "Yetiştirildiği yer ürünün kökenidir; paketleme adresi farklı olabilir. Belirli ürünün bilgisi tedarik belgeleriyle doğrulanmalıdır.",
-      "link": "/quality",
-      "category": "buying"
+      "question": "ROFRAN safranı nerede yetiştiriliyor?",
+      "answer": "ROFRAN safranı, asırlık safran geleneğiyle tanınan Azerbaycan’ın Bakü şehrine bağlı Maştağa köyünde (Azerbaycan, Bakü, Maştağa köyü) yetiştirilmektedir. Abşeron yarımadasının kumlu toprağı ve deniz rüzgârı safranımıza kendine has yoğun aromasını kazandırır.",
+      "category": "saffron",
+      "link": "/quality"
     },
     {
-      "question": "Safran ve zerdeçal aynı mı?",
-      "answer": "Hayır. Safran çiçeğin tepeciklerinden, zerdeçal ise köksaptan elde edilir. Renkleri benzer olsa da aromaları aynı değildir.",
-      "link": "/journal/what-is-saffron",
-      "category": "saffron"
+      "question": "Safran ile zerdeçal veya aspir aynı şey midir?",
+      "answer": "Hayır. Zerdeçal bir bitkinin toprak altı yumrusundan, aspir ise bambaşka bir çiçeğin yapraklarından elde edilir. Her ikisi de yemeği sarıya boyayabilir ancak safranın kendine özgü derin kokusunu ve lezzetini veremez.",
+      "category": "saffron",
+      "link": "/journal/what-is-saffron"
     },
     {
-      "question": "Su testi safranın gerçekliğini kanıtlar mı?",
-      "answer": "Tek bir ev testi saflığı kanıtlamaz. Gözlemlerin yanında tedarik bilgisi ve ürünle eşleşen analiz raporu önemlidir.",
-      "link": "/quality",
-      "category": "buying"
+      "question": "Ilık su testi gerçek safranı anlamak için yeterli mi?",
+      "answer": "Gerçek tel safran ılık suya bırakıldığında suyu hemen bulanık bir kırmızıya boyamaz; dakikalar içinde berrak bir altın sarısı renk verir ve teller kendi kızıl rengini korur. Yine de su testi tek başına laboratuvar analizinin yerini tutmaz; güvenilir köken her zaman ilk şarttır.",
+      "category": "buying",
+      "link": "/quality"
     }
   ],
   "resources": {
     "about": {
       "title": "ROFRAN hakkında",
-      "description": "ROFRAN, safran tellerine ve onların mutfaktaki kullanımına odaklanan bir markadır. İlk koleksiyonda yalnızca safran bulunur.",
-      "eyebrow": "ROFRAN hakkında",
-      "intro": "ROFRAN, safran tellerine ve onların mutfaktaki kullanımına odaklanan bir markadır. İlk koleksiyonda yalnızca safran bulunur.",
+      "description": "Azerbaycan, Bakü, Maştağa köyünün köklü safran mirasını özenle seçilmiş bütün tellerle sofralara taşıyan ROFRAN’ın hikâyesi.",
+      "eyebrow": "MAŞTAĞA’DAN SOFRANIZA",
+      "intro": "ROFRAN, başka hiçbir yan ürüne dağılmadan yalnızca tek bir değere odaklanır: Azerbaycan, Bakü, Maştağa köyünde yetişen bütün tel safran ve onun mutfaktaki gerçek ritüeli.",
       "image": "flower",
       "sections": [
         {
-          "title": "Sofranıza odaklanıyoruz",
-          "text": "Safranı seçmeyi, hazırlamayı ve saklamayı anlaşılır bilgilerle kolaylaştırmak istiyoruz. Ürün, rehber ve sorular aynı yolculuğun parçalarıdır."
+          "title": "Maştağa köyünün safran mirası",
+          "text": "Hazar Denizi kıyısındaki Abşeron yarımadasında yer alan Bakü’nün Maştağa köyü, kuru yazları, güneşli sonbaharları ve mineralce zengin kumlu toprağıyla yüzyıllardır dünyanın en özel safran üretim merkezlerinden biridir. ROFRAN, bu bereketli toprağın mahsulünü doğallığını bozmadan sunar."
         },
         {
-          "title": "Bilgiler nasıl hazırlanıyor?",
-          "text": "Rehberler ROFRAN için hazırlanır ve kaynak bağlantılarıyla desteklenir. Ürünün kökeni ve belgeleri, yalnızca doğrulandıktan sonra gerçek ürün bilgisi olarak yayımlanır."
+          "title": "Yalnızca bütün tel safran",
+          "text": "İlk koleksiyonumuzda toz karışımlara veya aromalı yan ürünlere yer vermiyoruz. Amacımız; pilavdan zerdeye, balık buğulamadan çorbalara kadar iyi yemeğe değer verenlerin, çiçeğin o saf kızıl tellerini kendi elleriyle demlemesini sağlamaktır."
+        },
+        {
+          "title": "Bilgiyle tamamlanan lezzet",
+          "text": "İyi bir safran, doğru demleme ve doğru saklama alışkanlığıyla değerini gösterir. Bu yüzden ROFRAN’da ürünü yalnızca kavanozda sunmuyor; safranı tanımanız, doğru ölçmeniz ve mutfakta güvenle kullanmanız için kapsamlı bir rehberle birlikte paylaşıyoruz."
         }
       ]
     },
     "quality": {
-      "title": "Safran seçimi ve kalite bilgileri",
-      "description": "Safranı seçerken içeriği, kökeni, parti bilgisini ve varsa ilgili test raporunu birlikte inceleyin.",
-      "eyebrow": "Safran seçimi ve kalite bilgileri",
-      "intro": "Safranı seçerken içeriği, kökeni, parti bilgisini ve varsa ilgili test raporunu birlikte inceleyin.",
+      "title": "Safran kalitesi ve kökeni",
+      "description": "Azerbaycan, Bakü, Maştağa köyü hasadı tel safranımızın kalite ölçütleri, bütün tel yapısı ve şeffaf köken yaklaşımı.",
+      "eyebrow": "KÖKEN VE KALİTE STANDARDI",
+      "intro": "Safranda kalite, süslü sıfatlardan değil; çiçeğin yetiştiği topraktan, zamanında yapılan sabah hasadından ve kızıl tellerin sarı saplardan özenle ayrılmasından gelir.",
       "image": "threads",
       "sections": [
         {
-          "title": "İzlenebilir bilgi",
-          "text": "Yetiştirildiği yer ile paketlendiği yer farklı olabilir. Belgenin ürün veya partiyle eşleşmesi gerekir."
+          "title": "Doğrulanmış köken: Bakü, Maştağa köyü",
+          "text": "ROFRAN safranı, paketleme adresi belirsiz ithal harmanlardan değil, doğrudan Azerbaycan, Bakü, Maştağa köyü tarlalarından gelir. Abşeron ikliminin yetiştirdiği Crocus sativus çiçekleri sabah çiyi kalkmadan toplanır ve tepecikleri aynı gün özenle ayrılır."
         },
         {
-          "title": "Kanıtın kapsamı",
-          "text": "ISO 3632 bir standarttır; adının yazılması ürünün test edildiğini kanıtlamaz. Doğrulanmış ROFRAN belgeleri sağlandığında burada yayımlanacaktır."
+          "title": "Bütün kızıl tellerin berraklığı",
+          "text": "Kaliteli safranda çiçeğin renk ve koku taşımayan sarı kısımları (stamen) yerine, krosin ve safranal açısından zengin koyu kızıl tepecikler yer alır. Bütün tel formu, kavanozu açtığınız anda ürünün yapısını, kuruluk derecesini ve bütünlüğünü kendi gözünüzle görmenize olanak tanır."
+        },
+        {
+          "title": "Standartlar ve duyusal denge",
+          "text": "Uluslararası alanda safran kalitesi ISO 3632 standardı kapsamında renk gücü (krosin), acılık (pikrokrosin) ve koku (safranal) değerleriyle ölçülür. İyi kurutulmuş Maştağa safranı, ılık suda yavaşça açılan berrak altın sarısı rengi ve baymayan derin kokusuyla mutfakta farkını hemen belli eder."
         }
       ]
     },
     "shipping": {
-      "title": "Teslimat ve sipariş",
-      "description": "Minimum sipariş {minimum} gramdır. Çevrim içi ödeme, teslimat ülkeleri ve ücretleri henüz açıklanmadı.",
-      "eyebrow": "Teslimat ve sipariş",
-      "intro": "Minimum sipariş {minimum} gramdır. Çevrim içi ödeme, teslimat ülkeleri ve ücretleri henüz açıklanmadı.",
+      "title": "Teslimat ve sipariş koşulları",
+      "description": "ROFRAN tel safran için minimum 5 gram sipariş, fiyatlandırma (50 USD / 50 AZN), stok durumu ve Azerbaycan içi teslimat bilgileri.",
+      "eyebrow": "SİPARİŞ VE TESLİMAT",
+      "intro": "ROFRAN tel safran en az {minimum} gramlık (5 gram) siparişlerle sunulmaktadır. Şu anda ürünümüz stokta yoktur ve çevrim içi ödeme sistemi henüz açılmamıştır.",
       "image": "product",
       "sections": [
         {
-          "title": "Sipariş öncesi",
-          "text": "Satış açıldığında ürün bedeli, kargo, ödeme ve iade koşullarını satın almadan önce inceleyin."
+          "title": "Minimum sipariş ve fiyatlandırma",
+          "text": "Safranımızın tazeliğini ve koruyucu ambalaj bütünlüğünü muhafaza etmek adına minimum sipariş miktarımız {minimum} gramdır (5 gram). 5 gram ROFRAN tel safranın fiyatı uluslararası alıcılar için 50 USD, Azerbaycan içi siparişlerde ise 50 AZN olarak belirlenmiştir."
         },
         {
-          "title": "Uluslararası teslimat",
-          "text": "Türkçe sayfa Türkiye’ye teslimat taahhüdü değildir. Desteklenen ülkeler ve süreler doğrulandıktan sonra açıklanacaktır."
+          "title": "Mevcut stok ve çevrim içi satış durumu",
+          "text": "Ürünümüz şu an stokta bulunmamaktadır (Stokta yok) ve web sitemiz üzerinden doğrudan kartla ödeme henüz aktif değildir. Sitedeki sepet özelliği, ilgilendiğiniz miktarı incelemeniz için hazırlanan bir ön gösterimdir."
+        },
+        {
+          "title": "Teslimat bölgesi",
+          "text": "Şu an için kargo ve kurye teslimatlarımız yalnızca Azerbaycan sınırları içinde gerçekleştirilmektedir. Türkiye ve diğer ülkelere doğrudan gönderim seçenekleri açıldığında bu sayfa üzerinden güncel kargo süreleri ve ücretleri paylaşılacaktır."
         }
       ],
       "draft": true
     },
     "contact": {
-      "title": "ROFRAN ile iletişim",
-      "description": "Ürün ve sipariş soruları için doğrulanmış ROFRAN iletişim bilgileri burada yer alacaktır.",
-      "eyebrow": "ROFRAN ile iletişim",
-      "intro": "Ürün ve sipariş soruları için doğrulanmış ROFRAN iletişim bilgileri burada yer alacaktır.",
+      "title": "ROFRAN ile iletişime geçin",
+      "description": "Bakü, Maştağa safranı, stok durumu ve sipariş talepleriniz için ROFRAN e-posta ve telefon iletişim bilgileri.",
+      "eyebrow": "DOĞRUDAN İLETİŞİM",
+      "intro": "Safranımız, yeni hasat dönemimiz veya özel talepleriniz hakkında sorularınız varsa ekibimize e-posta ya da telefon yoluyla doğrudan ulaşabilirsiniz.",
       "image": "flower",
       "sections": [
         {
-          "title": "Ürün hakkında",
-          "text": "Şimdilik safran rehberlerini ve sık sorulan soruları okuyabilirsiniz."
+          "title": "E-posta adreslerimiz",
+          "text": "Genel sorularınız, uluslararası bilgi talepleriniz ve iş birlikleri için contact@rofran.com adresine; Azerbaycan içi talepleriniz için ise contact@rofran.az adresine e-posta gönderebilirsiniz."
         },
         {
-          "title": "İletişim kanalları",
-          "text": "E-posta, telefon ve şirket bilgileri henüz doğrulanmadı. Bu sayfada bir başvuru formu bulunmuyor."
+          "title": "Telefon ve doğrudan destek",
+          "text": "Doğrudan görüşmek veya stok durumu hakkında hızlı bilgi almak için bize +994 50 823 93 45 numaralı telefondan ulaşabilirsiniz. Ekibimiz çalışma saatleri içinde sorularınızı memnuniyetle yanıtlayacaktır."
+        },
+        {
+          "title": "Mutfak ve kullanım soruları",
+          "text": "Safranı pilavda, balık buğulamada veya tatlılarda nasıl demleyeceğinizi merak ediyorsanız, bize yazmadan önce Safran Notları bölümümüzdeki detaylı uygulama rehberlerine de göz atabilirsiniz."
         }
       ],
       "draft": true
     },
     "wholesale": {
-      "title": "Profesyonel mutfaklar için safran",
-      "description": "Restoranlar ve iş ortakları için safran hakkında ön bilgiler. Toptan satış şartları henüz açıklanmadı.",
-      "eyebrow": "Profesyonel mutfaklar için safran",
-      "intro": "Restoranlar ve iş ortakları için safran hakkında ön bilgiler. Toptan satış şartları henüz açıklanmadı.",
+      "title": "Profesyonel mutfaklar ve iş ortaklığı",
+      "description": "Restoranlar, şefler, pastaneler ve gurme satış noktaları için Bakü, Maştağa köyü tel safranı tedarik bilgileri.",
+      "eyebrow": "ŞEFLER VE İŞ ORTAKLARI",
+      "intro": "Menüsünde gerçek Bakü, Maştağa safranına yer vermek isteyen restoranlar, otel mutfakları ve butik gastronomi noktalarıyla doğrudan çalışıyoruz.",
       "image": "threads",
       "sections": [
         {
-          "title": "İhtiyacı belirleyin",
-          "text": "Ülke, kullanım amacı, beklenen miktar ve ambalaj ihtiyacı teklif hazırlığında önemlidir."
+          "title": "Şefler ve restoran mutfakları için",
+          "text": "Safranlı pilav, deniz ürünleri, risotto ve zerde gibi imza tabaklarda her serviste aynı renk berraklığını ve aromayı yakalamak bütüncül tel kalitesi gerektirir. Profesyonel mutfakların düzenli kullanımına uygun bütün tel safran sağlıyoruz."
         },
         {
-          "title": "Satış koşulları",
-          "text": "Perakende minimum sipariş {minimum} gramdır; bu miktar toptan satış taahhüdü değildir. Fiyat ve teslimat ayrıca doğrulanmalıdır."
+          "title": "Fiyatlandırma ve minimum miktar",
+          "text": "Standart perakende minimum siparişimiz {minimum} gram (5 gram için 50 USD / 50 AZN) düzeyindedir. Şu anda stoklarımız tükenmiş olmakla birlikte, gelecek hasat dönemleri için kurumsal ve toptan taleplerinizi önceden planlayabiliriz."
+        },
+        {
+          "title": "Toptan talep ve iletişim",
+          "text": "Mutfağınızın aylık kullanım miktarını, bulunduğunuz şehri ve ambalaj tercihinizi belirterek contact@rofran.com veya contact@rofran.az adreslerinden ya da +994 50 823 93 45 numaralı telefondan bizimle iletişime geçebilirsiniz."
         }
       ],
       "draft": true
     },
     "privacy": {
-      "title": "Gizlilik ve tarayıcınız",
-      "description": "Site, sepet seçimini ve ses tercihini tarayıcınızda saklar. Bu açıklama mevcut tanıtım deneyimi içindir.",
-      "eyebrow": "Gizlilik ve tarayıcınız",
-      "intro": "Site, sepet seçimini ve ses tercihini tarayıcınızda saklar. Bu açıklama mevcut tanıtım deneyimi içindir.",
+      "title": "Gizlilik ve tarayıcı tercihleri",
+      "description": "ROFRAN web sitesinin tarayıcınızda sakladığı yerel sepet ve ses tercihleri ile kişisel iletişim verilerinin korunması.",
+      "eyebrow": "GİZLİLİK VE ŞEFFAFLIK",
+      "intro": "ROFRAN web sitesini ziyaret ettiğinizde deneyiminizi kolaylaştırmak için yalnızca temel tarayıcı tercihleri yerel olarak saklanır; sizden habersiz ödeme veya kimlik verisi toplanmaz.",
       "image": "flower",
       "sections": [
         {
-          "title": "Yerel kayıt",
-          "text": "Tarayıcıdaki site verilerini temizleyerek kaydedilen tercihleri silebilirsiniz. Tanıtım sepeti sipariş oluşturmaz."
+          "title": "Tarayıcınızda saklanan yerel tercihler",
+          "text": "Sitemiz, incelediğiniz tel safran miktarını hatırlayan tanıtım sepetini ve hikâye sayfasındaki ses açma/kapama tercihinizi kendi cihazınızın tarayıcı belleğinde (localStorage) tutar. Bu verileri tarayıcı ayarlarınızdan dilediğiniz an silebilirsiniz."
         },
         {
-          "title": "Yayımdan önce",
-          "text": "Şirket, barındırma, ödeme ve analitik bilgilerine göre gizlilik metni tamamlanmalıdır. Bu sayfa gelecekteki hizmetler için tamamlanmış politika değildir."
+          "title": "Çevrim içi ödeme ve sipariş verileri",
+          "text": "Şu anda çevrim içi satış ve ödeme sistemi kapalı olduğundan sitemiz üzerinden kredi kartı, fatura adresi veya banka bilgisi talep edilmemekte ve işlenmemektedir."
+        },
+        {
+          "title": "Doğrudan iletişim gizliliği",
+          "text": "Bize contact@rofran.com, contact@rofran.az veya +994 50 823 93 45 üzerinden ulaştığınızda paylaştığınız iletişim bilgileri yalnızca sorunuzu yanıtlamak amacıyla kullanılır ve üçüncü taraflarla paylaşılmaz."
         }
       ],
       "draft": true
@@ -216,26 +240,26 @@
       "title": "Safran nedir?",
       "category": "Safran rehberleri",
       "image": "flower",
-      "imageAlt": "Gün batımında mor safran çiçeği",
+      "imageAlt": "Gün batımı ışığında açan mor safran çiçeği",
       "readTime": "3 DK OKUMA",
-      "description": "Safran, Crocus sativus çiçeğinin kurutulmuş kırmızı tepeciklerinden elde edilen baharattır. Taç yapraklarından ve sarı erkek organlarından farklıdır; yemeklere hem renk hem koku verir.",
-      "deck": "Safran, Crocus sativus çiçeğinin kurutulmuş kırmızı tepeciklerinden elde edilen baharattır. Taç yapraklarından ve sarı erkek organlarından farklıdır; yemeklere hem renk hem koku verir.",
-      "lead": "Safran, Crocus sativus çiçeğinin kurutulmuş kırmızı tepeciklerinden elde edilen baharattır. Taç yapraklarından ve sarı erkek organlarından farklıdır; yemeklere hem renk hem koku verir.",
+      "description": "Sonbaharda açan Crocus sativus çiçeğinden sofralara uzanan tel safranın botanik yapısı ve mutfaktaki yeri.",
+      "deck": "Yalnızca birkaç hafta çiçek açan mor bir sonbahar çiğdeminin içindeki üç kızıl tel, yüzyıllardır sofraların en kıymetli baharatı olmayı sürdürüyor.",
+      "lead": "Mutfakta safran dediğimizde aslında bir yapraktan ya da kökten değil, sonbahar sabahında açan Crocus sativus çiçeğinin tam kalbindeki üç ince kızıl tepecikten (stigma) söz ederiz. Özenle toplanıp kurutulan bu teller, dokunduğu yemeğe hem berrak bir kehribar rengi hem de başka hiçbir baharatla taklit edilemeyen sıcak bir koku verir.",
       "sections": [
         {
           "id": "detail-1",
-          "title": "Çiçekten baharata",
-          "text": "Crocus sativus, sonbaharda çiçek açan bir bitkidir. Baharat olarak değerlendirilen kısmı çiçeğin içindeki kırmızı tepeciklerdir. Toplama ve kurutma aşamaları, çiçek ile mutfakta kullandığımız tel arasındaki bağı oluşturur. Her mor çiçek safran değildir; tanımadığınız bitkileri bu görsele bakarak yemeklerde kullanmayın."
+          "title": "Sonbahar çiçeğinden kızıl tellere",
+          "text": "Crocus sativus, yılın büyük bölümünü toprak altında soğan olarak geçiren ve yalnızca sonbaharın serin sabahlarında mor çiçeklerini açan narin bir bitkidir. Her çiçeğin ortasında üç adet koyu kırmızı tepecik bulunur. Çiçeğin sarı erkek organları (polen taşıyan kısımlar) veya mor taç yaprakları mutfakta safran olarak kullanılmaz; gerçek tel safran yalnızca bu kırmızı uçların el ile ayrılıp kurutulmasıyla elde edilir."
         },
         {
           "id": "detail-2",
-          "title": "Mutfaktaki yeri",
-          "text": "Safran; pilav, risotto, bazı balık yemekleri ve tatlılarda kullanılabilir. Hangi aşamada ekleneceği ve sıvıda demlenip demlenmeyeceği tarife bağlıdır. Onu yalnızca tabağı renklendiren bir süs olarak düşünmeyin: kendine özgü kokusu da yemeğin bir parçasıdır."
+          "title": "Pilavdan zerdeye mutfaktaki yeri",
+          "text": "Geleneksel mutfağımızda ve çevre coğrafyalarda safran; tane tane dökülen şah pilavların, limonlu ve defne yapraklı balık buğulamaların, sütlü tatlıların ve özellikle geleneksel zerdenin ruhunu oluşturur. Onu yalnızca tabağa sarı renk veren bir boya gibi düşünmek haksızlık olur; ılık suda demlendiğinde açığa çıkan aroması, en sade pirinci bile unutulmaz bir ziyafet yemeğine dönüştürür."
         },
         {
           "id": "detail-3",
-          "title": "Ürünle ilgili bilgi",
-          "text": "Bir kavanozu değerlendirirken net ağırlığı, içeriği, yetiştirildiği yeri ve satıcıyı birlikte inceleyin. Markanın bulunduğu ülke, safranın yetiştirildiği ülkeyle aynı olmak zorunda değildir. Çiçeğin genel hikâyesi, belirli ürünün belgelenmiş kökeninin yerine geçmez."
+          "title": "Toprağın ve iklimin imzası: Abşeron ve Maştağa",
+          "text": "Tıpkı çay veya zeytinyağı gibi safranın aromatik karakteri de yetiştiği toprağa ve iklime sıkı sıkıya bağlıdır. Azerbaycan’ın Bakü şehrine bağlı Maştağa köyü ve Abşeron yarımadası, Hazar Denizi’nin rüzgârları ve kumlu kireçli toprağıyla yüzyıllardır kaliteli safran yetiştirilen ender bölgelerdendir. Bu köklü gelenek, tellerin hem boyama kuvvetini hem de tatlı-baharatlı rayihasını benzersiz kılar."
         }
       ],
       "sources": [
@@ -250,26 +274,26 @@
       "title": "Safran nasıl kullanılır ve demlenir?",
       "category": "Safran rehberleri",
       "image": "saffron",
-      "imageAlt": "Kırmızı safran tellerinin yakın planı",
-      "readTime": "3 DK OKUMA",
-      "description": "Tarifteki safran miktarını ölçün, belirtilen sıvıda demleyin ve hem telleri hem demleme sıvısını yemeğe ekleyin. Miktar ve bekleme süresi hazırladığınız yemeğe bağlıdır.",
-      "deck": "Tarifteki safran miktarını ölçün, belirtilen sıvıda demleyin ve hem telleri hem demleme sıvısını yemeğe ekleyin. Miktar ve bekleme süresi hazırladığınız yemeğe bağlıdır.",
-      "lead": "Tarifteki safran miktarını ölçün, belirtilen sıvıda demleyin ve hem telleri hem demleme sıvısını yemeğe ekleyin. Miktar ve bekleme süresi hazırladığınız yemeğe bağlıdır.",
+      "imageAlt": "Koyu kızıl safran tellerinin yakından görünümü",
+      "readTime": "4 DK OKUMA",
+      "description": "Pilav, balık buğulama ve zerde gibi tariflerde tel safranı doğru ölçme, ılık suda veya sütte demleme ve yemeğe ekleme rehberi.",
+      "deck": "Safran tellerini doğrudan kaynayan tencereye atmak yerine birkaç dakikalık ılık bir demleme ritüeliyle baharatın tüm rengini ve kokusunu uyandırın.",
+      "lead": "Tel safranla yemek pişirmenin en önemli sırrı sabırdır. Kurutulmuş kızıl tellerin içindeki renk ve koku bileşenleri, doğrudan kızgın yağa veya kaynar suya atıldığında tam olarak açılmaz; oysa yemekten 15–20 dakika önce küçük bir fincanda demlenen safran, tüm tencereye eşit ve berrak bir altın rengi yayar.",
       "sections": [
         {
           "id": "detail-1",
-          "title": "Miktarı önce belirleyin",
-          "text": "Safran içeren güvenilir bir tarif seçin ve porsiyon sayısına dikkat edin. Bir tutam kişiden kişiye değişir; tarif gram belirtiyorsa küçük miktarları ölçebilen bir terazi kullanın. ROFRAN’ın {minimum} gramlık minimum siparişi bir yemek için kullanım miktarı değildir."
+          "title": "Doğru miktarı belirlemek",
+          "text": "Safran son derece yoğun bir baharattır; dört ila altı kişilik bir pilav, balık buğulama veya çorba için genellikle 15–20 tel (yaklaşık bir tutam ya da 0,1 gram) fazlasıyla yeterlidir. ROFRAN’ın sunduğu {minimum} gramlık (5 gram) minimum sipariş paketi tek bir yemek için değil, mutfağınızda aylarca sürecek onlarca pişirme için tasarlanmıştır."
         },
         {
           "id": "detail-2",
-          "title": "Demleme adımları",
-          "text": "Telleri temiz küçük bir kaba alın. Tarif gerektiriyorsa hafifçe ezin. Yemeğe uygun miktarda ılık su veya süt ekleyin ve tarifteki süre boyunca bekletin. Telleri süzüp atmak yerine tarifin yönlendirdiği şekilde hem telleri hem sıvıyı kullanın."
+          "title": "Adım adım safran demleme",
+          "text": "Ölçtüğünüz safran tellerini porselen veya cam bir fincana alın; dilerseniz havanda bir küp şeker veya bir çimdik tuzla hafifçe ezerek yüzey alanını genişletebilirsiniz. Üzerine 3–4 yemek kaşığı ılık (kaynar olmayan, yaklaşık 60–70 °C) su, et suyu veya tatlılar için ılık süt ekleyin. Fincanın üzerini kapatıp 15–20 dakika beklediğinizde sıvının koyu kehribar rengine döndüğünü göreceksiniz."
         },
         {
           "id": "detail-3",
-          "title": "Pilavda sıvı hesabı",
-          "text": "Demleme suyunu pilavın toplam sıvısına dahil edin; ölçüyü değiştirmeden fazladan su eklemek kıvamı etkileyebilir. İlk anda renk açık görünüyor diye safran miktarını artırmayın. Sonuç için kullanılan miktarı ve tarifi not etmek sonraki pişirmeyi kolaylaştırır."
+          "title": "Pilav ve zerdeye ekleme zamanı",
+          "text": "Demlenen sıvıyı süzmeyin; hem altın rengi suyu hem de içindeki kızıl telleri yemeğe birlikte katın. Pilav yaparken safran demini ya suyunu çekmeye yakın aşamada gezdirin ya da demlenen pilavın bir kısmını safranlı suyla harmanlayıp servis tabağında beyaz pirinçle buluşturun. Zerde ve sütlü tatlılarda ise ocaktan almadan hemen önce ekleyerek uçucu kokusunu koruyun."
         }
       ],
       "sources": [
@@ -284,26 +308,26 @@
       "title": "Safran nasıl saklanır?",
       "category": "Safran rehberleri",
       "image": "product",
-      "imageAlt": "Altın kapaklı şeffaf kavanozda safran",
+      "imageAlt": "Altın kapaklı şeffaf cam kavanozda tel safran",
       "readTime": "3 DK OKUMA",
-      "description": "Safranı hava geçirmeyen kapalı bir kapta, ışıktan uzakta saklayın. Temiz ve kuru bir araçla ölçün; ambalajdaki saklama bilgilerini ve tarihleri koruyun.",
-      "deck": "Safranı hava geçirmeyen kapalı bir kapta, ışıktan uzakta saklayın. Temiz ve kuru bir araçla ölçün; ambalajdaki saklama bilgilerini ve tarihleri koruyun.",
-      "lead": "Safranı hava geçirmeyen kapalı bir kapta, ışıktan uzakta saklayın. Temiz ve kuru bir araçla ölçün; ambalajdaki saklama bilgilerini ve tarihleri koruyun.",
+      "description": "Tel safranın kehribar rengini ve uçucu aromasını aylarca korumak için ışık, nem ve ısıdan uzak doğru saklama yöntemleri.",
+      "deck": "İyi kurutulmuş tel safran doğru korunduğunda kokusunu uzun süre muhafaza eder; en büyük düşmanları ise güneş ışığı, ocak buharı ve nemdir.",
+      "lead": "Bakü, Maştağa tarlalarından toplanıp özenle kurutulan safran telleri mutfağınıza ulaştığında canlı kızıl rengini ve yoğun kokusunu içinde taşır. Bu küçük hazineyi ilk günkü tazeliğinde tutmak için karmaşık yöntemlere değil, onu ışıktan ve nemden koruyacak birkaç basit mutfak alışkanlığına ihtiyacınız vardır.",
       "sections": [
         {
           "id": "detail-1",
-          "title": "Işık ve hava",
-          "text": "Kavanozu güneş alan bir pencere önünde sergilemek yerine kapalı bir dolapta tutun. Gereken miktarı aldıktan sonra kapağı hemen kapatın. Güzel bir ambalaj, ürünün sürekli ışık altında tutulması gerektiği anlamına gelmez."
+          "title": "Güneş ışığından ve ocak başından uzak tutun",
+          "text": "Cam kavanoz içindeki kızıl safran telleri tezgahta çok şık görünse de doğrudan gün ışığı, safrana rengini veren krosin bileşenini zamanla zayıflatır. Benzer şekilde ocağın hemen yanındaki baharat rafları da sürekli ısı değişimine maruz kalır. Kavanozunuzu ışık almayan, serin ve kuru bir mutfak dolabının içinde veya kendi kutusunda saklayın."
         },
         {
           "id": "detail-2",
-          "title": "Kuru kullanım",
-          "text": "Ölçmeden önce temiz ve kuru bir kaşık hazırlayın. Islak kaşığı kavanoza sokmayın ve yemek buharının içine dolmasını önleyin. Saklama alışkanlığını basit tutmak, her kullanımda aynı özeni göstermeyi kolaylaştırır."
+          "title": "Nem ve buhara karşı kuru kaşık kuralı",
+          "text": "Kurutulmuş safran telleri havadaki nemi hızla çekebilir; nemlenen safran ise hem aromasını kaybeder hem de bozulma riski taşır. Kavanozu asla kaynayan tencerenin buharı üzerinde açmayın. İçinden tel alırken parmaklarınız yerine tamamen kuru, temiz bir çay kaşığı ucu veya mutfak cımbızı kullanın ve işiniz biter bitmez kapağı sıkıca kapatın."
         },
         {
           "id": "detail-3",
-          "title": "Etiketi koruyun",
-          "text": "Başka bir kaba aktarırsanız orijinal etiket, parti bilgisi ve tarihi yeni kapla birlikte saklayın. Ürün için belirtilen talimatları izleyin. Tüm safranlar için ambalajdan bağımsız, kesin bir raf ömrü vermek doğru olmaz."
+          "title": "Buzdolabı gerekir mi?",
+          "text": "Serin ve kuru bir kiler ya da dolap mevcutsa tel safranı buzdolabına koymanıza gerek yoktur; çünkü buzdolabından her çıkarıldığında oluşan yoğuşma kavanozun içinde nem yaratabilir. Doğru kapatılmış, ışık görmeyen bir cam veya metal kapta saklanan bütün tel safran, aromasını ve boyama gücünü iki yıla kadar güvenle korur."
         }
       ],
       "sources": [
@@ -318,26 +342,26 @@
       "title": "Safranın tadı ve kokusu nasıldır?",
       "category": "Safran rehberleri",
       "image": "threads",
-      "imageAlt": "Kırmızı safran tellerinin yakın planı",
+      "imageAlt": "Yakın çekimde koyu kızıl safran telleri",
       "readTime": "3 DK OKUMA",
-      "description": "Safranın aroması kendine özgüdür; tadı hafif acımsı, bazen kuru ot veya topraksı notalarla tarif edilir. Yemek ve kullanılan miktar bu algıyı değiştirir.",
-      "deck": "Safranın aroması kendine özgüdür; tadı hafif acımsı, bazen kuru ot veya topraksı notalarla tarif edilir. Yemek ve kullanılan miktar bu algıyı değiştirir.",
-      "lead": "Safranın aroması kendine özgüdür; tadı hafif acımsı, bazen kuru ot veya topraksı notalarla tarif edilir. Yemek ve kullanılan miktar bu algıyı değiştirir.",
+      "description": "Safranın bal, kuru ot ve sıcak toprak notalarını barındıran kendine özgü aroması ile yemeklerdeki lezzet dengesi.",
+      "deck": "Tatlımsı bir koku ile zarif, hafif buruk bir damak izi arasında kurulan o eşsiz dengeyi tanıyın.",
+      "lead": "Safranı ilk kez koklayan biri, kavanozdan yükselen sıcak, çiçeksi ve hafif balımsı aromaya bakarak tadının da şekerli olacağını düşünebilir. Oysa tel safran dilde tatlı değil; güneş görmüş kuru otları, sıcak toprağı ve çok hafif bir burukluğu andıran derin, katmanlı bir lezzet bırakır.",
       "sections": [
         {
           "id": "detail-1",
-          "title": "Renk tek başına yeterli değil",
-          "text": "Safran yemeğe renk verir, ancak onu zerdeçal gibi başka bir sarı renk veren malzemeyle değiştirdiğinizde aroma aynı kalmaz. İlk denemede tanıdığınız bir tarif kullanarak farkı daha rahat gözlemleyebilirsiniz."
+          "title": "Koku ve lezzetin kimyası",
+          "text": "Safranın duyusal karakteri üç doğal bileşenin uyumundan doğar: suya o berrak altın rengini veren krosin, damakta iştah açıcı hafif burukluğu bırakan pikrokrosin ve kurutma sırasında gelişen uçucu koku özü safranal. Azerbaycan, Bakü, Maştağa köyünde yetişen safranımız, bu üç unsurun birbirini bastırmadan dengelendiği dolgun bir profil sunar."
         },
         {
           "id": "detail-2",
-          "title": "Dengeli miktar",
-          "text": "Daha fazla safran her zaman daha iyi sonuç vermez. Fazlası acılığı belirginleştirebilir ve diğer tatların önüne geçebilir. Tarifteki miktarla başlayın, bitmiş yemeği değerlendirin ve sonraki denemede yalnızca bir değişkeni değiştirin."
+          "title": "Hangi malzemelerle yakışır?",
+          "text": "Safran, nişastalı ve yağlı dokularla buluştuğunda gerçek kimliğini gösterir. Tereyağlı pirinç pilavı, kuzu eti, beyaz etli deniz balıkları, tavuk suyu, süt, badem, kakule ve gül suyu safranın en iyi eşlikçileridir. Zerdeçal veya aspir yemeği sarıya boyayabilir; ancak safranın pilava veya zerdeye kattığı o sıcak, davetkâr kokuyu hiçbir ikame veremez."
         },
         {
           "id": "detail-3",
-          "title": "Koku bir saflık belgesi değildir",
-          "text": "Kokuyu ve tel görünümünü gözlemlemek faydalıdır; ancak bunlar tek başına saflığı veya belirli bir kalite sınıfını kanıtlamaz. Ürünün kimliği, tedarik bilgisi ve varsa o partiye ait analiz sonucu birlikte değerlendirilmelidir."
+          "title": "Azı karar, fazlası baskın",
+          "text": "Mutfakta safran kullanırken ölçüyü kaçırmak, aradığınız zarif aromanın yerini ilaçsı ve acı bir tada bırakmasına neden olabilir. İyi safran yemeğin önüne geçmez; arkadan gelen sıcak bir fon gibi diğer malzemelerin lezzetini birbirine bağlar. İlk denemelerinizde bir tutamla başlayıp damak tadınıza göre kendi ölçünüzü bulmanız en doğrusudur."
         }
       ],
       "sources": [
@@ -352,26 +376,26 @@
       "title": "Safran neden pahalıdır, fiyatı nasıl karşılaştırılır?",
       "category": "Safran rehberleri",
       "image": "flower",
-      "imageAlt": "Gün batımında mor safran çiçeği",
+      "imageAlt": "Gün batımında tarlada açan mor safran çiçeği",
       "readTime": "3 DK OKUMA",
-      "description": "Safran çiçeğin küçük bir kısmından elde edilir ve hazırlanması dikkatli emek ister. Ürünleri yalnızca kavanoz fiyatıyla değil, gram başına fiyat ve sunulan bilgilerle karşılaştırın.",
-      "deck": "Safran çiçeğin küçük bir kısmından elde edilir ve hazırlanması dikkatli emek ister. Ürünleri yalnızca kavanoz fiyatıyla değil, gram başına fiyat ve sunulan bilgilerle karşılaştırın.",
-      "lead": "Safran çiçeğin küçük bir kısmından elde edilir ve hazırlanması dikkatli emek ister. Ürünleri yalnızca kavanoz fiyatıyla değil, gram başına fiyat ve sunulan bilgilerle karşılaştırın.",
+      "description": "Bir gram tel safran için gereken çiçek sayısı, sabah hasadının el emeği ve 5 gramlık siparişlerde doğru fiyat karşılaştırması.",
+      "deck": "Her çiçekten yalnızca üç ince tel çıkar; üstelik hasattan ayıklamaya kadar hiçbir aşama makineye devredilemez.",
+      "lead": "Safranın dünyanın en kıymetli baharatı olarak anılması bir pazarlama söylemi değil, doğrudan tarımsal bir gerçektir. Yalnızca bir gram kuru tel safran elde edebilmek için yaklaşık 150 ila 200 adet Crocus sativus çiçeğinin sabahın ilk ışıklarında tek tek elle toplanması ve içindeki üç kızıl tepeciğin zedelenmeden ayrılması gerekir.",
       "sections": [
         {
           "id": "detail-1",
-          "title": "Fiyatı etkileyenler",
-          "text": "Yetiştirme, toplama, kurutma, paketleme ve tedarik koşulları fiyatı etkileyebilir. Pahalı bir etiket tek başına yüksek kaliteyi kanıtlamaz. Ürünün belgelerini ve gerçek net ağırlığını incelemek, genel sıfatlardan daha işe yarar."
+          "title": "Sabah çiyi kalkmadan yapılan hasat",
+          "text": "Safran çiçekleri sonbaharda yalnızca birkaç hafta boyunca açar ve güneş yükselip taç yaprakları tam açıldığında tepeciklerin hassas aroması zayıflamaya başlar. Bu yüzden tarlalarda hasat gün doğumunda, sabahın ilk ışıklarıyla yapılır. Ardından her çiçeğin içindeki kırmızı uçlar sabırla el ile çekilir ve doğru sıcaklıkta kurutularak ağırlığının beşte dördünü kaybeder."
         },
         {
           "id": "detail-2",
-          "title": "Gram başına hesap",
-          "text": "Ürün bedelini net gram miktarına bölün. Aynı para birimindeki ürünleri karşılaştırın ve kargo bedelini ayrıca dikkate alın. {minimum} gramlık sipariş fiyatı açıklandığında bu hesabı ürün sayfasında da görebilmelisiniz; mevcut ROFRAN fiyatı henüz açıklanmadı."
+          "title": "Gram başına fiyat ve ROFRAN’ın yaklaşımı",
+          "text": "Safran fiyatlarını karşılaştırırken kavanozun büyüklüğüne değil, içindeki net gram ağırlığına ve tellerin saflığına bakmalısınız. Çok ucuza satılan ürünlerde genellikle ağırlık artırmak için sarı polen sapları bırakılır veya başka bitkisel lifler karıştırılır. ROFRAN’da minimum sipariş {minimum} gramdır (5 gram); 5 gram bütün tel safranın fiyatı uluslararası pazarda 50 USD, Azerbaycan içinde ise 50 AZN’dir."
         },
         {
           "id": "detail-3",
-          "title": "Aynı ürünü karşılaştırın",
-          "text": "Tel safran, öğütülmüş ürün ve karışım aynı şey değildir. İçerik, ağırlık, köken ve belgeler karşılaştırılabilir olmalı. Piyasadaki tek bir örnekten evrensel fiyat veya otomatik kalite sıralaması çıkarmayın."
+          "title": "Porsiyon başına gerçek maliyet",
+          "text": "Gram fiyatı ilk bakışta yüksek görünse de safran tencereye kaşıkla değil, telle eklenen bir baharattır. 5 gramlık bir pakette yüzlerce tel bulunur ve bu miktar ev mutfağında 40 ila 50 tencere pilav, çorba veya tatlı hazırlamaya yeter. Böyle hesaplandığında, kaliteli tel safranla hazırlanan bir sofranın porsiyon başına maliyeti oldukça ulaşılabilirdir."
         }
       ],
       "sources": [
@@ -386,26 +410,26 @@
       "title": "Safran alırken nelere dikkat edilmeli?",
       "category": "Safran rehberleri",
       "image": "product",
-      "imageAlt": "Altın kapaklı şeffaf kavanozda safran",
-      "readTime": "3 DK OKUMA",
-      "description": "Net ağırlığı, içeriği, yetiştirildiği yeri, satıcının iletişim bilgilerini ve ilgili ürün belgelerini kontrol edin. Siparişten önce toplam fiyatı ve teslimat koşullarını okuyun.",
-      "deck": "Net ağırlığı, içeriği, yetiştirildiği yeri, satıcının iletişim bilgilerini ve ilgili ürün belgelerini kontrol edin. Siparişten önce toplam fiyatı ve teslimat koşullarını okuyun.",
-      "lead": "Net ağırlığı, içeriği, yetiştirildiği yeri, satıcının iletişim bilgilerini ve ilgili ürün belgelerini kontrol edin. Siparişten önce toplam fiyatı ve teslimat koşullarını okuyun.",
+      "imageAlt": "Şeffaf cam kavanozda bütün tel safran",
+      "readTime": "4 DK OKUMA",
+      "description": "Gerçek tel safranı seçerken köken, tel bütünlüğü, renk, koku ve sipariş koşullarında kontrol etmeniz gereken noktalar.",
+      "deck": "İyi safranı ayırt etmek için kızıl tellerin formuna, hasat edildiği gerçek toprağa ve satıcının şeffaflığına bakın.",
+      "lead": "Piyasada safran adıyla sunulan ürünler arasında büyük kalite farkları bulunur. Mutfağınıza gerçekten özenle yetiştirilmiş saf tel safran sokmak istiyorsanız, satın almadan önce ürünün fiziksel görünümünü, yetiştiği köyü ve sipariş koşullarını birkaç temel ölçütle değerlendirebilirsiniz.",
       "sections": [
         {
           "id": "detail-1",
-          "title": "Önce ürünün kimliği",
-          "text": "Ürünün tel mi, toz mu, karışım mı olduğunu öğrenin. Net ağırlık ambalaj dahil ağırlıkla karıştırılmamalıdır. Köken, hasat veya parti bilgisi mevcutsa hangi ürüne ait olduğunu kontrol edin. Temsili tarla görüntüleri gerçek üretim kanıtı sayılmaz."
+          "title": "Tellerin görünümü ve rengi",
+          "text": "Gerçek safran telleri koyu kızıl veya kiremit kırmızısı rengindedir; bir ucu hafifçe borazan gibi genişler. Kavanozun içinde boyasız sarı saplar, toz haline gelmiş kırıntılar veya birbirine yapışmış nemli topaklar olmamalıdır. Teller kuru ve kırılgan olmalı, ılık suya atıldığında suyu anında kırmızıya boyamak yerine yavaşça berrak bir altın sarısına dönüştürmelidir."
         },
         {
           "id": "detail-2",
-          "title": "Belgeyi doğru okuyun",
-          "text": "Analiz sunuluyorsa laboratuvarı, örnek veya parti numarasını, tarihi ve test kapsamını inceleyin. ISO 3632 adı tek başına ürünün analiz edildiğini göstermez. Tek bir su testi, saflığı veya ürünün bütün niteliklerini kanıtlamaz."
+          "title": "Açık ve doğrulanabilir köken",
+          "text": "Yalnızca paketlendiği ülkeyi yazan belirsiz etiketler yerine, safranın hangi topraklarda yetiştiğini açıkça paylaşan üreticileri tercih edin. ROFRAN safranı, Azerbaycan, Bakü, Maştağa köyü tarlalarından elde edilir. Kökenin net olması, kavanozdaki tellerin farklı ülkelerden toplanmış bayat harmanlar olmadığının en önemli göstergesidir."
         },
         {
           "id": "detail-3",
-          "title": "Sipariş koşulları",
-          "text": "Minimum siparişi, ürün bedelini, kargoyu ve destek kanalını kontrol edin. ROFRAN’da minimum sipariş {minimum} gramdır. Çevrim içi satış henüz açık değildir; dil seçeneği o ülkeye teslimat yapıldığı anlamına gelmez."
+          "title": "Güvenilir üretici ve şeffaf satın alma kriterleri",
+          "text": "Safran satın alırken yalnızca süslü kutulara aldanmayın; satıcının ürünün net gramajını, parti numarasını ve hasat yılını açıkça belirtip belirtmediğini inceleyin. Gerçek safran üreticileri ürünlerinin menşeini gizlemez, belirsiz karışımlar satmaz ve sorularınız için şeffaf iletişim kanalları sunar. Alışveriş öncesinde teslimat koşullarını, iade şartlarını ve ürünün fiziksel özelliklerini teyit etmek, mutfağınıza katkısız ve taze tel safran girmesini sağlar."
         }
       ],
       "sources": [
@@ -420,26 +444,26 @@
       "title": "Tel safran mı, toz safran mı?",
       "category": "Safran rehberleri",
       "image": "threads",
-      "imageAlt": "Kırmızı safran tellerinin yakın planı",
+      "imageAlt": "Yakın planda koyu kırmızı tel safran",
       "readTime": "3 DK OKUMA",
-      "description": "Tel safranda ürünün şeklini görebilirsiniz. Toz kullanımı pratik olabilir, ancak görünüşünden içerik kesin olarak anlaşılmaz. Her iki biçimde de tedarik ve ürün bilgileri önemlidir.",
-      "deck": "Tel safranda ürünün şeklini görebilirsiniz. Toz kullanımı pratik olabilir, ancak görünüşünden içerik kesin olarak anlaşılmaz. Her iki biçimde de tedarik ve ürün bilgileri önemlidir.",
-      "lead": "Tel safranda ürünün şeklini görebilirsiniz. Toz kullanımı pratik olabilir, ancak görünüşünden içerik kesin olarak anlaşılmaz. Her iki biçimde de tedarik ve ürün bilgileri önemlidir.",
+      "description": "Bütün tel safran ile öğütülmüş toz safran arasındaki aroma, tazelik, saflık kontrolü ve mutfak kullanımı farkları.",
+      "deck": "Toz safran pratik görünse de çiçeğin gerçek kimliğini, tazeliğini ve uçucu kokusunu korumanın en güvenilir yolu bütün tellerdir.",
+      "lead": "Safran alırken karşınıza iki temel biçim çıkar: çiçeğin kurutulmuş tepeciklerinden oluşan bütün tel safran ve öğütülmüş toz safran. Profesyonel şeflerin ve geleneksel mutfakların neredeyse tamamı bütün tel safranı tercih eder; çünkü tel form hem saflığın görsel kanıtıdır hem de aromayı son ana kadar hapseder.",
       "sections": [
         {
           "id": "detail-1",
-          "title": "Telin sağladığı görünürlük",
-          "text": "Bütün telleri gözlemleyebilir ve tarif gerektiriyorsa kullanmadan hemen önce hafifçe ezebilirsiniz. Bu, ürünü tanımayı kolaylaştırır; ancak yalnızca şekil veya renk üzerinden saflık garantisi verilemez."
+          "title": "Gözle görülen doğallık ve tazelik",
+          "text": "Bütün tel safrana baktığınızda Crocus sativus çiçeğinin kendine özgü üçlü tepecik formunu ve koyu kızıl rengini doğrudan seçebilirsiniz. Ayrıca uçucu aroma bileşeni olan safranal, bütün telin dokusu içinde aylarca korunur. İhtiyacınız olduğunda telleri kullanmadan hemen önce havanda kendiniz ezerek en taze haliyle demleyebilirsiniz."
         },
         {
           "id": "detail-2",
-          "title": "Tozu değerlendirirken",
-          "text": "Öğütülmüş safranı bir baharat karışımıyla karıştırmayın. Etiketteki içeriği ve net ağırlığı okuyun; tedarikçiden ilgili belgeleri isteyin. Tozun kolay karışması kullanım avantajıdır, doğrulanmış içerik bilgisinin yerini tutmaz."
+          "title": "Toz safranın riskleri",
+          "text": "Safran öğütülüp toz haline getirildiğinde hava ile temas eden yüzeyi katbekat artar ve kokusu çok daha hızlı uçup gider. Daha da önemlisi, turuncu-kırmızı bir tozun içine zerdeçal, aspir, kırmızı biber veya renklendirici maddeler karıştırılıp karıştırılmadığını gözle anlamak imkânsızdır. Eğer toz kullanmak isterseniz, bütün telleri evde pişirme anında kendiniz ezmeniz çok daha sağlıklıdır."
         },
         {
           "id": "detail-3",
-          "title": "ROFRAN’ın odağı",
-          "text": "Bu ilk koleksiyonda yalnızca safran telleri yer alır; minimum sipariş {minimum} gramdır. Toz, çay veya başka ürünler şu anda sunulmuyor. Bu karşılaştırma, piyasadaki biçimleri anlamanıza yardımcı olan bir rehberdir."
+          "title": "Mutfakta neden her zaman bütün tel tercih edilmeli?",
+          "text": "Geleneksel mutfak kültürü ve seçkin şefler, safranı her zaman bütün tel halinde temin etmeyi kural kabul eder. Bütün teller, çiçeğin doğal aromatik yağlarını kendi dokusu içinde hapsederek tazeliğini uzun süre korur. ROFRAN olarak biz de koleksiyonumuzda öğütülmüş toz ürünlere yer vermiyor; Abşeron’un köklü Maştağa topraklarında hasat edilen safranımızı yalnızca saf kızıl teller halinde sunuyoruz. Böylece kavanozu her açtığınızda çiçeğin katkısız doğallığıyla karşılaşırsınız."
         }
       ],
       "sources": [

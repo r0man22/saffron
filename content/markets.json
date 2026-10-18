@@ -7,7 +7,7 @@
       "ru"
     ],
     "priority": 1,
-    "deliveryConfirmed": false
+    "deliveryConfirmed": true
   },
   {
     "country": "TR",
@@ -16,6 +16,123 @@
       "tr"
     ],
     "priority": 1,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": "DE",
+    "name": "Almaniya",
+    "languages": [
+      "de"
+    ],
+    "priority": 2,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": "FR",
+    "name": "Fransa",
+    "languages": [
+      "fr"
+    ],
+    "priority": 2,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": "ES",
+    "name": "İspaniya",
+    "languages": [
+      "es"
+    ],
+    "priority": 2,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": "IT",
+    "name": "İtaliya",
+    "languages": [
+      "it"
+    ],
+    "priority": 2,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": "NL",
+    "name": "Niderland",
+    "languages": [
+      "nl"
+    ],
+    "priority": 2,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": "PL",
+    "name": "Polşa",
+    "languages": [
+      "pl"
+    ],
+    "priority": 2,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": "PT",
+    "name": "Portuqaliya",
+    "languages": [
+      "pt"
+    ],
+    "priority": 2,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": "UA",
+    "name": "Ukrayna",
+    "languages": [
+      "uk"
+    ],
+    "priority": 2,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": "GE",
+    "name": "Gürcüstan",
+    "languages": [
+      "ka"
+    ],
+    "priority": 2,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": "AE",
+    "name": "Birləşmiş Ərəb Əmirlikləri və Körfəz",
+    "languages": [
+      "ar"
+    ],
+    "priority": 2,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": "JP",
+    "name": "Yaponiya",
+    "languages": [
+      "ja"
+    ],
+    "priority": 2,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": "KR",
+    "name": "Cənubi Koreya",
+    "languages": [
+      "ko"
+    ],
+    "priority": 2,
+    "deliveryConfirmed": false
+  },
+  {
+    "country": "CN",
+    "name": "Çin",
+    "languages": [
+      "zh"
+    ],
+    "priority": 2,
     "deliveryConfirmed": false
   },
   {

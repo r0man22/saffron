@@ -1,0 +1,477 @@
+{
+  "labels": {
+    "explore": "ROFRAN entdecken",
+    "faq": "Fragen & Antworten",
+    "product": "Safran entdecken",
+    "journal": "Safran-Journal",
+    "updated": "Aktualisiert",
+    "author": "ROFRAN Redaktion",
+    "links": "Weiterführende Seiten",
+    "back": "Zur Startseite"
+  },
+  "faqCopy": {
+    "title": "Fragen und Antworten rund um Safran",
+    "description": "Wissenswertes über unseren Safran aus Maschtaga bei Baku, die Verwendung in der Küche, Lagerung und Bestellungen ab {minimum} Gramm.",
+    "eyebrow": "GUT ZU WISSEN",
+    "intro": "Klare Antworten für die Auswahl, das Aufgießen in der Küche und die Bestellung unserer ganzen Safranfäden aus Aserbaidschan.",
+    "all": "Alle Fragen",
+    "saffron": "Über Safran",
+    "kitchen": "In der Küche",
+    "buying": "Auswahl & Bestellung",
+    "more": "Im Journal weiterlesen",
+    "search": "Fragen durchsuchen",
+    "empty": "Keine passende Frage gefunden. Bitte versuchen Sie einen anderen Suchbegriff."
+  },
+  "faqs": [
+    {
+      "question": "Was genau ist echter Safran?",
+      "answer": "Safran besteht aus den drei getrockneten, karminroten Narbenschenkeln der herbstblühenden Krokusart Crocus sativus. Im Gegensatz zu den violetten Blütenblättern oder den gelben Staubgefäßen tragen nur diese feinen roten Fäden das charakteristische Zusammenspiel aus goldener Färbekraft und würzig-honigartigem Duft.",
+      "category": "saffron",
+      "link": "/journal/what-is-saffron"
+    },
+    {
+      "question": "Woher stammt der Safran von ROFRAN?",
+      "answer": "Unser Safran wächst in Maschtaga (Maştağa), einem traditionsreichen Dorf am Stadtrand von Baku auf der Halbinsel Abşeron in Aserbaidschan. Dort begünstigen sandige Böden, kaspische Winde und trockene Sommer seit Generationen den Anbau hocharomatischer Safrankrokusse.",
+      "category": "saffron",
+      "link": "/quality"
+    },
+    {
+      "question": "Wie verwende und gieße ich Safranfäden richtig auf?",
+      "answer": "Zerreiben Sie die im Rezept angegebene Menge Safranfäden sanft oder geben Sie sie im Ganzen in ein kleines Gefäß mit warmem (nicht kochendem) Wasser, Brühe oder Milch. Nach 15 bis 20 Minuten Ziehzeit geben Sie sowohl den goldgelben Aufguss als auch die Fäden zum Gericht.",
+      "category": "kitchen",
+      "link": "/journal/how-to-use-saffron"
+    },
+    {
+      "question": "Wie bewahre ich Safran zu Hause am besten auf?",
+      "answer": "Lagern Sie Safranfäden stets trocken, kühl und vor allem lichtgeschützt in einem fest verschlossenen Glas- oder Metallgefäß. Entnehmen Sie die Fäden immer mit einer trockenen Pinzette oder einem trockenen Löffel, damit keine Feuchtigkeit oder Wasserdampf vom Herd in das Glas gelangt.",
+      "category": "kitchen",
+      "link": "/journal/how-to-store-saffron"
+    },
+    {
+      "question": "Wie schmeckt und duftet echter Safran?",
+      "answer": "Guter Safran verbindet einen warmen, fast honigartigen Duft nach getrocknetem Sommerheu mit einer feinen, leicht herben und erdigen Geschmacksnote. Er ist niemals süß oder scharf, sondern verleiht Reisgerichten, Fischsuden und Gebäck eine unverwechselbare aromatische Tiefe.",
+      "category": "saffron",
+      "link": "/journal/what-does-saffron-taste-like"
+    },
+    {
+      "question": "Warum ist Safran so kostbar und wie vergleicht man Preise?",
+      "answer": "Jede Blüte von Crocus sativus bildet nur drei feine rote Narbenschenkel, die im Morgengrauen von Hand geerntet und einzeln ausgelöst werden müssen. Bei ROFRAN kosten {minimum} Gramm ganze Safranfäden 50 USD (50 AZN in Aserbaidschan) – vergleichen Sie beim Einkauf stets den Preis pro Gramm statt nur den Gefäßpreis.",
+      "category": "buying",
+      "link": "/journal/why-is-saffron-expensive"
+    },
+    {
+      "question": "Worauf sollte ich beim Kauf von Safran achten?",
+      "answer": "Achten Sie auf ganze, tiefrote Narbenschenkel ohne gelbe Griffelreste, ein klar ausgewiesenes Nettogewicht und eine präzise Herkunftsangabe wie unser Anbaugebiet Maschtaga bei Baku. Transparente Kontaktdaten des Anbieters sind ebenso wichtig wie die Unterscheidung zwischen reinen Fäden und Gewürzmischungen.",
+      "category": "buying",
+      "link": "/journal/how-to-buy-saffron"
+    },
+    {
+      "question": "Sollte ich ganze Safranfäden oder Safranpulver wählen?",
+      "answer": "Ganze Safranfäden lassen ihre botanische Form auf den ersten Blick erkennen und bewahren ihre ätherischen Öle deutlich länger als bereits gemahlenes Pulver. ROFRAN bietet ausschließlich ganze rote Fäden an, die Sie bei Bedarf unmittelbar vor dem Kochen frisch im Mörser zerstoßen können.",
+      "category": "buying",
+      "link": "/journal/saffron-threads-vs-powder"
+    },
+    {
+      "question": "Wie hoch sind Mindestbestellmenge und Preis bei ROFRAN?",
+      "answer": "Unsere Mindestbestellmenge beträgt {minimum} Gramm ganze Safranfäden zum Preis von 50 USD international beziehungsweise 50 AZN innerhalb Aserbaidschans. Da man pro Gericht meist nur wenige Fäden benötigt, reicht eine Portion von {minimum} Gramm in der heimischen Küche für zahlreiche Mahlzeiten.",
+      "category": "buying",
+      "link": "/saffron"
+    },
+    {
+      "question": "Ist ROFRAN Safran derzeit vorrätig und online bestellbar?",
+      "answer": "Aktuell ist unser Safran nicht vorrätig (ausverkauft), und der direkte Online-Checkout auf der Website ist noch nicht freigeschaltet. Bei Fragen zur kommenden Ernte oder für Voranfragen erreichen Sie uns jederzeit unter contact@rofran.com oder telefonisch unter +994 50 823 93 45.",
+      "category": "buying",
+      "link": "/saffron"
+    },
+    {
+      "question": "Liefert ROFRAN auch nach Deutschland, Österreich oder in die Schweiz?",
+      "answer": "Derzeit erfolgt der Versand ausschließlich innerhalb Aserbaidschans. Ein internationaler Versand nach Europa wird aktuell vorbereitet, ist aber noch nicht geöffnet. Die deutschsprachige Ausgabe unserer Website dient vorerst der Information über unsere Herkunft und Warenkunde.",
+      "category": "buying",
+      "link": "/shipping"
+    },
+    {
+      "question": "Was unterscheidet Safran von Kurkuma oder Saflor?",
+      "answer": "Kurkuma stammt aus einem gemahlenen Wurzelstock und färbt Speisen zwar kräftig gelb, besitzt jedoch ein völlig anderes, pfeffrig-erdiges Aroma. Färberdistel (Saflor) wird mitunter als billiger Ersatz angeboten, hat aber weder den Duft noch die kulinarische Tiefe echter Crocus-sativus-Narbenschenkel.",
+      "category": "saffron",
+      "link": "/journal/what-is-saffron"
+    },
+    {
+      "question": "Wie erkenne ich zu Hause, ob sich Safran beim Aufgießen richtig verhält?",
+      "answer": "Echte Safranfäden geben ihre Farbe in warmem Wasser langsam und gleichmäßig als klaren, goldgelben Ton ab, während die Fäden selbst rot bleiben und nicht zerfallen. Färbt sich das Wasser binnen Sekunden künstlich tiefrot, deutet dies häufig auf zugesetzte Fremdfarbstoffe hin.",
+      "category": "buying",
+      "link": "/quality"
+    }
+  ],
+  "resources": {
+    "about": {
+      "eyebrow": "HERKUNFT ABŞERON",
+      "title": "Über ROFRAN",
+      "description": "ROFRAN widmet sich ganzen Safranfäden aus dem Dorf Maschtaga bei Baku. Erfahren Sie mehr über unsere Herkunft auf der Halbinsel Abşeron und unsere Philosophie.",
+      "intro": "ROFRAN ist aus der Wertschätzung für ein einziges landwirtschaftliches Erzeugnis entstanden: echte, ganze Safranfäden aus Maschtaga auf der Halbinsel Abşeron in Aserbaidschan.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Verwurzelt in Maschtaga bei Baku",
+          "text": "Auf der Halbinsel Abşeron am Kaspischen Meer hat der Safrananbau eine jahrhundertealte Tradition. Im Dorf Maschtaga (Maştağa) bei Baku finden die Knollen von Crocus sativus genau jene Bedingungen vor, die sie für ein dichtes Aroma benötigen: durchlässige, kalkhaltige Sandböden, trockene Sommer und milde Herbsttage."
+        },
+        {
+          "title": "Bewusste Beschränkung auf ein Produkt",
+          "text": "Statt eines breit gefächerten Gewürzsortiments konzentriert sich ROFRAN ausschließlich auf ganze rote Safranfäden. Wir bieten unsere Ernte ab einer Mindestmenge von {minimum} Gramm zum Preis von 50 USD (50 AZN in Aserbaidschan) an – für Menschen, die in der Küche Wert auf nachvollziehbare Herkunft legen."
+        },
+        {
+          "title": "Warenkunde ohne Übertreibung",
+          "text": "Guter Safran braucht keine lauten Heilsversprechen. Unser Journal und unsere Produktseiten verbinden botanisches Grundwissen mit praktischen Hinweisen für das Aufgießen, Dosieren und Aufbewahren, damit jeder Faden in Ihrer Küche sein volles Potenzial entfaltet."
+        }
+      ]
+    },
+    "quality": {
+      "eyebrow": "SORGFALT & REINHEIT",
+      "title": "Qualität und Herkunft unseres Safrans",
+      "description": "Erfahren Sie, wie ROFRAN Safran in Maschtaga bei Baku von Hand geerntet, verlesen und schonend getrocknet wird und woran Sie reine Fäden erkennen.",
+      "intro": "Die Qualität von Safran entscheidet sich lange vor dem Abfüllen: im Boden von Maschtaga, im richtigen Erntezeitpunkt bei Tagesanbruch und beim behutsamen Trocknen der roten Narbenschenkel.",
+      "image": "threads",
+      "sections": [
+        {
+          "title": "Handernte auf der Halbinsel Abşeron",
+          "text": "Während der kurzen Blütezeit im Spätherbst öffnen sich die violetten Blüten von Crocus sativus in den frühen Morgenstunden. In Maschtaga werden die Blüten von Hand gepflückt, bevor die Sonne die empfindlichen Narbenschenkel austrocknet, und noch am selben Tag sorgfältig ausgelöst."
+        },
+        {
+          "title": "Ganze rote Fäden ohne Verschnitt",
+          "text": "Für ROFRAN verwenden wir ausschließlich die ganzen, tiefroten Narbenschenkel. Gelbe Staubblätter, Blütenblattreste oder fremde Pflanzenfasern haben in unseren Gläsern keinen Platz. Durch die Abgabe als ganzer Faden bleibt die botanische Struktur für Sie jederzeit überprüfbar."
+        },
+        {
+          "title": "Sensorische Prüfung in der Küche",
+          "text": "Wenn Sie einige Fäden unseres Safrans in warmes Wasser geben, löst sich das enthaltene Crocin langsam und taucht die Flüssigkeit in ein leuchtendes, klares Goldgelb, während der Faden selbst seine rote Gestalt behält und seinen charakteristischen, honig-herben Duft verströmt."
+        }
+      ]
+    },
+    "shipping": {
+      "eyebrow": "BESTELLUNG & VERSAND",
+      "title": "Versand, Preise und Verfügbarkeit",
+      "description": "Informationen zur Mindestbestellmenge von {minimum} Gramm (50 USD / 50 AZN), zum aktuellen Lagerbestand und zum Versand innerhalb Aserbaidschans.",
+      "intro": "Transparenz vor dem Kauf: Hier finden Sie den aktuellen Stand zu Lagerbestand, Mindestbestellmenge und unseren Liefergebieten.",
+      "image": "product",
+      "sections": [
+        {
+          "title": "Aktueller Bestand und Online-Checkout",
+          "text": "Unser Safran aus Maschtaga ist derzeit nicht vorrätig (ausverkauft). Auch die direkte Online-Bezahlung über den Warenkorb dieser Website ist momentan noch nicht freigeschaltet. Sie können sich jedoch bereits über unser Angebot informieren oder sich für künftige Chargen vormerken lassen."
+        },
+        {
+          "title": "Mindestbestellmenge und Preisgestaltung",
+          "text": "ROFRAN Safran wird ab einer Mindestbestellmenge von {minimum} Gramm angeboten. Der reguläre Preis für {minimum} Gramm beträgt 50 AZN in Aserbaidschan beziehungsweise 50 USD für internationale Anfragen. Alle Preise verstehen sich zuzüglich etwaiger Versandkosten."
+        },
+        {
+          "title": "Liefergebiet Aserbaidschan und internationaler Ausblick",
+          "text": "Sobald neue Erntechargen freigegeben sind, liefern wir zunächst ausschließlich innerhalb Aserbaidschans aus. Ein regulärer Direktversand in die Europäische Union und die Schweiz ist derzeit noch nicht geöffnet; für individuelle Rückfragen erreichen Sie uns unter contact@rofran.com."
+        }
+      ],
+      "draft": true
+    },
+    "contact": {
+      "eyebrow": "DIREKTER DRAHT",
+      "title": "Kontakt zu ROFRAN",
+      "description": "Nehmen Sie Kontakt mit ROFRAN in Baku auf: Erreichen Sie uns per E-Mail unter contact@rofran.com, contact@rofran.az oder telefonisch unter +994 50 823 93 45.",
+      "intro": "Ob Sie Fragen zur kommenden Ernte in Maschtaga, zu unseren Safranfäden oder zu einer Vorreservierung haben – wir antworten Ihnen persönlich aus Baku.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "E-Mail und Telefon",
+          "text": "Für internationale Anfragen schreiben Sie uns bitte an contact@rofran.com; für Anfragen aus Aserbaidschan steht Ihnen zudem contact@rofran.az zur Verfügung. Telefonisch sowie für kurze Rückfragen erreichen Sie uns direkt unter +994 50 823 93 45."
+        },
+        {
+          "title": "Anfragen zur Verfügbarkeit",
+          "text": "Da unsere Ernte aus Maschtaga begrenzt und derzeit nicht vorrätig ist, geben wir Ihnen per E-Mail gerne Auskunft darüber, wann die nächste Charge ab {minimum} Gramm (50 USD / 50 AZN) wieder verfügbar sein wird."
+        },
+        {
+          "title": "Kein anonymes Kontaktformular",
+          "text": "Wir verzichten auf dieser Seite bewusst auf automatisierte Ticketformulare. Schreiben Sie uns direkt über Ihr E-Mail-Programm und nennen Sie uns bei Bestellanfragen bitte Ihren Standort sowie die gewünschte Menge."
+        }
+      ],
+      "draft": true
+    },
+    "wholesale": {
+      "eyebrow": "FÜR GASTRONOMIE & HANDEL",
+      "title": "Safran für Restaurants und Feinkost",
+      "description": "Ganze Safranfäden aus Maschtaga (Baku) für die gehobene Gastronomie, Patisserien und den Feinkosthandel. Kontaktieren Sie ROFRAN für Konditionen.",
+      "intro": "Für Küchenchefs, Patissiers und Feinkosthäuser, die Wert auf sortenreine Herkunft von der Halbinsel Abşeron legen, bieten wir den direkten Austausch mit unserem Team in Baku an.",
+      "image": "threads",
+      "sections": [
+        {
+          "title": "Charakterstarker Safran für die Profiküche",
+          "text": "In Saucen, Krustentierfonds, Risotti oder feinen Desserts überzeugt der Safran aus Maschtaga durch seine hohe Ergiebigkeit und sein klares, warmes Geschmacksprofil. Ganze Fäden geben der Küche die volle Kontrolle über Mörserung, Ziehzeit und Farbintensität."
+        },
+        {
+          "title": "Mengen, Ernteplanung und Preise",
+          "text": "Während im Einzelverkauf die Mindestmenge bei {minimum} Gramm für 50 USD (50 AZN in Aserbaidschan) liegt, besprechen wir größere Gebinde und Erntereservierungen für Gastronomiepartner individuell nach Verfügbarkeit der jeweiligen Jahresernte."
+        },
+        {
+          "title": "Kontakt für Geschäftskunden",
+          "text": "Da unser Bestand derzeit vergriffen ist und der Versand aktuell nur innerhalb Aserbaidschans erfolgt, bitten wir interessierte Gastronomiebetriebe um eine frühzeitige Anfrage mit Angabe des Bedarfs an contact@rofran.com oder +994 50 823 93 45."
+        }
+      ],
+      "draft": true
+    },
+    "privacy": {
+      "eyebrow": "DATENSCHUTZ & TRANSPARENZ",
+      "title": "Datenschutzhinweise",
+      "description": "Erfahren Sie, wie die Website von ROFRAN lokale Browser-Einstellungen für Warenkorb und Ton nutzt und wie wir Ihre Kontaktdaten schützen.",
+      "intro": "Wir gehen mit Ihren Daten ebenso zurückhaltend um wie mit unseren Zutaten: Diese Website speichert im Normalbetrieb lediglich technische Einstellungen lokal in Ihrem Browser.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Lokale Speicherung in Ihrem Browser",
+          "text": "Wenn Sie auf unserer Seite eine Auswahl in den Warenkorb legen oder den Ton des Einführungsfilms ein- und ausschalten, wird diese Präferenz ausschließlich im lokalen Speicher (Local Storage) Ihres Browsers abgelegt. Da der Online-Checkout noch nicht aktiv ist, werden dabei keine Zahlungs- oder Adressdaten erhoben."
+        },
+        {
+          "title": "Direkte Kontaktaufnahme per E-Mail oder Telefon",
+          "text": "Wenn Sie uns über contact@rofran.com, contact@rofran.az oder unter +994 50 823 93 45 kontaktieren, verwenden wir Ihre Angaben ausschließlich zur Beantwortung Ihres Anliegens. Eine Weitergabe an Werbenetzwerke findet nicht statt."
+        },
+        {
+          "title": "Ausblick auf den künftigen Online-Shop",
+          "text": "Vor der Freischaltung einer Online-Bestellfunktion werden diese Datenschutzhinweise um sämtliche Angaben zu Zahlungsdienstleistern, Versandabwicklung und gesetzlichen Aufbewahrungsfristen ergänzt."
+        }
+      ],
+      "draft": true
+    }
+  },
+  "articles": [
+    {
+      "slug": "what-is-saffron",
+      "title": "Was ist Safran? Botanik, Herkunft und Bedeutung in der Küche",
+      "category": "Safran-Ratgeber",
+      "image": "flower",
+      "imageAlt": "Violette Blüte von Crocus sativus im warmen Abendlicht",
+      "readTime": "4 MIN. LESEZEIT",
+      "description": "Was echter Safran ist, wie er aus den roten Narbenschenkeln von Crocus sativus gewonnen wird und warum das Dorf Maschtaga bei Baku für besondere Qualität steht.",
+      "deck": "Vom herbstlichen Krokus auf der Halbinsel Abşeron bis zum leuchtenden Faden im Glas.",
+      "lead": "Hinter dem Namen Safran verbirgt sich kein gemahlenes Wurzelwerk, sondern das filigrane Herz einer Herbstblume: die drei tiefroten Narbenschenkel von Crocus sativus. Seit Jahrhunderten wird diese Kulturpflanze am Kaspischen Meer gepflegt, wo im Dorf Maschtaga bei Baku unser ROFRAN Safran heranwächst.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Von der Blüte zum karminroten Faden",
+          "text": "Crocus sativus ist ein Herbstblüher, der sich ausschließlich über Mutterknollen vermehrt und nur für wenige Wochen im Jahr seine fliederfarbenen Kelche öffnet. In der Mitte jeder Blüte sitzen drei leuchtend rote Narbenschenkel neben den gelben Staubblättern. Nur diese roten Fäden bilden nach dem behutsamen Auslösen und Trocknen das echte Safrangewürz. Wichtig für Naturfreunde: Nicht jeder violett blühende Krokus oder Herbstzeitlose in freier Wildbahn ist essbar – manche Doppelgänger sind sogar stark giftig."
+        },
+        {
+          "id": "detail-2",
+          "title": "Die Tradition von Maschtaga auf Abşeron",
+          "text": "Auf der Halbinsel Abşeron in Aserbaidschan genießt der Safrananbau einen legendären Ruf. Besonders das Dorf Maschtaga (Maştağa) im Nordosten von Baku bietet mit seinen lockeren, mineralreichen Sandböden, den trockenen Sommermonaten und der salzigen Brise des Kaspischen Meeres ideale Bedingungen. Hier konzentrieren sich in den Narbenschenkeln jene natürlichen Verbindungen, die den Safran berühmt machen: Crocin für das warme Goldgelb, Pikrocrocin für die feine Herbe und Safranal für den unverwechselbaren Duft."
+        },
+        {
+          "id": "detail-3",
+          "title": "Mehr als nur Farbe auf dem Teller",
+          "text": "In der europäischen und orientalischen Küche – vom festlichen aserbaidschanischen Schah-Pilaw über das Mailänder Risotto bis zur südfranzösischen Bouillabaisse – erfüllt Safran eine doppelte Aufgabe. Er taucht Reis, Saucen und Hefeteige in ein warmes, sonniges Gelb und steuert zugleich ein tiefes, honig-erdiges Aroma bei, das durch kein anderes Gewürz ersetzt werden kann."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Crocus sativus",
+          "url": "https://www.rhs.org.uk/plants/4929/crocus-sativus/details"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-use-saffron",
+      "title": "Safran richtig verwenden: Aufgießen, Dosieren und Mitkochen",
+      "category": "Safran-Ratgeber",
+      "image": "saffron",
+      "imageAlt": "Nahaufnahme karminroter Safranfäden vor dem Aufgießen",
+      "readTime": "4 MIN. LESEZEIT",
+      "description": "So entlocken Sie Safranfäden das volle Aroma und die schönste Farbe: eine präzise Anleitung zum Dosieren, Mörsern und Aufgießen in warmem Wasser oder Milch.",
+      "deck": "Warum wenige Fäden und etwas Geduld beim Aufgießen den Unterschied in der Küche machen.",
+      "lead": "Wer Safranfäden direkt in kaltes Öl oder kochende Sauce wirft, verschenkt einen Großteil ihrer Leuchtkraft und ihres Duftes. Erst durch ein kurzes, warmes Bad vor dem eigentlichen Kochen öffnen sich die getrockneten Pflanzenfasern und geben ihre Schätze gleichmäßig an das Gericht ab.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Sparsam dosieren statt überwürzen",
+          "text": "Safran ist außerordentlich ergiebig. Für ein Gericht für vier Personen genügen meist schon 10 bis 20 einzelne Fäden (ein Bruchteil eines Gramms). Unsere Mindestbestellmenge von {minimum} Gramm reicht daher in einem privaten Haushalt für Dutzende Kochabende. Verwenden Sie lieber zunächst die im Rezept angegebene Menge: Zu viel Safran macht eine Speise nicht edler, sondern betont eine leicht medizinisch-herbe Note."
+        },
+        {
+          "id": "detail-2",
+          "title": "Die Kunst des warmen Aufgusses",
+          "text": "Geben Sie die abgemessenen Fäden in eine kleine Porzellanschale oder ein Glas. Nach Wunsch können Sie die Fäden zuvor im Mörser mit einer winzigen Prise Zucker oder Salz sanft anstoßen – müssen es aber nicht. Übergießen Sie den Safran mit zwei bis drei Esslöffeln warmem (nicht sprudelnd kochendem) Wasser, heller Brühe, Milch oder Weißwein und lassen Sie ihn mindestens 15 bis 20 Minuten ziehen."
+        },
+        {
+          "id": "detail-3",
+          "title": "Aufguss und Fäden gemeinsam verwenden",
+          "text": "Sieben Sie die eingeweichten Fäden nach dem Ziehen nicht ab: Sowohl die intensiv goldgelbe Flüssigkeit als auch die roten Narbenschenkel selbst kommen in den Topf. Bei Reisgerichten wie Pilaw oder Risotto empfiehlt es sich, die geringe Menge des Safranaufgusses in die gesamte Flüssigkeitsmenge einzurechnen, damit das Korn am Ende genau den gewünschten Biss behält."
+        }
+      ],
+      "sources": [
+        {
+          "title": "McCormick for Chefs — Saffron Guide",
+          "url": "https://www.mccormickforchefs.co.uk/en-gb/recipe-ideas/flavour-ingredients/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-store-saffron",
+      "title": "Safran richtig lagern: Schutz vor Licht, Luft und Feuchtigkeit",
+      "category": "Safran-Ratgeber",
+      "image": "product",
+      "imageAlt": "Ganze Safranfäden im geschlossenen Glasgefäß mit goldenem Deckel",
+      "readTime": "3 MIN. LESEZEIT",
+      "description": "Wie Sie ganze Safranfäden über viele Monate aromatisch halten: praktische Regeln zu Lichtschutz, Raumklima und trockener Entnahme in der Küche.",
+      "deck": "Licht, Wärme und Wasserdampf sind die stillen Gegenspieler feiner ätherischer Öle.",
+      "lead": "Ein Glas mit leuchtend roten Safranfäden ist ein Schmuckstück in jeder Küche – doch ein offenes Gewürzregal über dem Herd oder auf der sonnigen Fensterbank schadet dem Aroma binnen kurzer Zeit. Mit wenigen einfachen Gewohnheiten bewahren Sie Duft und Färbekraft Ihrer Safranfäden über lange Zeit.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Dunkel und luftdicht im Schrank",
+          "text": "Ultraviolettes Licht und Sauerstoff bauen die farbgebenden Carotinoide (Crocin) sowie das flüchtige Safranal allmählich ab. Bewahren Sie das fest verschlossene Glas deshalb in einem geschlossenen Küchenschrank oder einer Schublade auf, fernab von Backofen, Herdplatte und direkter Sonneneinstrahlung."
+        },
+        {
+          "id": "detail-2",
+          "title": "Kein Wasserdampf am offenen Glas",
+          "text": "Safranfäden wurden nach der Ernte mit großer Sorgfalt getrocknet, um haltbar zu bleiben. Ziehen Sie niemals mit feuchten Fingern oder einem nassen Löffel Fäden aus dem Glas, und halten Sie das geöffnete Gefäß nicht direkt über einen dampfenden Kochtopf. Am besten entnehmen Sie die benötigte Portion vor dem Kochen mit einer sauberen, trockenen Pinzette."
+        },
+        {
+          "id": "detail-3",
+          "title": "Warum ganze Fäden länger frisch bleiben",
+          "text": "Im Vergleich zu gemahlenem Safranpulver bieten ganze Narbenschenkel dem Luftsauerstoff eine viel kleinere Angriffsfläche. Ganze Narbenschenkel, die kühl, trocken sowie dunkel gelagert werden, behalten ihr vielschichtiges Bouquet weit über ein Jahr hinweg. Zerstoßen Sie immer nur genau jene Menge, die Sie am selben Tag verkochen."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Growing and Storing Saffron",
+          "url": "https://www.rhs.org.uk/herbs/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "what-does-saffron-taste-like",
+      "title": "Wie schmeckt Safran? Ein Blick auf Duft, Farbe und Aromatik",
+      "category": "Safran-Ratgeber",
+      "image": "threads",
+      "imageAlt": "Tiefrote Safranfäden in detaillierter Nahaufnahme",
+      "readTime": "4 MIN. LESEZEIT",
+      "description": "Zwischen Sommerheu, Wildblütenhonig und feiner Herbe: Entdecken Sie das sensorische Profil echter Safranfäden und das Zusammenspiel von Safranal und Pikrocrocin.",
+      "deck": "Ein Duft nach trockenem Sommerheu und dunklem Honig, getragen von einer edlen, zarten Herbe.",
+      "lead": "Den Geschmack von echtem Safran mit einem einzigen Wort zu beschreiben, gelingt selbst erfahrenen Köchen kaum. Das Gewürz wirkt wie ein warmer Resonanzboden im Gericht: Es drängt sich bei richtiger Dosierung nicht in den Vordergrund, sondern verbindet Butter, Reis, Meeresfrüchte oder Milch zu einem runden Ganzen.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Das Zusammenspiel dreier Naturstoffe",
+          "text": "Sensorisch ruht Safran auf drei Säulen: Das wasserlösliche Crocin sorgt für das leuchtende Goldgelb auf dem Teller. Pikrocrocin verleiht dem Faden am Gaumen eine feine, leicht bittere Struktur, die verhindert, dass sahnige oder butterreiche Speisen schwer wirken. Beim Trocknen der Ernte entsteht schließlich Safranal – jenes ätherische Öl, das für den warmen Duft nach frisch gemähtem Heu, Honigwaben und einer Spur Jod verantwortlich ist."
+        },
+        {
+          "id": "detail-2",
+          "title": "Herzhaft und süß zugleich zu Hause",
+          "text": "Weil Safran selbst keinen Zucker enthält, aber floral-honigartige Duftnoten mitbringt, harmoniert er in beiden Welten der Küche. In Aserbaidschan krönt unser Safran aus Maschtaga den festlichen Pilaw mit Lamm, Kastanien und Trockenfrüchten; in Europa veredelt er Fischsuppen, Risotto, schwedisches Lussekatter-Hefegebäck oder feine Vanille- und Kardamomcremes."
+        },
+        {
+          "id": "detail-3",
+          "title": "Balance durch Zurückhaltung",
+          "text": "Wer zum ersten Mal mit hochwertigen Fäden kocht, lässt sich leicht von der noch blassen Farbe zu Beginn des Kochvorgangs täuschen und gibt vorschnell weitere Fäden nach. Warten Sie stattdessen die volle Ziehzeit des warmen Aufgusses ab: Erst nach einigen Minuten entfaltet sich die Balance aus goldener Farbe und subtiler Würze, ohne dass die Bitterstoffe dominieren."
+        }
+      ],
+      "sources": [
+        {
+          "title": "McCormick for Chefs — Flavour Profile of Saffron",
+          "url": "https://www.mccormickforchefs.co.uk/en-gb/recipe-ideas/flavour-ingredients/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "why-is-saffron-expensive",
+      "title": "Warum ist Safran so teuer? Handarbeit, Ertrag und Preisvergleich",
+      "category": "Safran-Ratgeber",
+      "image": "flower",
+      "imageAlt": "Blühender Safrankrokus auf dem Feld bei Sonnenuntergang",
+      "readTime": "4 MIN. LESEZEIT",
+      "description": "Warum echter Safran seinen Preis hat: Einblicke in die Handernte von Crocus sativus in Maschtaga und wie Sie Preise pro Gramm seriös vergleichen.",
+      "deck": "Hunderttausende Blüten, reine Handarbeit im Morgengrauen und wenige Tage Erntezeit im Herbst.",
+      "lead": "Safran gilt seit der Antike als das kostbarste Gewürz der Welt. Dieser Wert ist kein künstliches Marketingprodukt, sondern die unmittelbare Folge der Botanik von Crocus sativus: Keine Maschine kann die zarten violetten Herbstblüten pflücken und die drei feinen roten Narbenschenkel unversehrt aus ihrem Inneren lösen.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Rechnerische Dimensionen einer Ernte",
+          "text": "Jede einzelne Krokusblüte schenkt nur drei rote Fäden. Um ein einziges Kilogramm getrockneten Safran zu gewinnen, müssen je nach Größe der Narben zwischen 150.000 und 200.000 Blüten im Morgengrauen von Hand gepflückt und noch am selben Tag verlesen werden. Beim anschließenden Trocknen verlieren die frischen Narbenschenkel rund vier Fünftel ihres Gewichts an Wasser."
+        },
+        {
+          "id": "detail-2",
+          "title": "Den Preis pro Gramm transparent vergleichen",
+          "text": "Im Handel wird Safran oft in winzigen Döschen zu 0,1 oder 0,5 Gramm angeboten, was den Vergleich erschwert. Rechnen Sie beim Einkauf stets auf den Preis pro Gramm um. Bei ROFRAN erhalten Sie ganze Safranfäden aus Maschtaga (Baku) ab einer Mindestbestellmenge von {minimum} Gramm für 50 USD (beziehungsweise 50 AZN in Aserbaidschan) – das entspricht einem klar nachvollziehbaren Preis von 10 USD pro Gramm."
+        },
+        {
+          "id": "detail-3",
+          "title": "Kostbar im Einkauf, sparsam im Topf",
+          "text": "Relativiert wird der Preis von echtem Safran durch seine enorme Ergiebigkeit. Da für ein vierköpfiges Familiengericht oft schon 0,1 bis 0,15 Gramm genügen, kostet der Einsatz unserer Fäden aus Maschtaga pro Mahlzeit nur einen überschaubaren Betrag – vorausgesetzt, es handelt sich um reine, unverfälschte Narbenschenkel voller Färbe- und Aromakraft."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Crocus sativus Cultivation",
+          "url": "https://www.rhs.org.uk/herbs/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-buy-saffron",
+      "title": "Safran kaufen: Worauf Sie bei Herkunft, Fäden und Preis achten sollten",
+      "category": "Safran-Ratgeber",
+      "image": "product",
+      "imageAlt": "ROFRAN Safranfäden im Klarglas mit goldfarbenem Deckel",
+      "readTime": "4 MIN. LESEZEIT",
+      "description": "Ein praktischer Einkaufsratgeber für echten Safran: So prüfen Sie ganze Narbenschenkel, verlässliche Herkunftsangaben, Nettogewicht und Reinheit.",
+      "deck": "Klare Kriterien für den Einkauf: ganze rote Fäden, benannte Herkunft und ehrliche Gewichtsangaben.",
+      "lead": "Kaum ein anderes Gewürz wird auf Märkten und im Internet so häufig falsch deklariert oder gestreckt wie Safran. Wer vor dem Kauf einige einfache Prüfmerkmale kennt, schützt sich zuverlässig vor Enttäuschungen und erkennt handwerklich erzeugte Qualität auf den ersten Blick.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Die Form des Fadens und die genaue Herkunft",
+          "text": "Echte Narbenschenkel von Crocus sativus sind tiefrot und laufen an einem Ende leicht trompetenförmig auseinander. Vermeiden Sie Produkte mit einem hohen Anteil gelber, geschmackloser Griffel oder loser Brösel. Ebenso wichtig ist eine konkrete Ortsangabe statt vager Floskeln: Bei ROFRAN stammt jeder Faden aus dem Dorf Maschtaga auf der Halbinsel Abşeron in Baku, Aserbaidschan."
+        },
+        {
+          "id": "detail-2",
+          "title": "Qualitätsnormen und der Wassertest zu Hause",
+          "text": "Im internationalen Gewürzhandel dient die Norm ISO 3632 zur Messung von Farbkraft (Crocin), Bitterwert (Pikrocrocin) und Duft (Safranal). Auch zu Hause gibt ein kleiner Aufguss Aufschluss: Echte Fäden färben warmes Wasser über mehrere Minuten hinweg klar goldgelb und behalten ihre eigene rote Farbe, während künstlich gefärbte Ersatzstoffe das Wasser sofort trüb oder rötlich verfärben."
+        },
+        {
+          "id": "detail-3",
+          "title": "Verlässliche Erzeuger und Chargentransparenz",
+          "text": "Ein seriöser Erzeuger dokumentiert das genaue Anbaugebiet, den Erntejahrgang und das echte Nettogewicht ohne verfälschende Füllstoffe. Wer auf geprüfte Herkunft, unversehrte rote Fäden und transparente Kommunikation achtet, schützt sich wirksam vor Imitaten und sichert sich die volle aromatische Tiefe für die eigene Küche."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ISO 3632-2 — Spices, Saffron (Crocus sativus L.) Test Methods",
+          "url": "https://www.iso.org/standard/44526.html"
+        }
+      ]
+    },
+    {
+      "slug": "saffron-threads-vs-powder",
+      "title": "Safranfäden oder Safranpulver? Unterschiede in Küche und Qualität",
+      "category": "Safran-Ratgeber",
+      "image": "threads",
+      "imageAlt": "Ganze karminrote Safranfäden in Nahaufnahme",
+      "readTime": "3 MIN. LESEZEIT",
+      "description": "Ganze Safranfäden oder gemahlenes Pulver? Warum ganze Narbenschenkel ihr Aroma länger bewahren und wie Sie Fäden bei Bedarf selbst mörsern.",
+      "deck": "Warum der unversehrte rote Faden dem fertigen Pulver an Frische und Transparenz überlegen ist.",
+      "lead": "Im Handel begegnet man Safran in zwei Erscheinungsformen: als ganze, filigrane Narbenschenkel oder als fein vermahlenes, orangerotes Pulver. Obwohl das Pulver im ersten Moment bequem wirkt, sprechen in der anspruchsvollen Küche fast alle Argumente für den ganzen Faden.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Sichtbare Echtheit beim ganzen Faden",
+          "text": "Bei ganzen Safranfäden erkennen Sie mit bloßem Auge, dass es sich um die gewachsenen Narbenschenkel der Krokusblüte handelt. Ist Safran hingegen bereits industriell zu Pulver vermahlen, lässt sich optisch kaum noch feststellen, ob gelbe Staubgefäße, Kurkuma, Paprika oder andere Streckmittel mitverarbeitet wurden."
+        },
+        {
+          "id": "detail-2",
+          "title": "Aromaschutz bis zum Moment des Kochens",
+          "text": "Sobald Gewürze gemahlen werden, vergrößert sich ihre Oberfläche um ein Vielfaches, wodurch ätherische Öle wie das duftgebende Safranal deutlich schneller verfliegen. Ganze Fäden schließen ihre Aroma- und Farbstoffe im Inneren der getrockneten Pflanzenzelle ein. Wenn ein Rezept fein verteiltes Pulver verlangt, zerreiben Sie einfach einige Fäden frisch im Mörser und lösen sie anschließend in warmem Wasser auf."
+        },
+        {
+          "id": "detail-3",
+          "title": "Aromaentfaltung in der feinen Küche: Fäden frisch mörsern",
+          "text": "Erfahrene Köche greifen ausnahmslos zum ganzen Faden und zerstoßen stets nur die gerade benötigte Prise unmittelbar vor der Zubereitung. So werden Safranal und Crocin erst im Moment des Aufgusses freigesetzt und schenken Risotto, Bouillabaisse oder Hefegebäck ein unvergleichlich reines Farb- und Dufterlebnis, das industrielles Pulver niemals erreichen kann."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ISO 3632-2 — Saffron Specification and Test Methods",
+          "url": "https://www.iso.org/standard/44526.html"
+        }
+      ]
+    }
+  ]
+}

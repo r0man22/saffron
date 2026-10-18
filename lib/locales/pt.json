@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "story": "A nossa história",
+    "saffron": "Açafrão",
+    "journal": "Caderno",
+    "main": "Navegação principal",
+    "home": "Início",
+    "homeLabel": "Página inicial da ROFRAN",
+    "skip": "Saltar para o conteúdo",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "language": "Idioma",
+    "openBag": "Abrir saco",
+    "items": "artigos"
+  },
+  "actions": {
+    "discoverStory": "Descobrir a história",
+    "discoverSaffron": "Descobrir o nosso açafrão",
+    "exploreSaffron": "Explorar o açafrão",
+    "exploreJournal": "Explorar o caderno",
+    "continue": "Continuar a explorar",
+    "add": "Adicionar ao saco"
+  },
+  "bag": {
+    "selection": "A SUA SELEÇÃO",
+    "title": "O seu saco",
+    "close": "Fechar saco",
+    "product": "Açafrão ROFRAN",
+    "threads": "Fios de açafrão",
+    "decrease": "Diminuir quantidade",
+    "increase": "Aumentar quantidade",
+    "quantity": "Quantidade",
+    "remove": "Remover",
+    "saved": "A sua seleção foi guardada. A colheita atual encontra-se esgotada.",
+    "unavailable": "Esgotado",
+    "empty": [
+      "Um pequeno tesouro",
+      "tem aqui o seu lugar."
+    ]
+  },
+  "story": {
+    "aria": "A história do açafrão ROFRAN",
+    "bottom": "UM PEQUENO FIO. UMA HISTÓRIA EXTRAORDINÁRIA.",
+    "scroll": "DESLIZE PARA DESCOBRIR",
+    "continue": "CONTINUAR A EXPLORAR",
+    "pause": "Pausar história",
+    "preparing": "A preparar a sua viagem",
+    "unavailable": "O filme não está disponível. Explore o nosso açafrão abaixo.",
+    "chaptersLabel": "Capítulos da história",
+    "chapter": "Capítulo",
+    "soundOn": "SOM ATIVO",
+    "soundOff": "SEM SOM",
+    "soundEnable": "Ativar o som do campo",
+    "soundDisable": "Desativar o som do campo",
+    "chapters": [
+      {
+        "name": "O princípio",
+        "label": "AÇAFRÃO POR ROFRAN",
+        "title": [
+          "O TESOURO MAIS PURO",
+          "DA NATUREZA"
+        ],
+        "body": "Uma história que começa numa flor."
+      },
+      {
+        "name": "A flor",
+        "label": "01 / A FLOR",
+        "title": [
+          "Tudo começa",
+          "numa *flor.*"
+        ],
+        "body": "Aproxime-se de algo verdadeiramente singular."
+      },
+      {
+        "name": "A essência",
+        "label": "02 / A ESSÊNCIA",
+        "title": [
+          "Um encanto visto",
+          "de *perto.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Os fios",
+        "label": "03 / O FIO CARMESIM",
+        "title": [
+          "Uma história em",
+          "cada *fio.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "O percurso",
+        "label": "04 / O PERCURSO",
+        "title": [
+          "Da flor até",
+          "à sua *mesa.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "O açafrão",
+        "label": "05 / AÇAFRÃO ROFRAN",
+        "title": [
+          "Um gesto simples.",
+          "*Inesquecível.*"
+        ],
+        "body": "Cor. Aroma. Um instante para saborear."
+      },
+      {
+        "name": "Precioso por natureza",
+        "label": "",
+        "title": [
+          "ROFRAN"
+        ],
+        "body": "Precioso por natureza."
+      }
+    ]
+  },
+  "home": {
+    "collection": "A COLEÇÃO DE AÇAFRÃO",
+    "eyebrow": "AÇAFRÃO ROFRAN",
+    "productTitle": [
+      "Traga esta história",
+      "para a sua *mesa.*"
+    ],
+    "description": "Um pequeno fio. Uma cor dourada luminosa. Um perfume inconfundível. Descubra um ritual culinário com outra profundidade.",
+    "footnote": "UM OLHAR PRÓXIMO SOBRE ALGO EXTRAORDINÁRIO",
+    "journalEyebrow": "SABER MAIS PARA COZINHAR MELHOR",
+    "journalTitle": "O caderno do açafrão"
+  },
+  "footer": {
+    "taglinePrefix": "Precioso por ",
+    "taglineEm": "natureza.",
+    "explore": "EXPLORAR",
+    "journal": "O CADERNO",
+    "aria": "Rodapé",
+    "bottom": "Um pequeno fio. Uma história extraordinária.",
+    "top": "Voltar ao topo ↑"
+  },
+  "product": {
+    "collection": "A COLEÇÃO ROFRAN",
+    "title": [
+      "ROFRAN",
+      "*Fios de açafrão.*"
+    ],
+    "subtitle": "Fios de açafrão ROFRAN",
+    "description": "Cultivado na aldeia costeira de Mashtaga, em Baku, no Azerbaijão. Estigmas inteiros de cor carmesim para os pratos que pedem tempo à mesa — libertando um tom dourado e um aroma quente em caldos, risotos, caldeiradas e arroz de marisco.",
+    "note": "Esgotado. Encomenda mínima: 5 gramas ($50 USD · 50 AZN no Azerbaijão).",
+    "facts": [
+      {
+        "title": "O açafrão",
+        "text": "Colhido no outono a partir da flor Crocus sativus em Mashtaga, Baku. Cada corola oferece três estigmas vermelhos intensos, secos inteiros para preservar toda a sua integridade na cozinha.",
+        "linkText": ""
+      },
+      {
+        "title": "O primeiro ritual",
+        "text": "Comece por uma receita onde o açafrão seja protagonista e respeite o tempo de preparação. A infusão dos fios em líquido morno é o passo essencial para despertar a especiaria.",
+        "linkText": "Ler o nosso guia sobre como usar o açafrão."
+      },
+      {
+        "title": "Cuidado na despensa",
+        "text": "Guarde os fios num frasco hermético, ao abrigo da luz e do vapor do fogão, seguindo sempre as recomendações de conservação da embalagem.",
+        "linkText": "Explorar o guia de conservação."
+      }
+    ],
+    "editorialEyebrow": "ANTES DO PRIMEIRO FIO",
+    "editorialTitle": [
+      "Tudo começa",
+      "numa *flor.*"
+    ],
+    "editorialText": "Conheça de perto o Crocus sativus e a origem delicada de um ingrediente que transforma a cozinha tradicional.",
+    "editorialLink": "Conhecer o açafrão",
+    "relatedTitle": "Um ritual mais rico",
+    "gallery": "Fotografias do produto",
+    "view": "Ver"
+  },
+  "journal": {
+    "eyebrow": "NOTAS DA ROFRAN",
+    "title": [
+      "O caderno",
+      "do *açafrão.*"
+    ],
+    "description": "Conhecer o ingrediente enriquece cada gesto ao lume. Descubra a flor de outono, domine a infusão e dê a cada fio de açafrão o cuidado que merece.",
+    "guides": "Guias sobre o açafrão",
+    "toc": "NESTE ARTIGO",
+    "tocLabel": "Neste artigo",
+    "sources": "LEITURAS DE REFERÊNCIA"
+  },
+  "images": {
+    "valley": "Flores violetas de açafrão num vale ao pôr do sol",
+    "product": "Fios de açafrão num frasco de vidro, ao lado de uma flor de açafrão ao entardecer",
+    "flower": "Uma flor de açafrão a abrir",
+    "jar": "Frasco de açafrão ROFRAN",
+    "gallery": [
+      "Açafrão num frasco de vidro transparente com tampa dourada",
+      "Plano aproximado de fios vermelhos de açafrão",
+      "Flor violeta de açafrão no campo ao pôr do sol"
+    ]
+  },
+  "notFound": {
+    "eyebrow": "404 / UM CAMINHO DIFERENTE",
+    "title": [
+      "Vamos encontrar",
+      "o *caminho de volta.*"
+    ],
+    "description": "Esta página não faz parte da nossa história.",
+    "back": "Voltar à ROFRAN"
+  },
+  "meta": {
+    "homeTitle": "Açafrão ROFRAN — Fios de Açafrão, Cozinha e Guias Culinários",
+    "homeDescription": "Descubra os fios de açafrão ROFRAN. Aprenda a escolher, fazer a infusão e conservar os estigmas, explore o seu aroma e esclareça todas as dúvidas.",
+    "brandTitle": "ROFRAN — Precioso por natureza",
+    "brandDescription": "Um pequeno fio. Uma história extraordinária. Descubra o açafrão ROFRAN.",
+    "saffronTitle": "Fios de Açafrão de Mashtaga — Encomendas desde {minimum} Gramas ($50 USD)",
+    "saffronDescription": "Estigmas inteiros de açafrão ROFRAN cultivados em Mashtaga, Baku, Azerbaijão. Encomenda mínima de {minimum} gramas ($50 USD internacionalmente · 50 AZN no Azerbaijão). Esgotado.",
+    "journalTitle": "O caderno do açafrão",
+    "journalDescription": "Conheça o açafrão em detalhe: onde nasce, como preparar a infusão dos fios e como conservar o seu aroma na cozinha.",
+    "socialAlt": "Açafrão ROFRAN num campo de flores ao pôr do sol"
+  }
+}

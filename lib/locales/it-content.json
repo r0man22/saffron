@@ -1,0 +1,477 @@
+{
+  "labels": {
+    "explore": "Scopri ROFRAN",
+    "faq": "Domande e risposte",
+    "product": "Esplora lo zafferano",
+    "journal": "Il diario dello zafferano",
+    "updated": "Aggiornato",
+    "author": "Redazione ROFRAN",
+    "links": "Approfondimenti correlati",
+    "back": "Home"
+  },
+  "faqCopy": {
+    "title": "Domande frequenti sullo zafferano",
+    "description": "Risposte chiare sull'origine a Mashtaga, l'infusione dei pistilli per risotti e brodi, la conservazione e gli ordini da {minimum} grammi.",
+    "eyebrow": "SAPERE IN CUCINA",
+    "intro": "Tutto ciò che è utile conoscere per scegliere, mettere in infusione e custodire lo zafferano in pistilli con consapevolezza gastronomica.",
+    "all": "Tutte le domande",
+    "saffron": "Sullo zafferano",
+    "kitchen": "In cucina",
+    "buying": "Scelta e acquisto",
+    "more": "Leggi la guida completa",
+    "search": "Cerca tra le domande",
+    "empty": "Nessuna domanda trovata con questo termine. Prova con un'altra parola."
+  },
+  "faqs": [
+    {
+      "question": "Che cos'è esattamente lo zafferano?",
+      "answer": "Lo zafferano è costituito dai tre stimmi rossi essiccati del fiore Crocus sativus. A differenza dei petali violacei o degli stami gialli, sono questi sottili filamenti cremisi a racchiudere il colore dorato e il bouquet aromatico della spezia.",
+      "category": "saffron",
+      "link": "/journal/what-is-saffron"
+    },
+    {
+      "question": "Come si mettono in infusione e si usano i pistilli in cucina?",
+      "answer": "Pesate la quantità prevista dalla ricetta e lasciate i pistilli in infusione in un po' di brodo caldo, acqua tiepida o latte per almeno quindici-venti minuti; unite poi sia il liquido dorato sia gli stimmi a fine cottura, ad esempio prima della mantecatura del risotto.",
+      "category": "kitchen",
+      "link": "/journal/how-to-use-saffron"
+    },
+    {
+      "question": "Come si conserva correttamente lo zafferano in pistilli?",
+      "answer": "Conservate gli stimmi in un vasetto di vetro a chiusura ermetica, riposto al buio in una dispensa fresca e asciutta, lontano dal vapore dei fornelli. Prelevate i pistilli sempre con una pinzetta o un cucchiaino perfettamente asciutti.",
+      "category": "kitchen",
+      "link": "/journal/how-to-store-saffron"
+    },
+    {
+      "question": "Che sapore e che profumo ha il vero zafferano?",
+      "answer": "Il profumo richiama il fieno tagliato al sole, il miele grezzo e leggere note iodate e terrose; al palato regala un fondo sapido e delicatamente amarognolo che bilancia la ricchezza del burro, del midollo e del formaggio nei risotti.",
+      "category": "saffron",
+      "link": "/journal/what-does-saffron-taste-like"
+    },
+    {
+      "question": "Perché lo zafferano è così prezioso e come si confronta il prezzo?",
+      "answer": "Ogni fiore offre soltanto tre stimmi che vanno colti all'alba e mondati a mano in giornata. Per un confronto corretto, valutate sempre il prezzo al grammo netto ($10 USD al grammo nel formato ROFRAN da {minimum} grammi a $50 USD) anziché il costo della singola bustina.",
+      "category": "buying",
+      "link": "/journal/why-is-saffron-expensive"
+    },
+    {
+      "question": "A cosa bisogna prestare attenzione quando si acquista lo zafferano?",
+      "answer": "Verificate che si tratti di stimmi interi di colore rosso vivo privi di parti gialle, controllate il peso netto in grammi, accertate l'origine agricola precisa (come Mashtaga, a Baku) e verificate i recapiti del produttore.",
+      "category": "buying",
+      "link": "/journal/how-to-buy-saffron"
+    },
+    {
+      "question": "È meglio scegliere lo zafferano in pistilli o in polvere?",
+      "answer": "I pistilli interi permettono di riconoscere a colpo d'occhio l'integrità botanica dello stimma e trattengono più a lungo gli oli essenziali. La polvere è pratica, ma non consente di verificare visivamente la purezza della materia prima.",
+      "category": "buying",
+      "link": "/journal/saffron-threads-vs-powder"
+    },
+    {
+      "question": "Qual è l'ordine minimo e il prezzo da ROFRAN?",
+      "answer": "L'ordine minimo per lo zafferano ROFRAN è di {minimum} grammi di pistilli interi, al prezzo di riferimento internazionale di $50 USD (50 AZN in Azerbaigian). Cinque grammi bastano per decine di risotti e preparazioni domestiche.",
+      "link": "/saffron",
+      "category": "buying"
+    },
+    {
+      "question": "È possibile acquistare online in questo momento?",
+      "answer": "Attualmente il raccolto è esaurito e il checkout online non è ancora attivo. Per informazioni sulle prossime raccolte di Mashtaga potete scriverci a contact@rofran.com.",
+      "link": "/saffron",
+      "category": "buying"
+    },
+    {
+      "question": "Effettuate spedizioni in Italia o nel resto d'Europa?",
+      "answer": "Al momento le consegne sono attive esclusivamente all'interno dell'Azerbaigian. Le spedizioni internazionali non sono ancora aperte, ma mettiamo le nostre guide gastronomiche a disposizione anche dei lettori italiani.",
+      "link": "/shipping",
+      "category": "buying"
+    },
+    {
+      "question": "Dove viene coltivato lo zafferano ROFRAN?",
+      "answer": "Il nostro zafferano cresce ed è raccolto a mano nel villaggio di Mashtaga, a Baku (penisola di Absheron, Azerbaigian), storica terra d'elezione per la coltivazione del Crocus sativus affacciata sul Mar Caspio.",
+      "link": "/quality",
+      "category": "buying"
+    },
+    {
+      "question": "Zafferano e curcuma o cartamo sono la stessa cosa?",
+      "answer": "Assolutamente no. Lo zafferano deriva dagli stimmi del Crocus sativus, mentre la curcuma è una radice rizomatosa e il cartamo è una pianta differente. Anche se tingono il piatto di giallo, non possiedono il profumo né la finezza dello zafferano.",
+      "link": "/journal/what-is-saffron",
+      "category": "saffron"
+    },
+    {
+      "question": "La prova dell'acqua tiepida basta a garantire la purezza?",
+      "answer": "Vedere i pistilli cedere lentamente una tonalità giallo oro all'acqua tiepida restando rossi è un buon segnale empirico, ma la certezza assoluta si ottiene solo attraverso la tracciabilità della filiera e le analisi spettrofotometriche ISO 3632.",
+      "link": "/quality",
+      "category": "buying"
+    }
+  ],
+  "resources": {
+    "about": {
+      "eyebrow": "TERRITORIO E MESTIERE",
+      "title": "Chi è ROFRAN e la tradizione di Mashtaga",
+      "description": "Scopri ROFRAN, realtà dedicata esclusivamente ai pistilli interi di zafferano coltivati nel villaggio di Mashtaga, sulla penisola di Absheron (Baku).",
+      "intro": "ROFRAN nasce per valorizzare un unico ingrediente d'eccezione: gli stimmi interi di Crocus sativus coltivati nei terreni sabbiosi di Mashtaga, a Baku, raccontati con rigore agronomico e passione culinaria.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Il microclima di Mashtaga sulla penisola di Absheron",
+          "text": "Affacciata sul Mar Caspio, la penisola di Absheron gode di brezze asciutte, estati luminose e suoli sabbiosi ricchi di minerali. Nel villaggio di Mashtaga (Baku, Azerbaigian), la coltivazione dello zafferano è una tradizione secolare: ogni autunno i fiori viola vengono colti a mano alle prime luci dell'alba, quando la corolla è ancora socchiusa e protegge gli stimmi."
+        },
+        {
+          "title": "Una sola materia prima, in purezza",
+          "text": "La nostra collezione inaugurale comprende esclusivamente pistilli rossi interi di zafferano, proposti con un ordine minimo di {minimum} grammi ($50 USD / 50 AZN). Non trattiamo polveri miscelate né aromi: crediamo che chi ama cucinare debba poter osservare la forma integra di ogni singolo filo."
+        },
+        {
+          "title": "Cultura gastronomica e trasparenza",
+          "text": "Accanto al lavoro agricolo a Mashtaga curiamo un diario editoriale dedicato all'uso consapevole dello zafferano in cucina — dall'infusione per il risotto alla milanese fino alle zuppe di pesce dell'Adriatico — corredato da fonti botaniche e tecniche verificabili."
+        }
+      ]
+    },
+    "quality": {
+      "eyebrow": "PUREZZA E FILIERA",
+      "title": "Criteri di qualità e selezione dei pistilli",
+      "description": "Come selezioniamo i pistilli di zafferano ROFRAN di Mashtaga: mondatura manuale dello stimma rosso, origine certa e parametri ISO 3632.",
+      "intro": "L'eccellenza dello zafferano si decide nei campi e durante la sfioritura manuale, quando i tre stimmi cremisi vengono separati con delicatezza dal resto del fiore ed essiccati a temperatura controllata.",
+      "image": "threads",
+      "sections": [
+        {
+          "title": "Origine agricola certificata a Mashtaga",
+          "text": "Nel mercato delle spezie il paese di confezionamento spesso non coincide con il luogo di raccolta. Per ROFRAN l'origine è univoca e dichiarata: ogni lotto proviene esclusivamente dalle coltivazioni di Mashtaga, a Baku (penisola di Absheron, Azerbaigian)."
+        },
+        {
+          "title": "Integrità dello stimma e composti nobili",
+          "text": "Selezioniamo soltanto la parte rossa dello stimma di Crocus sativus, dove si concentrano crocina (potere colorante dorato), picrocrocina (nota amaricante equilibrata) e safranale (profumo complesso). Escludiamo stami gialli e frammenti floreali privi di valore gastronomico."
+        },
+        {
+          "title": "Lo standard internazionale ISO 3632",
+          "text": "La normativa ISO 3632 misura in laboratorio la qualità dello zafferano tramite analisi spettrofotometrica, verificando l'assorbanza dei pigmenti, la purezza botanica e il grado di umidità residua. Invitiamo sempre a verificare che i referti analitici siano riferiti allo specifico lotto di produzione."
+        }
+      ]
+    },
+    "shipping": {
+      "eyebrow": "ORDINI E CONSEGNE",
+      "title": "Informazioni su ordini, prezzi e spedizioni",
+      "description": "Dettagli sull'ordine minimo di {minimum} grammi ($50 USD / 50 AZN), disponibilità attuale del raccolto e copertura delle consegne in Azerbaigian.",
+      "intro": "Lo zafferano di Mashtaga segue il ritmo naturale di una sola fioritura autunnale all'anno. Qui trovate le condizioni aggiornate su formati, prezzi, disponibilità e logistica.",
+      "image": "product",
+      "sections": [
+        {
+          "title": "Ordine minimo e prezzo trasparente",
+          "text": "Lo zafferano ROFRAN è proposto con un quantitativo minimo d'ordine di {minimum} grammi di pistilli interi, al prezzo di 50 AZN per il mercato interno azerbaigiano e $50 USD come riferimento internazionale (pari a $10 USD per grammo netto)."
+        },
+        {
+          "title": "Disponibilità attuale: raccolto esaurito",
+          "text": "Al momento le nostre scorte sono esaurite e il sistema di pagamento online non è attivo. Il carrello presente sul sito permette di annotare la propria selezione nel browser, ma non genera ordini né addebiti."
+        },
+        {
+          "title": "Aree di spedizione attive",
+          "text": "Attualmente effettuiamo consegne esclusivamente all'interno dell'Azerbaigian. Le spedizioni internazionali verso l'Italia e gli altri paesi europei non sono ancora aperte; ogni futuro ampliamento logistico verrà comunicato ufficialmente in questa sezione."
+        }
+      ],
+      "draft": true
+    },
+    "contact": {
+      "eyebrow": "CONTATTO DIRETTO",
+      "title": "Come contattare ROFRAN a Baku",
+      "description": "Recapiti ufficiali di ROFRAN: indirizzi email e telefono diretto a Baku per informazioni sullo zafferano in pistilli di Mashtaga.",
+      "intro": "Per informazioni sulle prossime fioriture di Mashtaga, chiarimenti sul prodotto o richieste editoriali e professionali, il nostro team risponde direttamente da Baku.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Posta elettronica",
+          "text": "Potete scriverci in qualsiasi momento agli indirizzi ufficiali contact@rofran.com oppure contact@rofran.az per domande sul prodotto, disponibilità futura e collaborazioni."
+        },
+        {
+          "title": "Recapito telefonico",
+          "text": "Per un contatto diretto con la nostra sede in Azerbaigian è attivo il numero +994 50 823 93 45, raggiungibile negli orari d'ufficio di Baku (fuso orario GMT+4)."
+        },
+        {
+          "title": "Informazioni su prenotazioni e forniture",
+          "text": "Poiché il raccolto attuale risulta esaurito e la vendita online non è ancora aperta, gestiamo direttamente tramite i nostri recapiti tutte le richieste informative relative al formato minimo da {minimum} grammi."
+        }
+      ],
+      "draft": true
+    },
+    "wholesale": {
+      "eyebrow": "RISTORAZIONE E LABORATORI",
+      "title": "Zafferano per chef, ristoranti e gastronomie",
+      "description": "Informazioni dedicate a ristoratori, chef e buyer interessati ai pistilli interi di zafferano ROFRAN raccolti a Mashtaga.",
+      "intro": "Nelle cucine professionali la resa costante in infusione e la purezza dello stimma intero sono essenziali per garantire standard elevati nei risotti, nei fondi di pesce e nella pasticceria.",
+      "image": "threads",
+      "sections": [
+        {
+          "title": "Costanza aromatica in brigata",
+          "text": "I pistilli interi di Mashtaga assicurano un rilascio graduale e prevedibile di crocina e safranale, permettendo agli chef di calibrare con precisione il colore e il profilo aromatico nelle preparazioni espresse e nelle basi di linea."
+        },
+        {
+          "title": "Quantitativi e pianificazione del raccolto",
+          "text": "Mentre il formato minimo standard è di {minimum} grammi ($50 USD / 50 AZN), le forniture per la ristorazione vengono valutate in base alla disponibilità del raccolto autunnale. Attualmente lo stock è esaurito."
+        },
+        {
+          "title": "Contatti per operatori del settore",
+          "text": "Chef, responsabili acquisti e distributori gastronomici possono scrivere a contact@rofran.com o contact@rofran.az, oppure telefonare al +994 50 823 93 45, indicando la propria sede, il fabbisogno stimato e le esigenze di confezionamento."
+        }
+      ],
+      "draft": true
+    },
+    "privacy": {
+      "eyebrow": "DATI E TRASPARENZA",
+      "title": "Privacy e memoria locale del browser",
+      "description": "Come vengono gestite le preferenze locali del browser sul sito ROFRAN e come trattiamo le comunicazioni dirette via email.",
+      "intro": "Il sito di ROFRAN è progettato per offrire un'esperienza di lettura sobria e trasparente, senza tracciamenti invasivi né moduli di pagamento nascosti.",
+      "image": "flower",
+      "sections": [
+        {
+          "title": "Salvataggio locale delle preferenze",
+          "text": "Il sito utilizza esclusivamente la memoria locale del vostro browser per conservare la selezione dimostrativa nel carrello e la preferenza sull'audio del racconto visivo. Potete cancellare questi dati in ogni momento dalle impostazioni del browser."
+        },
+        {
+          "title": "Nessuna transazione o raccolta di dati bancari",
+          "text": "Poiché il checkout online non è attivo e il prodotto è attualmente esaurito, non raccogliamo né trattiamo numeri di carte di credito, indirizzi di fatturazione o dati di pagamento."
+        },
+        {
+          "title": "Gestione delle comunicazioni",
+          "text": "Qualora decidiate di contattarci spontaneamente via email a contact@rofran.com o contact@rofran.az, oppure al numero +994 50 823 93 45, i vostri recapiti verranno utilizzati unicamente per rispondere alla vostra richiesta."
+        }
+      ],
+      "draft": true
+    }
+  },
+  "articles": [
+    {
+      "slug": "what-is-saffron",
+      "title": "Che cos'è lo zafferano: dal fiore d'autunno allo stimma cremisi",
+      "category": "Guide allo zafferano",
+      "image": "flower",
+      "imageAlt": "Fiore viola di Crocus sativus al tramonto nel campo",
+      "readTime": "4 MIN DI LETTURA",
+      "description": "Scopri cos'è lo zafferano (Crocus sativus), come avviene la raccolta manuale a Mashtaga e perché i suoi pistilli sono preziosi nella grande cucina.",
+      "deck": "Tre sottili filamenti cremisi custoditi in un croco autunnale racchiudono secoli di cultura gastronomica.",
+      "lead": "Pochi ingredienti al mondo uniscono botanica, fatica agricola e alta cucina come lo zafferano. Dietro ogni singolo pistillo rosso si cela la breve fioritura autunnale del Crocus sativus e il lavoro paziente delle mani che, nei campi di Mashtaga a Baku, raccolgono i fiori prima che il sole si alzi.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Dal bulbo alla sfioritura: l'anatomia del Crocus sativus",
+          "text": "Il Crocus sativus è una pianta bulbosa che si risveglia in autunno per poche settimane. All'interno dei suoi sei petali color malva spiccano tre stami gialli — privi di interesse gastronomico — e un pistillo che si ramifica in tre lunghi stimmi di colore rosso scarlatto. Solo questi tre filamenti rossi, separati a mano con la delicata operazione della mondatura (o sfioritura) ed essiccati il giorno stesso della raccolta, costituiscono il vero zafferano. È fondamentale non confondere mai il croco coltivato con i crochi selvatici autunnali come il Colchicum autumnale, che è velenoso."
+        },
+        {
+          "id": "detail-2",
+          "title": "Luce e profumo tra risotto alla milanese e tradizioni mediterranee",
+          "text": "Nella cucina italiana ed europea lo zafferano è protagonista di piatti iconici: dal classico risotto alla milanese mantecato all'onda al brodetto di pesce dell'Adriatico, fino ai pani rituali e al celebre plov della tradizione azerbaigiana. A differenza dei semplici coloranti, lo stimma non si limita a vestire il piatto d'oro grazie alla crocina, ma regala una profondità aromatica calda e persistente che lega insieme cereali, fondi di cottura e grassi nobili."
+        },
+        {
+          "id": "detail-3",
+          "title": "L'identità del territorio: le sabbie di Mashtaga",
+          "text": "Come accade per i grandi vini o per gli oli extravergini di singola contrada, il terreno e il clima plasmano il carattere dello zafferano. ROFRAN propone esclusivamente stimmi interi coltivati nel villaggio di Mashtaga, sulla penisola di Absheron (Baku, Azerbaigian), dove i suoli sabbiosi e i venti asciutti del Mar Caspio favoriscono una straordinaria concentrazione di oli essenziali. Quando scegliete un vasetto, cercate sempre l'indicazione precisa del luogo di coltivazione."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Crocus sativus",
+          "url": "https://www.rhs.org.uk/plants/4929/crocus-sativus/details"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-use-saffron",
+      "title": "Come usare lo zafferano in pistilli: l'arte dell'infusione perfetta",
+      "category": "Guide allo zafferano",
+      "image": "saffron",
+      "imageAlt": "Primo piano di pistilli rossi di zafferano pronti per l'infusione",
+      "readTime": "4 MIN DI LETTURA",
+      "description": "Guida pratica all'infusione dei pistilli di zafferano: come dosarli e prepararli in brodo o acqua calda per il risotto alla milanese e altri piatti.",
+      "deck": "Il segreto per sprigionare tutto l'oro e il profumo degli stimmi è concedere loro il giusto tempo in un liquido caldo.",
+      "lead": "Gettare i pistilli secchi direttamente nel tegame a fine cottura significa rinunciare a gran parte del loro potenziale. Per cedere in modo armonioso i pigmenti idrosolubili e le note aromatiche volatili, lo zafferano in fili richiede il piccolo rito preliminare dell'infusione.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Dosare con cura prima di iniziare",
+          "text": "Lo zafferano di alta qualità ha una resa altissima: bastano pochi stimmi a persona per profumare e colorare un intero risotto. Se la ricetta indica il peso in grammi, affidatevi a una bilancia di precisione; se parla di pistilli, contateli in base ai commensali. Ricordate che l'ordine minimo ROFRAN di {minimum} grammi ($50 USD) rappresenta una preziosa scorta di dispensa per moltissime preparazioni, non certo la dose per una singola ricetta."
+        },
+        {
+          "id": "detail-2",
+          "title": "L'infusione lenta in brodo, acqua o latte",
+          "text": "Ponete gli stimmi in una tazzina di ceramica o in un piccolo bicchiere e versatevi due o tre cucchiai di brodo caldo, acqua tiepida o latte (senza che il liquido bolla). Coprite con un piattino per non disperdere i vapori profumati e lasciate riposare dai 15 ai 40 minuti: chi prepara il risotto alla milanese spesso avvia l'infusione prima ancora di tritare la cipolla per il soffritto. Al momento opportuno, versate nel piatto sia il liquido ormai dorato sia i pistilli stessi."
+        },
+        {
+          "id": "detail-3",
+          "title": "Il momento giusto nel risotto e nelle zuppe",
+          "text": "Nel risotto, la tradizione suggerisce di unire l'infusione negli ultimi minuti di cottura del Carnaroli o del Vialone Nano, poco prima di spegnere il fuoco e procedere alla mantecatura con burro freddo e formaggio grattugiato: così il safranale non evapora per il calore prolungato e i chicchi si tingono di un giallo luminoso e uniforme. Non eccedete con le dosi se nei primi istanti il colore sembra tenue: la crocina continua a diffondersi durante il riposo del piatto."
+        }
+      ],
+      "sources": [
+        {
+          "title": "McCormick — Saffron Culinary Guide",
+          "url": "https://www.mccormickforchefs.co.uk/en-gb/recipe-ideas/flavour-ingredients/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-store-saffron",
+      "title": "Come conservare i pistilli di zafferano per custodirne il profumo",
+      "category": "Guide allo zafferano",
+      "image": "product",
+      "imageAlt": "Vasetto in vetro con tappo dorato contenente pistilli di zafferano",
+      "readTime": "3 MIN DI LETTURA",
+      "description": "Come conservare lo zafferano in pistilli in dispensa: i consigli essenziali per proteggerlo da luce, umidità e calore mantenendo intatto l'aroma.",
+      "deck": "Buio, vetro ermetico e assenza di umidità permettono agli stimmi di mantenere intatta la loro voce per mesi.",
+      "lead": "Una riserva di {minimum} grammi di zafferano in pistilli accompagna la vita di una cucina per lungo tempo. Proprio perché i suoi composti nobili — la crocina e il safranale — temono la luce diretta e l'ossidazione, qualche semplice accorgimento in dispensa fa la differenza tra una spezia viva e una spenta.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Al riparo dalla luce e dall'aria",
+          "text": "Un vasetto di vetro trasparente mette in risalto il rosso intenso dei filamenti, ma lasciarlo esposto su una mensola illuminata dal sole impoverisce rapidamente sia il potere colorante sia il bouquet aromatico. Riponete sempre il vasetto all'interno di una credenza chiusa o nella sua scatola, richiudendo accuratamente il tappo subito dopo aver prelevato gli stimmi necessari."
+        },
+        {
+          "id": "detail-2",
+          "title": "Lontano dal vapore dei fornelli",
+          "text": "Gli stimmi di zafferano vengono essiccati subito dopo il raccolto per ridurre al minimo l'umidità interna. Se aprite il barattolo sopra una pentola di brodo fumante o prelevate i fili con le dita umide, i pistilli assorbiranno vapore acqueo perdendo la loro naturale fragilità e rischiando di deteriorarsi. Dosate sempre lo zafferano sul piano di lavoro con una pinzetta o un cucchiaino perfettamente asciutti."
+        },
+        {
+          "id": "detail-3",
+          "title": "Evitare il frigorifero e conservare i dati del lotto",
+          "text": "Non riponete lo zafferano in frigorifero: gli sbalzi termici a ogni apertura provocano condensa all'interno del vetro. Una dispensa fresca e asciutta a temperatura ambiente è il luogo ideale. Se travasate i pistilli in un altro contenitore, abbiate cura di conservare l'etichetta originale con la data di raccolta e il numero di lotto."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Saffron Cultivation and Care",
+          "url": "https://www.rhs.org.uk/herbs/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "what-does-saffron-taste-like",
+      "title": "Che sapore ha lo zafferano? Note aromatiche ed equilibrio nel piatto",
+      "category": "Guide allo zafferano",
+      "image": "threads",
+      "imageAlt": "Stimmi interi di zafferano rosso visti da vicino",
+      "readTime": "3 MIN DI LETTURA",
+      "description": "Alla scoperta del profilo sensoriale dello zafferano: le note di fieno, miele e terra calda, l'amaro gentile e l'armonia con risotti e crostacei.",
+      "deck": "Oltre la celebre veste dorata si svela un profilo complesso fatto di erbe essiccate al sole, miele amaro e brezza marina.",
+      "lead": "Chi si avvicina per la prima volta allo zafferano in pistilli rimane spesso sorpreso nello scoprire che non è una spezia piccante né dolce. La sua forza in cucina risiede nella capacità di avvolgere gli altri ingredienti con una scia calda, sapida e profondamente elegante.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Tra picrocrocina e safranale: l'anima dello stimma",
+          "text": "Durante l'essiccazione tradizionale, il calore gentile trasforma i precursori naturali del fiore in safranale, la molecola responsabile di quel profumo inconfondibile che ricorda il fieno estivo, la camomilla secca, il miele di castagno e una sottile vena minerale. Al palato, la picrocrocina regala una nota amarognola pulita che sgrassa e bilancia mirabilmente la ricchezza del burro, del midollo o dei formaggi stagionati."
+        },
+        {
+          "id": "detail-2",
+          "title": "L'eleganza della misura",
+          "text": "Nelle ricette con lo zafferano la generosità eccessiva non premia. Un dosaggio troppo alto può conferire al piatto un retrogusto quasi medicinale o metallico, coprendo la delicatezza di uno scampo, di un brodo di cappone o del riso stesso. Il segreto consiste nell'usare i pistilli con mano leggera, lasciando che il profumo emerga dal vapore del piatto come un invito discreto."
+        },
+        {
+          "id": "detail-3",
+          "title": "Perché il solo colore non basta",
+          "text": "Sostituire lo zafferano con la curcuma o il cartamo significa limitarsi a tingere di giallo una pietanza cambiandone del tutto l'identità gustativa. Basta assaggiare un risotto preparato con veri stimmi di Crocus sativus in infusione per accorgersi che il colore dorato è solo il preludio visivo a una persistenza aromatica che nessun succedaneo può imitare."
+        }
+      ],
+      "sources": [
+        {
+          "title": "McCormick — Flavour Profile of Saffron",
+          "url": "https://www.mccormickforchefs.co.uk/en-gb/recipe-ideas/flavour-ingredients/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "why-is-saffron-expensive",
+      "title": "Perché lo zafferano è così prezioso e come valutarne il prezzo al grammo",
+      "category": "Guide allo zafferano",
+      "image": "flower",
+      "imageAlt": "Fiore viola di zafferano colto alle prime luci del mattino",
+      "readTime": "4 MIN DI LETTURA",
+      "description": "Scopri perché lo zafferano richiede una lavorazione interamente manuale, quanti fiori servono per un grammo e come calcolare il prezzo reale al grammo.",
+      "deck": "Centocinquanta fiori colti all'alba e sfiorati a mano uno a uno per ottenere un solo grammo di stimmi essiccati.",
+      "lead": "Il valore dello zafferano non nasce da strategie commerciali, ma dai ritmi incomprimibili della botanica e del lavoro agricolo. Nessuna macchina riesce a separare i fragili stimmi rossi dal fiore aperto senza spezzarli: ogni singolo filo passa attraverso le dita dei raccoglitori.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Una fioritura effimera e un lavoro interamente manuale",
+          "text": "Il Crocus sativus fiorisce una sola volta all'anno, per circa due o tre settimane in autunno. I fiori vanno colti a mano nelle prime ore del mattino, prima che il sole apra completamente i petali facendo sfumare gli aromi. Nella stessa giornata si procede alla mondatura manuale per estrarre i tre stimmi da ogni corolla e all'essiccazione, durante la quale i filamenti perdono circa l'ottanta per cento del loro peso iniziale."
+        },
+        {
+          "id": "detail-2",
+          "title": "Calcolare il prezzo per grammo netto",
+          "text": "Spesso sugli scaffali si trovano confezioni voluminose che contengono appena un decimo o un quarto di grammo, rendendo difficile capire quanto si stia davvero pagando la materia prima. Per un confronto onesto, dividete sempre il prezzo finale per il peso netto in grammi. ROFRAN propone un formato minimo chiaro di {minimum} grammi di pistilli interi di Mashtaga a $50 USD (50 AZN in Azerbaigian), pari a $10 USD per grammo netto."
+        },
+        {
+          "id": "detail-3",
+          "title": "Confrontare prodotti omogenei per purezza e origine",
+          "text": "Un prezzo insolitamente basso è quasi sempre indice di compromessi: stimmi mescolati con stami gialli privi di crocina, umidità elevata che gonfia il peso sulla bilancia, oppure polveri tagliate con altre spezie. Quando confrontate due proposte, verificate sempre che si tratti di pistilli rossi interi e che il luogo di coltivazione sia dichiarato con trasparenza."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Horticultural Society — Saffron",
+          "url": "https://www.rhs.org.uk/herbs/saffron"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-buy-saffron",
+      "title": "Come scegliere e acquistare lo zafferano: guida alla lettura dell'etichetta",
+      "category": "Guide allo zafferano",
+      "image": "product",
+      "imageAlt": "Pistilli di zafferano ROFRAN custoditi in un vasetto di vetro",
+      "readTime": "4 MIN DI LETTURA",
+      "description": "I criteri essenziali per acquistare zafferano di qualità: esame visivo dei pistilli, peso netto, origine agricola a Mashtaga e standard ISO 3632.",
+      "deck": "Osservare la forma a trombetta dello stimma e verificare l'origine agricola tutela chi cucina dalle contraffazioni.",
+      "lead": "Scegliere un ottimo zafferano richiede attenzione ai dettagli concreti piuttosto che agli slogan sulla confezione. Dalla morfologia del singolo filamento alla chiarezza con cui vengono indicati il villaggio di raccolta e il peso netto, ogni elemento aiuta a riconoscere la qualità.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "Riconoscere a vista lo stimma intero",
+          "text": "Osservate i filamenti attraverso il vetro: il vero stimma di Crocus sativus ha un colore rosso cremisi opaco e uniforme e si allarga leggermente all'estremità superiore, assumendo la caratteristica forma a piccola trombetta. La presenza di numerosi fili gialli o biancastri segnala invece l'aggiunta dello stilo floreale, che aumenta il peso ma non contribuisce né al colore né al profumo."
+        },
+        {
+          "id": "detail-2",
+          "title": "Origine agricola precisa e analisi di laboratorio",
+          "text": "Diffidate delle diciture generiche che indicano solo lo stabilimento di confezionamento. ROFRAN dichiara in modo esplicito l'origine agricola dei propri pistilli: il villaggio di Mashtaga, a Baku (penisola di Absheron, Azerbaigian). Inoltre, quando viene citata la norma ISO 3632, è importante che il certificato faccia riferimento al lotto specifico misurando crocina, picrocrocina e safranale."
+        },
+        {
+          "id": "detail-3",
+          "title": "Criteri di acquisto chiari e garanzie del produttore",
+          "text": "Prima dell'acquisto verificate sempre il peso netto in grammi, la data di raccolta e le indicazioni sul lotto. Un produttore affidabile dichiara sempre con trasparenza la provenienza agricola dei propri stimmi, non vende miscele anonime e mette a disposizione canali di contatto diretti. Esigere chiarezza sulle condizioni d'ordine e sull'origine è il modo migliore per portare in cucina zafferano puro e genuino."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ISO 3632-2 — Spices — Saffron (Crocus sativus L.) — Test methods",
+          "url": "https://www.iso.org/standard/44526.html"
+        }
+      ]
+    },
+    {
+      "slug": "saffron-threads-vs-powder",
+      "title": "Zafferano in pistilli o in polvere: quale scegliere in cucina?",
+      "category": "Guide allo zafferano",
+      "image": "threads",
+      "imageAlt": "Dettaglio di pistilli interi di zafferano rosso intenso",
+      "readTime": "3 MIN DI LETTURA",
+      "description": "Confronto tra zafferano in pistilli interi e zafferano in polvere: perché gli stimmi interi offrono maggiore certezza di purezza e tenuta aromatica.",
+      "deck": "Lo stimma intero mostra a occhio nudo la propria identità botanica e preserva più a lungo gli aromi volatili.",
+      "lead": "In gastronomia lo zafferano si incontra sia in pistilli interi sia macinato in polvere sottile. Sebbene entrambi i formati possano derivare dallo stesso fiore, la loro longevità in dispensa e la possibilità di verificarne la purezza sono profondamente diverse.",
+      "sections": [
+        {
+          "id": "detail-1",
+          "title": "La trasparenza visiva dei pistilli interi",
+          "text": "Scegliere lo zafferano in pistilli significa vedere esattamente ciò che si porta in tavola. La forma inconfondibile dello stimma permette di escludere a colpo d'occhio tagli o sofisticazioni grossolane. Inoltre, se per una ricetta particolare desiderate una polvere finissima che non lasci fili visibili nel piatto, vi basterà pestare leggermente gli stimmi secchi in un piccolo mortaio un istante prima di metterli in infusione."
+        },
+        {
+          "id": "detail-2",
+          "title": "I limiti della polvere: ossidazione e opacità",
+          "text": "Lo zafferano già macinato ha il vantaggio della rapidità d'uso, ma comporta due svantaggi rilevanti per chi ama cucinare. Da un lato, la macinazione espone una superficie molto ampia all'aria, facendo svanire il safranale assai più rapidamente rispetto al filo intero. Dall'altro, una polvere arancione o rossastra impedisce di distinguere ad occhio nudo lo zafferano puro da eventuali miscele con curcuma, cartamo o coloranti."
+        },
+        {
+          "id": "detail-3",
+          "title": "Perché l'alta cucina sceglie sempre lo stimma intero",
+          "text": "Per garantire la massima integrità aromatica e una trasparenza assoluta, la grande gastronomia e le cucine tradizionali esigono unicamente stimmi interi. In ROFRAN condividiamo questa visione, proponendo il nostro zafferano coltivato a Mashtaga (Baku) esclusivamente in fili interi. In questo modo ogni cuoco ha la certezza di ricevere il fiore intatto e può decidere se infonderlo intero o pestarlo al mortaio un attimo prima di cuocere."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ISO 3632-2 — Saffron Specifications and Test Methods",
+          "url": "https://www.iso.org/standard/44526.html"
+        }
+      ]
+    }
+  ]
+}

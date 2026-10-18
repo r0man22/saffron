@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "story": "Notre histoire",
+    "saffron": "Safran",
+    "journal": "Journal",
+    "main": "Navigation principale",
+    "home": "Accueil",
+    "homeLabel": "Accueil ROFRAN",
+    "skip": "Aller au contenu",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "language": "Langue",
+    "openBag": "Ouvrir le panier",
+    "items": "articles"
+  },
+  "actions": {
+    "discoverStory": "Découvrir l’histoire",
+    "discoverSaffron": "Découvrir notre safran",
+    "exploreSaffron": "Explorer le safran",
+    "exploreJournal": "Lire le journal",
+    "continue": "Poursuivre la lecture",
+    "add": "Ajouter au panier"
+  },
+  "bag": {
+    "selection": "VOTRE SÉLECTION",
+    "title": "Votre panier",
+    "close": "Fermer le panier",
+    "product": "Safran ROFRAN",
+    "threads": "Pistils de safran entiers",
+    "decrease": "Diminuer la quantité",
+    "increase": "Augmenter la quantité",
+    "quantity": "Quantité",
+    "remove": "Retirer",
+    "saved": "Votre sélection est conservée. Actuellement en rupture de stock — la commande en ligne n’est pas encore ouverte.",
+    "unavailable": "En rupture de stock",
+    "empty": [
+      "Un trésor d’or rouge",
+      "trouvera sa place ici."
+    ]
+  },
+  "story": {
+    "aria": "L’histoire du safran ROFRAN",
+    "bottom": "UN FILAMENT DÉLICAT. UNE ORIGINE SINGULIÈRE.",
+    "scroll": "FAITES DÉFILER POUR DÉCOUVRIR",
+    "continue": "POURSUIVRE L’EXPLORATION",
+    "pause": "Mettre le récit en pause",
+    "preparing": "Préparation du voyage",
+    "unavailable": "Le film ne peut être affiché. Découvrez notre safran ci-dessous.",
+    "chaptersLabel": "Chapitres du récit",
+    "chapter": "Chapitre",
+    "soundOn": "SON ACTIVÉ",
+    "soundOff": "SON COUPÉ",
+    "soundEnable": "Activer l’ambiance sonore des champs",
+    "soundDisable": "Couper l’ambiance sonore des champs",
+    "chapters": [
+      {
+        "name": "L’origine",
+        "label": "LE SAFRAN PAR ROFRAN",
+        "title": [
+          "LE PLUS PRÉCIEUX",
+          "TRÉSOR DE LA TERRE"
+        ],
+        "body": "Tout commence par une éclosion d’automne sur la péninsule d’Abchéron."
+      },
+      {
+        "name": "La fleur",
+        "label": "01 / LA FLEUR",
+        "title": [
+          "Tout naît",
+          "d’une *fleur.*"
+        ],
+        "body": "Approchez-vous d’une merveille éphémère."
+      },
+      {
+        "name": "L’essence",
+        "label": "02 / L’ESSENCE",
+        "title": [
+          "Une beauté",
+          "à fleur de *terre.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Les pistils",
+        "label": "03 / LE FILAMENT POURPRE",
+        "title": [
+          "Un terroir dans",
+          "chaque *filament.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Le chemin",
+        "label": "04 / LE CHEMIN",
+        "title": [
+          "De la corolle",
+          "à votre *table.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Le safran",
+        "label": "05 / SAFRAN ROFRAN",
+        "title": [
+          "Une infime pincée.",
+          "*Inoubliable.*"
+        ],
+        "body": "Robe dorée. Parfum profond. L’instant précis où le plat s’élève."
+      },
+      {
+        "name": "Précieux par nature",
+        "label": "",
+        "title": [
+          "ROFRAN"
+        ],
+        "body": "Précieux par nature."
+      }
+    ]
+  },
+  "home": {
+    "collection": "LA COLLECTION SAFRAN",
+    "eyebrow": "SAFRAN ROFRAN DE MACHTAGA",
+    "productTitle": [
+      "Invitez ce terroir",
+      "à votre *table.*"
+    ],
+    "description": "Un stigmate carmin. Une infusion d’or lumineux. Le parfum miellé et racé des jardins de Machtaga, aux portes de Bakou.",
+    "footnote": "REGARD SUR UNE CULTURE MILLÉNAIRE D’ABCHÉRON",
+    "journalEyebrow": "SAVOIR-FAIRE ET GESTES DE CUISINE",
+    "journalTitle": "Le journal du safran"
+  },
+  "footer": {
+    "taglinePrefix": "Précieux par ",
+    "taglineEm": "nature.",
+    "explore": "EXPLORER",
+    "journal": "LE JOURNAL",
+    "aria": "Pied de page",
+    "bottom": "Un filament délicat. Une origine singulière.",
+    "top": "Haut de page ↑"
+  },
+  "product": {
+    "collection": "LA COLLECTION ROFRAN",
+    "title": [
+      "ROFRAN",
+      "*Safran en filaments.*"
+    ],
+    "subtitle": "Filaments entiers de safran de Machtaga, Bakou",
+    "description": "Pour les tables où l’on prend son temps. Récoltés à la main dans le village de Machtaga sur la péninsule d’Abchéron, nos stigmates entiers de Crocus sativus offrent une teinte ambrée lumineuse et un bouquet d’une rare profondeur.",
+    "note": "Actuellement en rupture de stock. Commande minimale de {minimum} g au prix de 50 USD (50 AZN en Azerbaïdjan). Le paiement en ligne n’est pas encore ouvert.",
+    "facts": [
+      {
+        "title": "Le safran",
+        "text": "Composé exclusivement des trois stigmates rouges séchés de Crocus sativus cultivé à Machtaga (Bakou). En cuisine, il signe les plats autant par son éclat doré que par ses notes chaudes de foin coupé et de miel sec.",
+        "linkText": ""
+      },
+      {
+        "title": "Le geste de l’infusion",
+        "text": "Laissez infuser quelques filaments dans une eau tiède, un bouillon ou du lait avant de les incorporer : c’est le secret d’une diffusion lente et régulière des arômes.",
+        "linkText": "Consulter notre guide d’infusion."
+      },
+      {
+        "title": "Une conservation attentive",
+        "text": "Gardez vos filaments dans un flacon hermétique, au sec et à l’abri de la lumière directe afin de préserver toute leur subtilité aromatique.",
+        "linkText": "Découvrir les règles de conservation."
+      }
+    ],
+    "editorialEyebrow": "AVANT LA PREMIÈRE INFUSION",
+    "editorialTitle": [
+      "Tout naît",
+      "d’une *fleur.*"
+    ],
+    "editorialText": "Découvrez le Crocus sativus, la cueillette matinale sur les terres sablonneuses d’Abchéron et la patience qui façonne chaque filament.",
+    "editorialLink": "Comprendre le safran",
+    "relatedTitle": "Pour aller plus loin",
+    "gallery": "Photographies du produit",
+    "view": "Voir"
+  },
+  "journal": {
+    "eyebrow": "CARNETS DE ROFRAN",
+    "title": [
+      "Le journal",
+      "du *safran.*"
+    ],
+    "description": "Connaître l’épice transforme le geste en cuisine. Explorez la botanique du crocus, l’art du dosage et de l’infusion, ainsi que les repères d’un achat éclairé.",
+    "guides": "Guides du safran",
+    "toc": "DANS CET ARTICLE",
+    "tocLabel": "Sommaire de l’article",
+    "sources": "SOURCES ET LECTURES COMPLÉMENTAIRES"
+  },
+  "images": {
+    "valley": "Fleurs violettes de safran dans une vallée au soleil couchant",
+    "product": "Filaments de safran dans un pot en verre près d’un crocus violet au crépuscule",
+    "flower": "Éclosion d’une fleur de Crocus sativus",
+    "jar": "Flacon de safran ROFRAN",
+    "gallery": [
+      "Safran ROFRAN en flacon de verre transparent à couvercle doré",
+      "Gros plan sur les stigmates rouges de safran entier",
+      "Fleur de safran violette dans un champ au coucher du soleil"
+    ]
+  },
+  "notFound": {
+    "eyebrow": "404 / CHEMIN DE TRAVERSE",
+    "title": [
+      "Retrouvons",
+      "*votre chemin.*"
+    ],
+    "description": "Cette page ne figure pas dans nos carnets.",
+    "back": "Retourner sur ROFRAN"
+  },
+  "meta": {
+    "homeTitle": "Safran ROFRAN — Filaments entiers de Machtaga, Cuisine & Savoir-Faire",
+    "homeDescription": "Découvrez les filaments de safran ROFRAN récoltés à Machtaga (Bakou). Guides pratiques sur l’origine, l’infusion en cuisine, la conservation et l’achat.",
+    "brandTitle": "ROFRAN — Précieux par nature",
+    "brandDescription": "Un filament délicat né à Machtaga, Bakou. Découvrez l’histoire et le terroir du safran ROFRAN.",
+    "saffronTitle": "Filaments de Safran de Bakou — Dès {minimum} grammes (50 USD)",
+    "saffronDescription": "Safran ROFRAN en filaments entiers de Machtaga, Azerbaïdjan. Commande minimale de {minimum} grammes à 50 USD. Actuellement en rupture de stock ; vente en ligne bientôt disponible.",
+    "journalTitle": "Le journal du safran — Culture, Infusion & Conseils",
+    "journalDescription": "Apprivoisez le vrai safran : de sa culture historique sur la péninsule d’Abchéron aux gestes d’infusion et de conservation en cuisine.",
+    "socialAlt": "Safran ROFRAN au coucher du soleil dans un champ de crocus"
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "story": "品牌故事",
+    "saffron": "藏红花",
+    "journal": "风物志",
+    "main": "主导航",
+    "home": "首页",
+    "homeLabel": "ROFRAN 首页",
+    "skip": "跳至正文",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "language": "语言",
+    "openBag": "打开购物袋",
+    "items": "件"
+  },
+  "actions": {
+    "discoverStory": "探索品牌故事",
+    "discoverSaffron": "了解我们的藏红花",
+    "exploreSaffron": "探索藏红花",
+    "exploreJournal": "阅读风物志",
+    "continue": "继续探索",
+    "add": "加入购物袋"
+  },
+  "bag": {
+    "selection": "您的甄选",
+    "title": "购物袋",
+    "close": "关闭购物袋",
+    "product": "ROFRAN 藏红花",
+    "threads": "整根番红花花丝（藏红花）",
+    "decrease": "减少数量",
+    "increase": "增加数量",
+    "quantity": "数量",
+    "remove": "移除",
+    "saved": "您的选择已保存。当季采收批次暂时缺货。",
+    "unavailable": "暂时缺货",
+    "empty": [
+      "一缕赤金珍宝，",
+      "静候归入此间。"
+    ]
+  },
+  "story": {
+    "aria": "ROFRAN 藏红花的故事",
+    "bottom": "纤细一缕花丝，承载非凡风土故事。",
+    "scroll": "向下滚动探索",
+    "continue": "继续探索",
+    "pause": "暂停播放",
+    "preparing": "正在开启风土之旅",
+    "unavailable": "影片暂时无法加载，请向下浏览了解我们的藏红花。",
+    "chaptersLabel": "故事章节",
+    "chapter": "章节",
+    "soundOn": "开启声音",
+    "soundOff": "关闭声音",
+    "soundEnable": "开启原野环境音",
+    "soundDisable": "关闭原野环境音",
+    "chapters": [
+      {
+        "name": "序章",
+        "label": "SAFFRON BY ROFRAN",
+        "title": [
+          "自然孕育的",
+          "至臻瑰宝"
+        ],
+        "body": "一个始于秋日花朵的故事。"
+      },
+      {
+        "name": "花朵",
+        "label": "01 / 花朵",
+        "title": [
+          "一切皆始于",
+          "一朵*秋花。*"
+        ],
+        "body": "走近一点，感受这份源自土地的非凡馈赠。"
+      },
+      {
+        "name": "精粹",
+        "label": "02 / 精粹",
+        "title": [
+          "细微之处的",
+          "自然*奇迹。*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "绯红花丝",
+        "label": "03 / 绯红花丝",
+        "title": [
+          "每一根花丝，",
+          "皆有*故事。*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "旅程",
+        "label": "04 / 旅程",
+        "title": [
+          "从破晓花田",
+          "到您的*餐桌。*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "藏红花",
+        "label": "05 / ROFRAN 藏红花",
+        "title": [
+          "寥寥数根，",
+          "*点亮一餐。*"
+        ],
+        "body": "澄澈金黄，温润馥郁，值得细细品味。"
+      },
+      {
+        "name": "天生珍贵",
+        "label": "",
+        "title": [
+          "ROFRAN"
+        ],
+        "body": "天生珍贵，源于自然。"
+      }
+    ]
+  },
+  "home": {
+    "collection": "THE SAFFRON COLLECTION",
+    "eyebrow": "ROFRAN SAFFRON",
+    "productTitle": [
+      "将这缕风土故事，",
+      "带回您的*餐桌。*"
+    ],
+    "description": "纤巧的深红花丝、澄澈的金黄汤色、难以忘怀的温润香气。让日常烹饪化作一场从容而丰盈的厨房仪式。",
+    "footnote": "深入了解这一非凡的料理香料",
+    "journalEyebrow": "多一分认知，添一分风味",
+    "journalTitle": "藏红花风物志"
+  },
+  "footer": {
+    "taglinePrefix": "天生珍贵，",
+    "taglineEm": "源于自然。",
+    "explore": "探索",
+    "journal": "风物志",
+    "aria": "页脚导航",
+    "bottom": "纤细一缕花丝，承载非凡风土故事。",
+    "top": "返回顶部 ↑"
+  },
+  "product": {
+    "collection": "THE ROFRAN COLLECTION",
+    "title": [
+      "ROFRAN",
+      "*藏红花花丝*"
+    ],
+    "subtitle": "ROFRAN 整根藏红花花丝",
+    "description": "产自阿塞拜疆巴库海滨古村马什塔加（Mashtaga）的整根深红番红花花丝。为西班牙海鲜饭、意式烩饭、鲜鱼高汤与烘焙糕点注入澄澈金黄与温润馥郁的香气。",
+    "note": "暂时缺货。起订量：5克（国际售价 50美元 · 阿塞拜疆境内 50 AZN）。",
+    "facts": [
+      {
+        "title": "风土与本源",
+        "text": "采收自巴库马什塔加村秋季盛放的番红花（Crocus sativus）。每一朵紫花仅孕育三根深红雌蕊柱头，经完整采摘并手工轻柔烘干，保留整根形态。",
+        "linkText": ""
+      },
+      {
+        "title": "厨房里的第一步（温浸出味）",
+        "text": "烹饪前，先将花丝放入温水、温热高汤或牛奶中静置浸泡15至20分钟，让金黄色泽与馥郁香气充分舒展释放。",
+        "linkText": "阅读藏红花烹饪指南"
+      },
+      {
+        "title": "妥善保存之道",
+        "text": "请将花丝置于密封容器中，存放在远离阳光直射、热源与水汽的阴凉干燥处，以长久锁住天然挥发油与色泽。",
+        "linkText": "查看储存与养护指南"
+      }
+    ],
+    "editorialEyebrow": "在浸入第一根花丝之前",
+    "editorialTitle": [
+      "一切皆始于",
+      "一朵*秋花。*"
+    ],
+    "editorialText": "走近秋季盛开的番红花（Crocus sativus），了解这一珍贵料理食材从花田到餐桌的细腻历程。",
+    "editorialLink": "认识真正的藏红花",
+    "relatedTitle": "更丰盈的烹饪体验",
+    "gallery": "产品实拍图集",
+    "view": "查看图片"
+  },
+  "journal": {
+    "eyebrow": "NOTES FROM ROFRAN",
+    "title": [
+      "藏红花",
+      "*风物志*"
+    ],
+    "description": "对食材的了解越深，厨房里的仪式感便越醇厚。认识番红花植物本源，掌握温水浸出技巧与避光防潮的保存之道。",
+    "guides": "藏红花专题指南",
+    "toc": "本文目录",
+    "tocLabel": "文章章节目录",
+    "sources": "参考资料与延伸阅读"
+  },
+  "images": {
+    "valley": "落日余晖下山谷中盛开的紫色番红花",
+    "product": "夕阳下紫色番红花旁的玻璃罐装藏红花花丝",
+    "flower": "正在舒展花瓣的紫色番红花",
+    "jar": "ROFRAN 藏红花玻璃罐",
+    "gallery": [
+      "配有金色瓶盖的透明玻璃罐装藏红花",
+      "深红色整根藏红花花丝的微距特写",
+      "夕阳花田中盛开的紫色番红花"
+    ]
+  },
+  "notFound": {
+    "eyebrow": "404 / 未找到页面",
+    "title": [
+      "让我们带您",
+      "*回到正途。*"
+    ],
+    "description": "您访问的页面不存在或已被移除。",
+    "back": "返回 ROFRAN 首页"
+  },
+  "meta": {
+    "homeTitle": "ROFRAN 藏红花 — 整根番红花花丝、烹饪用法与选购指南",
+    "homeDescription": "探索产自阿塞拜疆巴库马什塔加的 ROFRAN 整根藏红花花丝。了解如何鉴别、温浸烹饪与密封保存藏红花，并在购买前获取清晰解答。",
+    "brandTitle": "ROFRAN — 天生珍贵，源于自然",
+    "brandDescription": "纤细一缕花丝，承载非凡风土故事。探索 ROFRAN 藏红花。",
+    "saffronTitle": "马什塔加整根藏红花花丝 — {minimum}克起订（50美元）",
+    "saffronDescription": "产自阿塞拜疆巴库马什塔加村的 ROFRAN 整根番红花花丝（Crocus sativus）。最小起订量 {minimum}克（国际售价 50美元 · 阿塞拜疆境内 50 AZN）。当前暂时缺货。",
+    "journalTitle": "藏红花风物志",
+    "journalDescription": "全面认识料理用藏红花：从阿布歇隆半岛的种植传统、海鲜饭与烩饭的温水浸出技法，到家庭避光防潮保存指南。",
+    "socialAlt": "夕阳番红花田中的 ROFRAN 藏红花"
+  }
+}

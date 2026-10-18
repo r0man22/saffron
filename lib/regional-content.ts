@@ -3,11 +3,24 @@ import kk from "./locales/kk-content.json";
 import uz from "./locales/uz-content.json";
 import ky from "./locales/ky-content.json";
 import tg from "./locales/tg-content.json";
+import de from "./locales/de-content.json";
+import fr from "./locales/fr-content.json";
+import es from "./locales/es-content.json";
+import it from "./locales/it-content.json";
+import nl from "./locales/nl-content.json";
+import pl from "./locales/pl-content.json";
+import pt from "./locales/pt-content.json";
+import uk from "./locales/uk-content.json";
+import ka from "./locales/ka-content.json";
+import ar from "./locales/ar-content.json";
+import ja from "./locales/ja-content.json";
+import ko from "./locales/ko-content.json";
+import zh from "./locales/zh-content.json";
 import type { EditorialArticle } from "./editorial";
 import type { FAQ } from "./faq";
 import type { ResourcePage, ResourceSlug } from "./page-content";
 import { resolveProductText } from "./product-settings";
-export const regionalLocales = ["tr", "kk", "uz", "ky", "tg"] as const;
+export const regionalLocales = ["tr", "kk", "uz", "ky", "tg", "de", "fr", "es", "it", "nl", "pl", "pt", "uk", "ka", "ar", "ja", "ko", "zh"] as const;
 export type RegionalLocale = typeof regionalLocales[number];
 export type OriginalLocale = "en" | "az" | "ru";
 type Bundle = {
@@ -18,6 +31,6 @@ type Bundle = {
   articles: EditorialArticle[];
 };
 // JSON strings are checked against the content shape by the content validation test.
-export const regionalContent = resolveProductText({ tr, kk, uz, ky, tg }) as Record<RegionalLocale, Bundle>;
+export const regionalContent = resolveProductText({ tr, kk, uz, ky, tg, de, fr, es, it, nl, pl, pt, uk, ka, ar, ja, ko, zh }) as Record<RegionalLocale, Bundle>;
 export const isRegionalLocale = (value: string): value is RegionalLocale => regionalLocales.some(locale => locale === value);
 export const regionalDate = "2026-10-16";

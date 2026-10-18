@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "story": "Nasza historia",
+    "saffron": "Szafran",
+    "journal": "Dziennik",
+    "main": "Nawigacja główna",
+    "home": "Strona główna",
+    "homeLabel": "Strona główna ROFRAN",
+    "skip": "Przejdź do treści",
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu",
+    "language": "Język",
+    "openBag": "Otwórz koszyk",
+    "items": "poz."
+  },
+  "actions": {
+    "discoverStory": "Poznaj historię",
+    "discoverSaffron": "Poznaj nasz szafran",
+    "exploreSaffron": "Zobacz szafran",
+    "exploreJournal": "Czytaj dziennik",
+    "continue": "Odkrywaj dalej",
+    "add": "Dodaj do koszyka"
+  },
+  "bag": {
+    "selection": "TWÓJ WYBÓR",
+    "title": "Twój koszyk",
+    "close": "Zamknij koszyk",
+    "product": "Szafran ROFRAN",
+    "threads": "Nitki szafranu",
+    "decrease": "Zmniejsz ilość",
+    "increase": "Zwiększ ilość",
+    "quantity": "Ilość",
+    "remove": "Usuń",
+    "saved": "Twój wybór został zapisany. Obecny zbiór: brak w magazynie.",
+    "unavailable": "Obecnie brak w magazynie",
+    "empty": [
+      "Miejsce na",
+      "mały skarb."
+    ]
+  },
+  "story": {
+    "aria": "Opowieść o szafranie ROFRAN",
+    "bottom": "DROBNA NITKA. NIEZWYKŁA HISTORIA.",
+    "scroll": "PRZEWIŃ, ABY ODKRYĆ",
+    "continue": "ODKRYWAJ DALEJ",
+    "pause": "Wstrzymaj opowieść",
+    "preparing": "Przygotowujemy Twoją podróż",
+    "unavailable": "Film jest niedostępny. Poznaj nasz szafran poniżej.",
+    "chaptersLabel": "Rozdziały opowieści",
+    "chapter": "Rozdział",
+    "soundOn": "DŹWIĘK WŁ.",
+    "soundOff": "DŹWIĘK WYŁ.",
+    "soundEnable": "Włącz dźwięki pola",
+    "soundDisable": "Wyłącz dźwięki pola",
+    "chapters": [
+      {
+        "name": "Początek",
+        "label": "SZAFRAN ROFRAN",
+        "title": [
+          "NAJCENNIEJSZY DAR",
+          "NATURY"
+        ],
+        "body": "Historia, która zaczyna się od kwiatu."
+      },
+      {
+        "name": "Kwiat",
+        "label": "01 / KWIAT",
+        "title": [
+          "Zaczyna się",
+          "od *kwiatu.*"
+        ],
+        "body": "Zbliż się do czegoś niezwykłego."
+      },
+      {
+        "name": "Esencja",
+        "label": "02 / ESENCJA",
+        "title": [
+          "Uważny rodzaj",
+          "*zachwytu.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Nitki",
+        "label": "03 / KARMAZYNOWA NITKA",
+        "title": [
+          "Opowieść w",
+          "każdej *nitce.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Podróż",
+        "label": "04 / PODRÓŻ",
+        "title": [
+          "Od rozkwitu",
+          "na Twój *stół.*"
+        ],
+        "body": ""
+      },
+      {
+        "name": "Szafran",
+        "label": "05 / SZAFRAN ROFRAN",
+        "title": [
+          "Odrobina.",
+          "*Niezwykła.*"
+        ],
+        "body": "Barwa. Aromat. Chwila do smakowania."
+      },
+      {
+        "name": "Szlachetny z natury",
+        "label": "",
+        "title": [
+          "ROFRAN"
+        ],
+        "body": "Szlachetny z natury."
+      }
+    ]
+  },
+  "home": {
+    "collection": "KOLEKCJA SZAFRANU",
+    "eyebrow": "SZAFRAN ROFRAN",
+    "productTitle": [
+      "Przenieś tę opowieść",
+      "na swój *stół.*"
+    ],
+    "description": "Drobna nitka. Złocista barwa. Niepowtarzalny aromat. Odkryj spokojny, codzienny rytuał w kuchni.",
+    "footnote": "BLIŻSZE SPOJRZENIE NA COŚ WYJĄTKOWEGO",
+    "journalEyebrow": "ODROBINA WIEDZY, BOGATSZY RYTUAŁ",
+    "journalTitle": "Dziennik szafranu"
+  },
+  "footer": {
+    "taglinePrefix": "Szlachetny z ",
+    "taglineEm": "natury.",
+    "explore": "ODKRYWAJ",
+    "journal": "DZIENNIK",
+    "aria": "Stopka",
+    "bottom": "Drobna nitka. Niezwykła historia.",
+    "top": "Powrót na górę ↑"
+  },
+  "product": {
+    "collection": "KOLEKCJA ROFRAN",
+    "title": [
+      "ROFRAN",
+      "*Nitki szafranu.*"
+    ],
+    "subtitle": "Nitki szafranu ROFRAN",
+    "description": "Uprawiany w nadmorskiej wsi Masztaga w Baku, w Azerbejdżanie. Całe, karmazynowe nitki szafranu do potraw, którym poświęcasz czas — oddające złocistą barwę i głęboki aromat w risotto, bulionie rybnym, pilawie i wypiekach.",
+    "note": "Obecnie brak w magazynie. Minimalne zamówienie: 5 gramów ($50 USD · 50 AZN w Azerbejdżanie).",
+    "facts": [
+      {
+        "title": "Nasz szafran",
+        "text": "Zbierany ręcznie z jesiennych kwiatów Crocus sativus w Masztadze pod Baku. Każdy kielich kryje trzy ciemnoczerwone znamiona, suszone w całości z myślą o kuchni.",
+        "linkText": ""
+      },
+      {
+        "title": "Pierwszy napar",
+        "text": "Zacznij od wybranego przepisu i przygotuj ciepły napar: zalanie nitek ciepłą wodą, mlekiem lub bulionem pozwala w pełni wydobyć barwę oraz bukiet.",
+        "linkText": "Przeczytaj przewodnik o parzeniu i używaniu szafranu."
+      },
+      {
+        "title": "Właściwe przechowywanie",
+        "text": "Trzymaj nitki szafranu w szczelnie zamkniętym słoiczku, z dala od światła dziennego oraz pary znad kuchenki.",
+        "linkText": "Poznaj zasady przechowywania."
+      }
+    ],
+    "editorialEyebrow": "ZANIM ZAPARZYSZ PIERWSZĄ NITKĘ",
+    "editorialTitle": [
+      "Zaczyna się",
+      "od *kwiatu.*"
+    ],
+    "editorialText": "Przyjrzyj się z bliska roślinie Crocus sativus i poznaj delikatny początek tej szlachetnej przyprawy na Półwyspie Abszerońskim.",
+    "editorialLink": "Poznaj bliżej szafran",
+    "relatedTitle": "Bogatszy rytuał",
+    "gallery": "Zdjęcia produktu",
+    "view": "Widok"
+  },
+  "journal": {
+    "eyebrow": "ZAPISKI ROFRAN",
+    "title": [
+      "Dziennik",
+      "*szafranu.*"
+    ],
+    "description": "Odrobina wiedzy zmienia gotowanie w świadomy rytuał. Poznaj botanikę krokusa, sztukę przygotowania naparu oraz sposoby na zachowanie świeżości każdej nitki.",
+    "guides": "Przewodniki po szafranie",
+    "toc": "W TYM ARTYKULE",
+    "tocLabel": "Spis treści artykułu",
+    "sources": "ŹRÓDŁA ORAZ LEKTURA"
+  },
+  "images": {
+    "valley": "Fioletowe kwiaty szafranu w górskiej dolinie o zachodzie słońca",
+    "product": "Nitki szafranu w szklanym słoiczku obok fioletowego krokusa o zmierzchu",
+    "flower": "Rozchylający się kwiat krokusa uprawnego",
+    "jar": "Słoiczek szafranu ROFRAN",
+    "gallery": [
+      "Szafran w przezroczystym szklanym słoiczku ze złotą zakrętką",
+      "Zbliżenie na całe czerwone nitki szafranu",
+      "Fioletowy kwiat szafranu na polu o zachodzie słońca"
+    ]
+  },
+  "notFound": {
+    "eyebrow": "404 / INNA ŚCIEŻKA",
+    "title": [
+      "Odnajdźmy drogę",
+      "*powrotną.*"
+    ],
+    "description": "Ta strona nie należy do naszej opowieści.",
+    "back": "Wróć do ROFRAN"
+  },
+  "meta": {
+    "homeTitle": "Szafran ROFRAN — Całe Nitki Szafranu, Napar i Przewodniki Kulinarne",
+    "homeDescription": "Poznaj całe nitki szafranu ROFRAN z Masztagi w Baku. Dowiedz się, jak wybierać, parzyć i przechowywać szafran do risotto, bulionu rybnego oraz wypieków.",
+    "brandTitle": "ROFRAN — Szlachetny z natury",
+    "brandDescription": "Drobna nitka. Niezwykła historia. Poznaj szafran ROFRAN z Masztagi w Azerbejdżanie.",
+    "saffronTitle": "Nitki Szafranu z Masztagi — Zamówienia od {minimum} gramów ($50 USD)",
+    "saffronDescription": "Całe czerwone nitki szafranu ROFRAN ze wsi Masztaga w Baku (Azerbejdżan). Minimalne zamówienie: {minimum} gramów ($50 USD za granicą · 50 AZN w Azerbejdżanie). Obecnie brak w magazynie.",
+    "journalTitle": "Dziennik szafranu",
+    "journalDescription": "Przewodnik po szafranie: od zbiorów Crocus sativus w Masztadze, przez przygotowanie złocistego naparu, po przechowywanie nitek w domowej kuchni.",
+    "socialAlt": "Szafran ROFRAN na polu krokusów o zachodzie słońca"
+  }
+}
