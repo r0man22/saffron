@@ -13,7 +13,7 @@ export function HomePage({ locale }: { locale: Locale }) {
   return <main id="main-content">
     <ScrollStory />
     <section className="home-product" id="saffron" aria-labelledby="product-heading">
-      <div className="home-product-image" data-reveal="image"><Image sizes="(max-width: 760px) 100vw, 50vw" src="/media/product.webp" alt={t.images.product} width={1920} height={1080} loading="lazy" /><span className="image-caption">{t.home.collection}</span></div>
+      <div className="home-product-image" data-reveal="image"><Image sizes="(max-width: 760px) 100vw, 50vw" src="/media/editorial/saffron-product.webp" alt={t.images.product} width={1920} height={1080} loading="lazy" /><span className="image-caption">{t.home.collection}</span></div>
       <div className="home-product-copy" data-reveal="stagger"><p className="eyebrow">{t.home.eyebrow}</p><h2 id="product-heading"><TranslatedLines lines={t.home.productTitle} /></h2><p>{t.home.description}</p><Link className="button button-gold" href={localeHref(locale, "/saffron")}><ButtonInner>{t.actions.discoverSaffron}</ButtonInner></Link><span className="product-footnote">{productCopy(locale).minimumNote}</span></div>
     </section>
     <section className="journal-section" id="journal" aria-labelledby="journal-heading">

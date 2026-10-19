@@ -6,5 +6,5 @@ export function pageMetadata(locale: Locale, page: "saffron" | "journal"): Metad
   const t = getDictionary(locale); const path = `/${page}`;
   const title = page === "saffron" ? t.meta.saffronTitle : t.meta.journalTitle;
   const description = page === "saffron" ? t.meta.saffronDescription : t.meta.journalDescription;
-  return contentMetadata(locale, path, title, description);
+  return contentMetadata(locale, path, title, description, page === "saffron" ? "/media/editorial/saffron-product.webp" : "/media/editorial/saffron-botanical.webp");
 }

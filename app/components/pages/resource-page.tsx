@@ -8,15 +8,16 @@ import { business } from "../../../lib/business";
 import { LinkArrow } from "../button";
 import { ResourceLinks } from "../resource-links";
 import { BreadcrumbSchema } from "../structured-data";
+import { resourcePhoto } from "../../../lib/editorial-media";
 export function resourceMetadata(locale: Locale, slug: ResourceSlug) {
   const page = resourceCopy[locale][slug];
-  return { ...contentMetadata(locale, `/${slug}`, page.title, page.description, `/media/${page.image}.webp`), ...(page.draft && { robots: { index: false, follow: true } }) };
+  return { ...contentMetadata(locale, `/${slug}`, page.title, page.description, `/media/${resourcePhoto(locale, slug).image}.webp`), ...(page.draft && { robots: { index: false, follow: true } }) };
 }
 export function ResourcePage({ locale, slug }: { locale: Locale; slug: ResourceSlug }) {
   const page = resourceCopy[locale][slug]; const d = getDictionary(locale); const t = resourceLabels[locale];
   return <main id="main-content" className={`inner-main knowledge-main resource-${slug}`}><BreadcrumbSchema locale={locale} items={[{ name: d.nav.home, path: "/" }, { name: page.title, path: `/${slug}` }]} />
     <div className="page-topline"><Link href={localeHref(locale, "/")}>{d.nav.home}</Link><span>/</span><span>{page.title}</span></div>
-    <header className="knowledge-hero"><div><p className="eyebrow">{page.eyebrow}</p><h1>{page.title}</h1><p className="knowledge-intro">{page.intro}</p></div><div className="knowledge-hero-image"><Image sizes="(max-width: 760px) 90vw, 42vw" src={`/media/${page.image}.webp`} alt={page.title} width={1920} height={1080} fetchPriority="high" /><span className="knowledge-image-caption">ROFRAN · {page.eyebrow}</span></div></header>
+    <header className="knowledge-hero"><div><p className="eyebrow">{page.eyebrow}</p><h1>{page.title}</h1><p className="knowledge-intro">{page.intro}</p></div><div className="knowledge-hero-image"><Image sizes="(max-width: 760px) 90vw, 42vw" src={`/media/${resourcePhoto(locale, slug).image}.webp`} alt={resourcePhoto(locale, slug).imageAlt} width={1920} height={1080} fetchPriority="high" /><span className="knowledge-image-caption">ROFRAN · {page.eyebrow}</span></div></header>
     <div className="knowledge-body"><aside className="knowledge-aside"><span className="eyebrow">ROFRAN</span><nav aria-label={page.title}>{page.sections.map((section, i) => <a key={section.title} href={`#detail-${i + 1}`}>{section.title}</a>)}</nav><Link className="text-link" href={localeHref(locale, "/faq")}>{t.faq}<LinkArrow /></Link></aside>
       <div className="knowledge-sections">{page.sections.map((section, i) => <section id={`detail-${i + 1}`} key={section.title}><span className="resource-number">0{i + 1}</span><h2>{section.title}</h2><p>{section.text}</p></section>)}
         {slug === "quality" && business.certificates.length > 0 && <ul>{business.certificates.map(c => <li key={c.url}><a href={c.url}>{c.name}</a></li>)}</ul>}

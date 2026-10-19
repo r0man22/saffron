@@ -7,6 +7,7 @@ import { getDictionary } from "../../lib/dictionaries";
 import { languageAlternates, localeHref, type Locale } from "../../lib/i18n";
 import { siteUrl } from "../../lib/site-url";
 import "../globals.css";
+import "../shop.css";
 import { BrandSchema } from "./structured-data";
 import { siteSettings } from "../../lib/site-settings.mjs";
 export const sharedViewport: Viewport = { themeColor: "#160e10", width: "device-width", initialScale: 1 };

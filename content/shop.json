@@ -1,0 +1,20 @@
+{
+  "pricePerGram": 10,
+  "currency": "AZN",
+  "maxBagSets": 20,
+  "families": [
+    { "id": "everyday", "min": 1, "max": 4, "defaultGrams": 2, "presets": [1, 2, 3, 4] },
+    { "id": "bloom", "min": 5, "max": 25, "defaultGrams": 10, "presets": [5, 10, 15, 20, 25] },
+    { "id": "keepsake", "min": 25, "max": 50, "defaultGrams": 50, "presets": [25, 30, 40, 50] },
+    { "id": "ritual", "min": 100, "max": null, "defaultGrams": 100, "presets": [100, 150, 250, 500] }
+  ],
+  "variants": [
+    { "id": "everyday", "family": "everyday", "image": "/media/shop/everyday.webp" },
+    { "id": "bloom", "family": "bloom", "image": "/media/shop/bloom.webp" },
+    { "id": "necklace", "family": "keepsake", "image": "/media/shop/necklace.webp" },
+    { "id": "bracelet", "family": "keepsake", "image": "/media/shop/bracelet.webp" },
+    { "id": "brooch", "family": "keepsake", "image": "/media/shop/brooch.webp" },
+    { "id": "culinary", "family": "ritual", "image": "/media/shop/culinary.webp" },
+    { "id": "silk", "family": "ritual", "image": "/media/shop/silk.webp" }
+  ]
+}

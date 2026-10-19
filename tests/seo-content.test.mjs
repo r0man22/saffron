@@ -45,14 +45,14 @@ test('every new localized page has its own metadata, content and valid structure
 
 test('the sitemap contains all published content, not operational drafts or untranslated locales', async () => {
   const xml = await (await fetch(base + '/sitemap.xml')).text();
-  assert.equal((xml.match(/<loc>/g) || []).length, 273);
-  for (const locale of locales) for (const path of contentPaths) assert.ok(xml.includes(canonicalBase + href(locale, path)), path);
+  assert.equal((xml.match(/<loc>/g) || []).length, 294);
+  for (const locale of locales) for (const path of [...contentPaths, "/shop"]) assert.ok(xml.includes(canonicalBase + href(locale, path)), path);
   for (const locale of locales) for (const path of draftPaths) assert.ok(!xml.includes(`<loc>${canonicalBase + href(locale, path)}</loc>`), path);
   assert.doesNotMatch(xml, /<loc>[^<]*\/(?:fa|hi|id)(?:\/|<)/);
   const priceArticle = xml.match(/<url>[^]*?<loc>[^<]*\/journal\/why-is-saffron-expensive<\/loc>([^]*?)<\/url>/)?.[1];
-  assert.ok(priceArticle?.includes('/media/flower.webp'));
+  assert.ok(priceArticle?.includes('/media/editorial/saffron-value.webp'));
   const flavourArticle = xml.match(/<loc>[^<]*\/journal\/what-does-saffron-taste-like<\/loc>([^]*?)<\/url>/)?.[1];
-  assert.ok(flavourArticle?.includes('/media/threads.webp'), 'Sitemap uses the actual article photograph');
+  assert.ok(flavourArticle?.includes('/media/editorial/saffron-flavour.webp'), 'Sitemap uses the actual article photograph');
 });
 
 test('product data makes no invented sale, review or certification claims', async () => {
