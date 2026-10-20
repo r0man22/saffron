@@ -45,7 +45,8 @@ export function ShopCatalog({ locale, copy }: { locale: Locale; copy: ShopCopy }
   }
 
   return <section id="shop-collection" className="shop-collection" aria-labelledby="shop-collection-heading">
-    <div className="shop-collection-heading"><div><p className="shop-eyebrow">01—04 / ROFRAN</p><h2 id="shop-collection-heading">{copy.collection}</h2></div><p>{copy.collectionIntro}</p></div>
+    <span className="shop-art shop-art-sprig shop-collection-art shop-collection-art-a" aria-hidden="true" /><span className="shop-art shop-art-sprig shop-art-flip shop-collection-art shop-collection-art-b" aria-hidden="true" /><span className="shop-art shop-art-sprig shop-collection-art shop-collection-art-c" aria-hidden="true" />
+    <div className="shop-collection-heading"><div><p className="shop-eyebrow">01—04 / ROFRAN</p><h2 id="shop-collection-heading">{copy.collection}</h2><span className="shop-flourish" aria-hidden="true"><i /></span></div><p>{copy.collectionIntro}</p></div>
     <div className="shop-toolbar"><div className="shop-filters" role="group" aria-label={copy.guideTitle}><button type="button" aria-pressed={filter === "all"} onClick={() => setFilter("all")}>{copy.all}</button>{shopFamilies.map(family => <button key={family.id} type="button" aria-pressed={filter === family.id} onClick={() => setFilter(family.id)}><bdi>{rangeLabel(locale, family.id)}</bdi></button>)}</div><p className="shop-result-count" aria-live="polite">{String(visible.length).padStart(2, "0")} <span>/ 07</span></p></div>
     <div className="shop-product-grid">{visible.map(variant => {
       const i = shopVariants.findIndex(v => v.id === variant.id);

@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ROFRAN thread wordmark</title>
+<style>
+@font-face{font-family:'Cormorant Garamond';font-weight:400;src:url(../../public/fonts/cormorant-garamond-400-latin.woff2) format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-weight:500;src:url(../../public/fonts/cormorant-garamond-500-latin.woff2) format('woff2')}
+@font-face{font-family:'Manrope';font-weight:500;src:url(../../public/fonts/manrope-500-latin.woff2) format('woff2')}
+:root{--ink:#160e10;--gold:#e5d4a4;--cream:#f2e9d3;--line:rgba(229,212,164,.22);--serif:'Cormorant Garamond',Georgia,serif;--sans:'Manrope',Arial,sans-serif}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--ink);color:var(--gold);font-family:var(--sans);overflow:hidden}
+.stage{position:fixed;inset:0;overflow:hidden}
+.stage video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,7,7,.24),rgba(14,7,6,.03) 25%,rgba(14,7,6,.04) 65%,rgba(11,6,7,.57)),linear-gradient(90deg,rgba(12,7,7,.3),transparent 62%)}
+#threads{position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none}
+.finale{position:absolute;z-index:2;top:28%;left:15%;width:70%;display:flex;flex-direction:column;align-items:center;text-align:center;text-shadow:0 2px 20px #14080566;pointer-events:none}
+.mark{width:clamp(104px,10.5vw,158px);margin-bottom:2px;filter:drop-shadow(0 2px 16px #1408057a)}
+.mark svg{display:block;width:100%;height:auto}
+h2{margin:0;font-family:var(--serif);font-weight:400;font-size:clamp(76px,9vw,152px);letter-spacing:.045em;line-height:1}
+h2 .letter{display:inline-block}
+.tagline{margin:6px 0 0;font-family:var(--serif);font-size:27px;line-height:1.5;color:var(--cream)}
+.button{margin-top:28px;display:inline-flex;align-items:center;gap:26px;padding:6px 6px 6px 36px;border-radius:999px;background:#e8d7a7;color:#241416;font-family:var(--serif);font-size:23px;text-shadow:none}
+.button i{width:52px;height:52px;border-radius:50%;background:#241416;color:#e8d7a7;display:grid;place-items:center;font-style:normal}
+@media (max-width:760px){
+  .stage video{object-position:58% center}
+  .finale{top:29%;left:22px;right:22px;width:auto}
+  .mark{width:96px}
+  h2{font-size:clamp(44px,15vw,76px)}
+  .tagline{font-size:24px}
+}
+.panel{position:fixed;z-index:10;left:50%;bottom:14px;transform:translateX(-50%);width:min(980px,calc(100% - 24px));padding:12px 16px;border:1px solid var(--line);border-radius:18px;background:rgba(22,14,16,.82);backdrop-filter:blur(10px);font-size:12px;display:grid;gap:10px}
+.panel.closed .more,.panel[hidden]{display:none}
+.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.row input[type=range]{flex:1;min-width:140px;accent-color:var(--gold)}
+button{font:inherit;color:var(--gold);background:transparent;border:1px solid var(--line);border-radius:999px;padding:7px 14px;cursor:pointer}
+button:hover{border-color:var(--gold)}
+label{display:flex;gap:6px;align-items:center;white-space:nowrap}
+.more label input[type=range]{width:110px}
+#time{font-variant-numeric:tabular-nums;min-width:118px}
+.hint{opacity:.6}
+</style>
+</head>
+<body>
+<div class="stage" id="stage">
+  <video id="film" muted playsinline preload="auto" src="../../public/media/rofran-story.mp4"></video>
+  <div class="shade"></div>
+  <canvas id="threads"></canvas>
+  <div class="finale">
+    <span class="mark" id="mark"></span>
+    <h2 id="word" aria-label="ROFRAN"><span class="letter">R</span><span class="letter">O</span><span class="letter">F</span><span class="letter">R</span><span class="letter">A</span><span class="letter">N</span></h2>
+    <p class="tagline" id="tagline">Precious by nature.</p>
+    <span class="button" id="cta">Discover our saffron <i>→</i></span>
+  </div>
+</div>
+
+<div class="panel" id="panel">
+  <div class="row">
+    <button id="play">Play</button>
+    <button id="restart">From the jar</button>
+    <span id="time">22.400 s</span>
+    <input id="scrub" type="range" min="21.8" max="25.708" step="0.001" value="22.4" aria-label="Film time">
+    <button id="toggle">Settings</button>
+  </div>
+  <div class="row more">
+    <label><input id="threadsOn" type="checkbox" checked> Threads form the word</label>
+    <label><input id="debug" type="checkbox"> Show centre lines</label>
+    <label>Speed <select id="speed"><option value="0.25">¼×</option><option value="0.5">½×</option><option value="1" selected>1×</option></select></label>
+    <label>Length <input id="length" type="range" min="0.25" max="0.8" step="0.01"></label>
+    <label>Width <input id="width" type="range" min="0.012" max="0.035" step="0.001"></label>
+    <label>Density <input id="density" type="range" min="0.5" max="1.8" step="0.05"></label>
+    <label>Loose threads <input id="ambient" type="range" min="0" max="1.2" step="0.05"></label>
+    <button id="reseed">Shuffle</button>
+    <span class="hint" id="stats"></span>
+  </div>
+  <div class="row more hint">Scroll over the film to scrub, as on the site. Space plays and pauses.</div>
+</div>
+
+<script type="module">
+import { createThreadWordmark, coverBox, DEFAULTS, letterBoxes } from "../../app/components/thread-wordmark-engine.mjs";
+
+const $ = id => document.getElementById(id);
+const stage = $("stage"), film = $("film"), canvas = $("threads"), word = $("word");
+const letters = [...word.querySelectorAll(".letter")];
+const START = 21.8, END = 25.708, SITE_FINALE = 23.3;
+const smooth = t => { t = Math.min(1, Math.max(0, t)); return t * t * (3 - 2 * t); };
+const engine = createThreadWordmark(canvas);
+const options = { ...DEFAULTS };
+let t = 22.4, playing = false, last = 0, laidOut = null;
+const still = new URLSearchParams(location.search).has("still");
+
+// The finished R monogram, read from the site's own source so it stays in step with it.
+const markSource = await (await fetch("../../app/components/rofran-mark.ts")).text();
+const box = /MOTION_BOX = \[([^\]]+)\]/.exec(markSource)[1].split(",").map(Number), markPath = /MARK_PATH = "([^"]+)"/.exec(markSource)[1];
+// Same box as the site's AnimatedMark, so the word sits exactly where it does on the site.
+$("mark").style.aspectRatio = `${box[2]} / ${box[3]}`;
+$("mark").innerHTML = `<svg viewBox="${box.join(" ")}"><defs><linearGradient id="gold" x1="0" y1="0" x2=".4" y2="1"><stop offset="0" stop-color="#f6e9c8"/><stop offset=".55" stop-color="#e5d4a4"/><stop offset="1" stop-color="#c4a46a"/></linearGradient></defs><path d="${markPath}" fill="url(#gold)"/></svg>`;
+
+function layout() {
+  const info = engine.layout(letterBoxes(stage, letters), coverBox(stage, film), options);
+  laidOut = word.getBoundingClientRect();
+  $("stats").textContent = info ? `${info.threads} threads on the letters · ${info.ambient} loose · word complete at ${info.wordDone.toFixed(2)} s` : "";
+  render();
+}
+
+function render() {
+  const now = word.getBoundingClientRect();
+  if (laidOut && ["left", "top", "width", "height"].some(k => Math.abs(now[k] - laidOut[k]) > 0.5)) return layout();
+  const threadsOn = $("threadsOn").checked;
+  if (threadsOn) engine.draw(t, $("debug").checked); else engine.draw(0);
+  const done = threadsOn ? engine.wordDone : SITE_FINALE + 0.6;
+  const opacity = threadsOn ? engine.letterOpacity(t) : letters.map((_, i) => smooth((t - SITE_FINALE - i * 0.075) / 0.6));
+  letters.forEach((el, i) => { el.style.opacity = opacity[i]; });
+  const mark = smooth((t - done - 0.05) / 0.5);
+  $("mark").style.opacity = mark; $("mark").style.transform = `translateY(${(1 - mark) * 10}px)`;
+  $("tagline").style.opacity = smooth((t - done - 0.2) / 0.5);
+  $("cta").style.opacity = smooth((t - done - 0.35) / 0.5);
+  $("time").textContent = `${t.toFixed(3)} s`;
+  $("scrub").value = t;
+}
+
+function seek(next) {
+  t = Math.min(END, Math.max(START, next));
+  if (!playing && Math.abs(film.currentTime - t) > 0.02 && !film.seeking) film.currentTime = t;
+  render();
+}
+film.addEventListener("seeked", () => { if (!playing && Math.abs(film.currentTime - t) > 0.02) film.currentTime = t; });
+
+function tick(now) {
+  if (!playing) return;
+  const rate = Number($("speed").value);
+  if (rate === 1 && !film.paused) t = film.currentTime;
+  else t += (now - last) / 1000 * rate;
+  last = now;
+  if (t >= END - 0.01) { t = END; stop(); }
+  render();
+  if (playing) requestAnimationFrame(tick);
+}
+function play() {
+  if (t >= END - 0.01) t = 22.4;
+  playing = true; $("play").textContent = "Pause";
+  film.currentTime = t; film.playbackRate = Number($("speed").value);
+  film.play().catch(() => {});
+  last = performance.now(); requestAnimationFrame(tick);
+}
+function stop() { playing = false; film.pause(); $("play").textContent = "Play"; }
+
+$("play").onclick = () => playing ? stop() : play();
+$("restart").onclick = () => { stop(); t = 22.4; play(); };
+$("scrub").oninput = e => { stop(); seek(Number(e.target.value)); };
+$("toggle").onclick = () => $("panel").classList.toggle("closed");
+$("speed").onchange = () => { film.playbackRate = Number($("speed").value); };
+for (const id of ["threadsOn", "debug"]) $(id).onchange = render;
+for (const id of ["length", "width", "density", "ambient"]) {
+  $(id).value = options[id];
+  $(id).oninput = e => { options[id] = Number(e.target.value); layout(); };
+}
+$("reseed").onclick = () => { options.seed = Math.floor(Math.random() * 1e6); layout(); };
+stage.addEventListener("wheel", e => { e.preventDefault(); stop(); seek(t + e.deltaY * 0.0016); }, { passive: false });
+addEventListener("keydown", e => { if (e.key === " ") { e.preventDefault(); playing ? stop() : play(); } });
+let resizeTimer;
+new ResizeObserver(() => {
+  clearTimeout(resizeTimer);
+  if (still) layout(); else resizeTimer = setTimeout(layout, 60);
+}).observe(stage);
+
+// ?t=24.2&debug=1&still=1 opens a single frame (used for contact sheets).
+const query = new URLSearchParams(location.search);
+if (query.has("t")) t = Number(query.get("t"));
+if (query.has("debug")) $("debug").checked = true;
+if (query.get("threads") === "0") $("threadsOn").checked = false;
+if (still) $("panel").hidden = true;
+await document.fonts.load(`400 100px "Cormorant Garamond"`);
+await document.fonts.ready;
+layout();
+seek(t);
+if (still) film.addEventListener("seeked", () => { render(); document.body.dataset.ready = "1"; }, { once: true });
+window.prototype = { seek, layout, engine, get t() { return t; } };
+</script>
+</body>
+</html>

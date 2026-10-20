@@ -7,6 +7,7 @@ import { ButtonInner } from "./button";
 import { SplitTitle, plainTitle } from "./motion";
 import { useLocale } from "./locale-provider";
 import { localeHref } from "../../lib/i18n";
+import type { createThreadWordmark } from "./thread-wordmark-engine.mjs";
 
 const DURATION = 25.708333;
 const chapterSpecs = [
@@ -27,6 +28,7 @@ export function ScrollStory() {
   const video = useRef<HTMLVideoElement>(null);
   const idleVideo = useRef<HTMLVideoElement>(null);
   const finaleVideo = useRef<HTMLVideoElement>(null);
+  const threadCanvas = useRef<HTMLCanvasElement>(null);
   const playback = useRef({ start: () => {}, stop: () => {} });
   const [finaleVisible, setFinaleVisible] = useState(false);
   const [playing, setPlaying] = useState(false);
@@ -35,6 +37,8 @@ export function ScrollStory() {
   const [ready, setReady] = useState(false);
   const [failed, setFailed] = useState(false);
   const [reducedMotion, setReducedMotion] = useState(false);
+  const [threads, setThreads] = useState(false);
+  const [gathering, setGathering] = useState(false);
   const active = chapters.reduce((value, chapter, i) => time >= chapter.start ? i : value, 0);
   useEffect(() => {
     const player = video.current;
@@ -181,6 +185,57 @@ export function ScrollStory() {
       motion.removeEventListener("change", change);
     };
   }, []);
+  // Finale: saffron threads from the film's cloud settle into the ROFRAN letters, which then turn to gold text.
+  // The threads follow the film's clock, so scrolling back lifts them off the letters again.
+  useEffect(() => {
+    const player = video.current, section = stage.current, canvas = threadCanvas.current;
+    if (!player || !section || !canvas || reducedMotion || failed) return;
+    const viewport = canvas.parentElement as HTMLElement;
+    const letters = [...section.querySelectorAll<HTMLElement>(".scene-finale .gold-glint")];
+    const words = letters.map(letter => letter.parentElement as HTMLElement);
+    if (!letters.length) return;
+    let engine: ReturnType<typeof createThreadWordmark> | null = null, geometry: typeof import("./thread-wordmark-engine.mjs") | null = null;
+    let raf = 0, last = -1, inView = false, disposed = false, timer: ReturnType<typeof setTimeout> | undefined;
+    const layout = () => {
+      if (!engine || !geometry) return;
+      engine.layout(geometry.letterBoxes(viewport, letters), geometry.coverBox(viewport, player));
+      last = -1; schedule();
+    };
+    const frame = () => {
+      raf = 0;
+      if (!engine || disposed || !inView) return;
+      const t = player.currentTime;
+      if (t !== last) {
+        last = t;
+        engine.draw(t);
+        engine.letterOpacity(t).forEach((opacity: number, i: number) => { words[i].style.opacity = String(opacity); });
+        setGathering(t < engine.wordDone);
+      }
+      schedule();
+    };
+    function schedule() { if (!raf && !disposed && inView) raf = requestAnimationFrame(frame); }
+    const relayout = () => { clearTimeout(timer); timer = setTimeout(layout, 120); };
+    const visible = new IntersectionObserver(([entry]) => { inView = entry.isIntersecting; schedule(); });
+    const resized = new ResizeObserver(relayout);
+    const style = getComputedStyle(letters[0]);
+    void Promise.all([import("./thread-wordmark-engine.mjs"), document.fonts.load(`${style.fontStyle} ${style.fontWeight} 100px ${style.fontFamily}`, "ROFRAN")])
+      .then(([mod]) => {
+        if (disposed) return;
+        geometry = mod; engine = mod.createThreadWordmark(canvas);
+        setThreads(true); layout();
+        visible.observe(section); resized.observe(viewport);
+        document.fonts.addEventListener("loadingdone", relayout);
+      })
+      .catch(() => {});
+    return () => {
+      disposed = true; cancelAnimationFrame(raf); clearTimeout(timer);
+      visible.disconnect(); resized.disconnect();
+      document.fonts.removeEventListener("loadingdone", relayout);
+      for (const word of words) word.style.opacity = "";
+      setThreads(false); setGathering(false);
+    };
+  }, [reducedMotion, failed]);
+  const waitingForWord = threads && gathering;
   function goTo(index: number) {
     playback.current.stop();
     const section = stage.current; if (!section) return;
@@ -188,15 +243,16 @@ export function ScrollStory() {
     const destination = index === 0 ? top : top + Math.max(0, section.offsetHeight - window.innerHeight) * (index === chapters.length - 1 ? 1 : (chapters[index].start + 0.35) / DURATION);
     window.scrollTo({ top: destination, behavior: reducedMotion ? "instant" : "smooth" });
   }
-  return <section id="story" ref={stage} className={`scroll-story ${reducedMotion || failed ? "story-static" : ""}`} aria-label={t.story.aria}>
+  return <section id="story" ref={stage} className={`scroll-story ${reducedMotion || failed ? "story-static" : ""} ${threads ? "threads-on" : ""}`} aria-label={t.story.aria}>
     <div className={`story-viewport chapter-${active}`}>
       <img className="story-poster" src="/media/valley.webp" alt={t.images.valley} fetchPriority="high" width="1920" height="1080" />
       <video ref={video} className={`story-video ${ready && !reducedMotion && !failed ? "is-ready" : ""}`} muted playsInline preload="auto" aria-hidden="true" disablePictureInPicture />
       <video ref={idleVideo} className={`story-idle-video ${idleVisible && !reducedMotion && !failed ? "is-active" : ""}`} muted loop playsInline preload="none" aria-hidden="true" disablePictureInPicture />
       <video ref={finaleVideo} className={`story-idle-video story-finale-video ${finaleVisible && !reducedMotion && !failed ? "is-active" : ""}`} muted loop playsInline preload="none" aria-hidden="true" disablePictureInPicture />
       <div className="story-shade" /><div className="story-grain" />
-      {chapters.map((chapter, index) => <div key={chapter.name} className={`scene-copy ${chapter.className} ${active === index ? "is-active" : ""}`} aria-hidden={active !== index} inert={active !== index}>
-        {index === 6 && <AnimatedMark className="finale-mark" play={active === 6} />}{chapter.label && <p className="eyebrow">{chapter.label}</p>}
+      <canvas ref={threadCanvas} className="story-threads" aria-hidden="true" />
+      {chapters.map((chapter, index) => <div key={chapter.name} className={`scene-copy ${chapter.className} ${active === index ? "is-active" : ""} ${index === 6 && waitingForWord ? "is-gathering" : ""}`} aria-hidden={active !== index} inert={active !== index}>
+        {index === 6 && <AnimatedMark className="finale-mark" play={active === 6 && !waitingForWord} />}{chapter.label && <p className="eyebrow">{chapter.label}</p>}
         {index === 0 ? <h1 aria-label={plainTitle(chapter.title)}><SplitTitle lines={chapter.title} /></h1> : <h2 aria-label={plainTitle(chapter.title)}><SplitTitle lines={chapter.title} letters={chapter.letters} /></h2>}
         {chapter.body && <p className="scene-description">{chapter.body}</p>}
         {index === 0 && <>{reducedMotion || failed ? <Link className="button button-outline" href={localeHref(locale, "/saffron")}><ButtonInner>{t.actions.discoverSaffron}</ButtonInner></Link> : <button className="button button-outline" onClick={() => playback.current.start()}><ButtonInner>{t.actions.discoverStory}</ButtonInner></button>}</>}
